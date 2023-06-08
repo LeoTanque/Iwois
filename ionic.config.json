@@ -1,0 +1,7 @@
+{
+  "name": "ahacer",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
