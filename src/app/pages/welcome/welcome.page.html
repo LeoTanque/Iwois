@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>welcome</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <div class="top-section">
+      <div class="background-color"></div>
+      <div class="centered-content">
+        <!-- Aquí puedes añadir la imagen que deseas mostrar -->
+        <img src="../../../assets/urn_aaid_sc_US_962c8d80-2787-45c9-ab36-ae00441c3b10.png" alt="Imagen">
+      </div>
+    </div>
+    <div class="bottom-section">
+      <div class="background-color"></div>
+      <div class="text-content">
+        <h1>Bienvenid@s!</h1>
+        <p>Iwois es una app de acompañamiento <br> digital para tus tratamientos médicos y estéticos.</p>
+      </div>
+    </div>
+  </div>
+  <swiper-container
+  (slidechange)="swiperSlideChanged($event)"
+  [loop]="true"
+  [pagination]="true">
+    <swiper-slide>Slide 1</swiper-slide>
+    <swiper-slide>Slide 2</swiper-slide>
+    <swiper-slide>Slide 3</swiper-slide>
+  </swiper-container>
+</ion-content>

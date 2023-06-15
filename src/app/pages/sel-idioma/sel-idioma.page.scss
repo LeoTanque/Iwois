@@ -1,0 +1,49 @@
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    opacity: 80%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+.text-container {
+    text-align: center;
+    color:#666666;
+    opacity: 80%;
+  }
+  
+  .country-options {
+    text-align: center;
+  }
+  
+ion-content{
+    --background: #F6F0EC;
+    opacity: 100%;
+}
+
+.button-container {
+  margin-top: auto;
+  width: 70%;
+}
+
+ion-button.login{
+    --background: #83989A;
+    --color: #fff;
+  }
+
+  .country-options .country-option {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    width: 200px;
+    color: #808080;
+    opacity: 100%;
+    
+  }
+  

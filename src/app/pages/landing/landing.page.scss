@@ -1,0 +1,27 @@
+
+  ion-content {
+    --background: #F6F0EC;
+    --background: url('../../../assets/mujer1.jpg') no-repeat center center fixed;
+    --background-repeat: no-repeat;
+    --background-position: center center;
+    --background-size: 100%;
+    --ion-safe-area-bottom: 0;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    opacity: 80%;
+}
+.home-indicator {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: env(safe-area-inset-bottom);
+  background-color: #000000;
+  z-index: 9999;
+}
+  
+  

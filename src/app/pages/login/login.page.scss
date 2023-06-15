@@ -2,16 +2,47 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    opacity: 80%;
 }
 
 .rounded-input {
     --border-radius: 15px;
+    --background:#FFFFFF;
+    --color:#8F8F8F;
+    opacity: 75%;
 }
 
 ion-button.login{
     --background: #83989A;
     --color: #fff;
   }
+
+  .register-text {
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .background-image {
+    --ion-background-color: rgba(246, 240, 236, 0.5);
+    --ion-background-size: cover;
+    --ion-background-position: center center;
+    --ion-background-image: url(../../../assets/girl.png);
+  }
+  
+  .with-icon {
+    position: relative;
+  }
+  
+  .with-icon ion-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  
   
   
   
