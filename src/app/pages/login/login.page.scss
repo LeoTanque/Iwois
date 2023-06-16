@@ -25,12 +25,23 @@ ion-button.login{
     text-align: center;
   }
 
-  .background-image {
+  /*.background-image {
     --ion-background-color: rgba(246, 240, 236, 0.5);
     --ion-background-size: cover;
     --ion-background-position: center center;
     --ion-background-image: url(../../../assets/girl.png);
+    opacity: 100%;
+  }*/
+  ion-content {
+    --background: url('../../../assets/foto.png') no-repeat center center fixed;
+    background-color: #F6F0EC;
+    --background-repeat: no-repeat;
+    --background-position: center center;
+    --background-size: 100%;
+    --ion-safe-area-bottom: 0;
+    opacity: 90%;
   }
+  
   
   .with-icon {
     position: relative;

@@ -1,32 +1,54 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>welcome</ion-title>
-  </ion-toolbar>
-</ion-header>
+
 
 <ion-content>
-  <div class="container">
-    <div class="top-section">
-      <div class="background-color"></div>
-      <div class="centered-content">
-        <!-- Aquí puedes añadir la imagen que deseas mostrar -->
-        <img src="../../../assets/urn_aaid_sc_US_962c8d80-2787-45c9-ab36-ae00441c3b10.png" alt="Imagen">
-      </div>
-    </div>
-    <div class="bottom-section">
-      <div class="background-color"></div>
-      <div class="text-content">
-        <h1>Bienvenid@s!</h1>
-        <p>Iwois es una app de acompañamiento <br> digital para tus tratamientos médicos y estéticos.</p>
-      </div>
-    </div>
-  </div>
+ 
   <swiper-container
   (slidechange)="swiperSlideChanged($event)"
   [loop]="true"
   [pagination]="true">
-    <swiper-slide>Slide 1</swiper-slide>
-    <swiper-slide>Slide 2</swiper-slide>
-    <swiper-slide>Slide 3</swiper-slide>
+    <swiper-slide> <div class="container">
+      <div class="top-section">
+        <div class="top-right-button">
+          <ion-button class="omitir-button" size="small">Omitir</ion-button>
+        </div>
+        <div class="background-color"></div>
+        <div class="centered-content" style="margin-top: 300px;">
+          <img src="../../../assets/urn_aaid_sc_US_962c8d80-2787-45c9-ab36-ae00441c3b10.png" alt="Imagen">
+        </div>
+      </div>
+      <div class="bottom-section">
+        <div class="background-color"></div>
+        <div class="text-content">
+          <h1>Bienvenid@s!</h1>
+          <p>Iwois es una app de acompañamiento <br> digital para tus tratamientos médicos y estéticos.</p>
+        </div>
+      </div>
+    </div></swiper-slide>
+    <swiper-slide class="custom-slide">
+      <div class="container">
+        <div class="top-right-button">
+          <ion-button class="omitir-button" size="small">Omitir</ion-button>
+        </div>
+        <div class="image-container" style="margin-top: 300px;">
+          <img src="../../../assets/slide2.png" alt="Foto">
+        </div>
+        <div class="text-container">
+          <h2>Mantente Informad@</h2>
+          <p>Recibe notificaciones de tu profesional de confianza sobre tu tratamiento en tiempo real</p>
+        </div>
+      </div>
+    </swiper-slide>
+    <swiper-slide class="custom-slide slide3">
+      <div class="container">
+        <div class="background-color"></div>
+        <div class="image-container">
+          <img src="../../../assets/lupa.png" alt="Imagen">
+        </div>
+        <div class="text-container">
+          <h1>No sabes por donde empezar?</h1>
+          <p>Encuentra tu profesional de la salud <br> y contacta con el las 24 horas</p>
+        </div>
+      </div>
+    </swiper-slide>
   </swiper-container>
 </ion-content>

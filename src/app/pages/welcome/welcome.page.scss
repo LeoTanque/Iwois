@@ -1,6 +1,6 @@
 swiper-container{
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
 }
 
 swiper-slide{
@@ -8,12 +8,13 @@ swiper-slide{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    height: 70vh;
+    height: 100vh;
   }
   
   .top-section,
@@ -30,6 +31,7 @@ swiper-slide{
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     flex: 1;
+    height: 50vh;
 
   }
 
@@ -38,6 +40,9 @@ swiper-slide{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+
+
   }
 
   .centered-content img {
@@ -46,20 +51,21 @@ swiper-slide{
   }
   
   .bottom-section {
-    display: flex;
+   display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
     flex: 1;
-
+    
+   
   }
-
- 
 
   .text-content {
     text-align: center;
     padding: 20px;
+    margin-bottom: 300px;
+
   }
 
   .text-content h1 {
@@ -71,40 +77,77 @@ swiper-slide{
   }
 
   
-  /*.background-color {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #F6F0EC;
-  }
-  
-  .centered-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
-  
-  .bottom-section {
-    flex: 1;
-  }
-  
-  .text-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    background-color: #FFFFFF;
-  }
-  
-  .text-content h1 {
-    font-size: 24px;
-  }
-  
-  .text-content p {
-    font-size: 16px;
-  }*/
-  
+/*slide 2*/
+
+
+
+.custom-slide {
+  position: relative;
+  background: #83989A;
+}
+
+.top-right-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.omitir-button {
+  --background: #83989A;
+  --color: white;
+  --border-radius: 20px;
+  margin-top: 40px;
+  margin-right: 25px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  height: 20vh;
+}
+
+.image-container img {
+  width: 180px; /* Ajusta el ancho de la imagen según tus necesidades */
+  height: auto;
+}
+
+.text-container {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+
+/*slide 3*/
+.custom-slide.slide3 {
+  background-color: #F6F0EC;
+}
+
+.custom-slide.slide3 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.custom-slide.slide3 .background-color {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  //background-color: #F6F0EC;
+}
+
+.custom-slide.slide3 .image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.custom-slide.slide3 .text-container {
+  text-align: center;
+  margin-top: 20px;
+  color: #666666;
+}
