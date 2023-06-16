@@ -1,8 +1,4 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>home</ion-title>
-  </ion-toolbar>
-</ion-header>
+
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
@@ -10,4 +6,42 @@
       <ion-title size="large">home</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-content class="ion-padding background-image">
+    <div class="container" style="margin-left: 20px;">
+      <div class="logo logo-container" >
+        <ion-img
+          src="../../../assets/Logo IWOIS.png"
+          alt="Logo" style="height: 60px; width: 110px;"
+        >
+        </ion-img>
+      </div>
+    </div>
+
+    <div class="home-indicator"></div>
+    <div style="margin-top: 50px; display: flex; flex-direction: column; 
+    align-items: center; width: 80%; margin-left: 10%;">
+      <div class="button-container" style="margin-top: 10px;">
+        <ion-button class="login" shape="round" expand="full">Mis tratamientos</ion-button>
+        <ion-button class="botton" shape="round" expand="full">Buscar</ion-button>
+      </div>
+    </div>
+  </ion-content>
+
 </ion-content>
+<ion-tabs>
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="tab1">
+      <ion-icon aria-hidden="true" name="cart-outline"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab2">
+      <ion-icon aria-hidden="true" name="home-outline"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab3">
+      <ion-icon aria-hidden="true" name="person-outline"></ion-icon>
+    </ion-tab-button>
+  </ion-tab-bar>
+
+</ion-tabs>
