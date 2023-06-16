@@ -1,4 +1,13 @@
-
+ion-content {
+  
+  --background: url('../../assets/foto.png') no-repeat center center fixed;
+  background-color: #F6F0EC;
+  --background-repeat: no-repeat;
+  --background-position: center center;
+  --background-size: 100%;
+  --ion-safe-area-bottom: 0;
+  opacity: 90%;
+}
 
 .logo-container {
     display: flex;
