@@ -1,0 +1,75 @@
+ion-content{
+    --background: white;
+    opacity: 90%;
+  }
+
+  .modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000029; 
+    z-index: 9999;
+    opacity: 100%;
+  }
+  
+
+
+  .modal-content{
+    background-color: #FFFFFF;
+   // padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative; /* Agregado para el posicionamiento relativo */
+    opacity: 100%;
+    max-height: 100%;
+    max-width: 90%;
+    height: 70vh;
+  }
+  
+  
+  .modal-content p {
+    font-size: 16px;
+    color: #666666;
+    opacity: 100%;
+    padding: auto;
+    text-align: left;
+    margin-top: 25px;
+    width: 234pt 72pt;
+    height: 449pt 210pt;
+    padding: 15px;
+
+    
+  }
+
+  .logo-container{
+    align-items: center;
+    //margin-left: 40%;
+    //margin-right: 50%;
+  }
+  
+  .continue-button {
+    margin-top: 15px;
+    background-color: #83989A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px; 
+    padding: 15px 70px;
+    cursor: pointer;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    font-size: 20px;
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  

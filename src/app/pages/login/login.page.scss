@@ -19,7 +19,7 @@ ion-button.login{
 
   .register-text {
     position: fixed;
-    bottom: 30px;
+    bottom: 25%;
     left: 0;
     right: 0;
     text-align: center;
@@ -39,7 +39,8 @@ ion-button.login{
     --background-position: center center;
     --background-size: 100%;
     --ion-safe-area-bottom: 0;
-    opacity: 90%;
+    --opacity: 50%;
+
   }
   
   
