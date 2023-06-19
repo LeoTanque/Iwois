@@ -9,7 +9,7 @@
           <div class="top-section">
             <div class="centered-content">
               <img src="../../../assets/mundo123.png" alt="Imagen">
-              <div class="text-content" >
+              <div class="texto" >
                 <h1 style="text-align: left;">¿Dónde estás?</h1>
               </div>
               <ion-input class="rounded-input" label="Direccion" label-placement="floating" fill="outline" placeholder="Dirección"></ion-input>
@@ -84,34 +84,64 @@
     </div>
     </swiper-slide>
     <swiper-slide class="hoja-4">
-      <div class="container">
-        <div class="background-color">
-          <div class="top-section-4">
-            <div class="centered-content">
-              <img src="../../../assets/mundo123.png" alt="Imagen">
-              <div class="text-content" >
-                <h1 style="text-align: left;">Datos personales</h1>
-              </div>
-        
-              <div class="input-group">
-                <ion-input class="rounded-input-large" style="color: #707070;" label="+34" label-placement="floating" fill="outline"></ion-input>
-                <ion-input class="rounded-input-large" style="color: #707070;" label="Teléfono" label-placement="floating" fill="outline"></ion-input>
-              </div>
-              
-            </div>
+      <div class="containerss">
+        <div class="div-superior">
+          <div class="circulo">
+            <ion-icon class="img" name="camera"></ion-icon>
           </div>
-          <div class="bottom-section-4">
-            <div class="location-content" >
-              
-              <ion-icon name="location"></ion-icon>
-              <ion-button class="login-4" shape="round" expand="full">Continuar</ion-button>
-            </div>
+          <div class="texto" style="text-align: left;">
+            <h3>Datos personales</h3>
+          </div>
+          <div class="inputs">
+            <ion-item>
+              <ion-icon name="person-outline" slot="start"></ion-icon>
+              <ion-label position="floating">Nombre</ion-label>
+              <ion-input></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-icon name="person-outline" slot="start"></ion-icon>
+              <ion-label position="floating">Apellidos</ion-label>
+              <ion-input></ion-input>
+            </ion-item>
           </div>
         </div>
-    
-    </div>
+        <div class="div-inferior">
+          <ion-button class="login" shape="round" expand="full" style="margin-top: 90%;">Continuar</ion-button>
+        </div>
+      </div>
     </swiper-slide>
-    <swiper-slide></swiper-slide>
+    <swiper-slide class="hoja-5">
+      <div class="containerss">
+        <div class="div-superior">
+          <div class="circulo-5">
+            <img src="../../../assets/candado.png" alt="Imagen">
+          </div>
+          <div class="texto-5" style="text-align: left;">
+            <h3>Contacto</h3>
+          </div>
+          <div class="inputs">
+            <ion-item>
+              <ion-icon name="mail-outline" slot="start"></ion-icon>
+              <ion-label position="floating">E-mail</ion-label>
+              <ion-input></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-icon name="lock-closed-outline" slot="start"></ion-icon>
+              <ion-label position="floating">Contraseña</ion-label>
+              <ion-input></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-icon name="lock-closed-outline" slot="start"></ion-icon>
+              <ion-label position="floating">Confirmar contraseña</ion-label>
+              <ion-input></ion-input>
+            </ion-item>
+          </div>
+        </div>
+        <div class="div-inferior">
+          <ion-button class="login" shape="round" expand="full" style="margin-top: 90%;">Continuar</ion-button>
+        </div>
+      </div>
+    </swiper-slide>
     <swiper-slide></swiper-slide>
     <swiper-slide></swiper-slide>
     <swiper-slide></swiper-slide>
