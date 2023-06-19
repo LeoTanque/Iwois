@@ -9,12 +9,13 @@
     --border-radius: 15px;
     --background:#FFFFFF;
     --color:#8F8F8F;
-    opacity: 75%;
+    opacity: 100%;
 }
 
 ion-button.login{
     --background: #83989A;
     --color: #fff;
+    --opacity: 100%;
   }
 
   .register-text {
@@ -34,12 +35,13 @@ ion-button.login{
   }*/
   ion-content {
     --background: url('../../../assets/foto.png') no-repeat center center fixed;
+    opacity: 50%;
     background-color: #F6F0EC;
     --background-repeat: no-repeat;
     --background-position: center center;
     --background-size: 100%;
     --ion-safe-area-bottom: 0;
-    --opacity: 50%;
+    
 
   }
    
@@ -55,7 +57,21 @@ ion-button.login{
     transform: translateY(-50%);
   }
   
+  p {
+    color: #222121;
+    opacity: 100%;
   
+  }
+
+  .talla{
+    margin-top: 200px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    width: 80%; 
+    margin-left: 10%; 
+    height: 40%;
+  }
   
   
   

@@ -1,6 +1,6 @@
 <ion-content>
   <swiper-container
-  (slidechange)="swiperSlideChanged($event)"
+  #swiper (slideChange)="swiperSlideChanged($event)"
   [loop]="true"
   [pagination]="true">
     <swiper-slide>
@@ -20,12 +20,13 @@
             <div class="location-content">
               <p>Utilizar mi ubicación actual</p>
               <ion-icon name="location"></ion-icon>
-              <ion-button class="login" shape="round" expand="full">Continuar</ion-button>
+              <ion-button  class="login" shape="round" expand="full">Continuar</ion-button>
             </div>
           </div>
         </div>
     
-    </div></swiper-slide>
+    </div>
+  </swiper-slide>
     <swiper-slide class="custom-slide">
       <div class="container">
         <div class="background-color">
@@ -92,7 +93,10 @@
                 <h1 style="text-align: left;">Datos personales</h1>
               </div>
         
-              <ion-input class="rounded-input" label="Direccion" label-placement="floating" fill="outline" placeholder="Dirección"></ion-input>
+              <div class="input-group">
+                <ion-input class="rounded-input-large" style="color: #707070;" label="+34" label-placement="floating" fill="outline"></ion-input>
+                <ion-input class="rounded-input-large" style="color: #707070;" label="Teléfono" label-placement="floating" fill="outline"></ion-input>
+              </div>
               
             </div>
           </div>

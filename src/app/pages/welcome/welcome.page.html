@@ -1,5 +1,4 @@
 
-
 <ion-content>
   <swiper-container
   (slidechange)="swiperSlideChanged($event)"
@@ -8,7 +7,7 @@
     <swiper-slide> <div class="container">
       <div class="top-section">
         <div class="top-right-button">
-          <ion-button class="omitir" size="small">Omitir</ion-button>
+          <ion-button class="omitir" size="small" [routerLink]="['/seleccion-de-rol']">Omitir</ion-button>
         </div>
         <div class="background-color"></div>
         <div class="centered-content" style="margin-top: 300px;">
@@ -27,7 +26,7 @@
 
       <div class="container">
         <div class="top-right-button">
-          <ion-button class="omitir-button" size="small">Omitir</ion-button>
+          <ion-button class="omitir-button" size="small" [routerLink]="['/seleccion-de-rol']" >Omitir</ion-button>
         </div>
         <div class="image-container" style="margin-top: 300px;">
           <img src="../../../assets/slide2.png" alt="Foto">
@@ -40,8 +39,8 @@
     </swiper-slide>
     <swiper-slide class="custom-slide slide3">
       <div class="container">
-        <div class="top-right-button">
-          <ion-button class="omitir" size="small">Omitir</ion-button>
+        <div class="right-button">
+          <ion-button class="omitir-3" size="small" [routerLink]="['/seleccion-de-rol']">Omitir</ion-button>
         </div>
         <div class="background-color"></div>
         <div class="image-container">
