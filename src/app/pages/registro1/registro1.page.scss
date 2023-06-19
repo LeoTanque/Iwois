@@ -1,0 +1,176 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.top-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #F6F0EC;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  height: 50%;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 20px;
+  flex: 1;
+}
+
+.background-color {
+  width: 100%;
+  height: 100%;
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30%;
+}
+
+.location-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #666666;
+}
+
+.location-content p {
+  margin-right: 10px;
+}
+
+.top-section .text-content {
+  text-align: left;
+  margin-right: 150px;
+  margin-top: 20px;
+}
+
+.rounded-input {
+  --border-radius: 50px;
+  --background:#00000029;
+  --color:#8F8F8F;
+  opacity: 100%;
+  --max-width: 100%;
+}
+
+.text-content{
+  color: #666666;
+}
+
+.login{
+  --background: #83989A;
+  --color: #fff;
+  position: fixed;
+  width: 50%;
+  margin-top: 100%;
+}
+
+
+/*slide 2*/
+
+.top-section-1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #F6F0EC;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  height: 60%;
+}
+
+.top-section-1 .text-content {
+  text-align: left;
+  margin-right: 150px;
+  margin-top: 20px;
+  padding: 1%;
+  color: #83989A;
+}
+
+.color{
+  color: #666666;
+}
+
+.rounded-input-1 {
+  --border-radius: 30px;
+  --background:#00000029;
+  --color:#8F8F8F;
+  opacity: 100%;
+  --max-width: 100%;
+
+}
+
+.login-1{
+  --background: #83989A;
+  --color: #fff;
+  position: fixed;
+  width: 50%;
+  margin-top: 100%;
+  align-items: center;
+  margin-left: 25%;
+}
+
+.input-group {
+  display: flex;
+  
+}
+
+.rounded-input-small {
+  width: 80px; /* Ajusta el ancho según tus necesidades */
+  margin-right: 10px; /* Espacio entre los inputs */
+  border-radius: 60px;
+}
+
+.rounded-input-large {
+ // width: 180px; /* Ajusta el ancho según tus necesidades */
+ flex: 1;
+}
+
+
+/*slide 4*/
+
+.top-section-4 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #F6F0EC;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  height: 60%;
+}
+
+.bottom-section-4{
+  height: 40%;
+  align-items: center;
+}
+
+.login-4{
+  --background: #83989A;
+  --color: #fff;
+  position: fixed;
+  width: 50%;
+  margin-top: 100%;
+  align-items: center;
+}
+
+.input-group-1 {
+  display: flex;
+}
+
+.rounded-input-small-1 {
+  flex: 1;
+  margin-right: 10px;
+  width: 60px;
+  margin-top: 25px;
+  opacity: 100%;
+}

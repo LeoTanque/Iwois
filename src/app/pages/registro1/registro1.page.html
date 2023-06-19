@@ -3,53 +3,113 @@
   (slidechange)="swiperSlideChanged($event)"
   [loop]="true"
   [pagination]="true">
-    <swiper-slide> <div class="container">
-      <div class="top-section">
-        <div class="top-right-button">
-          <ion-button class="omitir" size="small">Omitir</ion-button>
+    <swiper-slide>
+       <div class="container">
+        <div class="background-color">
+          <div class="top-section">
+            <div class="centered-content">
+              <img src="../../../assets/mundo123.png" alt="Imagen">
+              <div class="text-content" >
+                <h1 style="text-align: left;">¿Dónde estás?</h1>
+              </div>
+              <ion-input class="rounded-input" label="Direccion" label-placement="floating" fill="outline" placeholder="Dirección"></ion-input>
+              
+            </div>
+          </div>
+          <div class="bottom-section">
+            <div class="location-content">
+              <p>Utilizar mi ubicación actual</p>
+              <ion-icon name="location"></ion-icon>
+              <ion-button class="login" shape="round" expand="full">Continuar</ion-button>
+            </div>
+          </div>
         </div>
-        <div class="background-color"></div>
-        <div class="centered-content" style="margin-top: 300px;">
-          <img src="../../../assets/urn_aaid_sc_US_962c8d80-2787-45c9-ab36-ae00441c3b10.png" alt="Imagen">
-        </div>
-      </div>
-      <div class="bottom-section">
-        <div class="background-color"></div>
-        <div class="text-content">
-          <h1>Bienvenid@s!</h1>
-          <p>Iwois es una app de acompañamiento <br> digital para tus tratamientos médicos y estéticos.</p>
-        </div>
-      </div>
+    
     </div></swiper-slide>
     <swiper-slide class="custom-slide">
-
       <div class="container">
-        <div class="top-right-button">
-          <ion-button class="omitir-button" size="small">Omitir</ion-button>
+        <div class="background-color">
+          <div class="top-section-1">
+            <div class="centered-content">
+              <img src="../../../assets/Logo IWOIS.png" alt="Logo" style="height: 40px; width: 110px; margin-top: 10%;">
+              <div class="text-content" >
+                <h5 style="text-align: left;">Registrate</h5>
+              </div>
+              <p class="color">A partir de este momento, tu usuario <br> 
+                será tu número de teléfono.</p>
+               
+                <div class="input-group">
+                  <ion-input class="rounded-input-small" style="color: #707070;" label="+34" label-placement="floating" fill="outline"></ion-input>
+                  <ion-input class="rounded-input-large" style="color: #707070;" label="Teléfono" label-placement="floating" fill="outline"></ion-input>
+                </div>
+            </div>
+          </div>
+          <div class="bottom-section-1">
+            <div class="location-content">
+              
+              <ion-button class="login-1" shape="round" expand="full">Enviar SMS</ion-button>
+            </div>
+          </div>
         </div>
-        <div class="image-container" style="margin-top: 300px;">
-          <img src="../../../assets/slide2.png" alt="Foto">
-        </div>
-        <div class="text-container">
-          <h2>Mantente Informad@</h2>
-          <p>Recibe notificaciones de tu profesional de confianza sobre tu tratamiento en tiempo real</p>
-        </div>
-      </div>
+    
+    </div>
     </swiper-slide>
     <swiper-slide class="custom-slide slide3">
       <div class="container">
-        <div class="top-right-button">
-          <ion-button class="omitir" size="small">Omitir</ion-button>
+        <div class="background-color">
+          <div class="top-section-1">
+            <div class="centered-content">
+              <img src="../../../assets/Logo IWOIS.png" alt="Logo" style="height: 40px; width: 110px; margin-top: 10%;">
+              <div class="text-content" >
+                <h5 style="text-align: left;">Verificacion</h5>
+              </div>
+              <p class="color">Te llegará un código de verificación por <br> SMS, introdúcelo aquí: <br></p>
+              <div class="input-group-1">
+                <ion-input class="rounded-input-small-1" label-placement="floating" fill="outline"></ion-input>
+                <ion-input class="rounded-input-small-1" label-placement="floating" fill="outline"></ion-input>
+                <ion-input class="rounded-input-small-1" label-placement="floating" fill="outline"></ion-input>
+                <ion-input class="rounded-input-small-1" label-placement="floating" fill="outline"></ion-input>
+              </div>
+            </div>
+          </div>
+          <div class="bottom-section-1">
+            <div class="location-content">
+              
+              <ion-button class="login-1" shape="round" expand="full">Confirmar</ion-button>
+            </div>
+          </div>
         </div>
-        <div class="background-color"></div>
-        <div class="image-container">
-          <img src="../../../assets/lupa.png" alt="Imagen">
-        </div>
-        <div class="text-container">
-          <h1>No sabes por donde empezar?</h1>
-          <p>Encuentra tu profesional de la salud <br> y contacta con el las 24 horas</p>
-        </div>
-      </div>
+    
+    </div>
     </swiper-slide>
+    <swiper-slide class="hoja-4">
+      <div class="container">
+        <div class="background-color">
+          <div class="top-section-4">
+            <div class="centered-content">
+              <img src="../../../assets/mundo123.png" alt="Imagen">
+              <div class="text-content" >
+                <h1 style="text-align: left;">Datos personales</h1>
+              </div>
+        
+              <ion-input class="rounded-input" label="Direccion" label-placement="floating" fill="outline" placeholder="Dirección"></ion-input>
+              
+            </div>
+          </div>
+          <div class="bottom-section-4">
+            <div class="location-content" >
+              
+              <ion-icon name="location"></ion-icon>
+              <ion-button class="login-4" shape="round" expand="full">Continuar</ion-button>
+            </div>
+          </div>
+        </div>
+    
+    </div>
+    </swiper-slide>
+    <swiper-slide></swiper-slide>
+    <swiper-slide></swiper-slide>
+    <swiper-slide></swiper-slide>
+    <swiper-slide></swiper-slide>
   </swiper-container>
 </ion-content>
