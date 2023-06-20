@@ -283,6 +283,7 @@
   margin-top: 100px;
   margin-bottom: 10px;
   text-align: left;
+  color: #666666;
 }
 
 .input-container-6 {
@@ -291,6 +292,7 @@
 }
 
 .div-inferior-6 {
+  background-color: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -337,6 +339,12 @@ ion-datetime{
 .ruta {
   color: #666666;
   text-align: center;
+}
 
-  
+.div-inferior-7 {
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
 }
