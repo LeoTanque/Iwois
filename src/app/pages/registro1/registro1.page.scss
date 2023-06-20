@@ -268,3 +268,41 @@
   margin-right: 120px;
 }
 
+
+
+/*slide 7*/
+.contain-7 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.div-superior-7 {
+  height: 70%;
+  background-color: #F6F0EC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  opacity: 100%;
+  flex: 1;
+
+}
+
+.texto-7 {
+  text-align: center;
+  margin-top: 20px;
+  color: #666666;
+  
+}
+
+.ruta {
+  color: #666666;
+  text-align: center;
+
+  
+}
