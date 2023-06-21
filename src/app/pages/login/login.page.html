@@ -25,8 +25,8 @@
       <ion-input class="rounded-input" label="Contraseña" label-placement="floating" fill="outline" placeholder=""></ion-input>
       <p>Consulta la política de privacidad <br> y los términos y condiciones.</p>
       <ion-button class="login" shape="round" expand="full">Iniciar sesión</ion-button>
-      <p>Olvidé mi contraseña</p>
-      <p>Aún no tengo cuenta, <a href="registro1">regístrame</a></p>
+      <p [routerLink]="['/recuperar-contrasena']">Olvidé mi contraseña</p>
+      <p>Aún no tengo cuenta, <a [routerLink]="['/registro1']">regístrame</a></p>
     </div>    
     
   </div>

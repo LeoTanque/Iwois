@@ -1,0 +1,44 @@
+
+
+<ion-content [fullscreen]="true">
+  
+  <div class="container">
+    <div class="background-color">
+      <div class="top-section-1">
+        <div class="centered-content">
+          <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img">
+     
+        </div>
+      </div>
+      <div class="bottom-section-1">
+
+        <div class="text-content" >
+          <h5 class="custom-heading">Recuperar <strong>contraseña</strong></h5>
+        </div>
+        <div class="country-options" style="margin-top: 50px;">
+          <ion-item>
+            <ion-icon name="chevron-down-outline" slot="start" class="country-option"></ion-icon>
+            <ion-label position="floating">Prefijo</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="clipboard-outline" slot="start" class="country-option"></ion-icon>
+            <ion-label position="floating">(00)Telefono</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+           
+          
+        </div>
+        <div class="location-content">
+          
+          <ion-button class="login" shape="round" expand="full" [routerLink]="['/reestablecer-contrasena']">Recuperar</ion-button>
+        </div>
+        
+      </div>
+    </div>
+    <div class="keyboard-container">
+      <img src="../../../assets/Keyboard.png" alt="Teclado" class="keyboard-img">
+    </div>
+</div>
+  
+</ion-content>

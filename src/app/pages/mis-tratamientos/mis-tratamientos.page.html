@@ -1,0 +1,54 @@
+
+
+<ion-content [fullscreen]="true">
+  
+  <div class="container">
+    <div class="background-color">
+      <div class="top-section-1">
+        <div class="centered-content">
+          <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img">
+     
+        </div>
+      </div>
+      <div class="bottom-section-1">
+
+        <div class="text-content" >
+          <h5 class="custom-heading">Mis tratamientos</h5>
+          
+          
+        </div>
+        <div class="textos">
+          <h6 class="user-text">Usuario NytelWeb,<br> aún no tienes protocolos asignados</h6>
+          <hr class="line">
+          <p class="additional-text">Puedes buscar tratamientos y los <br>
+            profesionales que lo realizan <br> desde aquí</p>
+        </div>
+     
+        <div class="location-content">
+          
+          <ion-button class="login" shape="round" expand="full" >Buscar especialista</ion-button>
+        </div>
+        
+      </div>
+    </div>
+    
+</div>
+<ion-tabs>
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="tab1">
+      <ion-icon aria-hidden="true" name="cart-outline" [routerLink]="['/mis-tratamientos3']"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab2">
+      <ion-icon aria-hidden="true" name="home-outline" [routerLink]="['/home']"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab3">
+      <ion-icon aria-hidden="true" name="person-outline"></ion-icon>
+    </ion-tab-button>
+  </ion-tab-bar>
+
+</ion-tabs>
+
+</ion-content>

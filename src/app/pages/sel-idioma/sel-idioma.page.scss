@@ -20,7 +20,7 @@
   }
   
   .country-options {
-    text-align: center;
+    text-align: left;
   }
   
 ion-content{
@@ -38,12 +38,13 @@ ion-button.login{
     --color: #fff;
   }
 
-  .country-options .country-option {
+  .country-option {
     border-bottom: 1px solid black;
     padding-bottom: 5px;
-    width: 200px;
+    width: 250px;
     color: #808080;
     opacity: 100%;
+    align-items: center;
     
   }
   

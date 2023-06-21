@@ -55,6 +55,26 @@ const routes: Routes = [
   {
     path: 'busqueda',
     loadChildren: () => import('./pages/busqueda/busqueda.module').then( m => m.BusquedaPageModule)
+  },
+  {
+    path: 'recuperar-contrasena',
+    loadChildren: () => import('./pages/recuperar-contrasena/recuperar-contrasena.module').then( m => m.RecuperarContrasenaPageModule)
+  },
+  {
+    path: 'mis-tratamientos',
+    loadChildren: () => import('./pages/mis-tratamientos/mis-tratamientos.module').then( m => m.MisTratamientosPageModule)
+  },
+  {
+    path: 'mis-tratamientos3',
+    loadChildren: () => import('./pages/mis-tratamientos3/mis-tratamientos3.module').then( m => m.MisTratamientos3PageModule)
+  },
+  {
+    path: 'tratamientos2',
+    loadChildren: () => import('./pages/tratamientos2/tratamientos2.module').then( m => m.Tratamientos2PageModule)
+  },
+  {
+    path: 'cambiar-contrsena',
+    loadChildren: () => import('./pages/cambiar-contrsena/cambiar-contrsena.module').then( m => m.CambiarContrsenaPageModule)
   }
 
 ];
