@@ -75,6 +75,22 @@ const routes: Routes = [
   {
     path: 'cambiar-contrsena',
     loadChildren: () => import('./pages/cambiar-contrsena/cambiar-contrsena.module').then( m => m.CambiarContrsenaPageModule)
+  },
+  {
+    path: 'ejemplo-video',
+    loadChildren: () => import('./pages/ejemplo-video/ejemplo-video.module').then( m => m.EjemploVideoPageModule)
+  },
+  {
+    path: 'ejemplo-foto',
+    loadChildren: () => import('./pages/ejemplo-foto/ejemplo-foto.module').then( m => m.EjemploFotoPageModule)
+  },
+  {
+    path: 'editar-contrasena',
+    loadChildren: () => import('./pages/editar-contrasena/editar-contrasena.module').then( m => m.EditarContrasenaPageModule)
+  },
+  {
+    path: 'perfil',
+    loadChildren: () => import('./pages/perfil/perfil.module').then( m => m.PerfilPageModule)
   }
 
 ];
