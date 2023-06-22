@@ -8,11 +8,33 @@ ion-content {
   opacity: 90%;
 }
 
+.container{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+ 
+  height: 99px;
+}
+
 .logo-container {
     display: flex;
     justify-content: left;
     margin-top: 10px;
     opacity: 80%;
+}
+
+.notification-container {
+  margin-left: auto;
+  height: 90px;
+  width: 80px;
+  color: #666666;
+ 
+}
+
+.notification-icon {
+  font-size: 30px; 
+  height: 100px;
 }
 
 .home-indicator {

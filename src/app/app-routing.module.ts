@@ -99,6 +99,10 @@ const routes: Routes = [
   {
     path: 'eliminar-cuenta',
     loadChildren: () => import('./pages/eliminar-cuenta/eliminar-cuenta.module').then( m => m.EliminarCuentaPageModule)
+  },
+  {
+    path: 'notificaciones',
+    loadChildren: () => import('./pages/notificaciones/notificaciones.module').then( m => m.NotificacionesPageModule)
   }
 
 ];
