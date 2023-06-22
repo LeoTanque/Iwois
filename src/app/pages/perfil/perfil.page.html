@@ -1,13 +1,63 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>perfil</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">perfil</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  
+  <div class="container">
+    <div class="background-color">
+      <div class="top-section-1">
+        <div class="centered-content">
+          <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img">
+        </div>
+        <div class="notification-container">
+          <ion-icon name="notifications-outline" class="notification-icon"></ion-icon>
+        </div>
+      </div>
+      <div class="bottom-section">
+        <div class="image-container">
+          <img src="../../../assets/perfil.png" alt="Foto" class="centered-image">
+        </div>
+        <h4 class="username"><strong>Usuario Nytelweb</strong></h4>
+        <p class="email">nytelweb@nytelweb.es</p>
+        <div class="edit-profile">
+          <div class="option" >
+            <ion-icon name="create-outline" class="option-icon" [routerLink]="['/editar-contrasena']"></ion-icon>
+            <p class="option-text">Editar perfil</p>
+          </div>
+          <div class="option">
+            <ion-icon name="lock-closed-outline" class="option-icon"></ion-icon>
+            <p class="option-text">Cambiar contraseña</p>
+          </div>
+          <div class="option">
+            <ion-icon name="power-outline" class="option-icon"></ion-icon>
+            <p class="option-text">Cerrar sesión</p>
+          </div>
+          
+        </div>
+        <div class="delete-account">
+          <ion-icon name="person" class="delete-icon"></ion-icon>
+          <p class="delete-text">Eliminar cuenta</p>
+        </div>
+        
+        
+      </div>
+      </div>
+    
+</div>
+<ion-tabs>
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="tab1">
+      <ion-icon aria-hidden="true" name="cart-outline"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab2">
+      <ion-icon aria-hidden="true" name="home-outline"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab3">
+      <ion-icon aria-hidden="true" name="person-outline"></ion-icon>
+    </ion-tab-button>
+  </ion-tab-bar>
+
+</ion-tabs>
+  
 </ion-content>
+
