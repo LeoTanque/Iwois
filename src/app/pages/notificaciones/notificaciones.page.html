@@ -1,13 +1,80 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>notificaciones</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">notificaciones</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  
+  <div class="container">
+    <div class="background-color">
+      <div class="top-section-1">
+        <div class="centered-content">
+          <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img">
+        </div>
+        <div class="notification-container">
+          <ion-icon name="notifications-outline" class="notification-icon"></ion-icon>
+        </div>
+      </div>
+      <div class="bottom-section">
+      <div class="cont">
+        <h5 class="notification-header"> <strong>Mis notificaciones</strong></h5>
+        
+        <ion-item detail="true">
+          <ion-label>
+            <div class="left-content">
+              <p>Carmen,¡botox chek! aqui las 
+                <br>recomendaciones de la Dra Usuario 
+                <br>Nytelweb para el dia de hoy.(enlace)</p>
+            </div>
+            <div class="right-content">
+              <p>9:05</p>
+            </div>
+          </ion-label>
+        </ion-item>
+        <ion-item detail="true">
+          <ion-label>
+            <div class="left-content">
+              <p>Descuento del 20% en tu tratamiento <br>
+                Hydrafacial con la Dra. Nytelweb <br>
+                 enseñando el código SOYIWOIS</p>
+            </div>
+            <div class="right-content">
+              <p>24 dic</p>
+            </div>
+          </ion-label>
+        </ion-item>
+        <ion-item detail="true" disabled="true">
+          <ion-label>
+            <div class="left-content">
+              <p>Día 17 de tu tratamiento de Liposonix. <br>
+                ¿Qué tal los efectos? ¡Aquí mas <br>
+                 consejos de tu doctor! (enlace)</p>
+            </div>
+            <div class="right-content">
+              <p>18 nov</p>
+            </div>
+          </ion-label>
+        </ion-item>
+      </div> 
+                        
+        
+        
+      </div>
+      </div>
+    
+</div>
+<ion-tabs>
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="tab1">
+      <ion-icon aria-hidden="true" name="cart-outline" [routerLink]="['/mis-tratamientos3']"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab2">
+      <ion-icon aria-hidden="true" name="home-outline" [routerLink]="['/home']"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab3">
+      <ion-icon aria-hidden="true" name="person-outline" ></ion-icon>
+    </ion-tab-button>
+  </ion-tab-bar>
+
+</ion-tabs>
+  
 </ion-content>
+
