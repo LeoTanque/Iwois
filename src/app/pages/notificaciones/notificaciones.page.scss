@@ -82,5 +82,20 @@
     color: #1A1A1A;
     opacity: 95%;
   }
+
+  .modal-line {
+    border: none;
+    border-top: 1px solid #666666;
+    width: 50%;
+    justify-content: flex-end;
+    display: flex;
+    margin-left: 50%;
+    
+  }
+
+  .line-container {
+    display: flex;
+    justify-content: flex-end; /* Alineación a la derecha */
+  }
   
 
