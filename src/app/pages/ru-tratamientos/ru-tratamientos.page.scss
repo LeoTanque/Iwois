@@ -7,6 +7,7 @@
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     height: 99px;
+   
   }
 
   .centered-content {
@@ -42,6 +43,7 @@
     
     opacity: 100%;
     flex: 1;
+    //height: 80vh;
   }
 
   .custom-heading {
@@ -86,11 +88,48 @@
     justify-content: center;
     margin-bottom: 20px;
     font-size: 40px;
-    color: #83989A;
-    
-    
+    color: #83989A; 
   }
     
   .icon-container ion-icon {
     margin: 10px 25px;
   }
+
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fullscreen-image {
+    width: 100%;
+    //max-width: 100vw;
+  }
+
+
+  .text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .centered-text {
+    margin-bottom: 10px;
+  }
+  
+  .whatsapp-icon {
+    font-size: 40px;
+    color: green;
+  }
+
+  .container {
+    height: 100vh;
+  }
+  ion-content {
+    height: 100vh;
+  }
+  
