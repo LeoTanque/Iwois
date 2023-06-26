@@ -51,4 +51,46 @@
     color: #83989A;
   }
 
+  .notification-header {
+    color: #666666;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .pretratamiento-button {
+    background-color: #83989A;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+  }
+  
+  .postratamiento-button {
+    background-color: #00000029;
+    color: #83989A;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #83989A;
+    
+    
+  }
+    
+  .icon-container ion-icon {
+    margin: 10px 25px;
+  }
