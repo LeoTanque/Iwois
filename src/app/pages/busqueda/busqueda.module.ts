@@ -7,14 +7,17 @@ import { IonicModule } from '@ionic/angular';
 import { BusquedaPageRoutingModule } from './busqueda-routing.module';
 
 import { BusquedaPage } from './busqueda.page';
-
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    BusquedaPageRoutingModule
+    BusquedaPageRoutingModule,
+    
+  
   ],
-  declarations: [BusquedaPage]
+  declarations: [BusquedaPage],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class BusquedaPageModule {}

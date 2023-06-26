@@ -1,0 +1,253 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .top-section {
+    flex: 4;
+    position: relative;
+  }
+  
+  .background-image {
+    background-image: url("../../../assets/barriga.png");
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+   // height: 40%;
+    height: 40vh;
+  }
+  
+  .top-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .content-container {
+    display: flex;
+    align-items: center;
+    background-color: #F6F0EC;
+    width: 100%;
+    
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 300px;
+    margin-top: -20px;
+
+    
+  }
+  
+  .logo-container {
+    flex: 1;
+    text-align: left;
+    padding-left: 16px;
+  }
+  
+  .logo-img {
+    max-height: 40px;
+    margin-left: 20px;
+  }
+  
+  .notification-icon {
+    flex: 1;
+    text-align: right;
+    padding-right: 25px;
+    font-size: 30px;
+  }
+
+  .text-container {
+    width: 100%;
+    padding: 16px;
+    margin-top: 40px;
+  }
+  
+  .title {
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    color: #FFFFFF;
+    text-align: left;
+  }
+
+  .bottom-section {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+  }
+  
+  .profession-title {
+    color: #83989A;
+  }
+  
+  .map-container {
+    width: 100%;
+    position: relative;
+  }
+  .icon-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon-container ion-icon {
+    font-size: 30px;
+    margin-bottom: 5px;
+    
+  }
+
+
+  
+  
+  .map-image {
+    width: 100%;
+    
+  }
+  
+  .range-slider-container {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .range-slider {
+    width: 100%;
+  }
+
+  .center-marker {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .center-marker ion-icon {
+    font-size: 40px;
+    color: black;
+  }
+  
+  .location-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  ion-item{
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .item-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    width: 200px;
+  }
+  
+  .item-container .left-section {
+    margin-right: 10px;
+  }
+  
+  .profile-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .profile-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .profile-description {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .phone-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .phone-container ion-icon {
+    margin-right: 5px;
+  }
+  
+  .phone-number {
+    font-size: 14px;
+  }
+  
+  .map-container {
+    position: relative;
+  }
+  
+  .icon-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon-container ion-icon {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  
+  .center-marker {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .center-marker ion-icon {
+    font-size: 40px;
+    color: black;
+  }
+  
+  .location-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  
+ 
+  
+  
+  
+  
+  
+  
+  

@@ -1,7 +1,9 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+ // height: 100vh;
+  height: 100%;
+  justify-content: space-between;
 }
 
 .top-section {
@@ -15,6 +17,13 @@
   opacity: 100%;
   flex: 1;
   height: 50%;
+  
+}
+
+.borde{
+  border-radius: 20px; 
+  width: 100%; 
+  margin-bottom: 6%;
 }
 
 .bottom-section {
@@ -123,18 +132,25 @@
 
 .input-group {
   display: flex;
+  margin-bottom: 6%;
+  
+  //background-color: #FFFFFF;
   
 }
 
 .rounded-input-small {
   width: 80px; /* Ajusta el ancho según tus necesidades */
   margin-right: 10px; /* Espacio entre los inputs */
-  border-radius: 60px;
+  //--border-radius: 40px;
+  color: #707070;
 }
 
 .rounded-input-large {
  // width: 180px; /* Ajusta el ancho según tus necesidades */
  flex: 1;
+ //--border-radius: 40px;
+ color: #707070;
+
 }
 
 
@@ -167,6 +183,7 @@
 
 .input-group-1 {
   display: flex;
+  margin-bottom: 6%;
 }
 
 .rounded-input-small-1 {

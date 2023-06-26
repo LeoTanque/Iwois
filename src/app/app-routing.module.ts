@@ -107,6 +107,18 @@ const routes: Routes = [
   {
     path: 'notificaciones2',
     loadChildren: () => import('./pages/notificaciones2/notificaciones2.module').then( m => m.Notificaciones2PageModule)
+  },
+  {
+    path: 'ejemplo-video1',
+    loadChildren: () => import('./pages/ejemplo-video1/ejemplo-video1.module').then( m => m.EjemploVideo1PageModule)
+  },
+  {
+    path: 'busqueda2',
+    loadChildren: () => import('./pages/busqueda2/busqueda2.module').then( m => m.Busqueda2PageModule)
+  },
+  {
+    path: 'ru-tratamientos',
+    loadChildren: () => import('./pages/ru-tratamientos/ru-tratamientos.module').then( m => m.RuTratamientosPageModule)
   }
 
 ];

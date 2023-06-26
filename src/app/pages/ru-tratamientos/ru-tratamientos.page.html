@@ -1,5 +1,4 @@
-<ion-content [fullscreen]="true"
->
+<ion-content [fullscreen]="true">
   
   <div class="container">
     <div class="background-color">
@@ -13,41 +12,13 @@
       <div class="bottom-section-1">
         <ion-searchbar placeholder="Buscar"></ion-searchbar>
         <div class="text-content" >
-          <h6 class="custom-heading"><strong>Seleccionar un tratamiento</strong></h6>
+          <h5 class="custom-heading"><strong>Mis tratamientos</strong></h5>
         </div>
-        <div>
-          <swiper-container 
-          #swiper 
-         (afterinit)="swiperReady()"
-          (slideChange)="swiperSlideChanged($event)"
-          [loop]="true"
-          [pagination]="true">
-            <swiper-slide *ngFor="let image of images">
-              <img [src]="image">
-            </swiper-slide>
-            
-          </swiper-container>
-        </div>
-        <!--div class="">
-          <img src="../../../assets/Grupo de desplazamiento 1.png" alt="Imagen" class="" >
-     
-        </div-->
-        <div class="text-content" >
-          <h6 class="custom">Encuentra a tu profesional de la salud</h6>
-        </div>
-        <div class="mapa">
-          <img src="../../../assets/maposo.png" alt="Imagen" class="mapa">
-     
-        </div>
+       
+      
       </div>
     </div>
-    <ion-item>
-      5km
-      <ion-range label-placement="start">
-        <div slot="label"></div>
-      </ion-range>
-      500km
-    </ion-item> 
+  
 </div>
 
  

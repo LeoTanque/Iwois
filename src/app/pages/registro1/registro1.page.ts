@@ -9,8 +9,9 @@ export class Registro1Page implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() { 
   }
+  
   swiperSlideChanged(e:any){
     console.log('changed: ',e)
      }
