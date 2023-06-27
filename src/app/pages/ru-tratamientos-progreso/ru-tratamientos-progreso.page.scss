@@ -44,8 +44,7 @@
     opacity: 100%;
     flex: 1;
     //height: 80vh;
-    height: calc(100% - 99px); /* Establece la altura de la sección inferior restando la altura de la sección superior */
-    overflow: auto;
+    padding-bottom: 30px;
   }
 
   .custom-heading {
@@ -95,6 +94,7 @@
     
   .icon-container ion-icon {
     margin: 10px 25px;
+    margin-bottom: 10px;
   }
 
 
@@ -102,6 +102,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5px;
   }
   
   .fullscreen-image {
@@ -117,6 +118,7 @@
     justify-content: center;
     text-align: center;
     margin-top: 20px;
+    padding-bottom: 30px;
   }
   
   .centered-text {
@@ -133,9 +135,49 @@
     height: 100vh;
   }
   ion-content {
-    height: calc(100% - 99px);
+    height: 100vh;
   }
 
+
+
+  .camera-icon {
+    font-size: 40px;
+    color: #83989A;
+    margin-right: 20px;
+    
+  }
+  
+  .antes-despues-text {
+    font-size: 20px;
+    color: #666666;;
+    margin-right: 10px;
+  }
+  
+  .camera-outline-icon,
+  .location-icon {
+    font-size: 30px;
+    color: #83989A;
+    margin-right: 10px;
+  }
+  
+  ion-tabs {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .a{
+    text-align: center;
+    margin-top: 20px;
+    color: #83989A;
+  }
+
+  .range{
+    color: #F6F0EC;
+    width: 80%;
+    padding-left: 70px;
+  }
 
   ion-tabs {
     position: relative;
@@ -143,5 +185,5 @@
     width: 100%;
     margin-top: 20px;
   }
-  
 
+ 

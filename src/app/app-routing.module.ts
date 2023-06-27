@@ -119,7 +119,15 @@ const routes: Routes = [
   {
     path: 'ru-tratamientos',
     loadChildren: () => import('./pages/ru-tratamientos/ru-tratamientos.module').then( m => m.RuTratamientosPageModule)
+  },  {
+    path: 'ru-tratamientos-progreso',
+    loadChildren: () => import('./pages/ru-tratamientos-progreso/ru-tratamientos-progreso.module').then( m => m.RuTratamientosProgresoPageModule)
+  },
+  {
+    path: 'ver-todo-progreso',
+    loadChildren: () => import('./pages/ver-todo-progreso/ver-todo-progreso.module').then( m => m.VerTodoProgresoPageModule)
   }
+
 
 ];
 @NgModule({

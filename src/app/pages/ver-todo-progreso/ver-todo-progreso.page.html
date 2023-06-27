@@ -1,0 +1,57 @@
+<ion-content [fullscreen]="true">
+  
+  <div class="container">
+    <div class="background-color">
+      <div class="top-section-1">
+        <div class="centered-content">
+          <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img" [routerLink]="['/']">
+          
+        </div>
+        <ion-icon name="notifications-outline" [routerLink]="['/home']" class="notifications-icon" ></ion-icon>
+      </div>
+      <div class="bottom-section-1">
+      
+        <div class="image-container">
+          <ion-icon name="camera" class="camera-icon"></ion-icon>
+          <p class="antes-despues-text"> <strong>Mi Progreso</strong></p>
+          <ion-icon name="camera-outline" class="camera-outline-icon"></ion-icon>
+          <ion-icon name="location-outline" class="location-icon"></ion-icon>
+        </div>
+       
+        <div class="image-container">
+          <img src="../../../assets/espalda.png" alt="Imagen" class="fullscreen-image">
+        </div>
+
+        <div class="image-container">
+          <img src="../../../assets/espalda.png" alt="Imagen" class="fullscreen-image">
+        </div>
+
+        <div class="image-container">
+          <img src="../../../assets/espalda.png" alt="Imagen" class="fullscreen-image">
+        </div>
+      
+      </div>
+    </div>
+  
+</div>
+
+<ion-tabs >
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="tab1">
+      <ion-icon aria-hidden="true" name="cart-outline" [routerLink]="['/mis-tratamientos3']"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab2">
+      <ion-icon aria-hidden="true" name="home-outline" [routerLink]="['/home']"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab3">
+      <ion-icon aria-hidden="true" name="person-outline"></ion-icon>
+    </ion-tab-button>
+  </ion-tab-bar>
+
+</ion-tabs>
+ 
+</ion-content>
+

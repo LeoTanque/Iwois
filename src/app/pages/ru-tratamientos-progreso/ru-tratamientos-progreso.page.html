@@ -25,10 +25,19 @@
           <ion-icon name="bandage"></ion-icon>
           <ion-icon name="barbell"></ion-icon>
         </div>
+        <div class="image-container">
+          <ion-icon name="camera" class="camera-icon"></ion-icon>
+          <p class="antes-despues-text"> <strong>Antes y Después</strong></p>
+          <ion-icon name="camera-outline" class="camera-outline-icon"></ion-icon>
+          <ion-icon name="location-outline" class="location-icon"></ion-icon>
+        </div>
        
         <div class="image-container">
-          <img src="../../../assets/conjunto.png" alt="Imagen" class="fullscreen-image">
+          <img src="../../../assets/espalda.png" alt="Imagen" class="fullscreen-image">
         </div>
+        <a [routerLink]="['/ver-todo-progreso']" class="a">Ver todo</a>
+
+        <ion-range aria-label="Dual Knobs Range" [dualKnobs]="true" [value]="{ lower: 20, upper: 80 }" class="range"></ion-range>
         <div class="text-center">
           <p class="centered-text">Queremos que siempre estés bien <br>
             acompañad@. Site han surgido dudas y <br>

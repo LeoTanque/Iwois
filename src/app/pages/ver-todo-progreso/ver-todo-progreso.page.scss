@@ -44,23 +44,7 @@
     opacity: 100%;
     flex: 1;
     //height: 80vh;
-    height: calc(100% - 99px); /* Establece la altura de la sección inferior restando la altura de la sección superior */
-    overflow: auto;
-  }
-
-  .custom-heading {
-    text-align: left;
-    margin-left: 5%;
-    margin-top: 20px;
-    color: #83989A;
-  }
-
-  .notification-header {
-    color: #666666;
-    text-align: center;
-    margin-left: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-bottom: 30px;
   }
   
   .button-container {
@@ -69,39 +53,14 @@
     margin-bottom: 20px;
   }
   
-  .pretratamiento-button {
-    background-color: #83989A;
-    color: #FFFFFF;
-    padding: 10px 20px;
-    margin-right: 10px;
-    border-radius: 20px;
-  }
-  
-  .postratamiento-button {
-    background-color: #00000029;
-    color: #83989A;
-    padding: 10px 20px;
-    margin-left: 10px;
-    border-radius: 20px;
-  }
-  
-  .icon-container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    font-size: 40px;
-    color: #83989A; 
-  }
-    
-  .icon-container ion-icon {
-    margin: 10px 25px;
-  }
+ 
 
 
   .image-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5px;
   }
   
   .fullscreen-image {
@@ -109,34 +68,36 @@
     //max-width: 100vw;
   }
 
-
-  .text-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .centered-text {
-    margin-bottom: 10px;
-    color: #83989A;
-  }
-  
-  .whatsapp-icon {
-    font-size: 40px;
-    color: green;
-  }
-
   .container {
     height: 100vh;
   }
   ion-content {
-    height: calc(100% - 99px);
+    height: 100vh;
   }
 
 
+
+  .camera-icon {
+    font-size: 40px;
+    color: #83989A;
+    margin-right: 20px;
+    
+  }
+  
+  .antes-despues-text {
+    font-size: 20px;
+    color: #666666;;
+    margin-right: 10px;
+    text-align: left;
+  }
+  
+  .camera-outline-icon,
+  .location-icon {
+    font-size: 30px;
+    color: #83989A;
+    margin-right: 10px;
+  }
+  
   ion-tabs {
     position: relative;
     bottom: 0;
@@ -144,4 +105,5 @@
     margin-top: 20px;
   }
   
-
+  
+  
