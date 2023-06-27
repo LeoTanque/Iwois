@@ -14,27 +14,91 @@
           <ion-icon name="close-outline" [routerLink]="['/ejemplo-foto']"></ion-icon>
         </div>
         <div class="slide-content">
-          <h1 class="slide-heading">Antes del desayuno</h1>
+          <h1 class="slide-heading"><strong>Antes del desayuno</strong></h1>
           <hr class="slide-divider">
 
           <div class="vertical-texts">
-            <p>Toma una capsula de Mitocondria <br>
+            <p>-Toma una capsula de Mitocondria <br>
             Therasciencia 30 minutos antes <br>
-          de desayunar
+          de desayunar <br><br>
+          -Actua protegiendo las celulas <br>
+            contra el estres oxidativo <br><br>
+          -Ayuda a disminuir la fatiga <br>
+          general 
         </p>
-            <p>Texto 2</p>
-            <p>Texto 3</p>
           </div>
         </div>
+        <img src="../../../assets/Elipse 609.png" alt="Foto" class="bottom-left-image">
+        <img src="../../../assets/Elipse 610.png" alt="Foto Diagonal" class="diagonal-image">
+
+        <ion-tabs >
+
+          <ion-tab-bar slot="bottom">
+            <ion-tab-button tab="tab1">
+              <ion-icon aria-hidden="true" name="cart-outline" [routerLink]="['/mis-tratamientos3']"></ion-icon>
+            </ion-tab-button>
         
+            <ion-tab-button tab="tab2">
+              <ion-icon aria-hidden="true" name="home-outline" [routerLink]="['/home']"></ion-icon>
+            </ion-tab-button>
         
+            <ion-tab-button tab="tab3">
+              <ion-icon aria-hidden="true" name="person-outline"></ion-icon>
+            </ion-tab-button>
+          </ion-tab-bar>
+        
+        </ion-tabs>
       </div>
     </swiper-slide>
     <swiper-slide><div class="slide-background">
+      <div class="top-left-icons">
+        <ion-icon name="chevron-back-outline"></ion-icon>
+      </div>
+      <div class="top-right-icons">
+        <ion-icon name="close-outline" [routerLink]="['/ejemplo-foto']"></ion-icon>
+      </div>
+      <div class="slide-content">
+        <h1 class="slide-heading"><strong>Antes de la comida</strong></h1>
+        <hr class="slide-divider">
 
+        <div class="vertical-texts">
+          <p>Toma dos capsulas de Drenoavance <br>
+          1 hora antes de la comida <br><br><br>
+          Continene extractos de plantas <br>
+          diurecticas y hace que eliminemos<br>
+          los liquidos de forma mas rapida <br>
+          favoreciendo el proceso de <br>
+          eliminacion de toxinas. Ademas,<br>
+          son totalmente naturales
+      </p>
+        </div>
+      </div>
+      <img src="../../../assets/Elipse 609.png" alt="Foto" class="bottom-left-image">
+      <img src="../../../assets/Elipse 610.png" alt="Foto Diagonal" class="diagonal-image">
+
+      <ion-tabs >
+
+        <ion-tab-bar slot="bottom">
+          <ion-tab-button tab="tab1">
+            <ion-icon aria-hidden="true" name="cart-outline" [routerLink]="['/mis-tratamientos3']"></ion-icon>
+          </ion-tab-button>
+      
+          <ion-tab-button tab="tab2">
+            <ion-icon aria-hidden="true" name="home-outline" [routerLink]="['/home']"></ion-icon>
+          </ion-tab-button>
+      
+          <ion-tab-button tab="tab3">
+            <ion-icon aria-hidden="true" name="person-outline"></ion-icon>
+          </ion-tab-button>
+        </ion-tab-bar>
+      
+      </ion-tabs>
     </div>
 
     </swiper-slide>
+
+    
     
   </swiper-container>
+  
 </ion-content>
