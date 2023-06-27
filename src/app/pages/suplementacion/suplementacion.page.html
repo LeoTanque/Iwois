@@ -1,0 +1,40 @@
+
+<ion-content [fullscreen]="true">
+  <swiper-container
+  #swiper (slideChange)="swiperSlideChanged($event)"
+  [loop]="true"
+  [pagination]="true">>
+
+    <swiper-slide>
+      <div class="slide-background">
+        <div class="top-left-icons">
+          <ion-icon name="chevron-back-outline"></ion-icon>
+        </div>
+        <div class="top-right-icons">
+          <ion-icon name="close-outline" [routerLink]="['/ejemplo-foto']"></ion-icon>
+        </div>
+        <div class="slide-content">
+          <h1 class="slide-heading">Antes del desayuno</h1>
+          <hr class="slide-divider">
+
+          <div class="vertical-texts">
+            <p>Toma una capsula de Mitocondria <br>
+            Therasciencia 30 minutos antes <br>
+          de desayunar
+        </p>
+            <p>Texto 2</p>
+            <p>Texto 3</p>
+          </div>
+        </div>
+        
+        
+      </div>
+    </swiper-slide>
+    <swiper-slide><div class="slide-background">
+
+    </div>
+
+    </swiper-slide>
+    
+  </swiper-container>
+</ion-content>

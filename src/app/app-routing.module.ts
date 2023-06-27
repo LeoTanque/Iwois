@@ -126,6 +126,14 @@ const routes: Routes = [
   {
     path: 'ver-todo-progreso',
     loadChildren: () => import('./pages/ver-todo-progreso/ver-todo-progreso.module').then( m => m.VerTodoProgresoPageModule)
+  },
+  {
+    path: 'tratamiento-suplementacion',
+    loadChildren: () => import('./pages/tratamiento-suplementacion/tratamiento-suplementacion.module').then( m => m.TratamientoSuplementacionPageModule)
+  },
+  {
+    path: 'suplementacion',
+    loadChildren: () => import('./pages/suplementacion/suplementacion.module').then( m => m.SuplementacionPageModule)
   }
 
 
