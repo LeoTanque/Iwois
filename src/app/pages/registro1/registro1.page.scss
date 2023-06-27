@@ -1,9 +1,15 @@
+swiper-container{
+  height:100% ;
+  width: 100%;
+}
+
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
  // height: 100vh;
   height: 100%;
   justify-content: space-between;
+  
 }
 
 .top-section {
@@ -96,7 +102,7 @@
   background-color: #F6F0EC;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
-  height: 60%;
+  height: 50%;
 }
 
 .top-section-1 .text-content {
@@ -206,7 +212,6 @@
 }
 
 .div-superior {
-  height: 70%;
   background-color: #F6F0EC;
   display: flex;
   flex-direction: column;
@@ -216,18 +221,18 @@
   border-bottom-right-radius: 50px;
   opacity: 100%;
   flex: 1;
+  height: 70%;
 }
 
 .circulo {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #C4C2C2;
-  margin-top: 25%;
+  margin-top: 40%;
 }
 
 .circulo img {
@@ -262,19 +267,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
- // height: 30%;
+  height: 30%;
+ flex-direction: column;
+ background-color: #FFFFFF;
+ padding-bottom: 40%;
+ flex: 1;
+ //padding-bottom: 50px;
 }
 
 /*slide 5*/
 .circulo-5 {
   width: 100px;
   height: 100px;
- // border-radius: 50%;
-  //background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
- // background-color: #C4C2C2;
   margin-top: 25%;
 }
 
@@ -323,7 +330,7 @@ ion-datetime{
 }
 
 
-/*slide 7*/
+/*slide 7*/mnmnmmmmmmmmmmmmmmmmmmmmmmm
 .contain-7 {
   height: 100%;
   display: flex;
@@ -343,7 +350,6 @@ ion-datetime{
   border-bottom-right-radius: 50px;
   opacity: 100%;
   flex: 1;
-
 }
 
 .texto-7 {
@@ -359,11 +365,13 @@ ion-datetime{
 }
 
 .div-inferior-7 {
-  background-color: #FFFFFF;
+  //background-color: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 15px;
+  height: 15%;
+  padding-top: 20%;
 }
 
 /*slide 8*/

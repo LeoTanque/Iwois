@@ -6,8 +6,10 @@
     --background-position: center center;
     --background-size: 100%;
     --ion-safe-area-bottom: 0;
-    opacity: 100%;
+    opacity: 80%;
     height: 100%;
+    background-attachment: fixed; 
+    bottom: 0;
  
   }
   
@@ -16,7 +18,7 @@
     justify-content: center;
     margin-top: 70px;
     opacity: 80%;
-}
+} 
 
 .home-indicator {
   position: fixed;
@@ -26,6 +28,12 @@
   height: env(safe-area-inset-bottom);
   background-color: #000000;
   z-index: 9999;
+}
+
+@media screen and (max-width: 480px) {
+  .logo-container {
+    margin-top: 50px; /* Ajusta el margen superior según sea necesario para pantallas más pequeñas */
+  }
 }
   
   
