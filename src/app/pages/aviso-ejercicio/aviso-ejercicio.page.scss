@@ -15,6 +15,7 @@ ion-content{
     background-color: #00000029; 
     z-index: 9999;
     opacity: 100%;
+    overflow: hidden;
   }
   
 
@@ -25,11 +26,24 @@ ion-content{
     text-align: center;
     position: relative; /* Agregado para el posicionamiento relativo */
     opacity: 100%;
-    max-height: 100%;
+    max-height: 80vh;
     max-width: 90%;
-    height: 70vh;
+    height: auto;
+    overflow: auto;
+    padding-bottom: 20px;
+    overflow: hidden;
   }
   
+  .modal-image {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 50px; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+    transform: translateY(-50%);
+  }
+  
+
   
   .modal-content p {
     font-size: 16px;
@@ -41,14 +55,13 @@ ion-content{
     width: 234pt 72pt;
     height: 449pt 210pt;
     padding: 15px;
-
-    
   }
 
   .logo-container{
     align-items: center;
     margin-left: 60pt;
     padding: auto;
+  
     //margin-right: 50%;
   }
   
@@ -58,18 +71,15 @@ ion-content{
     color: #FFFFFF;
     border: none;
     border-radius: 20px; 
-    padding: 15px 70px;
+    padding: 10px 50px;
     cursor: pointer;
+    
   }
   
-  .close-button {
-    position: absolute;
-    top: 10px;
-    right: 5%;
-    font-size: 20px;
-    color: #000000;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    padding: auto;
+
+
+  .texto {
+    color: #83989A;
   }
+
+
