@@ -1,0 +1,259 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .top-section {
+    flex: 4;
+    position: relative;
+  }
+  
+  .background-image {
+    background-image: url("../../../assets/talla.png");
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+   // height: 40%;
+    height: 40vh;
+  }
+  
+  .top-overlay {
+   // position: absolute;
+   position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+
+  .back-icon {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    color: #666666;
+    font-size: 35px;
+   
+  }
+
+  .content-container {
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 300px;
+    margin-top: -20px;
+
+    
+  }
+  
+  .logo-container {
+    //flex: 1;
+    //text-align: left;
+    //padding-left: 16px;
+
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    max-height: 40px;
+    max-width: 80px;
+    margin-left: 20px;
+  }
+  
+
+  .bottom-section {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    overflow: auto;
+    height: calc(100% - 99px); /* Establece la altura de la sección inferior restando la altura de la sección superior */
+    overflow: auto;
+  }
+  
+  ion-tabs {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .profession-title {
+    color: #666666;
+  }
+  
+
+  .social-icons {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .social-icon {
+    margin-bottom: 5px;
+    color: #666666;
+    font-size: 24px;
+  }
+  
+
+  .subtitles-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .left-subtitle,
+  .right-subtitle {
+    color: #666666;
+    padding: 0 30px;
+  }
+  
+  .left-subtitle {
+    text-align: left;
+  }
+  
+  .right-subtitle {
+    text-align: right;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .about-me-button,
+  .treatments-button {
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: tolowercase;
+    font-weight: bold;
+
+    //padding: 12px 24px; /* Ajusta el espacio interno según sea necesario */
+  //font-size: 16px;
+  }
+  
+  .about-me-button {
+    background-color: #83989A;
+    color: #fff;
+  }
+  
+  .treatments-button {
+    background-color: #c3bcbc;
+    color: #83989A;
+    margin-left: 10px;
+  }
+
+  .location-container {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    //padding: 10px 20px;
+  }
+  
+  .location-container ion-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #83989A;
+  }
+  
+  .address-text {
+    color: #83989A;
+    font-size: 16px;
+  }
+
+  .location-container ion-icon,
+.phone-container ion-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #83989A;
+}
+
+.address-text,
+.phone-text {
+  color: #83989A;
+  font-size: 16px;
+}
+
+.phone-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+  
+  
+.location-container,
+.phone-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.location-container ion-icon,
+.phone-container ion-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #83989a;
+}
+
+.address-text,
+.phone-text {
+  color: #83989a;
+  font-size: 16px;
+}
+
+.phone-container {
+  margin-top: 0;
+}
+
+.additional-text {
+    text-align: left;
+    margin-left: 10px;
+    color: #666666;
+    opacity: 80%;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+ 
+  
+ 
+  
+  
+  
+  
+  
+  
+  

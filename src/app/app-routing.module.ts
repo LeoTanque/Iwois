@@ -138,6 +138,10 @@ const routes: Routes = [
   {
     path: 'tratamiento-ejercicio',
     loadChildren: () => import('./pages/tratamiento-ejercicio/tratamiento-ejercicio.module').then( m => m.TratamientoEjercicioPageModule)
+  },
+  {
+    path: 'perfil-medico',
+    loadChildren: () => import('./pages/perfil-medico/perfil-medico.module').then( m => m.PerfilMedicoPageModule)
   }
 
 

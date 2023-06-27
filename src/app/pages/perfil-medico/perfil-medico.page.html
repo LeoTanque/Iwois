@@ -1,0 +1,97 @@
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <div class="top-section">
+      <div class="background-image">
+        <div class="top-overlay">
+
+          <ion-icon name="chevron-back" class="back-icon"></ion-icon>
+
+          <div class="social-icons">
+            <ion-icon name="logo-whatsapp" class="social-icon"></ion-icon>
+            <ion-icon name="logo-facebook" class="social-icon"></ion-icon>
+            <ion-icon name="logo-instagram" class="social-icon"></ion-icon>
+          </div>
+
+          <div class="content-container">
+            <div class="logo-container">
+              <img src="../../../assets/Logo IWOIS.png" alt="Logo Iwois" class="logo-img">
+            </div>
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="bottom-section">
+      <h3 class="profession-title" [routerLink]="['/login']">Dra. Usuario Nytelweb</h3>
+      <div class="subtitles-container">
+            <span class="left-subtitle">Medico estetico</span>
+            <span class="right-subtitle">NCOL 000000</span>
+          </div>
+
+          <div class="button-container">
+            <button class="about-me-button">Sobre mi</button>
+            <button class="treatments-button">Tratamientos</button>
+          </div>
+          
+
+          
+          <div class="location-container">
+            <ion-icon name="location"></ion-icon>
+            <p class="address-text">Calle Oro 2, Jerez de la Frontera,<br>
+               Cádiz, España 08313</p>
+          </div>
+
+          <div class="location-container">
+            <ion-icon name="call"></ion-icon>
+            <p class="phone-text">+34 123456789 +34 000000000</p>
+          </div>
+
+          <div class="location-container">
+            <ion-icon name="mail-open"></ion-icon>
+            <p class="phone-text">Nytelweb@nytelweb.es</p>
+          </div>
+
+          <div class="location-container">
+            <ion-icon name="globe-outline"></ion-icon>
+            <p class="phone-text">www.nytelwebusuario.com</p>
+          </div>
+
+          <p class="additional-text">
+            Sed vitae a mi imprediet maximus <br>
+            Phaseilus vitae sem vitae leo fachivus <br>
+            consecutor, sed nuila mauris, dictum eject <br>
+            nisi sadales, fermentun agitis nunc <br>
+            Mauris nisin sapien maximus act metus sit <br>
+            amet pulvinar scelerisque lorem. Pain <br>
+            vitae eros at ante dictum matitis 
+          </p>
+          
+          
+    </div>
+
+
+  </div>
+
+  <ion-tabs >
+
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="tab1">
+        <ion-icon aria-hidden="true" name="cart-outline" [routerLink]="['/mis-tratamientos3']"></ion-icon>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="tab2">
+        <ion-icon aria-hidden="true" name="home-outline" [routerLink]="['/home']"></ion-icon>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="tab3">
+        <ion-icon aria-hidden="true" name="person-outline"></ion-icon>
+      </ion-tab-button>
+    </ion-tab-bar>
+  
+  </ion-tabs>
+</ion-content>
+
+
+
