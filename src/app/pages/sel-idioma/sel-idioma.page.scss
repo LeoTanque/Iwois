@@ -2,10 +2,29 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 150px;
     opacity: 80%;
 } 
+
+.country-options {
+  text-align: left;
+}
+
+.country-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.country-image {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+
+
 .container {
     display: flex;
     flex-direction: column;

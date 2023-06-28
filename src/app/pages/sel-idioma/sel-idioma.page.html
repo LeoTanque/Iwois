@@ -1,20 +1,32 @@
 <ion-content class="ion-padding background-image">
   <div class="container">
-    <div class="logo logo-container">
+    <div class="logo-container">
       <ion-img
         src="../../../assets/Logo IWOIS.png"
         alt="Logo" style="height: 60px; width: 110px;"
       > 
       </ion-img>
+     
     </div>
     <div class="text-container" style="margin-top: 70px;">
       <p>¿Dónde estás?</p>
       <p>Onde você está?</p>
     </div>
     <div class="country-options" style="margin-top: 50px;">
-      <p class="country-option">Portugal</p>
-      <p class="country-option">Brasil</p> 
-      <p class="country-option">España</p>
+      
+      <div class="country-option">
+        <img src="../../../assets/portugal.png" alt="Imagen" class="country-image">
+        <p>Portugal</p>
+      </div>
+      <div class="country-option">
+        <img src="../../../assets/brasil.png" alt="Imagen" class="country-image">
+        <p>Brasil</p>
+      </div>
+      <div class="country-option">
+        <img src="../../../assets/espana.png" alt="Imagen" class="country-image">
+        <p>España</p>
+      </div>
+    
     </div>
     <div class="button-container">
       <ion-button class="login" shape="round" expand="full" [routerLink]="['/welcome']" >Siguiente</ion-button>
