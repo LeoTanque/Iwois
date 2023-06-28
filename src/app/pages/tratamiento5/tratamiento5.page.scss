@@ -1,0 +1,60 @@
+
+
+
+  
+ 
+  .background-image{
+    background: #FFFFFF;
+  }
+
+  .modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro del modal */
+    z-index: 9999;
+    opacity: 100%;
+  }
+  
+  .modal-content{
+    background-color: #FFFFFF;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative; /* Agregado para el posicionamiento relativo */
+    opacity: 100%;
+  }
+  
+  
+  
+  .modal-content p {
+    font-size: 16px;
+    color: #666666;
+  }
+  
+  .continue-button {
+    margin-top: 10px;
+    background-color: #83989A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px; /* Ajusta el valor para los bordes redondeados */
+    padding: 10px 70px;
+    cursor: pointer;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    font-size: 20px;
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  

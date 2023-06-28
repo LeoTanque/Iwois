@@ -142,6 +142,14 @@ const routes: Routes = [
   {
     path: 'perfil-medico',
     loadChildren: () => import('./pages/perfil-medico/perfil-medico.module').then( m => m.PerfilMedicoPageModule)
+  },
+  {
+    path: 'tratamiento3',
+    loadChildren: () => import('./pages/tratamiento3/tratamiento3.module').then( m => m.Tratamiento3PageModule)
+  },
+  {
+    path: 'tratamiento5',
+    loadChildren: () => import('./pages/tratamiento5/tratamiento5.module').then( m => m.Tratamiento5PageModule)
   }
 
 
