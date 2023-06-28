@@ -1,7 +1,7 @@
 .logo-container {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 30%;
     opacity: 80%; 
 }
 
@@ -29,14 +29,15 @@ ion-button.login{
  
   ion-content {
     --background: url('../../../assets/foto.png') no-repeat center center fixed;
-    opacity: 50%;
+   
     background-color: #F6F0EC;
     --background-repeat: no-repeat;
     --background-position: center center;
     --background-size: 100%;
     --ion-safe-area-bottom: 0;
     
-
+    //f/ilter: brightness(0.8);
+    ///backdrop-filter: blur(10px); 
   }
    
   
