@@ -1,0 +1,61 @@
+<ion-content [fullscreen]="true"> 
+  
+  <div class="container">
+    <div class="background-color">
+      <div class="top-section-1">
+        <div class="centered-content">
+          <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img" [routerLink]="['/']">
+          
+        </div>
+        <ion-icon name="notifications-outline" [routerLink]="['/home']" class="notifications-icon" ></ion-icon>
+      </div>
+      <div class="bottom-section-1">
+       
+        <div class="text-content" >
+          <h5 class="custom-heading"><strong>Dra Usuario Nytelweb</strong></h5>
+          <p class="tex">
+            Medico estetico
+          </p>
+        </div>
+
+        <img src="../../../assets/pomada.png" alt="Imagen" class="custom-image">
+        <h6 class="custom-subheading">Crema facial</h6>
+
+        <p class="custom-text">
+          Sed vitae velit a mi imperdiet maximus. <br>
+           Phasellus vitae sem vitae leo faucibus <br>
+          consectetur. Sed nulla mauris, dictumeget <br>
+           nisi sodales, fermentum sagittis nunc. <br>
+            Mauris nisi sapien.
+        </p>
+         
+
+        <button class="custom-button">Solicitar Información</button>
+
+
+      </div>
+    </div>
+   
+</div>
+
+ 
+</ion-content>
+<ion-tabs >
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="tab1">
+      <ion-icon aria-hidden="true" name="cart-outline" [routerLink]="['/mis-tratamientos3']"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab2">
+      <ion-icon aria-hidden="true" name="home-outline" [routerLink]="['/home']"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab3">
+      <ion-icon aria-hidden="true" name="person-outline"></ion-icon>
+    </ion-tab-button>
+  </ion-tab-bar>
+
+</ion-tabs>
+
+

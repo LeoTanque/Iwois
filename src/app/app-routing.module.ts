@@ -150,6 +150,10 @@ const routes: Routes = [
   {
     path: 'tratamiento5',
     loadChildren: () => import('./pages/tratamiento5/tratamiento5.module').then( m => m.Tratamiento5PageModule)
+  },
+  {
+    path: 'tratamiento4',
+    loadChildren: () => import('./pages/tratamiento4/tratamiento4.module').then( m => m.Tratamiento4PageModule)
   }
 
 
