@@ -154,6 +154,10 @@ const routes: Routes = [
   {
     path: 'tratamiento4',
     loadChildren: () => import('./pages/tratamiento4/tratamiento4.module').then( m => m.Tratamiento4PageModule)
+  },
+  {
+    path: 'home-profesional',
+    loadChildren: () => import('./pages/home-profesional/home-profesional.module').then( m => m.HomeProfesionalPageModule)
   }
 
 
