@@ -1,9 +1,43 @@
-
 <ion-content [fullscreen]="true" class="ion-padding background-image">
   <div class="background-image"></div>
 
   <div class="top-section">
     <img src="../../../assets/Logo IWOIS.png" alt="Logo IWOIS" class="logo-img">
-    <ion-icon name="notifications-outline" class="notifications-icon" [routerLink]="['/emergente-inicio-sesion']"></ion-icon>
+    <ion-icon name="notifications-outline" class="notifications-icon"  (click)="navigateTo('/emergente-inicio-sesion')" ></ion-icon>
   </div>
+
+  <div class="modal-container">
+    <div class="modal-content">
+      <button class="modal-button primary-button">Mis pacientes</button>
+      <button class="modal-button" style="color: #666666;">Mis tratamientos</button>
+      <button class="modal-button" style="color: #666666;">Asignar consejos</button>
+      <button class="modal-button" style="margin-bottom: 60px; color: #666666;">Enviar difusion</button>
+    </div>
+  </div>
+  
+
 </ion-content>
+
+
+<div class="tabs-container">
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="home" (click)="navigateTo('/home')">
+        <ion-icon name="cart-outline"></ion-icon>
+        
+      </ion-tab-button>
+      <ion-tab-button tab="notification" (click)="navigateTo('/')">
+        <ion-icon name="home-outline"></ion-icon>
+        
+      </ion-tab-button>
+      <ion-tab-button tab="chat" (click)="navigateTo('/')">
+        <ion-icon name="chatbubble-outline"></ion-icon>
+        
+      </ion-tab-button>
+      <ion-tab-button tab="profile" (click)="navigateTo('/')">
+        <ion-icon name="person-outline"></ion-icon>
+        
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</div>

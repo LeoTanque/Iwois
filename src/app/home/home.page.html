@@ -1,46 +1,39 @@
+<ion-content [fullscreen]="true" class="ion-padding background-image">
+  <div class="background-image"></div>
 
+  <div class="top-section">
+    <img src="../../../assets/Logo IWOIS.png" alt="Logo IWOIS" class="logo-img">
+    <ion-icon name="notifications-outline" class="notifications-icon"  (click)="navigateTo('/emergente-inicio-sesion')" ></ion-icon>
+  </div>
 
-<ion-content [fullscreen]="true">
+  <div class="modal-container">
+    <div class="modal-content">
+      <button class="modal-button primary-button">Mis tratamientos</button>
+      <button class="modal-button" style="color: #666666; margin-bottom: 80px;" (click)="navigateTo('/busqueda')">Buscar</button>
+      
+    </div>
+  </div>
   
-  <ion-content class="ion-padding background-image">
-    <div class="container" style="margin-left: 20px;">
-      <div class="logo logo-container" >
-        <ion-img
-          src="../../../assets/Logo IWOIS.png"
-          alt="Logo" style="height: 60px; width: 110px;"
-        >
-        </ion-img>
-      </div>
-      <div class="notification-container">
-        <ion-icon name="notifications-outline" class="notification-icon" [routerLink]="['/notificaciones']">x</ion-icon>
-      </div>
-    </div>
-
-    <div class="home-indicator"></div>
-    <div style="margin-top: 450px; display: flex; flex-direction: column; 
-    align-items: center; width: 80%; margin-left: 10%;">
-      <div class="button-container" style="margin-top: 10px;">
-        <ion-button class="login" shape="round" expand="full">Mis tratamientos</ion-button>
-        <ion-button class="botton" shape="round" expand="full">Buscar</ion-button>
-      </div>
-    </div>
-  </ion-content>
 
 </ion-content>
-<ion-tabs>
 
-  <ion-tab-bar slot="bottom">
-    <ion-tab-button tab="tab1">
-      <ion-icon aria-hidden="true" name="cart-outline"  [routerLink]="['/emergente-inicio-sesion']"></ion-icon>
-    </ion-tab-button>
 
-    <ion-tab-button tab="tab2">
-      <ion-icon aria-hidden="true" name="home-outline"></ion-icon>
-    </ion-tab-button>
-
-    <ion-tab-button tab="tab3">
-      <ion-icon aria-hidden="true" name="person-outline" [routerLink]="['/emergente-inicio-sesion']"></ion-icon>
-    </ion-tab-button>
-  </ion-tab-bar>
-
-</ion-tabs>
+<div class="tabs-container">
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="home" (click)="navigateTo('/home')">
+        <ion-icon name="cart-outline"></ion-icon>
+        
+      </ion-tab-button>
+      <ion-tab-button tab="notification" (click)="navigateTo('/')">
+        <ion-icon name="home-outline"></ion-icon>
+        
+      </ion-tab-button>
+    
+      <ion-tab-button tab="profile" (click)="navigateTo('/')">
+        <ion-icon name="person-outline"></ion-icon>
+        
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</div>
