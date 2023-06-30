@@ -119,7 +119,8 @@ const routes: Routes = [
   {
     path: 'ru-tratamientos',
     loadChildren: () => import('./pages/ru-tratamientos/ru-tratamientos.module').then( m => m.RuTratamientosPageModule)
-  },  {
+  },
+  {
     path: 'ru-tratamientos-progreso',
     loadChildren: () => import('./pages/ru-tratamientos-progreso/ru-tratamientos-progreso.module').then( m => m.RuTratamientosProgresoPageModule)
   },
@@ -162,7 +163,8 @@ const routes: Routes = [
   {
     path: 'servicios-adicionales',
     loadChildren: () => import('./pages/servicios-adicionales/servicios-adicionales.module').then( m => m.ServiciosAdicionalesPageModule)
-  }
+  },
+
 
 
 ];

@@ -1,3 +1,26 @@
+ion-content {
+  position: relative;
+}
+
+.background-image {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../assets/foto.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  //opacity: 0.5;
+  backdrop-filter: blur(60px); /* Agrega el efecto de desenfoque */
+  z-index: -1; /* Coloca la imagen de fondo detrás del contenido */
+  filter: brightness(0.8);
+}
+
+
+
+
 .logo-container {
     display: flex;
     justify-content: center;

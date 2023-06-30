@@ -14,23 +14,23 @@
       <button class="modal-button" style="margin-bottom: 60px; color: #666666;">Enviar difusion</button>
     </div>
   </div>
-  
+   
 
 </ion-content>
 
 
 <div class="tabs-container">
   <ion-tabs>
-    <ion-tab-bar slot="bottom">
+    <ion-tab-bar slot="bottom"  class="custom-tab-bar">
       <ion-tab-button tab="home" (click)="navigateTo('/home')">
         <ion-icon name="cart-outline"></ion-icon>
         
       </ion-tab-button>
-      <ion-tab-button tab="notification" (click)="navigateTo('/')">
+      <ion-tab-button tab="notification" (click)="navigateTo('/')"  class="elevated-tab">
         <ion-icon name="home-outline"></ion-icon>
         
       </ion-tab-button>
-      <ion-tab-button tab="chat" (click)="navigateTo('/')">
+      <ion-tab-button tab="chat" (click)="navigateTo('/')"  >
         <ion-icon name="chatbubble-outline"></ion-icon>
         
       </ion-tab-button>
