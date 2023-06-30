@@ -158,6 +158,10 @@ const routes: Routes = [
   {
     path: 'home-profesional',
     loadChildren: () => import('./pages/home-profesional/home-profesional.module').then( m => m.HomeProfesionalPageModule)
+  },
+  {
+    path: 'servicios-adicionales',
+    loadChildren: () => import('./pages/servicios-adicionales/servicios-adicionales.module').then( m => m.ServiciosAdicionalesPageModule)
   }
 
 

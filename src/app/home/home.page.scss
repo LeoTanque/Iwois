@@ -55,6 +55,12 @@ ion-content {
   width: 80%;
  // height: 100%;
 
+ display: flex;
+ flex-direction: column;
+
+
+ align-items: flex-start;
+
 }
 
 .modal-button {
@@ -71,7 +77,13 @@ ion-content {
   margin-bottom: 30px;
   font-size: 16px;
   width: 70%;
+
+
+
+ 
 }
+
+
 
 .modal-button.primary-button {
   background-color: #83989A;
@@ -85,5 +97,17 @@ ion-content {
 
 
   
+.modal-icon-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; /* Ajusta el margen entre la imagen y el botón */
   
+}
+
+.modal-icon {
+  width: 24px; /* Ajusta el ancho de la imagen */
+  height: 24px; /* Ajusta la altura de la imagen */
+  margin-right: 5px; /* Ajusta el margen derecho de la imagen */
+}
  
+
