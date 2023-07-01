@@ -1,0 +1,51 @@
+ion-content {
+    position: relative;
+  }
+  
+  .background-image {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../assets/foto.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.2;
+    z-index: -1; /* Coloca la imagen de fondo detrás del contenido */
+    backdrop-filter: blur(50px);  
+    filter: brightness(0.8);
+  }
+  
+  ion-content.background-image{
+    background: #F6F0EC;
+    opacity: 100%;
+  } 
+  
+
+
+  .container {
+    position: relative;
+  }
+
+  ion-select {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  
+  .logo-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20%;
+      opacity: 80%; 
+      
+  }
+  
+ 
+    
+    
+    
+    
