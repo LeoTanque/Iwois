@@ -1,25 +1,27 @@
 
 
-  ion-content{
-    --background: url('../../../assets/foto.png') no-repeat center center fixed;
-    background: #FFFFFF;
-    --background-repeat: no-repeat;
-    --background-position: center center;
-    --background-size: cover;
-    --ion-safe-area-bottom: 0;
-    opacity: 100%;
-  }
+ 
 
+
+
+  ion-content {
+    position: relative;
+  }
+  
   .background-image {
-   // background: #F6F0EC;
-    backdrop-filter: blur(10px); /* Agrega el efecto de desenfoque */
-    position: absolute;
+    position: absolute; 
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    background-image: url('../../../assets/hprof.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
     z-index: -1; /* Coloca la imagen de fondo detrás del contenido */
-    filter: brightness(0.8);
+    filter: brightness(0.1);
+    backdrop-filter: blur(50px);
   }
  
   ion-content.background-image{
@@ -38,7 +40,7 @@
     //background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro del modal */
     z-index: 9999;
     opacity: 100%;
-    margin-top: 20%;
+   // margin-top: 10%;
    
   }
   
