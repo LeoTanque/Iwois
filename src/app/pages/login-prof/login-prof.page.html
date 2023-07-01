@@ -18,7 +18,40 @@
       </ion-img>
     </div>
     
-     
+
+    <!--div  style="margin-top: 40%; display: flex; flex-direction: column; align-items: center; width: 80%; margin-left: 10%; height: 40%;">
+      <ion-input class="rounded-input" label="Prefijo" label-placement="floating" fill="outline" placeholder=""></ion-input><br>
+      <ion-input class="rounded-input" label="(00)Teléfono" label-placement="floating" fill="outline" placeholder=""></ion-input><br>
+      <ion-input class="rounded-input" label="Contraseña" label-placement="floating" fill="outline" placeholder=""></ion-input>
+      <p>Consulta la política de privacidad <br> y los términos y condiciones.</p>
+      <ion-button class="login" shape="round" expand="full">Iniciar sesión</ion-button>
+      <p [routerLink]="['/recuperar-contrasena']">Olvidé mi contraseña</p>
+      <p>Aún no tengo cuenta, <a [routerLink]="['/registro1']">Regístrame</a></p>
+    </div-->
+    <div class="inputs" >
+      <ion-item>
+        <ion-icon name="chevron-down" slot="start"></ion-icon>
+        <ion-label position="floating">Prefijo</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="call-outline" slot="start"></ion-icon>
+        <ion-label position="floating">Contraseña</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="lock-closed-outline" slot="start"></ion-icon>
+        <ion-label position="floating">Contraseña</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+    </div> 
+    <div class="contenido">
+      <p>Consulta la política de privacidad <br> y los términos y condiciones.</p>
+      <ion-button class="login" shape="round" expand="full">Iniciar sesión</ion-button>
+      <p [routerLink]="['/recuperar-contrasena']">Olvidé mi contraseña</p>
+      <p class="ultimo">Aún no tengo cuenta, <a [routerLink]="['/registro1']">Regístrame</a></p>
+    </div>
+  
     
   </div>
 </ion-content>
