@@ -4,10 +4,6 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
  
   {
-    path: 'login',
-    loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
-  },
-  {
     path: '',
     loadChildren: () => import('./pages/landing/landing.module').then( m => m.LandingPageModule)
   },
@@ -163,7 +159,8 @@ const routes: Routes = [
   {
     path: 'servicios-adicionales',
     loadChildren: () => import('./pages/servicios-adicionales/servicios-adicionales.module').then( m => m.ServiciosAdicionalesPageModule)
-  },  {
+  },
+  {
     path: 'login-prof',
     loadChildren: () => import('./pages/login-prof/login-prof.module').then( m => m.LoginProfPageModule)
   },
