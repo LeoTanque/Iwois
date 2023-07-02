@@ -31,7 +31,7 @@
     justify-content: center;
     align-items: center;
     height: 80vh;
-  }
+  } 
 .text-container {
     text-align: center;
     color:#666666;
@@ -58,12 +58,19 @@ ion-button.login{
   }
 
   .country-option {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #707070;
     padding-bottom: 5px;
-    width: 250px;
+    width: 180px;
     color: #808080;
     opacity: 100%;
     align-items: center;
-    
+  
+  }
+
+  .country-image {
+    margin-right: 20px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
   }
   
