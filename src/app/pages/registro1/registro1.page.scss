@@ -350,7 +350,8 @@ ion-datetime{
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   opacity: 100%;
-  flex: 1;
+ // flex: 1;
+  
 }
 
 .texto-7 {
@@ -373,6 +374,7 @@ ion-datetime{
   padding: 15px;
   height: 15%;
   padding-top: 20%;
+  padding-bottom: 20px;
 }
 
 /*slide 8*/
@@ -380,6 +382,7 @@ ion-list{
   background-color: #F6F0EC;
   color: #707070;
   opacity: 70%;
-  height: 30%;
+  height: 100%;
   margin-top: 30px;
+ 
 }
