@@ -7,7 +7,7 @@
           <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img">
         </div>
         <div class="notification-container">
-          <ion-icon name="notifications-outline" class="notification-icon"></ion-icon>
+          <ion-icon name="notifications-outline" class="notification-icon" [routerLink]="['/notificaciones']"></ion-icon>
         </div> 
       </div>
       <div class="bottom-section">
@@ -23,16 +23,16 @@
           </div>
           <div class="option">
             <ion-icon name="lock-closed-outline" class="option-icon"></ion-icon>
-            <p class="option-text">Cambiar contraseña</p>
+            <p class="option-text"   [routerLink]="['/cambiar-contrsena']">Cambiar contraseña</p>
           </div>
           <div class="option">
             <ion-icon name="power-outline" class="option-icon"></ion-icon>
-            <p class="option-text">Cerrar sesión</p>
+            <p class="option-text" [routerLink]="['/cerrar-sesion']">Cerrar sesión</p>
           </div>
           
         </div>
         <div class="delete-account">
-          <p class="delete-text">Eliminar cuenta</p>
+          <p class="delete-text" [routerLink]="['/eliminar-cuenta']">Eliminar cuenta</p>
           <ion-icon name="person" class="delete-icon"></ion-icon>
           
         </div>                     
@@ -42,23 +42,23 @@
       </div>
     
 </div>
-<ion-tabs>
 
-  <ion-tab-bar slot="bottom">
-    <ion-tab-button tab="tab1">
-      <ion-icon aria-hidden="true" name="cart-outline" [routerLink]="['/mis-tratamientos3']"></ion-icon>
-    </ion-tab-button>
-
-    <ion-tab-button tab="tab2">
-      <ion-icon aria-hidden="true" name="home-outline" [routerLink]="['/home']"></ion-icon>
-    </ion-tab-button>
-
-    <ion-tab-button tab="tab3">
-      <ion-icon aria-hidden="true" name="person-outline" ></ion-icon>
-    </ion-tab-button>
-  </ion-tab-bar>
-
-</ion-tabs>
   
 </ion-content>
 
+<ion-tabs >
+  <ion-tab-bar slot="bottom" class="custom-tab-bar">
+    <ion-tab-button tab="cart">
+      <ion-icon name="cart-outline"></ion-icon>
+    </ion-tab-button>
+ 
+    <ion-tab-button tab="notification" class="elevated-tab">
+      <ion-icon name="home-outline"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="profile">
+      <ion-icon name="person-outline"></ion-icon>
+    </ion-tab-button>
+   
+  </ion-tab-bar>
+</ion-tabs>
