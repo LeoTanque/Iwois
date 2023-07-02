@@ -60,6 +60,8 @@ swiper-container{
     margin-bottom: 20px;
     color: #666666;
   }
+
+  
   
   .location-content p {
     margin-right: 10px;
@@ -171,6 +173,12 @@ swiper-container{
   
   }
   
+
+  h6{
+    text-align: left;
+    color: #666666;
+    margin-right: 50%;
+  }
   
   /*slide 3*/
   
@@ -419,4 +427,60 @@ swiper-container{
   
   ion-item{
     padding: 5px;
+  }
+
+
+  .ubicacion {
+    display: flex;
+    align-items: center;
+    color: #666666;
+    margin-top: 20px;
+  }
+  
+  .ubicacion ion-icon {
+    margin-left: 10px;
+    font-size: 30px;
+    
+  }
+  
+  .direccion {
+    text-align: center;
+    margin-top: 20px;
+    color: #8F8F8F;
+  }
+  
+  .boton {
+    background-color: #83989A;
+    color: white;
+    border-radius: 30px;
+    padding: 15px 30px;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 20%;
+    font-size: 15px;
+    
+  }
+  
+
+.logo-imagen{
+    margin-top: 40%;
+height: 40px;
+}
+
+.textonic{
+margin-top: 40px;
+color: #666666;
+  }
+
+  .inp {
+    margin-top: 20px;
+    margin-bottom: 5%;
+    width: 60%;
+  }
+  
+  .inp ion-item {
+    margin-bottom: 1%;
+    border-radius: 30px;
+    color: #666666;
   }
