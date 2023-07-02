@@ -1,0 +1,322 @@
+<ion-content>
+  <swiper-container
+  #swiper (slideChange)="swiperSlideChanged($event)"
+  [loop]="true"
+  [pagination]="true">
+
+  <swiper-slide class="custom-slide">
+    <div class="container">
+      <div class="background-color">
+        <div class="top-section-1">
+          <div class="centered-content">
+            <img src="../../../assets/Logo IWOIS.png" alt="Logo" style="height: 40px; width: 110px; margin-top: 10%;">
+            <div class="text-content" >
+              <h5 style="text-align: left;">Registrate</h5>
+            </div>
+            <p class="color">A partir de este momento, tu usuario <br> 
+              será tu número de teléfono.</p>
+             
+              <!--div class="input-group">
+                <ion-input class="rounded-input-small" label="+34" label-placement="floating" fill="outline"></ion-input>
+                <ion-input class="rounded-input-large"  label="Teléfono" label-placement="floating" fill="outline"></ion-input>
+              </div-->
+
+              <div class="input-group">
+                <input class="rounded-input-small" type="text" placeholder="+34">
+                <input class="rounded-input-large" type="text" placeholder="Teléfono">
+              </div>
+
+
+          </div>
+        </div>
+        <div class="bottom-section-1">
+          <div class="location-content">
+            
+            <ion-button class="login-1" shape="round" expand="full">Enviar SMS</ion-button>
+          </div>
+        </div>
+      </div>
+  
+  </div>
+  </swiper-slide> 
+
+
+
+  <swiper-slide class="custom-slide slide3">
+    <div class="container">
+      <div class="background-color">
+        <div class="top-section-1">
+          <div class="centered-content">
+            <img src="../../../assets/Logo IWOIS.png" alt="Logo" style="height: 40px; width: 110px; margin-top: 10%;">
+            <div class="text-content" >
+              <h5 style="text-align: left;">Verificacion</h5>
+            </div>
+            <p class="color">Te llegará un código de verificación por <br> SMS, introdúcelo aquí: <br></p>
+            <div class="input-group-1">
+              <ion-input class="rounded-input-small-1" label-placement="floating" fill="outline"></ion-input>
+              <ion-input class="rounded-input-small-1" label-placement="floating" fill="outline"></ion-input>
+              <ion-input class="rounded-input-small-1" label-placement="floating" fill="outline"></ion-input>
+              <ion-input class="rounded-input-small-1" label-placement="floating" fill="outline"></ion-input>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-section-1">
+          <div class="location-content">
+            
+            <ion-button class="login-1" shape="round" expand="full">Confirmar</ion-button>
+          </div>
+        </div>
+      </div>
+  
+  </div>
+  </swiper-slide>
+
+
+
+
+  <swiper-slide class="hoja-4">
+    <div class="containerss">
+      <div class="div-superior"> 
+        <div class="circulo">
+          <ion-icon class="img" name="camera"></ion-icon>
+        </div>
+        <div class="texto" style="text-align: left;">
+          <h3>Datos personales</h3>
+        </div>
+        <div class="inputs">
+          <ion-item>
+            <ion-icon name="person-outline" slot="start"></ion-icon>
+            <ion-label position="floating">Nombre</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="person-outline" slot="start"></ion-icon>
+            <ion-label position="floating">Apellidos</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+        </div>
+      </div>
+      <div class="div-inferior">
+        <ion-button class="login" shape="round" expand="full" style="margin-top: 90%;">Continuar</ion-button>
+      </div>
+    </div>
+  </swiper-slide>
+
+
+
+  <swiper-slide class="hoja-5">
+    <div class="containerss">
+      <div class="div-superior">
+        <div class="circulo-5">
+          <img src="../../../assets/candado.png" alt="Imagen">
+        </div>
+        <div class="texto-5" style="text-align: left;">
+          <h3>Contacto</h3>
+        </div>
+        <div class="inputs">
+          <ion-item>
+            <ion-icon name="mail-outline" slot="start"></ion-icon>
+            <ion-label position="floating">E-mail</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="lock-closed-outline" slot="start"></ion-icon>
+            <ion-label position="floating">Contraseña</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="lock-closed-outline" slot="start"></ion-icon>
+            <ion-label position="floating">Confirmar contraseña</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+        </div>
+      </div>
+      <div class="div-inferior">
+        <ion-button class="login" shape="round" expand="full" style="margin-top: 90%;">Continuar</ion-button>
+      </div>
+    </div>
+  </swiper-slide>
+
+
+
+
+  <swiper-slide class="hoja-4">
+    <div class="containerss">
+      <div class="div-superior"> 
+        <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img" >
+       
+        <div class="texto" style="text-align: center;">
+          <h2>¿Cuál es tu profesion?</h2>
+        </div>
+        <div class="inputs" style="width: 80%;">
+          <ion-item>
+            <ion-icon name="person-outline" slot="start"></ion-icon>
+            <ion-label position="floating">Profesion</ion-label>
+            <ion-select  label-placement="stacked" interface="popover" style="border-radius: 20px;">
+              <ion-select-option value="apple">Traumatologo</ion-select-option>
+              <ion-select-option value="banana">Medico Estetico</ion-select-option>
+              <ion-select-option value="orange">Ginecologo</ion-select-option>
+              <ion-select-option value="orange">Cirujano</ion-select-option>
+            </ion-select>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="person-outline" slot="start"></ion-icon>
+            <ion-label position="floating">Especialidad</ion-label>
+            <ion-select  label-placement="stacked" interface="popover" style="border-radius: 20px;">
+              <ion-select-option value="apple">Apple</ion-select-option>
+              <ion-select-option value="banana">Banana</ion-select-option>
+              <ion-select-option value="orange">Orange</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </div>
+
+    
+      </div>
+      <div class="div-inferior">
+        <ion-button class="login" shape="round" expand="full" style="margin-top: 90%;">Continuar</ion-button>
+      </div>
+    </div>
+  </swiper-slide>
+
+  <swiper-slide class="hoja-4">
+    <div class="containerss">
+      <div class="div-superior"> 
+        <div class="circulo">
+          <ion-icon class="img" name="camera"></ion-icon>
+        </div>
+        <div class="texto" style="text-align: left;">
+          <h3>Datos personales</h3>
+        </div>
+        <div class="inputs">
+          <ion-item>
+            <ion-icon name="person-outline" slot="start"></ion-icon>
+            <ion-label position="floating">Nombre</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="person-outline" slot="start"></ion-icon>
+            <ion-label position="floating">Apellidos</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+        </div>
+      </div>
+      <div class="div-inferior">
+        <ion-button class="login" shape="round" expand="full" style="margin-top: 90%;">Continuar</ion-button>
+      </div>
+    </div>
+  </swiper-slide>
+
+
+    <swiper-slide>
+       <div class="container">
+        <div class="background-color">
+          <div class="top-section">
+            <div class="centered-content">
+              <img src="../../../assets/mundo123.png" alt="Imagen">
+              <div class="texto" >
+                <h1 style="text-align: left;">¿Dónde está tu consulta?</h1>
+              </div>
+             
+              <ion-item  class="borde">
+      
+                <ion-input placeholder="Direccion" ></ion-input>
+              </ion-item>
+            </div>
+          </div>
+          <div class="bottom-section">
+            <div class="location-content">
+              <p>Utilizar mi ubicación actual</p>
+              <ion-icon name="location"></ion-icon>
+              
+              <ion-button  class="login" shape="round" expand="full">Continuar</ion-button>
+            </div>
+          </div>
+        </div>
+    
+    </div>
+  </swiper-slide>
+
+
+   
+
+
+
+
+
+
+   
+
+    <swiper-slide class="hoja-6">
+            <div class="div-superior-6">
+              <h3 class="texto-6">¿Cuál es tu fecha de <br> nacimiento?</h3>
+              <ion-item class="input-container-6">
+                <ion-icon name="calendar-number-outline" slot="start"></ion-icon>
+                <ion-label position="floating">DD/MM/AAAA</ion-label>
+                <ion-input></ion-input>
+              </ion-item>
+            </div>
+            <div class="div-inferior-6">
+              <ion-datetime presentation="date"></ion-datetime>
+              <ion-button class="login" shape="round" expand="full" style="border-radius: 50px;">Continuar</ion-button>
+            </div>
+    </swiper-slide>
+    
+
+    <swiper-slide class="hoja-7">
+    <div class="contain-7">
+      <div class="div-superior-7" style="height: 70%;">
+        <div class="circulo-5">
+          <img src="../../../assets/estrellas.png" alt="Imagen">
+        </div>
+        <div class="texto-7" style="text-align: center;">
+          <h5>Haz leido y aceptas la <br> politica de privacidad?</h5>
+
+          <p style="text-align: left; margin-bottom: 5px; padding: 15px;">
+            El objetivo de nuestra Política de Privacidad <br> es informarte sobre qué datos recogemos, <br>
+             por qué los recogemos y cómo puedes <br> actualizarlos, gestionarlos, exportarlos y <br> eliminarlos.
+          </p>
+          <a class="ruta" href="">Politica de Privacidad</a>
+        </div>
+        <div class="div-inferior-7">
+          <ion-button class="login" shape="round" expand="full" style="margin-top: 70%;">Continuar</ion-button>
+          
+        </div>
+      </div>
+    </div>
+    </swiper-slide>
+
+
+    <swiper-slide>
+      <div class="contain-7">
+        <div class="div-superior-7" style="height: 70%;">
+          <div class="circulo-5">
+            <img src="../../../assets/campana.png" alt="Imagen">
+          </div>
+          <div class="texto-7" style="text-align: center;">
+            <h5>¿Que tipo de notificaciones<br> quieres recibir?</h5>
+  
+            <ion-list>
+              <ion-item>
+                <ion-toggle>Todos</ion-toggle>
+              </ion-item>
+              <ion-item>
+                <ion-toggle>Relacionados con mis <br> tratamientos</ion-toggle>
+              </ion-item>
+              <ion-item>
+                <ion-toggle>Notificaciones directas <br> de mi profesional de la salud</ion-toggle>
+              </ion-item>
+            </ion-list>
+            
+          </div>
+          <div class="div-inferior-7">
+            <ion-button class="login" shape="round" expand="full" style="margin-top: 70%;" [routerLink]="['/registro-aviso']">Continuar</ion-button>
+            
+          </div>
+        </div>
+      </div>
+    </swiper-slide>
+
+
+  </swiper-container>
+</ion-content>
+

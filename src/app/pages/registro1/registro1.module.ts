@@ -9,7 +9,7 @@ import { Registro1PageRoutingModule } from './registro1-routing.module';
 import { Registro1Page } from './registro1.page';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 @NgModule({
-  imports: [
+  imports: [ 
     CommonModule,
     FormsModule,
     IonicModule,

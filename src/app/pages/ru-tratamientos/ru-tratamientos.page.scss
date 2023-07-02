@@ -1,3 +1,9 @@
+.container {
+  height: calc(100vh - 49px); /* Resta la altura de las tabs para que el contenido se ajuste correctamente */
+  overflow-y: auto; /* Permite que el contenido se deslice verticalmente si no cabe en la pantalla */
+}
+
+
 .top-section-1 {
     flex: 1;
     display: flex;
@@ -45,7 +51,11 @@
     flex: 1;
     //height: 80vh;
     height: calc(100% - 99px); /* Establece la altura de la sección inferior restando la altura de la sección superior */
-    overflow: auto;
+    //overflow: auto;
+
+    overflow-y: auto;
+
+ 
   }
 
   .custom-heading {
@@ -139,10 +149,16 @@
 
 
   ion-tabs {
-    position: relative;
+    //position: relative;
     bottom: 0;
     width: 100%;
     margin-top: 20px;
+
+
+
+    position: sticky;
+  
+    z-index: 1;
   }
   
 

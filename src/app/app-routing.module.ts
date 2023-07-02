@@ -163,7 +163,11 @@ const routes: Routes = [
   {
     path: 'login-prof',
     loadChildren: () => import('./pages/login-prof/login-prof.module').then( m => m.LoginProfPageModule)
+  },  {
+    path: 'registro-profesional',
+    loadChildren: () => import('./pages/registro-profesional/registro-profesional.module').then( m => m.RegistroProfesionalPageModule)
   },
+
 
 
 
