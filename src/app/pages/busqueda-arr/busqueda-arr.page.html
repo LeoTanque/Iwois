@@ -5,11 +5,12 @@
   <div class="container">
     <div class="background-color">
       <div class="top-section-1">
+        <ion-icon name="chevron-back" class="back-icon"></ion-icon>
         <div class="centered-content"> 
           <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img" [routerLink]="['/']">
           
         </div>
-        <ion-icon name="notifications-outline" [routerLink]="['/home']" class="notifications-icon" ></ion-icon>
+        <ion-icon name="notifications-outline" [routerLink]="['/emergente-inicio-sesion']" class="notifications-icon" ></ion-icon>
       </div>
       <div class="bottom-section-1">
         <ion-searchbar placeholder="Buscar"></ion-searchbar>
@@ -48,17 +49,17 @@
         </div-->
 
         <div class="map-container">
-          <img src="../../../assets/maposo.png" alt="Mapa" class="map-image">
-          <div class="icon-container">
+          <img src="../../../assets/mapa4.png" alt="Mapa" class="map-image">
+          <!--div class="icon-container">
             <ion-icon name="location-sharp"></ion-icon>
             <ion-icon name="refresh-circle-outline"></ion-icon>
-          </div> 
-        <div class="center-marker">
+          </div--> 
+        <!--div class="center-marker">
     <ion-icon name="location" ></ion-icon>
     <img src="../../../assets/ubi.png" alt="Foto" class="location-photo">
-    <img src="../../../assets/ubi.png" alt="Foto" class="location-photo">
-    <img src="../../../assets/ubi.png" alt="Foto" class="location-photo">
-  </div>
+    <img src="../../../assets/ubi.png" alt="Foto" class="location-photo photo2">
+    <img src="../../../assets/ubi.png" alt="Foto" class="location-photo photo3">
+  </div-->
  
         </div>
 
@@ -73,21 +74,21 @@
     </ion-item> 
 </div>
 
- 
+  
 </ion-content>
 
 <ion-tabs >
   <ion-tab-bar slot="bottom" class="custom-tab-bar">
     <ion-tab-button tab="cart">
-      <ion-icon name="cart-outline"></ion-icon>
+      <ion-icon name="cart-outline"  [routerLink]="['/emergente-inicio-sesion']"></ion-icon>
     </ion-tab-button>
  
     <ion-tab-button tab="notification" class="elevated-tab">
-      <ion-icon name="home-outline"></ion-icon>
+      <ion-icon name="home-outline" [routerLink]="['/home']"></ion-icon>
     </ion-tab-button>
 
     <ion-tab-button tab="profile">
-      <ion-icon name="person-outline"></ion-icon>
+      <ion-icon name="person-outline" [routerLink]="['/emergente-inicio-sesion']"></ion-icon>
     </ion-tab-button>
    
   </ion-tab-bar>

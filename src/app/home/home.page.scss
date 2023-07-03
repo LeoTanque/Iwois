@@ -73,10 +73,11 @@ ion-content {
   background-color: #83989A;
   color: #FFFFFF;
   cursor: pointer;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   font-size: 16px;
   width: 70%;
  
+  margin-top: 40px;
 }
 
 
@@ -84,12 +85,13 @@ ion-content {
 .modal-button.primary-button {
   background-color: #83989A;
   color: #FFFFFF;
+  margin-top: 40px;
 }
 
 .modal-button:not(.primary-button) {
   background-color: #FFFFFF;
   color: #666666;
-  margin-bottom: 40px;
+  margin-bottom: 75px;
 }
 
 

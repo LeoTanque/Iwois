@@ -30,34 +30,53 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 20px;
+    //padding-top: 20px;
   }
   
+
+
   .content-container {
     display: flex;
     align-items: center;
     background-color: #F6F0EC;
     width: 100%;
-    
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    height: 300px;
-    margin-top: -20px;
+    height: 100%;
+    //margin-top: -20px;
 
     
   }
   
   .logo-container {
-    flex: 1;
-    text-align: left;
-    padding-left: 16px;
+    //flex: 1;
+    //text-align: left;
+    //padding-left: 16px;
+
+
+    position: absolute;
+    top: 35px;
+    left: 50px;
+    display: flex;
+    align-items: center;
   }
   
   .logo-img {
     max-height: 40px;
     margin-left: 20px;
+    max-width: 80px;
   }
   
+  .back-icon {
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    margin-right: 60px;
+    color: #666666;
+    font-size: 35px;
+    
+  }
+
   .notification-icon {
     flex: 1;
     text-align: right;
@@ -123,7 +142,7 @@
   }
   
   .range-slider-container {
-    width: 100%;
+    width: 100%; 
     padding: 20px;
   }
   
