@@ -1,0 +1,61 @@
+<ion-content>
+
+  <div class="container">
+    <div class="background-color"> 
+      <div class="top-section-1">
+        <div class="centered-content">
+          <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img">
+        </div>
+        <div class="notification-container">
+          <ion-icon name="notifications-outline" class="notification-icon"></ion-icon>
+        </div>
+      </div>
+      <div class="bottom-section">
+        <div class="titulo-container">
+          <h2 class="titulo-izquierda">Curso Redes</h2>
+          <h2 class="titulo-derecha">89€</h2>
+        </div>
+
+        <div class="texto-encima-slider">
+          <p>Lorem ipsum dolor sit amet, consectetur <br>
+             adipiscing elit. Donec non lorem eu quam <br>
+              pharetra accumsan id sit amet enim. Sed <br>
+              iaculis sapien id fermentum pulvinar. <br>
+               Donec in fermentum dolor. Maecenas non <br>
+                elementum lacus. Sed convallis efficitur <br>
+                 tincidunt.</p>
+        </div>
+        <div class="slider-container" style="margin-top: 20px;">
+          <swiper-container 
+          #swiper (slideChange)="swiperSlideChanged($event)"
+          [loop]="true"
+          [pagination]="true"
+          [zoom]='true'
+          [slidesPerView]="1.4">
+         
+          
+            <swiper-slide *ngFor="let image of images ">
+              <div class="swiper-zoom-container">
+                <img [src]="image" />
+              </div>
+             
+            </swiper-slide>
+           
+        
+          </swiper-container>
+        </div>       
+       
+        <div class="boton-comprar">
+          <button class="comprar-button" [routerLink]="['/emergente-inicio-sesion']">Comprar</button>
+        </div>
+        
+      </div>
+      </div>
+    
+</div>
+
+
+
+
+
+</ion-content>

@@ -167,6 +167,10 @@ const routes: Routes = [
     path: 'registro-profesional',
     loadChildren: () => import('./pages/registro-profesional/registro-profesional.module').then( m => m.RegistroProfesionalPageModule)
   },
+  {
+    path: 'servicios-adicionales-producto1',
+    loadChildren: () => import('./pages/servicios-adicionales-producto1/servicios-adicionales-producto1.module').then( m => m.ServiciosAdicionalesProducto1PageModule)
+  },
 
 
 
