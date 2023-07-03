@@ -1,5 +1,7 @@
-<ion-content [fullscreen]="true">
-  
+
+
+<ion-content>
+
   <div class="container">
     <div class="background-color">
       <div class="top-section-1">
@@ -14,26 +16,14 @@
         <div class="text-content" >
           <h6 class="custom-heading"><strong>Seleccionar un tratamiento</strong></h6>
         </div>
-        <!--div>
-          <swiper-container 
-          #swiper 
-         (afterinit)="swiperReady()"
-          (slideChange)="swiperSlideChanged($event)"
-          [loop]="true"
-          [pagination]="true">
-            <swiper-slide *ngFor="let image of images">
-              <img [src]="image">
-            </swiper-slide>
-            
-          </swiper-container>
-        </div-->
-        <!--div class="slider-container" style="margin-top: 20px;">
+         
+        <div class="slider-container" style="margin-top: 20px;">
           <swiper-container 
           #swiper (slideChange)="swiperSlideChanged($event)"
           [loop]="true"
           [pagination]="true"
           [zoom]='true'
-          [slidesPerView]="1.4">
+          [slidesPerView]="3">
          
           
             <swiper-slide *ngFor="let image of images ">
@@ -45,18 +35,33 @@
            
         
           </swiper-container>
-        </div-->  
-        <div class="">
-          <img src="../../../assets/Grupo de desplazamiento 1.png" alt="Imagen" class="" >
-     
-        </div>
+        </div>  
+
+
+      
         <div class="text-content" >
           <h6 class="custom">Encuentra a tu profesional de la salud</h6>
         </div>
-        <div class="mapa">
+        <!--div class="mapa">
           <img src="../../../assets/maposo.png" alt="Imagen" class="mapa">
      
+        </div-->
+
+        <div class="map-container">
+          <img src="../../../assets/maposo.png" alt="Mapa" class="map-image">
+          <div class="icon-container">
+            <ion-icon name="location-sharp"></ion-icon>
+            <ion-icon name="refresh-circle-outline"></ion-icon>
+          </div> 
+        <div class="center-marker">
+    <ion-icon name="location" ></ion-icon>
+    <img src="../../../assets/ubi.png" alt="Foto" class="location-photo">
+    <img src="../../../assets/ubi.png" alt="Foto" class="location-photo">
+    <img src="../../../assets/ubi.png" alt="Foto" class="location-photo">
+  </div>
+ 
         </div>
+
       </div>
     </div>
     <ion-item>
@@ -70,7 +75,6 @@
 
  
 </ion-content>
-
 
 <ion-tabs >
   <ion-tab-bar slot="bottom" class="custom-tab-bar">

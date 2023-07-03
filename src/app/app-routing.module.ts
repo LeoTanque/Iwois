@@ -171,6 +171,10 @@ const routes: Routes = [
     path: 'servicios-adicionales-producto1',
     loadChildren: () => import('./pages/servicios-adicionales-producto1/servicios-adicionales-producto1.module').then( m => m.ServiciosAdicionalesProducto1PageModule)
   },
+  {
+    path: 'busqueda-arr',
+    loadChildren: () => import('./pages/busqueda-arr/busqueda-arr.module').then( m => m.BusquedaArrPageModule)
+  },
 
 
 
