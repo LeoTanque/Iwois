@@ -48,10 +48,7 @@ const routes: Routes = [
     path: 'registro1',
     loadChildren: () => import('./pages/registro1/registro1.module').then( m => m.Registro1PageModule)
   },
-  {
-    path: 'busqueda',
-    loadChildren: () => import('./pages/busqueda/busqueda.module').then( m => m.BusquedaPageModule)
-  },
+ 
   {
     path: 'recuperar-contrasena',
     loadChildren: () => import('./pages/recuperar-contrasena/recuperar-contrasena.module').then( m => m.RecuperarContrasenaPageModule)
@@ -163,7 +160,8 @@ const routes: Routes = [
   {
     path: 'login-prof',
     loadChildren: () => import('./pages/login-prof/login-prof.module').then( m => m.LoginProfPageModule)
-  },  {
+  },
+  {
     path: 'registro-profesional',
     loadChildren: () => import('./pages/registro-profesional/registro-profesional.module').then( m => m.RegistroProfesionalPageModule)
   },

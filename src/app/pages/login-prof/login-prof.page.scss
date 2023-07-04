@@ -1,5 +1,6 @@
 ion-content {
     position: relative;
+   
   }
   
   .background-image {
@@ -16,6 +17,7 @@ ion-content {
     z-index: -1; /* Coloca la imagen de fondo detrás del contenido */
     backdrop-filter: blur(50px);  
     filter: brightness(0.8);
+    
   }
   
   ion-content.background-image{
@@ -53,7 +55,7 @@ ion-content {
 
 
   .rounded-input {
-    --border-radius: 15px;
+    --border-radius: 20px;
     --background:#FFFFFF;
     --color:#8F8F8F;
     opacity: 100%;

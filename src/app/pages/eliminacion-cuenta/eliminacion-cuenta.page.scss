@@ -1,11 +1,21 @@
 
-
-ion-content{
-   
-    --background-color: #F6F0EC;
-    
+  ion-content {
+    position: relative;
   }
-
+  
+  .background-image {
+    position: absolute;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../assets/fondoo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+  }
+  
   .modal-container {
     position: fixed;
     top: 0;
@@ -15,7 +25,8 @@ ion-content{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro del modal */
+    //background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro del modal */
+    background: #00000029;
     z-index: 9999;
     opacity: 100%;
   }
