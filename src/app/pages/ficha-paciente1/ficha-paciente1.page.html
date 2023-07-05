@@ -24,7 +24,27 @@
         </div>
 
         <h3 class="section-title">Tratamientos asignados:</h3>
-                   
+        
+        
+        <div class="slider-container" style="margin-top: 20px;">
+          <swiper-container 
+          #swiper (slideChange)="swiperSlideChanged($event)"
+          [loop]="true"
+          [pagination]="true"
+          [zoom]='true'
+          [slidesPerView]="2.7">
+         
+          
+            <swiper-slide *ngFor="let image of images ">
+              <div class="swiper-zoom-container">
+                <img [src]="image" />
+              </div>
+             
+            </swiper-slide>
+           
+        
+          </swiper-container>
+        </div>  
         
         
            <div class="location-content">
@@ -40,7 +60,7 @@
   
 </ion-content>
 
-<!--div class="tabs-container">
+<div class="tabs-container">
   <ion-tabs>
     <ion-tab-bar slot="bottom"  class="custom-tab-bar">
       <ion-tab-button tab="home">
@@ -61,5 +81,5 @@
       </ion-tab-button>
     </ion-tab-bar>
   </ion-tabs>
-</div-->
+</div>
  
