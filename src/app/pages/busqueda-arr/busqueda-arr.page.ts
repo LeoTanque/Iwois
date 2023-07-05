@@ -15,7 +15,7 @@ export class BusquedaArrPage implements OnInit {
   
     '../../../assets/barriga0.png',
     '../../../assets/barriga2.png',
-    '../../../assets/barriga3.png',
+    '../../../assets/barriga3.png', 
     '../../../assets/barriga0.png',
     '../../../assets/barriga2.png',
     '../../../assets/barriga3.png'

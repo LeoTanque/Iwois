@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { RuTratamientosPageRoutingModule } from './ru-tratamientos-routing.module';
 
 import { RuTratamientosPage } from './ru-tratamientos.page';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @NgModule({
   imports: [
@@ -15,6 +16,7 @@ import { RuTratamientosPage } from './ru-tratamientos.page';
     IonicModule,
     RuTratamientosPageRoutingModule
   ],
-  declarations: [RuTratamientosPage]
+  declarations: [RuTratamientosPage],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class RuTratamientosPageModule {}

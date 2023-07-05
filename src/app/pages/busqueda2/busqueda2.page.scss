@@ -152,7 +152,7 @@
 
   .center-marker {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -174,6 +174,7 @@
   ion-item{
     width: 100%;
     font-size: 20px;
+
   }
   
   .item-container {
@@ -309,10 +310,30 @@
     z-index: 1; 
   }
   
+  ion-accordion {
+    border-radius: 60px;
+  }
   
+  ion-item{
+    width: 100%;
+    font-size: 20px;
+   
+  } 
   
-  
-  
+
+  ion-accordion{
+   // margin: 20px;
+    width: 100%;
+    align-items: center;
+    border-radius: 20px;
+   // margin-left: 40px;
+    color: #666666;
+  }
+
+  ion-popover {
+    border-radius: 50px;
+    
+  }
   
   
   

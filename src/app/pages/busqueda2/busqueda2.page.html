@@ -31,22 +31,34 @@
           <ion-icon name="refresh-circle-outline"></ion-icon>
         </div--> 
       <div class="center-marker">
-  <ion-icon name="location" (click)="toggleItem()"></ion-icon>
+  <ion-button (click)="presentPopover($event)"></ion-button>
+<ion-popover #popover [isOpen]="isOpen" (didDismiss)="isOpen = false">
+  <ng-template>
+    <ion-content class="ion-padding">
+      <ion-accordion value="first">
+        <ion-item slot="header" color="light" >
+          <ion-thumbnail slot="start">
+            <img alt="Silhouette of mountains" src="../../../assets/enfermaaa.png" />
+          </ion-thumbnail>
+          <ion-label>
+           <h6>Dra Usuario Nytelweb</h6> 
+           <p style="color: #83989A;">Medico estetico</p>
+           <p style="color: #83989A;">+34 0000000</p>
+          </ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">First Content</div>
+      </ion-accordion>
+    </ion-content>
+  </ng-template>
+</ion-popover>
+
   <img src="../../../assets/ubi.png" alt="Foto" class="location-photo">
 </div>
-<div class="item-container" *ngIf="showItem">
-  <div class="left-section">
-    <img src="../../../assets/foto_perfil.png" alt="Foto de perfil" class="profile-photo">
-  </div>
-  <div class="right-section">
-    <h5 class="profile-name">Dra. Usuario Nytelweb</h5>
-    <p class="profile-description">Médico estético</p>
-    <div class="phone-container">
-      <ion-icon name="call"></ion-icon>
-      <p class="phone-number">+34 00000</p>
-    </div>
-  </div>
-</div>
+
+
+
+
+
       </div>
 
        

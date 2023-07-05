@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -8,6 +8,8 @@ import { Router } from '@angular/router';
 })
 export class Busqueda2Page implements OnInit {
   showItem = false;
+
+  @ViewChild('popover') popover: any;
   constructor(private ruta: Router) { }
 
   ngOnInit() {
@@ -17,4 +19,12 @@ export class Busqueda2Page implements OnInit {
     this.showItem = !this.showItem;
     this.ruta.navigate(['/login'])
   }
+
+  isOpen = false;
+
+  presentPopover(e: Event) {
+    this.popover.event = e;
+    this.isOpen = true;
+  }
+
 }
