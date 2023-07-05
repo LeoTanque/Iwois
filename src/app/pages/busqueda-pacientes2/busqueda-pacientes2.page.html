@@ -1,0 +1,48 @@
+<ion-content [fullscreen]="true">
+   
+  <div class="container">
+    <div class="background-color">
+      <div class="top-section-1">
+        <ion-icon name="chevron-back" class="back-icon"></ion-icon>
+        <div class="centered-content">
+          <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img">
+     
+        </div>
+        <ion-icon name="notifications-outline" [routerLink]="['/notificaciones']" class="notifications-icon" ></ion-icon>
+      </div>
+      <div class="bottom-section-1">
+        <ion-searchbar placeholder="+34 000000000"></ion-searchbar>
+      
+        <!--ion-item>
+          <ion-avatar slot="start">
+            <img alt="Silhouette of a person's head" src="../../../assets/90.png" />
+          </ion-avatar>
+          <ion-label> 
+            <h6>Usuario Nytelweb</h6> 
+             <p style="color: #83989A;">+34 0000000</p>  
+          </ion-label>
+        </ion-item-->
+
+        <ion-accordion value="first">
+          <ion-item slot="header" color="light" [routerLink]="['/lista-pacientes-con']">
+            <ion-thumbnail slot="start">
+              <img alt="Silhouette of mountains" src="../../../assets/90.png" />
+            </ion-thumbnail>
+            <ion-label>
+             <h6>Usuario Nytelweb</h6> 
+             <p style="color: #83989A;">+34 00000000</p>
+            </ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">First Content</div>
+        </ion-accordion>
+        
+      </div>
+    </div>
+    <div class="keyboard-container">
+      <img src="../../../assets/Keyboard.png" alt="Teclado" class="keyboard-img">
+    </div>
+</div>
+  
+</ion-content>
+
+

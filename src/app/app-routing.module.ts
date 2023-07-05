@@ -180,6 +180,14 @@ const routes: Routes = [
     path: 'busqueda-pacientes',
     loadChildren: () => import('./pages/busqueda-pacientes/busqueda-pacientes.module').then( m => m.BusquedaPacientesPageModule)
   },
+  {
+    path: 'busqueda-pacientes2',
+    loadChildren: () => import('./pages/busqueda-pacientes2/busqueda-pacientes2.module').then( m => m.BusquedaPacientes2PageModule)
+  },
+  {
+    path: 'lista-pacientes-con',
+    loadChildren: () => import('./pages/lista-pacientes-con/lista-pacientes-con.module').then( m => m.ListaPacientesConPageModule)
+  },
 
 
 
