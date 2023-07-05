@@ -188,6 +188,10 @@ const routes: Routes = [
     path: 'lista-pacientes-con',
     loadChildren: () => import('./pages/lista-pacientes-con/lista-pacientes-con.module').then( m => m.ListaPacientesConPageModule)
   },
+  {
+    path: 'ficha-paciente',
+    loadChildren: () => import('./pages/ficha-paciente/ficha-paciente.module').then( m => m.FichaPacientePageModule)
+  },
 
 
 
