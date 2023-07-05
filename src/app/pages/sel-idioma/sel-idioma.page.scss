@@ -49,12 +49,14 @@ ion-content{
 
 .button-container {
   margin-top: auto;
-  width: 70%;
+  width: 60%;
 }
 
 ion-button.login{
     --background: #83989A;
     --color: #fff;
+    text-transform: none;
+    font-size: 15px;
   }
 
   .country-option {

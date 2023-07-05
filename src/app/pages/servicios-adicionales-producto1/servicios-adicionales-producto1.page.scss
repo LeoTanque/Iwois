@@ -74,7 +74,7 @@ swiper-slide {
 
 .texto-encima-slider {
   text-align: left;
-  color: #546e6e;
+  color: #8F8F8F;
   margin-bottom: 20px;
   padding-left: 50px;
   width: 100%;
@@ -104,7 +104,7 @@ swiper-slide {
   }
 
   .titulo-izquierda {
-    color: #546e6e;
+    color: #666666;
     font-size: 24px;
     margin-left: 50px;
   }
@@ -132,3 +132,51 @@ swiper-slide {
     cursor: pointer;
   }
   
+
+
+  .custom-tab-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  
+    background-color: #F6F0EC;
+   
+   border-top-left-radius: 25%;
+   border-top-right-radius: 25%;
+  
+   overflow: hidden;
+   
+  }
+  
+  ion-icon{
+    font-size: 30px;
+  }
+  
+  
+  ion-tab-button {
+    height: 40px; /* Ajusta la altura de las pestañas de las esquinas */
+    background-color: #F6F0EC;
+  }
+  
+  
+  
+  ion-tab-button.elevated-tab {
+    height: 60px; /* Ajusta la altura de la pestaña del centro */
+    transform: translateY(-10px); /* Ajusta este valor según tus necesidades */
+    background-color: #F6F0EC;
+    border-radius: 80px;
+    padding-top: 5px;
+  
+  
+    position: relative;
+    z-index: 1;
+  
+    position: sticky;
+    overflow: visible;
+  } 
+  
+  .custom-tab-bar .elevated-tab {
+    position: relative;
+    top: -10px; /* Ajusta este valor negativo según tus necesidades */
+    z-index: 1; 
+  }

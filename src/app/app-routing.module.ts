@@ -172,7 +172,15 @@ const routes: Routes = [
   {
     path: 'busqueda-arr',
     loadChildren: () => import('./pages/busqueda-arr/busqueda-arr.module').then( m => m.BusquedaArrPageModule)
+  },  {
+    path: 'lista-pacientes-sin',
+    loadChildren: () => import('./pages/lista-pacientes-sin/lista-pacientes-sin.module').then( m => m.ListaPacientesSinPageModule)
   },
+  {
+    path: 'busqueda-pacientes',
+    loadChildren: () => import('./pages/busqueda-pacientes/busqueda-pacientes.module').then( m => m.BusquedaPacientesPageModule)
+  },
+
 
 
 

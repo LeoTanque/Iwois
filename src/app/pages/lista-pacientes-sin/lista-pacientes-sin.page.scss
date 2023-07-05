@@ -24,6 +24,9 @@
     background-color: #FFFFFF;
     //padding: 20px;
     flex: 1;
+
+
+    
   }
 
   .logo-img {
@@ -42,6 +45,7 @@
     margin-left: 10%;
     margin-top: 60px;
     color: #666666;
+    margin-bottom: 80px;
   }
 
   .login{
@@ -59,41 +63,96 @@
     display: flex;
     justify-content: center;
     margin-bottom: 20%;
-    margin-top: 50%;
+    margin-top: 10%;
    
   }
 
-  .user-text {
+  .text-content {
     text-align: center;
-    color: #83989A;
+    margin: 20px 0;
   }
   
-  .line {
-    margin: 5px auto;
+  .subtext {
+    color: #707070;
+    margin-top: 40px;
+  }
+  
+  
+
+  .input-group {
+    display: flex;
+    margin-bottom: 6%;
+    
+    background-color: #FFFFFF;
+    height: 50px;
     width: 80%;
-    border: 1px solid #83989A;
+    margin-left: 5%;
     
   }
   
-  .additional-text {
-    text-align: center;
-    font-size: smaller;
-    color: #666666;
+  .rounded-input-small {
+    width: 80px; /* Ajusta el ancho según tus necesidades */
+    margin-right: 10px; /* Espacio entre los inputs */
+    border-radius: 20px;
+    color: #707070;
+    background: #FFFFFF;
+  }
+  
+  .rounded-input-large {
+    width: 90px; /* Ajusta el ancho según tus necesidades */
+   flex: 1;
+   border-radius: 20px;
+   background: #FFFFFF;
+   color: #707070;
+ }  
+ 
+  
+  
+ .inputs {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .input-container {
+    background-color: #FFFFFF;
+    border: 1px solid #131616;
+   //padding: 10px;
+   border-radius: 20px;
+   
   }
 
-  .textos{
-    margin-top: 40%;
-    padding: auto;
-    
+  .inputs ion-item {
+   
+   // margin-bottom: 5%;
+    border-radius: 30px;
+    color: #83989A;
+    font-size: 15px;
   }
 
+  
+  .small-input {
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+  }
+
+  .large-input {
+    width: 250px;
+    margin-right: 5px;
+  }
+ 
+ 
+ion-icon {
+    font-size: 10px;
+}
 
   .custom-tab-bar{
     display: flex;
     justify-content: space-between;
     padding: 5px;
   
-    background-color: #ffffff;
+    background-color: #F6F0EC;
    
    border-top-left-radius: 25%;
    border-top-right-radius: 25%;
@@ -109,7 +168,7 @@
   
   ion-tab-button {
     height: 40px; /* Ajusta la altura de las pestañas de las esquinas */
-   
+    background-color: #F6F0EC;
   }
   
   
