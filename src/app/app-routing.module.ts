@@ -192,6 +192,18 @@ const routes: Routes = [
     path: 'ficha-paciente',
     loadChildren: () => import('./pages/ficha-paciente/ficha-paciente.module').then( m => m.FichaPacientePageModule)
   },
+  {
+    path: 'chat',
+    loadChildren: () => import('./pages/chat/chat.module').then( m => m.ChatPageModule)
+  },
+  {
+    path: 'seleccion-protocolos',
+    loadChildren: () => import('./pages/seleccion-protocolos/seleccion-protocolos.module').then( m => m.SeleccionProtocolosPageModule)
+  },
+  {
+    path: 'ficha-paciente1',
+    loadChildren: () => import('./pages/ficha-paciente1/ficha-paciente1.module').then( m => m.FichaPaciente1PageModule)
+  },
 
 
 
