@@ -2,14 +2,14 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import Swiper from 'swiper';
 
 @Component({
-  selector: 'app-busqueda-arr',
-  templateUrl: './busqueda-arr.page.html',
-  styleUrls: ['./busqueda-arr.page.scss'],
+  selector: 'app-tratamientos2.5',
+  templateUrl: './tratamientos2.5.page.html',
+  styleUrls: ['./tratamientos2.5.page.scss'],
 })
-export class BusquedaArrPage implements OnInit {
+export class Tratamientos25Page implements OnInit {
   @ViewChild('swiper')
   swiperRef: ElementRef| undefined;
-  swiper?: Swiper 
+  swiper?: Swiper
 
   images=[
   
@@ -39,5 +39,3 @@ export class BusquedaArrPage implements OnInit {
      }
 
 }
-
-
