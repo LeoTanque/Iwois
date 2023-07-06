@@ -4,19 +4,19 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { Tratamientos25PageRoutingModule } from './tratamientos2.5-routing.module';
+import { Tratamiento35PageRoutingModule } from './tratamiento3.5-routing.module';
 
-import { Tratamientos25Page } from './tratamientos2.5.page';
+import { Tratamiento35Page } from './tratamiento3.5.page';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
-@NgModule({ 
+@NgModule({
   imports: [
-    CommonModule, 
+    CommonModule,
     FormsModule,
     IonicModule,
-    Tratamientos25PageRoutingModule
+    Tratamiento35PageRoutingModule
   ],
-  declarations: [Tratamientos25Page],
+  declarations: [Tratamiento35Page],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class Tratamientos25PageModule {}
+export class Tratamiento35PageModule {}

@@ -1,0 +1,104 @@
+<ion-content [fullscreen]="true"> 
+  
+  <div class="container">
+    <div class="background-color">
+      <div class="top-section-1">
+        <ion-icon name="chevron-back" class="back-icon"></ion-icon>
+        <div class="centered-content">
+          <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img" [routerLink]="['/']">
+          
+        </div>
+        <ion-icon name="notifications-outline" [routerLink]="['/home']" class="notifications-icon" ></ion-icon>
+      </div>
+      <div class="bottom-section-1">
+        <ion-searchbar placeholder="Buscar"></ion-searchbar>
+        <div class="text-content" >
+          <h4 class="custom-heading"><strong>Productos y servicios</strong></h4>
+        </div>
+
+        <ion-accordion value="first"> 
+          <ion-item slot="header" color="light"> 
+            <ion-thumbnail slot="start">
+              <img alt="Silhouette of mountains" src="../../../assets/enfermaaa.png" />
+            </ion-thumbnail>
+            <ion-label>
+             <h6>Dra Usuario Nytelweb</h6> 
+             <p style="color: #83989A;">Medico estetico</p>
+            </ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">First Content</div>
+        </ion-accordion>
+        
+
+        <div class="slider-container" style="margin-top: 20px;">
+          <swiper-container 
+          #swiper (slideChange)="swiperSlideChanged($event)"
+          [loop]="true"
+          [pagination]="true"
+          [zoom]='true'
+          [slidesPerView]="2.8"> 
+         
+          
+            <swiper-slide *ngFor="let image of images ">
+              <div class="swiper-zoom-container" [routerLink]="['/tratamiento4']">
+                <img [src]="image" />
+              </div>
+             
+            </swiper-slide>
+           
+        
+          </swiper-container>
+        </div>  
+
+
+        <ion-accordion value="first">
+          <ion-item slot="header" color="light">
+            <ion-thumbnail slot="start">
+              <img alt="Silhouette of mountains" src="../../../assets/medico1.png" />
+            </ion-thumbnail>
+            <ion-label>
+             <h6>Dr Usuario Nytelweb</h6> 
+             <p style="color: #83989A;">Ginecologo</p>
+            </ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">First Content</div>
+        </ion-accordion>
+  
+        <ion-accordion value="first">
+          <ion-item slot="header" color="light">
+            <ion-thumbnail slot="start">
+              <img alt="Silhouette of mountains" src="../../../assets/medico2.png" />
+            </ion-thumbnail>
+            <ion-label>
+             <h6>Dr Usuario Nytelweb</h6> 
+             <p style="color: #83989A;">Odontolo</p>
+            </ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">First Content</div>
+        </ion-accordion>
+        
+      </div>
+    </div>
+   
+</div>
+
+ 
+</ion-content>
+<ion-tabs >
+  <ion-tab-bar slot="bottom" class="custom-tab-bar">
+    <ion-tab-button tab="cart">
+      <ion-icon name="cart-outline" [routerLink]="['/emergente-inicio-sesion']"></ion-icon>
+    </ion-tab-button>
+ 
+    <ion-tab-button tab="notification" class="elevated-tab">
+      <ion-icon name="home-outline" [routerLink]="['/home']"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="profile">
+      <ion-icon name="person-outline" [routerLink]="['/emergente-inicio-sesion']"></ion-icon>
+    </ion-tab-button>
+   
+  </ion-tab-bar>
+</ion-tabs>
+
+

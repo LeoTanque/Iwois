@@ -212,6 +212,10 @@ const routes: Routes = [
     path: 'tratamientos2.5',
     loadChildren: () => import('./pages/tratamientos2.5/tratamientos2.5.module').then( m => m.Tratamientos25PageModule)
   },
+  {
+    path: 'tratamiento3.5',
+    loadChildren: () => import('./pages/tratamiento3.5/tratamiento3.5.module').then( m => m.Tratamiento35PageModule)
+  },
 
 
 
