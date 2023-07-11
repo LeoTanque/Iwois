@@ -1,4 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { IonTabs } from '@ionic/angular';
 import Swiper from 'swiper';
 
 @Component({
@@ -10,6 +11,8 @@ export class BusquedaArrPage implements OnInit {
   @ViewChild('swiper')
   swiperRef: ElementRef| undefined;
   swiper?: Swiper 
+  @ViewChild('tabs')
+  tabs!: IonTabs;
 
   images=[
   
@@ -30,6 +33,8 @@ export class BusquedaArrPage implements OnInit {
     this.swiper= this.swiperRef?.nativeElement.swiper
   }
 
+
+  
   goNext(){
     this.swiper?.slideNext();
   }

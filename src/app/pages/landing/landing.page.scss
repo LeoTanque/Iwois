@@ -13,8 +13,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: 0.8;
-  }
+   // opacity: 0.8;
+   opacity: 70%;
+    background-color: #F6F0EC;
+   
+  } 
 
   
   .logo-container {
@@ -36,7 +39,7 @@
 
 @media screen and (max-width: 480px) {
   .logo-container {
-    margin-top: 50px; /* Ajusta el margen superior según sea necesario para pantallas más pequeñas */
+    margin-top: 100px; /* Ajusta el margen superior según sea necesario para pantallas más pequeñas */
   }
 }
   

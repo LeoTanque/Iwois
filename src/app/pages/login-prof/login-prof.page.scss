@@ -2,7 +2,7 @@ ion-content {
     position: relative;
    
   }
-  
+   
   .background-image {
     position: absolute; 
     top: 0;
@@ -13,11 +13,12 @@ ion-content {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: 0.2;
+    background-color: #F6F0EC;
+    opacity: 0.4;
     z-index: -1; /* Coloca la imagen de fondo detrás del contenido */
     backdrop-filter: blur(50px);  
-    filter: brightness(0.8);
-    
+    //filter: brightness(0.8);
+   
   }
   
   ion-content.background-image{
@@ -68,6 +69,8 @@ ion-button.login{
     --opacity: 100%;
     width: 70%;
     margin-left: 15%;
+    text-transform: none;
+    font-size: 15px;
   }
  
  p{
