@@ -2,9 +2,19 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
- 
+  
   {
     path: '',
+    loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)
+  },
+
+  {
+    path: 'tabs',
+    loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)
+  },
+ 
+  {
+    path: 'landing',
     loadChildren: () => import('./pages/landing/landing.module').then( m => m.LandingPageModule)
   },
   {
@@ -172,7 +182,8 @@ const routes: Routes = [
   {
     path: 'busqueda-arr',
     loadChildren: () => import('./pages/busqueda-arr/busqueda-arr.module').then( m => m.BusquedaArrPageModule)
-  },  {
+  },
+  {
     path: 'lista-pacientes-sin',
     loadChildren: () => import('./pages/lista-pacientes-sin/lista-pacientes-sin.module').then( m => m.ListaPacientesSinPageModule)
   },
@@ -216,6 +227,12 @@ const routes: Routes = [
     path: 'tratamiento3.5',
     loadChildren: () => import('./pages/tratamiento3.5/tratamiento3.5.module').then( m => m.Tratamiento35PageModule)
   },
+  {
+    path: 'tabs-bar',
+    loadChildren: () => import('./pages/tabs-bar/tabs-bar.module').then( m => m.TabsBarPageModule)
+  },
+
+ 
 
 
 
