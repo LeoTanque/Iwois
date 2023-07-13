@@ -1,5 +1,5 @@
 import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
-import { IonTabs } from '@ionic/angular';
+
 import Swiper from 'swiper';
 
 @Component({
@@ -11,8 +11,7 @@ export class BusquedaArrPage implements OnInit {
   @ViewChild('swiper')
   swiperRef: ElementRef| undefined;
   swiper?: Swiper 
-  @ViewChild('tabs')
-  tabs!: IonTabs;
+
 
   images=[
   
@@ -23,25 +22,21 @@ export class BusquedaArrPage implements OnInit {
     '../../../assets/barriga2.png',
     '../../../assets/barriga3.png'
     ]
+
+
+    tabs = [
+      { tab: 'cart', icon: '../../../assets/carrito.svg' },
+      { tab: 'notification', icon: '../../../assets/home.svg' },
+      { tab: 'mesage', icon: '../../../assets/msj.svg' },
+      { tab: 'profile', icon: '../../../assets/person.svg' }
+    ];
     
   constructor() { }
 
   ngOnInit() {
   }
 
-  swiperReady(){
-    this.swiper= this.swiperRef?.nativeElement.swiper
-  }
-
-
-  
-  goNext(){
-    this.swiper?.slideNext();
-  }
-
-  swiperSlideChanged(e:any){
-    console.log('changed: ',e)
-     }
+ 
 
 }
 

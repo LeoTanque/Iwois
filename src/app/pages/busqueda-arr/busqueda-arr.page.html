@@ -1,5 +1,4 @@
 
-
 <ion-content>
 
   <div class="container">
@@ -18,26 +17,8 @@
           <h6 class="custom-heading"><strong>Seleccionar un tratamiento</strong></h6>
         </div>
          
-        <!--div class="slider-container" style="margin-top: 20px;">
-          <swiper-container 
-          #swiper (slideChange)="swiperSlideChanged($event)"
-          [loop]="true"
-          [pagination]="true"
-          [zoom]='true' 
-          [slidesPerView]="3.1"> 
-         
-          
-            <swiper-slide *ngFor="let image of images ">
-              <div class="swiper-zoom-container">
-                <img [src]="image" />
-              </div>
-             
-            </swiper-slide>
-           
         
-          </swiper-container>
-        </div-->  
-<app-slider [images]="images" [slidesPerView]="'3.1'"></app-slider>
+      <app-slider [images]="images" [slidesPerView]="'3.1'"></app-slider>
  
       
         <div class="text-content" >
@@ -74,7 +55,9 @@
     </ion-item> 
 </div>
 
-<app-custom-tab-bar></app-custom-tab-bar>
+
+<app-custom-tab-bar [tabs]="tabs" ></app-custom-tab-bar>
+
 </ion-content>
 
 

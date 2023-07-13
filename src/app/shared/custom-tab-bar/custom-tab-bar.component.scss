@@ -1,6 +1,4 @@
-
-  
-  .custom-tab-bar {
+   .custom-tab-bar {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -9,7 +7,8 @@
     border-top-right-radius: 25%;
     overflow: hidden;
     background-color: #ffffff;
-   left: 0;
+    left: 0;
+    border-top: 1px solid #666666;
   }
   
 
@@ -18,13 +17,13 @@
     font-size: 24px;
   }
   
-  .tab-icon {
-    font-size: 24px; /* Tamaño para los iconos normales */
+  /*.tab-icon {
+    font-size: 24px; 
   }
   
   .larger-icon {
-    font-size: 70px; /* Tamaño para el segundo ícono */
-  }
+    font-size: 70px;
+  }*/
   
  
   

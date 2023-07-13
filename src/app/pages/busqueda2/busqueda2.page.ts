@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, Input, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -7,10 +7,23 @@ import { Router } from '@angular/router';
   styleUrls: ['./busqueda2.page.scss'],
 })
 export class Busqueda2Page implements OnInit {
+
   showItem = false;
 
   @ViewChild('popover') popover: any;
+
+  rangeValue: number = 5;
+
+  tabs = [
+    { tab: 'cart', icon: '../../../assets/carrito.svg' },
+    { tab: 'notification', icon: '../../../assets/home.svg' },
+    { tab: 'mesage', icon: '../../../assets/msj.svg' },
+    { tab: 'profile', icon: '../../../assets/person.svg' }
+  ];
+
   constructor(private ruta: Router) { }
+
+
 
   ngOnInit() {
   }

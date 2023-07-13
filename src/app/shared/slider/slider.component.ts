@@ -15,7 +15,7 @@ export class SliderComponent  implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() {} 
 
   swiperReady(){
     this.swiper= this.swiperRef?.nativeElement.swiper

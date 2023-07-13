@@ -13,7 +13,8 @@ import { BusquedaPacientes2Page } from './busqueda-pacientes2.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    BusquedaPacientes2PageRoutingModule
+    BusquedaPacientes2PageRoutingModule,
+    
   ],
   declarations: [BusquedaPacientes2Page]
 })
