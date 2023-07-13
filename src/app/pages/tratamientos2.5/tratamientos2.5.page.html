@@ -30,7 +30,7 @@
         </ion-accordion>
         
 
-        <div class="slider-container" style="margin-top: 20px;">
+        <!--div class="slider-container" style="margin-top: 20px;">
           <swiper-container 
           #swiper (slideChange)="swiperSlideChanged($event)"
           [loop]="true"
@@ -48,8 +48,9 @@
            
         
           </swiper-container>
-        </div>  
+        </div-->  
 
+        <app-slider [images]="images" [slidesPerView]="'3.1'"></app-slider>
 
         <ion-accordion value="first">
           <ion-item slot="header" color="light">
@@ -82,9 +83,10 @@
    
 </div>
 
+<app-custom-tab-bar></app-custom-tab-bar>
  
 </ion-content>
-<ion-tabs >
+<!--ion-tabs >
   <ion-tab-bar slot="bottom" class="custom-tab-bar">
     <ion-tab-button tab="cart">
       <ion-icon name="cart-outline" [routerLink]="['/emergente-inicio-sesion']"></ion-icon>
@@ -99,5 +101,5 @@
     </ion-tab-button>
    
   </ion-tab-bar>
-</ion-tabs>
+</ion-tabs-->
 

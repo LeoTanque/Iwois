@@ -1,45 +1,38 @@
-.custom-tab-bar{
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
+
   
+  .custom-tab-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999; /* Ajusta este valor según tus necesidades */
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    overflow: hidden;
     background-color: #ffffff;
-   
-   border-top-left-radius: 25%;
-   border-top-right-radius: 25%;
-  
-   overflow: hidden;
-   
+   left: 0;
   }
   
+
+
   ion-icon{
     font-size: 24px;
   }
   
-  
-  ion-tab-button {
-    height: 40px; /* Ajusta la altura de las pestañas de las esquinas */
-   
+  .tab-icon {
+    font-size: 24px; /* Tamaño para los iconos normales */
   }
+  
+  .larger-icon {
+    font-size: 70px; /* Tamaño para el segundo ícono */
+  }
+  
+ 
+  
 
-  .custom-tab-bar ion-tab-button {
-    position: relative;
-    
-  }
-  
-  .custom-tab-bar ion-tab-button:nth-child(2) {
-    transform: translateY(-5px);
-  }
 
-  .custom-tab-bar ion-tab-button:nth-child(2) ion-icon {
-    background-color: #F6F0EC;
-    border-radius: 50%;
-   
-    //width: 50px; /* Ajusta el tamaño del círculo */
-    //height: 50px; /* Ajusta el tamaño del círculo */
-    padding: 10px;
-  }
   
-  .custom-tab-bar ion-tab-button:nth-child(2) ion-icon {
-    font-size: 24px; /* Ajusta el tamaño del icono */
-  }
+
+  
+ 
+
+

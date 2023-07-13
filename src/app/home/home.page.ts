@@ -8,6 +8,14 @@ import { Router } from '@angular/router';
 })
 export class HomePage implements OnInit {
 
+
+  tabs = [
+    { tab: 'cart', icon: '../../../assets/carrito.svg' },
+    { tab: 'notification', icon: '../../../assets/homer.svg' },
+    { tab: 'mesage', icon: '../../../assets/msj.svg' },
+    { tab: 'profile', icon: '../../../assets/person.svg' }
+  ];
+
   constructor(private router: Router) { }
 
   ngOnInit() {

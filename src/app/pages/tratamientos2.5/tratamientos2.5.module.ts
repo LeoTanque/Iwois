@@ -8,13 +8,15 @@ import { Tratamientos25PageRoutingModule } from './tratamientos2.5-routing.modul
 
 import { Tratamientos25Page } from './tratamientos2.5.page';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({ 
   imports: [
     CommonModule, 
     FormsModule,
     IonicModule,
-    Tratamientos25PageRoutingModule
+    Tratamientos25PageRoutingModule,
+    SharedModule
   ],
   declarations: [Tratamientos25Page],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

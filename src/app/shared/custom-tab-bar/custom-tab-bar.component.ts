@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CustomTabBarComponent  implements OnInit {
   tabs = [
-    { tab: 'cart', icon: 'cart-outline' },
-    { tab: 'notification', icon: 'home-outline' },
-    { tab: 'profile', icon: 'person-outline' }
+    { tab: 'cart', icon: '../../../assets/carrito.svg' },
+    { tab: 'notification', icon: '../../../assets/homer.svg' },
+    { tab: 'mesage', icon: '../../../assets/msj.svg' },
+    { tab: 'profile', icon: '../../../assets/person.svg' }
   ];
   constructor() { }
 
