@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { Tratamientos2PageRoutingModule } from './tratamientos2-routing.module';
 
 import { Tratamientos2Page } from './tratamientos2.page';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    Tratamientos2PageRoutingModule
+    Tratamientos2PageRoutingModule,
+    SharedModule
   ],
   declarations: [Tratamientos2Page]
 })

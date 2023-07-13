@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { RuTratamientosProgresoPageRoutingModule } from './ru-tratamientos-progreso-routing.module';
 
 import { RuTratamientosProgresoPage } from './ru-tratamientos-progreso.page';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    RuTratamientosProgresoPageRoutingModule
+    RuTratamientosProgresoPageRoutingModule,
+    SharedModule
   ],
   declarations: [RuTratamientosProgresoPage]
 })

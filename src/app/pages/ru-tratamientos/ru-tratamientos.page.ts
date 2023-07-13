@@ -17,6 +17,14 @@ export class RuTratamientosPage implements OnInit {
     '../../../assets/9510.png',
     '../../../assets/9510.png',
     ]
+
+
+    tabs = [
+      { tab: 'cart', icon: '../../../assets/carrito.svg' },
+      { tab: 'notification', icon: '../../../assets/home.svg' },
+      { tab: 'mesage', icon: '../../../assets/msj.svg' },
+      { tab: 'profile', icon: '../../../assets/person.svg' }
+    ];
   constructor() { }
 
   ngOnInit() {

@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { VerTodoProgresoPageRoutingModule } from './ver-todo-progreso-routing.module';
 
 import { VerTodoProgresoPage } from './ver-todo-progreso.page';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    VerTodoProgresoPageRoutingModule
+    VerTodoProgresoPageRoutingModule,
+    SharedModule
   ],
   declarations: [VerTodoProgresoPage]
 })

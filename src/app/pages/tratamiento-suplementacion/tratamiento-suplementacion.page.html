@@ -42,14 +42,14 @@
             tu profesional de la salud a traves de <br>
             whatsapp
              </p>
-          <ion-icon name="logo-whatsapp" class="whatsapp-icon"></ion-icon>
+          <ion-icon src="../../../assets/burbuja.svg" class="whatsapp-icon"></ion-icon>
         </div>
       </div>
     </div>
   
 </div>
 
-<ion-tabs >
+<!--ion-tabs >
   <ion-tab-bar slot="bottom" class="custom-tab-bar">
     <ion-tab-button tab="cart">
       <ion-icon name="cart-outline"  [routerLink]="['/mis-tratamientos3']"></ion-icon>
@@ -64,7 +64,8 @@
     </ion-tab-button>
    
   </ion-tab-bar>
-</ion-tabs> 
- 
+</ion-tabs--> 
+
+<app-custom-tab-bar [tabs]="tabs"></app-custom-tab-bar>
 </ion-content>
 

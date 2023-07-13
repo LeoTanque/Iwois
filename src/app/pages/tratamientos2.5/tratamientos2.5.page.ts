@@ -13,14 +13,22 @@ export class Tratamientos25Page implements OnInit {
 
   images=[
   
-    '../../../assets/barriga0.png',
-    '../../../assets/barriga2.png',
+    '../../../assets/a.png',
+    '../../../assets/1.png',
     '../../../assets/barriga3.png', 
-    '../../../assets/barriga0.png',
-    '../../../assets/barriga2.png',
+    '../../../assets/a.png',
+    '../../../assets/1.png',
     '../../../assets/barriga3.png'
     ]
     
+
+
+    tabs = [
+      { tab: 'cart', icon: '../../../assets/carrito.svg' },
+      { tab: 'notification', icon: '../../../assets/home.svg' },
+      { tab: 'mesage', icon: '../../../assets/msj.svg' },
+      { tab: 'profile', icon: '../../../assets/person.svg' }
+    ];
   constructor() { }
 
   ngOnInit() {
