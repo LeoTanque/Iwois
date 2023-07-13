@@ -1,0 +1,19 @@
+<div class="slider-container">
+  <swiper-container 
+  #swiper (slideChange)="swiperSlideChanged($event)"
+  [loop]="true"
+  [pagination]="true"
+  [zoom]='true'
+  slidesPerView={{slidesPerView}}> 
+ 
+  
+    <swiper-slide *ngFor="let image of images ">
+      <div class="swiper-zoom-container">
+        <img [src]="image" />
+      </div>
+     
+    </swiper-slide>
+   
+
+  </swiper-container>
+</div>  

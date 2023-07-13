@@ -8,13 +8,15 @@ import { RuTratamientosPageRoutingModule } from './ru-tratamientos-routing.modul
 
 import { RuTratamientosPage } from './ru-tratamientos.page';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    RuTratamientosPageRoutingModule
+    RuTratamientosPageRoutingModule,
+    SharedModule
   ],
   declarations: [RuTratamientosPage],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

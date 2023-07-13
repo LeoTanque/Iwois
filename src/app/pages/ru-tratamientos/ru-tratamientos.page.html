@@ -30,7 +30,7 @@
           <img src="../../../assets/conjunto.png" alt="Imagen" class="fullscreen-image">
         </div-->
 
-        <swiper-container 
+        <!--swiper-container 
         #swiper (slideChange)="swiperSlideChanged($event)"
         [loop]="true"
         [pagination]="true"
@@ -46,7 +46,9 @@
           </swiper-slide>
          
       
-        </swiper-container>
+        </swiper-container-->
+
+        <app-slider [images]="images" [slidesPerView]="'1.7'"></app-slider>
         <div class="text-center">
           <p class="centered-text">Queremos que siempre estés bien <br>
             acompañad@. Site han surgido dudas y <br>
@@ -67,7 +69,7 @@
   
 </div>
 
-<ion-tabs >
+<!--ion-tabs >
   <ion-tab-bar slot="bottom" class="custom-tab-bar">
     <ion-tab-button tab="cart">
       <ion-icon name="cart-outline"></ion-icon>
@@ -82,7 +84,9 @@
     </ion-tab-button>
    
   </ion-tab-bar>
-</ion-tabs>
+</ion-tabs-->
+
+<app-custom-tab-bar></app-custom-tab-bar>
  
 </ion-content>
 

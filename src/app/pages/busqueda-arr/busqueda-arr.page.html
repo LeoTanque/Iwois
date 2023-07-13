@@ -18,12 +18,12 @@
           <h6 class="custom-heading"><strong>Seleccionar un tratamiento</strong></h6>
         </div>
          
-        <div class="slider-container" style="margin-top: 20px;">
+        <!--div class="slider-container" style="margin-top: 20px;">
           <swiper-container 
           #swiper (slideChange)="swiperSlideChanged($event)"
           [loop]="true"
           [pagination]="true"
-          [zoom]='true'
+          [zoom]='true' 
           [slidesPerView]="3.1"> 
          
           
@@ -36,8 +36,8 @@
            
         
           </swiper-container>
-        </div>  
-
+        </div-->  
+<app-slider [images]="images" [slidesPerView]="'3.1'"></app-slider>
  
       
         <div class="text-content" >
