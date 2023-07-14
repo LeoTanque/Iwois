@@ -2,18 +2,10 @@
   <div class="container">
     <div class="top-section">
       <div class="background-image">
+        <app-superior></app-superior>
         <div class="top-overlay">
           
 
-          <div class="content-container">
-            <ion-icon name="chevron-back" class="back-icon"></ion-icon>
-            <div class="logo-container">
-              <img src="../../../assets/Logo IWOIS.png" alt="Logo Iwois" class="logo-img">
-            </div>
-            <div class="notification-icon">
-              <ion-icon name="notifications-outline"></ion-icon>
-            </div>
-          </div>
           <div class="text-container">
             <h2 class="title">Criolipolisis</h2>
             <p class="description">Es un tratamiento que desencadena reacciones metabólicas y bioquímicas en el organismo favoreciendo la eliminación de grasa a través de la aplicación de frío controlado provocando la muerte celular</p>
@@ -73,11 +65,13 @@
         </ion-range>
         
       </ion-item>
+
+      
       
     </div>
   </div>
-  <app-custom-tab-bar></app-custom-tab-bar>
-<app-custom-tab-bar [tabs]="tabs"></app-custom-tab-bar>
+
+<app-custom-tab-bar [tabs]="tabs" [router]="router"></app-custom-tab-bar>
 </ion-content>
 
 

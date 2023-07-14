@@ -33,20 +33,21 @@
         </div>
         <div class="delete-account">
           <p class="delete-text" [routerLink]="['/eliminar-cuenta']">Eliminar cuenta</p>
-          <ion-icon name="person" class="delete-icon"></ion-icon>
+          <ion-icon src="../../../assets/hombre.svg" class="delete-icon"></ion-icon>
           
         </div>                     
         
         
-      </div>
+      </div> 
       </div>
     
 </div>
 
+<app-custom-tab-bar [tabs]="tabs"></app-custom-tab-bar>
   
 </ion-content>
 
-<ion-tabs >
+<!--ion-tabs >
   <ion-tab-bar slot="bottom" class="custom-tab-bar">
     <ion-tab-button tab="cart">
       <ion-icon name="cart-outline"  [routerLink]="['/mis-tratamientos3']"></ion-icon>
@@ -61,4 +62,4 @@
     </ion-tab-button>
    
   </ion-tab-bar>
-</ion-tabs> 
+</ion-tabs--> 

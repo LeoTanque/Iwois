@@ -1,0 +1,36 @@
+.custom-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F6F0EC;
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 99px;
+    width: 100%;
+  }
+  
+  .back-icon {
+    font-size: 24px;
+    color: #666666;
+    margin-right: 20px;
+  }
+  
+  .logo-img {
+    height: 30px;
+    width: 80px;
+    
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+
+  .notifications-icon {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+ 

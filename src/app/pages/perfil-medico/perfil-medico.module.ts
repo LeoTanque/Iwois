@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { PerfilMedicoPageRoutingModule } from './perfil-medico-routing.module';
 
 import { PerfilMedicoPage } from './perfil-medico.page';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    PerfilMedicoPageRoutingModule
+    PerfilMedicoPageRoutingModule,
+    SharedModule
   ],
   declarations: [PerfilMedicoPage]
 })

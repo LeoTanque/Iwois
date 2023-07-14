@@ -15,13 +15,13 @@ export class Busqueda2Page implements OnInit {
   rangeValue: number = 5;
 
   tabs = [
-    { tab: 'cart', icon: '../../../assets/carrito.svg' },
-    { tab: 'notification', icon: '../../../assets/home.svg' },
+    { tab: 'cart', icon: '../../../assets/carrito.svg', route: '/home' },
+    { tab: 'notification', icon: '../../../assets/home.svg', route: '/' },
     { tab: 'mesage', icon: '../../../assets/msj.svg' },
     { tab: 'profile', icon: '../../../assets/person.svg' }
   ];
 
-  constructor(private ruta: Router) { }
+  constructor(public router: Router) { }
 
 
 
@@ -30,7 +30,7 @@ export class Busqueda2Page implements OnInit {
   toggleItem() {
     this.showItem=true;
     this.showItem = !this.showItem;
-    this.ruta.navigate(['/login'])
+    this.router.navigate(['/login'])
   }
 
   isOpen = false;
@@ -40,4 +40,6 @@ export class Busqueda2Page implements OnInit {
     this.isOpen = true;
   }
 
+
+ 
 }

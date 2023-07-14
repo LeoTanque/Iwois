@@ -16,7 +16,7 @@
           <h4 class="custom-heading"><strong>Productos y servicios</strong></h4>
         </div>
 
-        <ion-accordion value="first"> 
+        <ion-accordion value="first" [routerLink]="['/tratamiento3']"> 
           <ion-item slot="header" color="light"> 
             <ion-thumbnail slot="start">
               <img alt="Silhouette of mountains" src="../../../assets/enfermaaa.png" />
@@ -30,7 +30,7 @@
         </ion-accordion>
         
 
-        <div class="slider-container" style="margin-top: 20px;">
+        <!--div class="slider-container" style="margin-top: 20px;">
           <swiper-container 
           #swiper (slideChange)="swiperSlideChanged($event)"
           [loop]="true"
@@ -45,11 +45,12 @@
               </div>
              
             </swiper-slide>
-           
+          
         
           </swiper-container>
-        </div>  
+        </div-->  
 
+        <app-slider [images]="images" [slidesPerView]="'2.5'"></app-slider>
 
         <ion-accordion value="first">
           <ion-item slot="header" color="light">
@@ -82,9 +83,9 @@
    
 </div>
 
- 
+<app-custom-tab-bar [tabs]="tabs"></app-custom-tab-bar>
 </ion-content>
-<ion-tabs >
+<!--ion-tabs >
   <ion-tab-bar slot="bottom" class="custom-tab-bar">
     <ion-tab-button tab="cart">
       <ion-icon name="cart-outline" [routerLink]="['/emergente-inicio-sesion']"></ion-icon>
@@ -99,6 +100,6 @@
     </ion-tab-button>
    
   </ion-tab-bar>
-</ion-tabs>
+</ion-tabs-->
 
 
