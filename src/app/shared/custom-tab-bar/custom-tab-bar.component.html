@@ -1,6 +1,6 @@
 <ion-tab-bar slot="bottom" class="custom-tab-bar">
-  <ion-tab-button *ngFor="let tab of tabs;  index as i" [tab]="tab.tab"  (click)="onTabClick(tab.route)">
+  <ion-tab-button *ngFor="let tab of tabs;  index as i" [tab]="tab.tab" (click)="onTabClick(i)" >
     <ion-icon [src]="tab.icon"  [class.tab-icon]="i !== 1" [class.larger-icon]="i === 1" 
-    [style]="getIconStyles(tab.tab)" (click)="handleTabClick(i)"></ion-icon>
+    [style]="getIconStyles(tab.tab)"></ion-icon>
   </ion-tab-button>
 </ion-tab-bar> 

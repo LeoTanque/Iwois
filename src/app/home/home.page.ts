@@ -25,16 +25,21 @@ export class HomePage implements OnInit {
 
   tabRoutes = [
     { tab: 'cart', route: '/chat' },
-    { tab: 'notification', route: '/notification' },
-    { tab: 'mesage', route: '/message' },
-    { tab: 'profile', route: '/profile' }
+    { tab: 'notification', route: '/login-prof' },
+    { tab: 'mesage', route: '/busqueda-arr' },
+    { tab: 'profile', route: '/suplementacion' }
   ];
 
-  constructor(private router: Router) { }
+  /*tabRoutes = [
+    { icon: 'home', route: '/chat' },
+    { icon: 'notifications', route: '/notifications' },
+    { icon: 'mesage', route: '/notifications' },
+    { icon: 'profile', route: '/notifications' },
+  ];*/
+
+  constructor(public router: Router) { }
 
   ngOnInit() {
   }
-  navigateTo(route: string) {
-    this.router.navigateByUrl(route);
-  }
+  
 }

@@ -11,8 +11,7 @@ export class CustomTabBarComponent  implements OnInit {
 @Input() router!: Router;
 @Input() iconStyles: any[] = [];
 @Input() tabRoutes: any[] = [];
-//@Input() tabStyle: any = {};
-//@Input() secondIconSize: string = '';
+
 
   constructor() { } 
 
@@ -27,14 +26,13 @@ export class CustomTabBarComponent  implements OnInit {
     return Object.entries(style).map(([key, value]) => `${key}: ${value}`).join('; ');
   }
 
-  onTabClick(route: string) {
+  
+
+  onTabClick(index: number) {
+    const route = this.tabRoutes[index].route;
     this.router.navigate([route]);
   }
+  
 
-  handleTabClick(index: number) {
-    const route = this.tabRoutes[index]?.route;
-    if (route) {
-      this.router.navigateByUrl(route);
-    }
-  }
+  
 }
