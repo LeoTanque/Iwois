@@ -13,7 +13,8 @@ export class ButtonComponent  implements OnInit {
   @Input() redirect: string = '';
   @Input() color!: string;
   @Input() position!: string;
-
+  @Input() backgroundColor: string = '';
+  @Input() width!: string;
 
   constructor(private router: Router) { }
 

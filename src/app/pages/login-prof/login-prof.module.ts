@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { LoginProfPageRoutingModule } from './login-prof-routing.module';
 
 import { LoginProfPage } from './login-prof.page';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    LoginProfPageRoutingModule
+    LoginProfPageRoutingModule,
+    SharedModule
   ],
   declarations: [LoginProfPage]
 })

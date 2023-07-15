@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-seleccion-de-rol',
@@ -9,7 +10,7 @@ export class SeleccionDeRolPage implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() { 
   }
 
 }

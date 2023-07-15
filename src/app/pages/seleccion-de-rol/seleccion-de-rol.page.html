@@ -9,10 +9,23 @@
     </div>
     <div class="contenedor">
 
-      <div class="button-container">
+      <!--div class="button-container">
         <ion-button class="login" shape="round" expand="full" [routerLink]="['/home']">Usuario</ion-button>
         <ion-button class="botton" shape="round" expand="full" [routerLink]="['/home-profesional']"  >Profesional de la salud</ion-button>
-      </div>
+      </div-->
+
+     
+    </div>
+
+    <div class="button-container">
+      <app-button [content]="'Usuario'" [color]="''" [position]="'center'" [redirect]="'/home'" [width]="'250px'"></app-button>
+     
+    </div>
+    <div class="button-container">
+      <app-button [content]="'Profesional de la salud'" 
+      [backgroundColor]="'#FFFFFF'" 
+      [color]="'#707070'" [position]="'center'" [redirect]="'/home'" [width]="'250px'"></app-button>
+     
     </div>
   </div>
   

@@ -1,4 +1,10 @@
-<button [style]="styles" [style.background]="color" [style.float]="position" (click)="onClick()" class="rounded-button">
-  {{ content }}
+<button [style]="styles"
+ [style.background]="color" 
+ [style.float]="position" 
+ [ngStyle]="{ 'background-color': backgroundColor, 'width': width }"
+
+ (click)="onClick()" 
+ class="rounded-button">
+ <span [style.color]="color">{{ content }}</span>
 </button>
 

@@ -48,8 +48,11 @@ ion-content{
 }
 
 .button-container {
-  margin-top: auto;
+  margin-top: 90px;
   width: 60%; 
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 ion-button.login{

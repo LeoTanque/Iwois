@@ -6,12 +6,24 @@
     font-size: 15px;
     width: 220px;
     height: 40px;
-
-    
     padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
  
   }
-  
+
+/*
+css
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+ html
+ <div class="button-container">
+    <app-button [content]="''" [color]="''" [position]="'center'" [redirect]="'/'"></app-button>
+  </div>
+
+  }
+  */

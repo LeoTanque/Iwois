@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="icons_dark_back" data-name="icons/dark/back" transform="translate(0 24) rotate(-90)">
+    <rect id="bg" width="24" height="24" fill="none"/>
+    <g id="arrow-left">
+      <path id="Trazado_12" data-name="Trazado 12" d="M12,19,5,12l7-7" fill="none" stroke="#8f8f8f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
