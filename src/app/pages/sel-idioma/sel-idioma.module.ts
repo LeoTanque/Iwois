@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { SelIdiomaPageRoutingModule } from './sel-idioma-routing.module';
 
 import { SelIdiomaPage } from './sel-idioma.page';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    SelIdiomaPageRoutingModule
+    SelIdiomaPageRoutingModule,
+    SharedModule
   ],
   declarations: [SelIdiomaPage]
 })
