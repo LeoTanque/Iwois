@@ -11,9 +11,23 @@ export class HomePage implements OnInit {
 
   tabs = [
     { tab: 'cart', icon: '../../../assets/carrito.svg' },
-    { tab: 'notification', icon: '../../../assets/homer.svg' },
+    { tab: 'notification', icon: '../../../assets/casa.svg' },
     { tab: 'mesage', icon: '../../../assets/msj.svg' },
     { tab: 'profile', icon: '../../../assets/person.svg' }
+  ];
+
+  iconStyles = [
+    { tab: 'cart', styles: { color: 'red', fontSize: '24px' } },
+    { tab: 'notification', styles: { color: 'blue', fontSize: '80px', marginTop: '-10px' } },
+    { tab: 'mesage', styles: { color: 'blue', fontSize: '24px',  marginTop: '-10px' } },
+    { tab: 'profile', styles: { color: 'green', fontSize: '24px' } }
+  ];
+
+  tabRoutes = [
+    { tab: 'cart', route: '/chat' },
+    { tab: 'notification', route: '/notification' },
+    { tab: 'mesage', route: '/message' },
+    { tab: 'profile', route: '/profile' }
   ];
 
   constructor(private router: Router) { }

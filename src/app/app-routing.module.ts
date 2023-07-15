@@ -3,10 +3,10 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   
-  {
+  /*{
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)
-  },
+  },*/
 
   {
     path: 'tabs',
@@ -14,7 +14,7 @@ const routes: Routes = [
   },
  
   {
-    path: 'landing',
+    path: '',
     loadChildren: () => import('./pages/landing/landing.module').then( m => m.LandingPageModule)
   },
   {
