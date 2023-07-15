@@ -1,4 +1,5 @@
 import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
 
 import Swiper from 'swiper';
 
@@ -11,8 +12,8 @@ export class BusquedaArrPage implements OnInit {
   @ViewChild('swiper')
   swiperRef: ElementRef| undefined;
   swiper?: Swiper 
-
-
+ 
+  
   images=[
   
     '../../../assets/barriga0.png',
@@ -31,7 +32,7 @@ export class BusquedaArrPage implements OnInit {
       { tab: 'profile', icon: '../../../assets/person.svg' }
     ];
     
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }

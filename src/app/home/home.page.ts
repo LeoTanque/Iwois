@@ -16,7 +16,7 @@ export class HomePage implements OnInit {
     { tab: 'profile', icon: '../../../assets/person.svg' }
   ];
 
-  iconStyles = [
+  iconStyles = [ 
     { tab: 'cart', styles: { color: 'red', fontSize: '24px' } },
     { tab: 'notification', styles: { color: 'blue', fontSize: '80px', marginTop: '-10px' } },
     { tab: 'mesage', styles: { color: 'blue', fontSize: '24px',  marginTop: '-10px' } },
@@ -30,12 +30,7 @@ export class HomePage implements OnInit {
     { tab: 'profile', route: '/suplementacion' }
   ];
 
-  /*tabRoutes = [
-    { icon: 'home', route: '/chat' },
-    { icon: 'notifications', route: '/notifications' },
-    { icon: 'mesage', route: '/notifications' },
-    { icon: 'profile', route: '/notifications' },
-  ];*/
+ 
 
   constructor(public router: Router) { }
 
