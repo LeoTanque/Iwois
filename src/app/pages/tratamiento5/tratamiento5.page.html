@@ -10,8 +10,10 @@
       <p>Tu profesional de la salud ha recibido <br> 
         tu peticion. En breve se pondra en <br>
       contacta contigo </p>
-      <button class="continue-button" [routerLink]="['/tratamiento3']">Aceptar</button>
-      
+      <!--button class="continue-button" [routerLink]="['/tratamiento3']">Aceptar</button-->
+      <div class="button-container">
+        <app-button [content]="'Aceptar'"  [position]="'center'" [color]="''" [redirect]="'/tratamiento3'"></app-button>
+      </div>
     </div>
   </div>
 </div>

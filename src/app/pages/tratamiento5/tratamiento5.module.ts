@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { Tratamiento5PageRoutingModule } from './tratamiento5-routing.module';
 
 import { Tratamiento5Page } from './tratamiento5.page';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    Tratamiento5PageRoutingModule
+    Tratamiento5PageRoutingModule,
+    SharedModule
   ],
   declarations: [Tratamiento5Page]
 })

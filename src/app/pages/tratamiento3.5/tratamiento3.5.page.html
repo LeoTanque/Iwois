@@ -2,14 +2,8 @@
   
   <div class="container">
     <div class="background-color">
-      <div class="top-section-1">
-        <ion-icon name="chevron-back" class="back-icon"></ion-icon>
-        <div class="centered-content">
-          <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img" [routerLink]="['/']">
-          
-        </div>
-        <ion-icon name="notifications-outline" [routerLink]="['/home']" class="notifications-icon" ></ion-icon>
-      </div>
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+      
       <div class="bottom-section-1">
         <ion-searchbar placeholder="Buscar"></ion-searchbar>
         <div class="text-content" >
@@ -50,7 +44,7 @@
           </swiper-container>
         </div-->  
 
-        <app-slider [images]="images" [slidesPerView]="'2.5'"></app-slider>
+        <app-slider [images]="images" [slidesPerView]="'2.5'" [elementSize]="'135'"></app-slider>
 
         <ion-accordion value="first">
           <ion-item slot="header" color="light">
@@ -83,23 +77,12 @@
    
 </div>
 
-<app-custom-tab-bar [tabs]="tabs"></app-custom-tab-bar>
+<app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
 </ion-content>
-<!--ion-tabs >
-  <ion-tab-bar slot="bottom" class="custom-tab-bar">
-    <ion-tab-button tab="cart">
-      <ion-icon name="cart-outline" [routerLink]="['/emergente-inicio-sesion']"></ion-icon>
-    </ion-tab-button>
- 
-    <ion-tab-button tab="notification" class="elevated-tab">
-      <ion-icon name="home-outline" [routerLink]="['/home']"></ion-icon>
-    </ion-tab-button>
 
-    <ion-tab-button tab="profile">
-      <ion-icon name="person-outline" [routerLink]="['/emergente-inicio-sesion']"></ion-icon>
-    </ion-tab-button>
-   
-  </ion-tab-bar>
-</ion-tabs-->
 
 

@@ -8,7 +8,7 @@
  
   
     <swiper-slide *ngFor="let image of images ">
-      <div class="swiper-zoom-container">
+      <div class="swiper-zoom-container" [style.width.px]="elementSize" [style.height.px]="elementSize">
         <img [src]="image" />
       </div>
      

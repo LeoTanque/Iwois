@@ -12,7 +12,7 @@ export class SliderComponent  implements OnInit {
 
   @Input() images:string[] = [];
   @Input() slidesPerView=''
-
+  @Input() elementSize = ''; 
   constructor() { }
 
   ngOnInit() {} 
