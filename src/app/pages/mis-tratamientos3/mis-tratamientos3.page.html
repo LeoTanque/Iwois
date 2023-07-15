@@ -2,13 +2,15 @@
   
   <div class="container">
     <div class="background-color">
-      <div class="top-section-1">
+
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+      <!--div class="top-section-1">
         <div class="centered-content">
           <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img">
           
         </div>
         <ion-icon name="notifications-outline" [routerLink]="['/home']" class="notifications-icon" ></ion-icon>
-      </div>
+      </div-->
       <div class="bottom-section-1">
 
         <ion-searchbar placeholder="Buscar"></ion-searchbar>
@@ -25,31 +27,24 @@
             productos/servicios que tu profesional de la<br>salud pone a tu disposicion</h6>
         </div>
      
-        <div class="location-content">
-          
-          <ion-button class="login" shape="round" expand="full" >Buscar profesionales</ion-button>
+        <!--div class="location-content">
+          <div class="button-container">
+            <app-button [content]="'Buscar profesionales'" [color]="''" [position]="'center'" [redirect]="'/'"></app-button>
+          </div>
+        </div-->
+        <div class="button-container">
+          <app-button [content]="'Buscar profesionales'" [color]="''" [position]="'center'" [redirect]="'/busqueda-arr'"></app-button>
         </div>
+       
         
       </div>
     </div>
     
 </div>
 
-
+<app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
 </ion-content>
-<ion-tabs >
-  <ion-tab-bar slot="bottom" class="custom-tab-bar">
-    <ion-tab-button tab="cart">
-      <ion-icon name="cart-outline" [routerLink]="['/emergente-inicio-sesion']"></ion-icon>
-    </ion-tab-button>
- 
-    <ion-tab-button tab="notification" class="elevated-tab">
-      <ion-icon name="home-outline" [routerLink]="['/home']"></ion-icon>
-    </ion-tab-button>
-
-    <ion-tab-button tab="profile">
-      <ion-icon name="person-outline" [routerLink]="['/emergente-inicio-sesion']"></ion-icon>
-    </ion-tab-button>
-   
-  </ion-tab-bar>
-</ion-tabs>

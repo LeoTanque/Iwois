@@ -30,7 +30,7 @@ ion-content {
 }
 
 .notifications-icon {
-  font-size: 30px;
+  font-size: 25px;
   color: #666666;
 }
 
@@ -70,8 +70,8 @@ ion-content {
   padding: 5px;
   border: none;
   border-radius: 30px;
-  background-color: #83989A;
-  color: #FFFFFF;
+  //background-color: #83989A;
+  //color: #FFFFFF;
   cursor: pointer;
   margin-bottom: 5px;
   font-size: 16px;
@@ -83,16 +83,17 @@ ion-content {
 
 
 .modal-button.primary-button {
-  background-color: #83989A;
-  color: #FFFFFF;
+  //background-color: #83989A;
+  //color: #FFFFFF;
   margin-top: 40px;
 }
 
 .modal-button:not(.primary-button) {
-  background-color: #FFFFFF;
-  color: #666666;
+ // background-color: #FFFFFF;
+  //color: #666666;
   margin-bottom: 75px;
 }
+
 
 
   
@@ -111,53 +112,6 @@ ion-content {
   
 }
  
-
-.custom-tab-bar{
-  display: flex;
-  justify-content: space-between;
-  padding: 5px;
-
-  background-color: #ffffff;
- 
- border-top-left-radius: 25%;
- border-top-right-radius: 25%;
-
- overflow: hidden;
- 
-}
-
-ion-icon{
-  font-size: 30px;
-}
-
-
-ion-tab-button {
-  height: 40px; /* Ajusta la altura de las pestañas de las esquinas */
- 
-}
-
-
-
-ion-tab-button.elevated-tab {
-  height: 60px; /* Ajusta la altura de la pestaña del centro */
-  transform: translateY(-10px); /* Ajusta este valor según tus necesidades */
-  background-color: #F6F0EC;
-  border-radius: 80px;
-  padding-top: 5px;
-
-
-  position: relative;
-  z-index: 1;
-
-  
-  overflow: visible;
-}
-
-.custom-tab-bar .elevated-tab {
-  position: relative;
-  top: -10px; /* Ajusta este valor negativo según tus necesidades */
-  z-index: 1; 
-}
 
 
 

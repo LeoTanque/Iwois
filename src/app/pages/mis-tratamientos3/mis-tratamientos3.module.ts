@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { MisTratamientos3PageRoutingModule } from './mis-tratamientos3-routing.module';
 
 import { MisTratamientos3Page } from './mis-tratamientos3.page';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    MisTratamientos3PageRoutingModule
+    MisTratamientos3PageRoutingModule,
+    SharedModule
   ],
   declarations: [MisTratamientos3Page]
 })

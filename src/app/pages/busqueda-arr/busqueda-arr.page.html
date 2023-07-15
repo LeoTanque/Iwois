@@ -5,8 +5,6 @@
     <div class="background-color"> 
       <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
 
-      
-     
       <div class="bottom-section-1">
         <ion-searchbar placeholder="Buscar"></ion-searchbar>
         <div class="text-content" >
@@ -52,24 +50,10 @@
 </div>
 
 
-<app-custom-tab-bar [tabs]="tabs" ></app-custom-tab-bar>
+<app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
 
 </ion-content>
-
-
-<!--ion-tabs #tabs >
-  <ion-tab-bar slot="bottom" class="custom-tab-bar">
-    <ion-tab-button tab="cart">
-      <ion-icon name="cart-outline"  [routerLink]="['/emergente-inicio-sesion']"></ion-icon>
-    </ion-tab-button>
- 
-    <ion-tab-button tab="notification" class="elevated-tab">
-      <ion-icon name="home-outline" [routerLink]="['/home']"></ion-icon>
-    </ion-tab-button>
-
-    <ion-tab-button tab="profile">
-      <ion-icon name="person-outline" [routerLink]="['/emergente-inicio-sesion']"></ion-icon>
-    </ion-tab-button>
-   
-  </ion-tab-bar>
-</ion-tabs-->

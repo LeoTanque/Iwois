@@ -1,8 +1,9 @@
-<ion-content [fullscreen]="true">
+<ion-content>
   <div class="container">
     <div class="top-section">
       <div class="background-image">
-        <app-superior></app-superior>
+        <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+        
         <div class="top-overlay">
           
 
@@ -22,7 +23,7 @@
           <ion-icon name="location-outline"></ion-icon>
           <ion-icon name="refresh-circle-outline"></ion-icon>
         </div--> 
-      <div class="center-marker">
+      <!--div class="center-marker">
   <ion-button (click)="presentPopover($event)"></ion-button>
 <ion-popover #popover [isOpen]="isOpen" (didDismiss)="isOpen = false">
   <ng-template>
@@ -45,11 +46,7 @@
 </ion-popover>
 
   <img src="../../../assets/ubi.png" alt="Foto" class="location-photo">
-</div>
-
-
-
-
+</div-->
 
       </div>
 
@@ -71,24 +68,12 @@
     </div>
   </div>
 
-<app-custom-tab-bar [tabs]="tabs" [router]="router"></app-custom-tab-bar>
+  <app-custom-tab-bar [tabs]="tabs" 
+  [iconStyles]="iconStyles" 
+  [router]="router" 
+  [tabRoutes]="tabRoutes"
+   ></app-custom-tab-bar>
 </ion-content>
 
 
-<!--ion-tabs >
-  <ion-tab-bar slot="bottom" class="custom-tab-bar">
-    <ion-tab-button tab="cart">
-      <ion-icon name="cart-outline" [routerLink]="['/emergente-inicio-sesion']"></ion-icon>
-    </ion-tab-button>
- 
-    <ion-tab-button tab="notification" class="elevated-tab">
-      <ion-icon name="home-outline" [routerLink]="['/home']"></ion-icon>
-    </ion-tab-button>
-
-    <ion-tab-button tab="profile">
-      <ion-icon name="person-outline" [routerLink]="['/emergente-inicio-sesion']"></ion-icon>
-    </ion-tab-button>
-   
-  </ion-tab-bar>
-</ion-tabs-->
 

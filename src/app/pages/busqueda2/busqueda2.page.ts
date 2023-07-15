@@ -8,11 +8,11 @@ import { Router } from '@angular/router';
 })
 export class Busqueda2Page implements OnInit {
 
-  showItem = false;
+  //showItem = false;
 
-  @ViewChild('popover') popover: any;
+ // @ViewChild('popover') popover: any;
 
-  rangeValue: number = 5;
+ // rangeValue: number = 5;
 
   tabs = [
     { tab: 'cart', icon: '../../../assets/carrito.svg', route: '/home' },
@@ -21,13 +21,28 @@ export class Busqueda2Page implements OnInit {
     { tab: 'profile', icon: '../../../assets/person.svg' }
   ];
 
+
+  iconStyles = [ 
+    { tab: 'cart', styles: { color: 'red', fontSize: '24px' } },
+    { tab: 'notification', styles: { color: 'blue', fontSize: '24px', marginTop: '-15px' } },
+    { tab: 'mesage', styles: { color: 'blue', fontSize: '24px',  marginTop: '-15px' } },
+    { tab: 'profile', styles: { color: 'green', fontSize: '24px' } }
+  ];
+ 
+  tabRoutes = [
+    { tab: 'cart', route: '/tratamiento3' },
+    { tab: 'notification', route: '/home' },
+    { tab: 'mesage', route: '/' },
+    { tab: 'profile', route: '/perfil' }
+  ];
+
   constructor(public router: Router) { }
 
 
 
   ngOnInit() {
   }
-  toggleItem() {
+  /*toggleItem() {
     this.showItem=true;
     this.showItem = !this.showItem;
     this.router.navigate(['/login'])
@@ -38,7 +53,7 @@ export class Busqueda2Page implements OnInit {
   presentPopover(e: Event) {
     this.popover.event = e;
     this.isOpen = true;
-  }
+  }*/
 
 
  

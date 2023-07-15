@@ -22,7 +22,7 @@ export class HomePage implements OnInit {
     { tab: 'mesage', styles: { color: 'blue', fontSize: '24px',  marginTop: '-10px' } },
     { tab: 'profile', styles: { color: 'green', fontSize: '24px' } }
   ];
-
+ 
   tabRoutes = [
     { tab: 'cart', route: '/chat' },
     { tab: 'notification', route: '/login-prof' },

@@ -22,8 +22,17 @@ css
 
  html
  <div class="button-container">
-    <app-button [content]="''" [color]="''" [position]="'center'" [redirect]="'/'"></app-button>
+    <app-button [content]="''" 
+        [backgroundColor]="'#FFFFFF'" 
+        [color]="'#707070'" 
+        [position]="'center'"
+        [width]="''"
+        [redirect]="'/busqueda-arr'"></app-button>
   </div>
+
+  <div class="button-container">
+          <app-button [content]="'Buscar especialista'" [color]="''" [position]="'center'" [redirect]="'/welcome'"></app-button>
+        </div>
 
   }
   */
