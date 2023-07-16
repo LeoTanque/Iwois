@@ -2,63 +2,63 @@
   
   <div class="container">
     <div class="background-color">
-      <div class="top-section-1">
-        <div class="centered-content">
-          <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img">
-     
-        </div>
-      </div>
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+      
       <div class="bottom-section-1">
         <div class="text-content" >
           <h5 class="custom-heading"><strong>Editar perfil</strong></h5>
         </div>
         <div class="inputs">
           <ion-item>
-            <ion-icon name="person-outline" slot="start"></ion-icon>
+            <ion-icon src="../../../assets/hombrecito.svg" slot="start"></ion-icon>
             <ion-label position="floating">Nombre</ion-label>
             <ion-input ></ion-input>
           </ion-item>
           <ion-item>
-            <ion-icon name="person-outline" slot="start"></ion-icon>
+            <ion-icon src="../../../assets/hombrecito.svg" slot="start"></ion-icon>
             <ion-label position="floating">Apellidos</ion-label>
             <ion-input></ion-input>
           </ion-item>
           <ion-item>
-            <ion-icon name="calendar-number-outline" slot="start"></ion-icon>
+            <ion-icon src="../../../assets/calendario.svg" slot="start"></ion-icon>
             <ion-label position="floating">dd/mm/aaa</ion-label>
             <ion-input></ion-input>
           </ion-item>
           <ion-item>
-            <ion-icon name="mail-outline" slot="start"></ion-icon>
+            <ion-icon src="../../../assets/sobre.svg" slot="start"></ion-icon>
             <ion-label position="floating">E-mail</ion-label>
             <ion-input></ion-input>
           </ion-item>
           <ion-item>
-            <ion-icon name="phone-portrait-sharp" slot="start"></ion-icon>
+            <ion-icon src="../../../assets/tel.svg" slot="start"></ion-icon>
             <ion-label position="floating">Telefono de registro</ion-label>
             <ion-input></ion-input>
           </ion-item>
           <ion-item>
-            <ion-icon name="globe-sharp" slot="start"></ion-icon>
+            <ion-icon src="../../../assets/world.svg" slot="start"></ion-icon>
             <ion-label position="floating">Pais</ion-label>
             <ion-input></ion-input>
           </ion-item>
           <ion-item>
-            <ion-icon name="location-outline" slot="start"></ion-icon>
+            <ion-icon src="../../../assets/prov.svg" slot="start"></ion-icon>
             <ion-label position="floating">Provincia</ion-label>
             <ion-input></ion-input>
           </ion-item>
           <ion-item>
-            <ion-icon name="location-outline" slot="start"></ion-icon>
+            <ion-icon src="../../../assets/prov.svg" slot="start"></ion-icon>
             <ion-label position="floating">Ciudad</ion-label>
             <ion-input></ion-input>
           </ion-item>
         </div>
        
      
-        <div class="location-content">
+        <!--div class="location-content">
           
           <ion-button class="login" shape="round" expand="full" >Guardar cambios</ion-button>
+        </div-->
+
+        <div class="button-container">
+          <app-button [content]="'Guardar cambios'" [color]="''" [position]="'center'" [redirect]="'/perfil'"></app-button>
         </div>
         
       </div>

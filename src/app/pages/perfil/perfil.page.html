@@ -2,14 +2,8 @@
   
   <div class="container">
     <div class="background-color">
-      <div class="top-section-1">
-        <div class="centered-content">
-          <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img">
-        </div>
-        <div class="notification-container">
-          <ion-icon name="notifications-outline" class="notification-icon" [routerLink]="['/notificaciones']"></ion-icon>
-        </div> 
-      </div>
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+  
       <div class="bottom-section">
         <div class="image-container">
           <img src="../../../assets/perfil.png" alt="Foto" class="centered-image">
@@ -18,15 +12,15 @@
         <p class="email">nytelweb@nytelweb.es</p>
         <div class="edit-profile">
           <div class="option" >
-            <ion-icon name="create-outline" class="option-icon" ></ion-icon>
+            <ion-icon src="../../../assets/editar.svg" class="option-icon" ></ion-icon>
             <p [routerLink]="['/editar-contrasena']" class="option-text" >Editar perfil</p>
           </div>
           <div class="option">
-            <ion-icon name="lock-closed-outline" class="option-icon"></ion-icon>
+            <ion-icon src="../../../assets/cand.svg" class="option-icon"></ion-icon>
             <p class="option-text"   [routerLink]="['/cambiar-contrsena']">Cambiar contraseña</p>
           </div>
           <div class="option">
-            <ion-icon name="power-outline" class="option-icon"></ion-icon>
+            <ion-icon src="../../../assets/cerrar.svg" class="option-icon"></ion-icon>
             <p class="option-text" [routerLink]="['/cerrar-sesion']">Cerrar sesión</p>
           </div>
           
@@ -43,23 +37,11 @@
     
 </div>
 
-<app-custom-tab-bar [tabs]="tabs"></app-custom-tab-bar>
+<app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
   
 </ion-content>
 
-<!--ion-tabs >
-  <ion-tab-bar slot="bottom" class="custom-tab-bar">
-    <ion-tab-button tab="cart">
-      <ion-icon name="cart-outline"  [routerLink]="['/mis-tratamientos3']"></ion-icon>
-    </ion-tab-button>
- 
-    <ion-tab-button tab="notification" class="elevated-tab">
-      <ion-icon name="home-outline"  [routerLink]="['/home']"></ion-icon>
-    </ion-tab-button>
-
-    <ion-tab-button tab="profile">
-      <ion-icon name="person-outline"></ion-icon>
-    </ion-tab-button>
-   
-  </ion-tab-bar>
-</ion-tabs--> 

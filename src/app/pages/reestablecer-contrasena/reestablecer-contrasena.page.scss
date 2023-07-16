@@ -35,6 +35,12 @@ ion-content{
     color: #666666;
     opacity: 100%;
   }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
   
   .continue-button {
     margin-top: 10px;

@@ -9,6 +9,12 @@
     height: 99px;
   }
 
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
   .centered-content {
     display: flex;
     flex-direction: column;

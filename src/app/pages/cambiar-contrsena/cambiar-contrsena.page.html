@@ -2,38 +2,43 @@
   
   <div class="container">
     <div class="background-color">
-      <div class="top-section-1">
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+      <!--div class="top-section-1">
         <div class="centered-content">
           <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img">
      
         </div>
-      </div>
+      </div-->
       <div class="bottom-section-1">
         <div class="text-content" >
           <h5 class="custom-heading"><strong>Cambiar contraseña</strong></h5>
         </div>
         <div class="inputs">
           <ion-item>
-            <ion-icon name="lock-closed-outline" slot="start"></ion-icon>
+            <ion-icon src="../../../assets/cand.svg" slot="start"></ion-icon>
             <ion-label position="floating">Contraseña actual</ion-label>
             <ion-input ></ion-input>
           </ion-item>
           <ion-item>
-            <ion-icon name="lock-closed-outline" slot="start"></ion-icon>
+            <ion-icon src="../../../assets/lock.svg" slot="start"></ion-icon>
             <ion-label position="floating">Cambiar contraseña</ion-label>
             <ion-input></ion-input>
           </ion-item>
           <ion-item>
-            <ion-icon name="lock-closed-outline" slot="start"></ion-icon>
+            <ion-icon src="../../../assets/lock.svg" slot="start"></ion-icon>
             <ion-label position="floating">Confirmar contraseña</ion-label>
             <ion-input></ion-input>
           </ion-item>
         </div>
        
      
-        <div class="location-content">
+        <!--div class="location-content">
           
           <ion-button class="login" shape="round" expand="full" >Guardar cambios</ion-button>
+        </div-->
+        
+        <div class="button-container">
+          <app-button [content]="'Guardar cambios'" [color]="''" [position]="'center'" [redirect]="'/perfil'"></app-button>
         </div>
         
       </div>

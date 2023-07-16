@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { EditarContrasenaPageRoutingModule } from './editar-contrasena-routing.module';
 
 import { EditarContrasenaPage } from './editar-contrasena.page';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    EditarContrasenaPageRoutingModule
+    EditarContrasenaPageRoutingModule,
+    SharedModule
   ],
   declarations: [EditarContrasenaPage]
 })

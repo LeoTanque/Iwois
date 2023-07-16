@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { RecuperarContrasenaPageRoutingModule } from './recuperar-contrasena-routing.module';
 
 import { RecuperarContrasenaPage } from './recuperar-contrasena.page';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    RecuperarContrasenaPageRoutingModule
+    RecuperarContrasenaPageRoutingModule,
+    SharedModule
   ],
   declarations: [RecuperarContrasenaPage]
 })

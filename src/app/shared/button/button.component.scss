@@ -19,7 +19,7 @@ css
     display: flex;
     justify-content: center;
     margin-top: 25px;
-
+  }
  html
  <div class="button-container">
     <app-button [content]="''" 

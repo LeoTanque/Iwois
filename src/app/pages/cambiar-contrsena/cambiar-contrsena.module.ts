@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { CambiarContrsenaPageRoutingModule } from './cambiar-contrsena-routing.module';
 
 import { CambiarContrsenaPage } from './cambiar-contrsena.page';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    CambiarContrsenaPageRoutingModule
+    CambiarContrsenaPageRoutingModule,
+    SharedModule
   ],
   declarations: [CambiarContrsenaPage]
 })
