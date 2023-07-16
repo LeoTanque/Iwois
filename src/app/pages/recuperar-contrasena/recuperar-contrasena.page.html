@@ -30,10 +30,16 @@
            
           
         </div>
-        <div class="location-content">
+        <!--div class="location-content">
           
           <ion-button class="login" shape="round" expand="full" [routerLink]="['/reestablecer-contrasena']">Recuperar</ion-button>
+        </div-->
+
+        <div class="button-container">
+          <app-button [content]="'Recuperar'" [color]="''" [position]="'center'" [redirect]="'/reestablecer-contrasena'"></app-button>
         </div>
+
+
         
       </div>
     </div>

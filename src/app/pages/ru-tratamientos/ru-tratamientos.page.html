@@ -2,13 +2,15 @@
    
   <div class="container">
     <div class="background-color"> 
-      <div class="top-section-1">
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+
+      <!--div class="top-section-1">
         <div class="centered-content">
           <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img" [routerLink]="['/']">
           
         </div> 
         <ion-icon name="notifications-outline" [routerLink]="['/home']" class="notifications-icon" ></ion-icon>
-      </div> 
+      </div--> 
       <div class="bottom-section-1">
         <ion-searchbar placeholder="Buscar"></ion-searchbar>
         <div class="text-content" >
@@ -37,7 +39,7 @@
             tu profesional de la salud a traves de <br>
             whatsapp
              </p>
-          <ion-icon src="../../../assets/burbuja.svg" class="whatsapp-icon"></ion-icon>
+          <ion-icon src="../../../assets/burbuja.svg" class="whatsapp-icon" [routerLink]="['/chat']"></ion-icon>
         </div>
 
 
@@ -50,8 +52,11 @@
   
 </div>
 
-<app-custom-tab-bar [tabs]="tabs"></app-custom-tab-bar>
-
+<app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
  
 </ion-content>
 
