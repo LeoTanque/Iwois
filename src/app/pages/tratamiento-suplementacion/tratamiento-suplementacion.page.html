@@ -2,13 +2,8 @@
   
   <div class="container">
     <div class="background-color">
-      <div class="top-section-1">
-        <div class="centered-content">
-          <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img" [routerLink]="['/']">
-          
-        </div>
-        <ion-icon name="notifications-outline" [routerLink]="['/home']" class="notifications-icon" ></ion-icon>
-      </div>
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+      
       <div class="bottom-section-1">
         <ion-searchbar placeholder="Buscar"></ion-searchbar>
         <div class="text-content" >
@@ -27,8 +22,8 @@
         </div>
         <div class="button-container">
           <div class="vertical-buttons">
-            <button class="custom-button"><strong>Antes del desayuno</strong></button>
-            <button class="custom-button"><strong>Antes de la comida</strong></button>
+            <button class="custom-button" [routerLink]="['/suplementacion']"><strong>Antes del desayuno</strong></button>
+            <button class="custom-button"  [routerLink]="['/suplementacion']"><strong>Antes de la comida</strong></button>
             <button class="custom-button"><strong>Despues de la comida</strong></button>
             <button class="custom-button"><strong>Antes de la cena</strong></button>
             <button class="custom-button"><strong>Antes de iniciar el ayuno</strong></button>
@@ -49,23 +44,10 @@
   
 </div>
 
-<!--ion-tabs >
-  <ion-tab-bar slot="bottom" class="custom-tab-bar">
-    <ion-tab-button tab="cart">
-      <ion-icon name="cart-outline"  [routerLink]="['/mis-tratamientos3']"></ion-icon>
-    </ion-tab-button>
- 
-    <ion-tab-button tab="notification" class="elevated-tab">
-      <ion-icon name="home-outline"  [routerLink]="['/home']"></ion-icon>
-    </ion-tab-button>
-
-    <ion-tab-button tab="profile">
-      <ion-icon name="person-outline"></ion-icon>
-    </ion-tab-button>
-   
-  </ion-tab-bar>
-</ion-tabs--> 
-
-<app-custom-tab-bar [tabs]="tabs"></app-custom-tab-bar>
+<app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
 </ion-content>
 

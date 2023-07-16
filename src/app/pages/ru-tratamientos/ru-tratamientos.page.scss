@@ -3,42 +3,6 @@
   overflow-y: auto; /* Permite que el contenido se deslice verticalmente si no cabe en la pantalla */
 }
 
-
-.top-section-1 {
-    flex: 1;
-    display: flex;
-    //justify-content: center;
-    align-items: flex-start;
-    background-color: #F6F0EC;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    height: 99px;
-   
-  }
-
-  .centered-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  align-items: center;
-  }
- 
-  .notifications-icon {
-    margin-top: 12%;
-   // margin-right: 5px;
-    margin-left: 50%;
-    align-items: end;
-    justify-content: end;
-    width: 40px;
-    font-size: 24px;
-  }
-
-  .logo-img {
-    height: 30px;
-    width: 80px;
-    margin-top: 35%;
-    margin-left: 35px;
-  }
   .bottom-section-1 {
    
     display: flex;
@@ -50,11 +14,11 @@
     opacity: 100%;
     flex: 1;
     //height: 80vh;
-    height: calc(100% - 99px); /* Establece la altura de la sección inferior restando la altura de la sección superior */
+    height: calc(100% - 99px); 
     //overflow: auto;
 
     overflow-y: auto;
-
+    padding-bottom: 60px;
  
   }
 
@@ -105,6 +69,7 @@
     
   .icon-container ion-icon {
     margin: 10px 25px;
+    margin-bottom: 10px;
   }
 
 
@@ -148,112 +113,8 @@
   }
 
 
-  ion-tabs {
-    //position: relative;
-    bottom: 0;
-    width: 100%;
-    margin-top: 20px;
-
-
-
-    position: sticky;
-  
-    z-index: 1;
-  }
-  
-
-  .custom-tab-bar{
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-  
-    background-color: #ffffff;
-   
-   border-top-left-radius: 25%;
-   border-top-right-radius: 25%;
-  
-   overflow: hidden;
-   
-  }
-  
-  ion-icon{
-    font-size: 30px;
-  } 
-  
-  
-  ion-tab-button {
-    height: 40px; /* Ajusta la altura de las pestañas de las esquinas */
-   
-  }
-  
-  
-  
-  ion-tab-button.elevated-tab {
-    height: 60px; /* Ajusta la altura de la pestaña del centro */
-    transform: translateY(-10px); /* Ajusta este valor según tus necesidades */
-    background-color: #F6F0EC;
-    border-radius: 80px;
-    padding-top: 5px;
-  
-  
-    position: relative;
-    z-index: 1;
-  
-    
-    overflow: visible;
-  }
-  
-  .custom-tab-bar .elevated-tab {
-    position: relative;
-    top: -10px; /* Ajusta este valor negativo según tus necesidades */
-    z-index: 1; 
-  }
-
-
-
-  swiper-container {
-    height: 100%;
-    width: 100%;
-   
-    
-}
-
-swiper-slide {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   
-}
-
-.swiper-zoom-container{
-    width: 95%; 
-    height: 30%;
-}
-
-.slider-container {
-    margin-top: 20px;
-  }
-  
-  .swiper-container {
-    width: 100%;
-    height: 300px;
-  }
-  
-  .swiper-slide img {
-    width: 100%;
-    height: 100%;
-  }
-
-
-  .content-container {
-    height: calc(100% - 500px);
-    overflow-y: scroll;
-  }
-  
-  .container {
-    height: 100vh;
-  }
   ion-content {
     height: 100vh;
   }
+
+

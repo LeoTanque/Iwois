@@ -8,13 +8,15 @@ import { SuplementacionPageRoutingModule } from './suplementacion-routing.module
 
 import { SuplementacionPage } from './suplementacion.page';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    SuplementacionPageRoutingModule
+    SuplementacionPageRoutingModule,
+    SharedModule
   ],
   declarations: [SuplementacionPage],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]

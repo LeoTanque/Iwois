@@ -1,6 +1,7 @@
 swiper-container{
     height:100% ;
     width: 100%;
+    
 }
 
 swiper-slide {
@@ -116,53 +117,14 @@ swiper-slide {
 }
 
 
-
-.custom-tab-bar{
-  display: flex;
-  justify-content: space-between;
-  padding: 5px;
-
-  background-color: #ffffff;
- 
- border-top-left-radius: 25%;
- border-top-right-radius: 25%;
-
- overflow: hidden;
- 
+.slide-background.slide1 {
+  background-image: url('../../../assets/fondo.png');
 }
 
-ion-icon{
-  font-size: 30px;
+.slide-background.slide2 {
+  background-image: url('../../../assets/fondo.png');
 }
 
-
-ion-tab-button {
-  height: 40px; /* Ajusta la altura de las pestañas de las esquinas */
- 
-}
-
-
-
-ion-tab-button.elevated-tab {
-  height: 60px; /* Ajusta la altura de la pestaña del centro */
-  transform: translateY(-10px); /* Ajusta este valor según tus necesidades */
-  background-color: #F6F0EC;
-  border-radius: 80px;
-  padding-top: 5px;
-
-
-  position: relative;
-  z-index: 1;
-
-  
-  overflow: visible;
-}
-
-.custom-tab-bar .elevated-tab {
-  position: relative;
-  top: -10px; /* Ajusta este valor negativo según tus necesidades */
-  z-index: 1; 
-}
 
 
 
