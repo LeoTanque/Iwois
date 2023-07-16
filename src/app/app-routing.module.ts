@@ -230,7 +230,11 @@ const routes: Routes = [
   {
     path: 'tabs-bar',
     loadChildren: () => import('./pages/tabs-bar/tabs-bar.module').then( m => m.TabsBarPageModule)
+  },  {
+    path: 'perfil-medico1',
+    loadChildren: () => import('./pages/perfil-medico1/perfil-medico1.module').then( m => m.PerfilMedico1PageModule)
   },
+
 
  
 

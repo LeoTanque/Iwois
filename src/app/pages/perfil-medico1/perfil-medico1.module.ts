@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ChatPageRoutingModule } from './chat-routing.module';
-
-import { ChatPage } from './chat.page';
+import { PerfilMedico1PageRoutingModule } from './perfil-medico1-routing.module';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { PerfilMedico1Page } from './perfil-medico1.page';
 import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
@@ -14,9 +14,10 @@ import { SharedModule } from 'src/app/shared/shared.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    ChatPageRoutingModule,
+    PerfilMedico1PageRoutingModule,
     SharedModule
   ],
-  declarations: [ChatPage]
+  declarations: [PerfilMedico1Page],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class ChatPageModule {}
+export class PerfilMedico1PageModule {}

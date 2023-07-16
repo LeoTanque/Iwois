@@ -6,14 +6,14 @@
    
     display: flex;
     flex-direction: column;
-    //align-items: center;
     justify-content: center;
     text-align: left;
-    
     opacity: 100%;
     flex: 1;
     //height: 80vh;
     padding-bottom: 30px;
+    overflow: auto;
+    
   }
 
   .custom-heading {

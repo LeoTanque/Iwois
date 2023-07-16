@@ -6,17 +6,18 @@ import { SliderComponent } from './slider/slider.component';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { SuperiorComponent } from './superior/superior.component';
 import { ButtonComponent } from './button/button.component';
+import { ImageGridComponent } from './image-grid/image-grid.component';
 
 
 
 @NgModule({
-  declarations: [ CustomTabBarComponent, SliderComponent, SuperiorComponent, ButtonComponent],
+  declarations: [ CustomTabBarComponent, SliderComponent, SuperiorComponent, ButtonComponent, ImageGridComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     CommonModule,
     IonicModule
   ],
   exports: [CustomTabBarComponent,
-  SliderComponent, SuperiorComponent, ButtonComponent]
+  SliderComponent, SuperiorComponent, ButtonComponent, ImageGridComponent]
 })
 export class SharedModule { }

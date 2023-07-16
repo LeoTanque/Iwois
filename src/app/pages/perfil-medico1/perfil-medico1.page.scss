@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     overflow: hidden; 
   }
   
@@ -18,6 +18,7 @@
     border-bottom-right-radius: 15%;
    // height: 40%;
     height: 40vh;
+    z-index: -1;
   }
   
   .top-overlay {
@@ -79,22 +80,32 @@
 
   .bottom-section {
     flex: 6;
+    //display: flex;
+    //flex-direction: column;
+    //align-items: center;
+    //padding-top: 15px;
+    //overflow: auto;
+    height: calc(100% - 99px); /* Establece la altura de la sección inferior restando la altura de la sección superior */
+
+   padding-bottom: 70px;
+   overflow: auto;
+   height: 50px; 
+  }
+  
+
+  .prueba {
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 15px;
+    //padding-top: 15px;
     overflow: auto;
-    height: calc(100% - 99px); /* Establece la altura de la sección inferior restando la altura de la sección superior */
-    overflow: auto;
-    padding-bottom: 60px;
+    margin-bottom: 20px;
+    //height: calc(100% - 99px); /* Establece la altura de la sección inferior restando la altura de la sección superior */
+
+   //padding-bottom: 60px;
   }
-  
-  ion-tabs {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    margin-top: 20px;
-  }
+
 
   .profession-title {
     color: #666666;
@@ -156,84 +167,17 @@
   }
   
   .about-me-button {
-    background-color: #83989A;
-    color: #fff;
+    background-color: #FFFFFF;
+    color: #83989A;
+    border: 1px solid #83989A;
   }
   
   .treatments-button {
-    background-color: #c3bcbc;
-    color: #83989A;
+    background-color: #83989A;
+    color: #FFFFFF;
     margin-left: 10px;
   }
 
-  .location-container {
-    display: flex;
-    align-items: center;
-    margin-top: 5px;
-    //padding: 10px 20px;
-  }
-  
-  .location-container ion-icon {
-    font-size: 24px;
-    margin-right: 10px;
-    color: #83989A;
-  }
-  
-  .address-text {
-    color: #83989A;
-    font-size: 16px;
-  }
-
-  .location-container ion-icon,
-.phone-container ion-icon {
-  font-size: 24px;
-  margin-right: 10px;
-  color: #83989A;
-}
-
-.address-text,
-.phone-text {
-  color: #83989A;
-  font-size: 16px;
-}
-
-.phone-container {
-  display: flex;
-  align-items: center;
-  margin-top: 0;
-}
-  
-  
-.location-container,
-.phone-container {
-  display: flex;
-  align-items: center;
-  margin-top: 5px;
-}
-
-.location-container ion-icon,
-.phone-container ion-icon {
-  font-size: 24px;
-  margin-right: 10px;
-  color: #83989a;
-}
-
-
-.phone-text {
-  color: #666666;
-  //font-size: 16px;
-}
-
-.phone-container {
-  margin-top: 0;
-}
-
-.additional-text {
-    text-align: left;
-    margin-left: 10px;
-    color: #666666;
-    opacity: 80%;
-  }
   
   .floating-icon {
     position: fixed;
@@ -243,17 +187,14 @@
    font-size: 65px;
   }
   
-
-  .containerrr {
-    display: flex;
-    flex-direction: column;
+  .fotos{
+    margin-top: 30px;
   }
   
-  .location-container {
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-    //margin-bottom: 25px;
+  .antes-despues {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
     color: #666666;
   }
   

@@ -2,24 +2,23 @@
   height: calc(100vh - 49px); /* Resta la altura de las tabs para que el contenido se ajuste correctamente */
   overflow-y: auto; /* Permite que el contenido se deslice verticalmente si no cabe en la pantalla */
 }
-
+ 
   .bottom-section-1 {
    
     display: flex;
     flex-direction: column;
-    //align-items: center;
-    justify-content: center;
     text-align: left;
     
     opacity: 100%;
     flex: 1;
-    //height: 80vh;
     height: calc(100% - 99px); 
-    //overflow: auto;
-
-    overflow-y: auto;
+  
+    //overflow-y: auto;
     padding-bottom: 60px;
- 
+    flex: 6;
+    //padding-top: 15px;
+    overflow: auto;
+
   }
 
   .custom-heading {

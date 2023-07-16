@@ -8,9 +8,9 @@
          
 
           <div class="social-icons">
-            <ion-icon name="share-social-sharp" class="social-icon"></ion-icon>
-            <ion-icon name="logo-facebook" class="social-icon"></ion-icon>
-            <ion-icon name="logo-instagram" class="social-icon"></ion-icon>
+            <ion-icon src="../../../assets/compartir.svg" class="social-icon"></ion-icon>
+            <ion-icon src="../../../assets/face.svg" class="social-icon"></ion-icon>
+            <ion-icon src="../../../assets/insta.svg" class="social-icon"></ion-icon>
           </div>
 
           <div class="content-container">
@@ -37,27 +37,29 @@
           </div>
           
 
+          <div class="containerrr">
+            <div class="location-container">
+              <ion-icon name="location"></ion-icon>
+              <p class="phone-text">Calle Oro 2, Jerez de la Frontera,<br>
+                Cádiz, España 08313</p>
+            </div>
           
-          <div class="location-container">
-            <ion-icon name="location"></ion-icon>
-            <p class="address-text">Calle Oro 2, Jerez de la Frontera,<br>
-               Cádiz, España 08313</p>
+            <div class="location-container">
+              <ion-icon name="call"></ion-icon>
+              <p class="phone-text">+34 123456789 +34 000000000</p>
+            </div>
+          
+            <div class="location-container">
+              <ion-icon name="mail-open"></ion-icon>
+              <p class="phone-text">Nytelweb@nytelweb.es</p>
+            </div>
+          
+            <div class="location-container">
+              <ion-icon name="globe-outline"></ion-icon>
+              <p class="phone-text">www.nytelwebusuario.com</p>
+            </div>
           </div>
-
-          <div class="location-container">
-            <ion-icon name="call"></ion-icon>
-            <p class="phone-text">+34 123456789 +34 000000000</p>
-          </div>
-
-          <div class="location-container">
-            <ion-icon name="mail-open"></ion-icon>
-            <p class="phone-text">Nytelweb@nytelweb.es</p>
-          </div>
-
-          <div class="location-container">
-            <ion-icon name="globe-outline"></ion-icon>
-            <p class="phone-text">www.nytelwebusuario.com</p>
-          </div>
+          
 
           <p class="additional-text">
             Sed vitae a mi imprediet maximus <br>
@@ -67,31 +69,23 @@
             Mauris nisin sapien maximus act metus sit <br>
             amet pulvinar scelerisque lorem. Pain <br>
             vitae eros at ante dictum matitis 
+            
+
           </p>
    
-          
+          <div class="floating-icon">
+            <ion-icon src="../../../assets/burbuja.svg" [routerLink]="['/chat']"></ion-icon>
+          </div>
+      
     </div>
-
-
-  </div>
-  <app-custom-tab-bar [tabs]="tabs"></app-custom-tab-bar>
-
-  <!--ion-tabs >
-    <ion-tab-bar slot="bottom" class="custom-tab-bar">
-      <ion-tab-button tab="cart">
-        <ion-icon name="cart-outline"  [routerLink]="['/mis-tratamientos3']"></ion-icon>
-      </ion-tab-button>
    
-      <ion-tab-button tab="notification" class="elevated-tab">
-        <ion-icon name="home-outline"  [routerLink]="['/home']"></ion-icon>
-      </ion-tab-button>
-  
-      <ion-tab-button tab="profile">
-        <ion-icon name="person-outline"></ion-icon>
-      </ion-tab-button>
-     
-    </ion-tab-bar>
-  </ion-tabs-->  
+  </div>
+  <app-custom-tab-bar [tabs]="tabs" 
+  [iconStyles]="iconStyles" 
+  [router]="router" 
+  [tabRoutes]="tabRoutes"
+   ></app-custom-tab-bar>
+
 </ion-content>
  
 

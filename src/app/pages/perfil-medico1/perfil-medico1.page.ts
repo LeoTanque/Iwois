@@ -1,12 +1,26 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
+import Swiper from 'swiper';
 
 @Component({
-  selector: 'app-perfil-medico',
-  templateUrl: './perfil-medico.page.html',
-  styleUrls: ['./perfil-medico.page.scss'],
-})
-export class PerfilMedicoPage implements OnInit {
+  selector: 'app-perfil-medico1',
+  templateUrl: './perfil-medico1.page.html',
+  styleUrls: ['./perfil-medico1.page.scss'],
+}) 
+export class PerfilMedico1Page implements OnInit {
+  @ViewChild('swiper')
+  swiperRef: ElementRef| undefined;
+  swiper?: Swiper 
+
+  images=[
+  
+    '../../../assets/barriga0.png',
+    '../../../assets/barriga2.png',
+    '../../../assets/barriga3.png', 
+    '../../../assets/barriga0.png',
+    '../../../assets/barriga2.png',
+    '../../../assets/barriga3.png'
+    ];
 
   tabs = [
     { tab: 'cart', icon: '../../../assets/carrito.svg' },
@@ -29,8 +43,19 @@ export class PerfilMedicoPage implements OnInit {
     { tab: 'mesage', route: '/' },
     { tab: 'profile', route: '/perfil' }
   ];
+
+  imageUrls: string[] = [
+    '../../../assets/esp1 62.png',
+    '../../../assets/bikini1.png',
+    '../../../assets/esp1 62.png',
+    '../../../assets/bikini1.png',
+    '../../../assets/esp1 62.png',
+    '../../../assets/bikini1.png',
+  
+  ];
   
 constructor(public router: Router) { }
+  
 
   ngOnInit() {
   }

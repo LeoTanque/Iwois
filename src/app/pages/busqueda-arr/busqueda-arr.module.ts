@@ -10,7 +10,7 @@ import { BusquedaArrPage } from './busqueda-arr.page';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { SharedModule } from 'src/app/shared/shared.module';
 
-@NgModule({
+@NgModule({ 
   imports: [
     CommonModule, 
     FormsModule,
