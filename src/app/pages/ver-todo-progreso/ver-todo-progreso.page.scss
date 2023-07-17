@@ -41,6 +41,7 @@
     font-size: 40px;
     color: #83989A;
     margin-right: 20px;
+  
     
   }
   
@@ -50,7 +51,7 @@
     margin-right: 10px;
     text-align: left;
   }
-  
+   
   .camera-outline-icon,
   .location-icon {
     font-size: 30px;
@@ -58,7 +59,28 @@
     margin-right: 10px;
   }
   
- 
+  .fotos{
+    margin-top: 30px;
+  }
+
+
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-icons {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+  }
+  
+  .right-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+  }
+  
   
   
   

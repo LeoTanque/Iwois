@@ -2,7 +2,7 @@
   <div class="container">
     <div class="top-section">
       <div class="background-image"> 
-        <ion-icon name="chevron-back" class="back-icon"></ion-icon>
+        <ion-icon name="chevron-back" class="back-icon" [routerLink]="['/busqueda2']"></ion-icon>
         <div class="top-overlay">
 
           <div class="social-icons">
@@ -16,7 +16,7 @@
               <img src="../../../assets/Logo IWOIS.png" alt="Logo Iwois" class="logo-img">
             </div>
             
-          </div>
+          </div> 
           
         </div>
       </div>
@@ -31,11 +31,11 @@
             </div>
   
             <div class="button-container">
-              <button class="about-me-button">Sobre mi</button>
+              <button class="about-me-button" [routerLink]="['/perfil-medico']">Sobre mi</button>
               <button class="treatments-button">Tratamientos</button>
             </div>
       </div>
-     
+      
           <div class="floating-icon">
             <ion-icon src="../../../assets/burbuja.svg" [routerLink]="['/chat']"></ion-icon>
           </div>
@@ -43,6 +43,7 @@
           <app-slider [images]="images" [slidesPerView]="'2.1'" [elementSize]="'170'"></app-slider>
 
           <h6 class="antes-despues">Antes / Después</h6>
+
       <div class="fotos">
           <app-image-grid [images]="imageUrls"></app-image-grid>
       </div>

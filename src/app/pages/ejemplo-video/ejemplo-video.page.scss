@@ -18,6 +18,7 @@
     top: 20px;
     left: 20px;
     z-index: 1;
+    font-size: 30px;
   }
   
   .top-right-icons {
@@ -25,6 +26,7 @@
     top: 20px;
     right: 20px;
     z-index: 1;
+    font-size: 20px;
   }
   
   .centered-icon {
@@ -33,16 +35,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
+    font-size: 80px;
   }
 
-  .top-left-icons ion-icon,
-.top-right-icons ion-icon
- {
-  font-size: 40px;
-  color: aliceblue;
-}
+ 
 
-.centered-icon ion-icon{
-    font-size: 80px;
-    color: aliceblue;
-}

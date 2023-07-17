@@ -28,6 +28,15 @@ export class VerTodoProgresoPage implements OnInit {
     { tab: 'mesage', route: '/' },
     { tab: 'profile', route: '/' }
   ];
+
+  imageUrls: string[] = [
+    '../../../assets/agregar.png',
+    '../../../assets/bikini1.png',
+    '../../../assets/espv.png',
+    '../../../assets/espv1.png',
+    '../../../assets/espv1.png',
+    '../../../assets/espv1.png',
+  ];
   constructor(public router: Router) { }
 
 

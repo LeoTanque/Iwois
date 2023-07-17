@@ -4,34 +4,31 @@
     <div class="background-color">
 
       <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
-      <!--div class="top-section-1">
-        <div class="centered-content">
-          <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img" [routerLink]="['/']">
-          
-        </div>
-        <ion-icon name="notifications-outline" [routerLink]="['/home']" class="notifications-icon" ></ion-icon>
-      </div-->
+    
       <div class="bottom-section-1">
       
-        <div class="image-container">
+        <!--div class="image-container">
           <ion-icon name="camera" class="camera-icon"></ion-icon>
           <p class="antes-despues-text"> <strong>Mi Progreso</strong></p>
           <ion-icon name="camera-outline" class="camera-outline-icon"></ion-icon>
           <ion-icon name="share-social-outline" class="location-icon"></ion-icon>
+        </div-->
+        <div class="image-container">
+          <div class="left-icons">
+            <ion-icon name="camera" class="camera-icon"></ion-icon>
+            <p class="antes-despues-text"><strong>Mi Progreso</strong></p>
+          </div>
+          <div class="right-icons">
+            <ion-icon name="camera-outline" class="camera-outline-icon"></ion-icon>
+            <ion-icon name="share-social-outline" class="location-icon"></ion-icon>
+          </div>
         </div>
+        
        
-        <div class="image-container">
-          <img src="../../../assets/png.png" alt="Imagen" class="fullscreen-image">
-        </div>
-
-        <div class="image-container">
-          <img src="../../../assets/ver.png" alt="Imagen" class="fullscreen-image">
-        </div>
-
-        <div class="image-container">
-          <img src="../../../assets/espalda.png" alt="Imagen" class="fullscreen-image">
-        </div>
-      
+    
+        <div class="fotos">
+          <app-image-grid [images]="imageUrls"></app-image-grid>
+      </div>
       </div>
     </div>
   
