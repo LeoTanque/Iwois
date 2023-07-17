@@ -17,36 +17,9 @@
     <div class="bottom-section">
       <h5 class="profession-title" [routerLink]="['/login']">Encuentra tu profesional de la salud</h5>
       <div class="map-container">
-        <img src="../../../assets/mapa5.png" alt="Mapa" class="map-image">
-        <!--div class="icon-container">
-          <ion-icon name="location-outline"></ion-icon>
-          <ion-icon name="refresh-circle-outline"></ion-icon>
-        </div--> 
-      <!--div class="center-marker">
-  <ion-button (click)="presentPopover($event)"></ion-button>
-<ion-popover #popover [isOpen]="isOpen" (didDismiss)="isOpen = false">
-  <ng-template>
-    <ion-content class="ion-padding">
-      <ion-accordion value="first">
-        <ion-item slot="header" color="light" >
-          <ion-thumbnail slot="start">
-            <img alt="Silhouette of mountains" src="../../../assets/enfermaaa.png" />
-          </ion-thumbnail>
-          <ion-label>
-           <h6>Dra Usuario Nytelweb</h6> 
-           <p style="color: #83989A;">Medico estetico</p>
-           <p style="color: #83989A;">+34 0000000</p>
-          </ion-label>
-        </ion-item>
-        <div class="ion-padding" slot="content">First Content</div>
-      </ion-accordion>
-    </ion-content>
-  </ng-template>
-</ion-popover>
-
-  <img src="../../../assets/ubi.png" alt="Foto" class="location-photo">
-</div-->
-
+        <!--img src="../../../assets/mapa5.png" alt="Mapa" class="map-image"-->
+       
+        <div id="map"></div>
       </div>
 
        
@@ -73,6 +46,7 @@
   [tabRoutes]="tabRoutes"
    ></app-custom-tab-bar>
 </ion-content>
+
 
 
 

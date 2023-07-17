@@ -234,6 +234,10 @@ const routes: Routes = [
     path: 'perfil-medico1',
     loadChildren: () => import('./pages/perfil-medico1/perfil-medico1.module').then( m => m.PerfilMedico1PageModule)
   },
+  {
+    path: 'busqueda3',
+    loadChildren: () => import('./pages/busqueda3/busqueda3.module').then( m => m.Busqueda3PageModule)
+  },
 
 
  
