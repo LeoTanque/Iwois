@@ -29,6 +29,12 @@ export class RuTratamientosProgresoPage implements OnInit {
     { tab: 'mesage', route: '/' },
     { tab: 'profile', route: '/' }
   ];
+
+  imageUrls: string[] = [
+    '../../../assets/espv1.png',
+    '../../../assets/bikini1.png',
+   
+  ];
   constructor(public router: Router) { }
 
   ngOnInit() {

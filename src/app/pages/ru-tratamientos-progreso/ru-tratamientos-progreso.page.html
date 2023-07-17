@@ -27,9 +27,12 @@
           <ion-icon name="share-social-outline" class="location-icon"></ion-icon>
         </div>
        
-        <div class="image-container">
+        <div class="fotos">
+          <app-image-grid [images]="imageUrls"></app-image-grid>
+      </div>
+        <!--div class="image-container">
           <img src="../../../assets/espalda.png" alt="Imagen" class="fullscreen-image">
-        </div>
+        </div-->
         <a [routerLink]="['/ver-todo-progreso']" class="a">Ver todo</a>
 
         <ion-range aria-label="Dual Knobs Range" [dualKnobs]="true" 
