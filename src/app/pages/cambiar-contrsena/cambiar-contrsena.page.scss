@@ -18,6 +18,7 @@
   .centered-content {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .logo-img {
@@ -42,6 +43,11 @@
   .inputs {
     margin-top: 20px;
     margin-bottom: 6%;
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center;
+
     
   }
 
@@ -52,16 +58,18 @@
     color: #666666;
     width: 90%;
     opacity: 100%;
-    align-items: center;
-    justify-content: center;
+    //align-items: center;
+    //justify-content: center;
   }
 
   .text-content {
-    text-align: left;
-    margin-left: 5%;
-    margin-top: 20px;
+    //text-align: center;
+    //margin-left: 5%;
+    margin-top: 20%;
     color: #BB8F7F;
-    margin-right: 80px;
+    //margin-right: 80px;
+    display: flex;
+    align-items: center;
   }
 
   .login{
