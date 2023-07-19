@@ -38,10 +38,10 @@ ion-content{
   .modal-image {
     position: absolute;
     top: 10px;
-    right: 20px;
-    width: 50px; /* Ajusta el ancho según tus necesidades */
+    right: 10px;
+    width: 40px; /* Ajusta el ancho según tus necesidades */
     height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
-    transform: translateY(-50%);
+    //transform: translateY(-50%);
   }
   
 
@@ -60,7 +60,7 @@ ion-content{
 
   .logo-container{
     align-items: center;
-    margin-left: 60pt;
+    margin-left: 26vw;
     padding: auto;
   
     //margin-right: 50%;
@@ -81,6 +81,10 @@ ion-content{
 
   .texto {
     color: #83989A;
+  }
+
+  ion-img{
+    margin-top: 4vh;  
   }
 
 
