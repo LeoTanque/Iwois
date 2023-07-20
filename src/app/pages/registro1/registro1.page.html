@@ -26,8 +26,11 @@
             <div class="location-content">
               <p>Utilizar mi ubicación actual</p>
               <ion-icon name="location"></ion-icon>
+            </div>
+            <div class="login-content">
               <ion-button  class="login" shape="round" expand="full">Continuar</ion-button>
             </div>
+            
           </div>
         </div>
     
@@ -57,7 +60,7 @@
             </div>
           </div>
           <div class="bottom-section-1">
-            <div class="location-content">
+            <div class="login-content">
               
               <ion-button class="login-1" shape="round" expand="full">Enviar SMS</ion-button>
             </div>
@@ -75,7 +78,7 @@
             <div class="centered-content">
               <img src="../../../assets/Logo IWOIS.png" alt="Logo" style="height: 40px; width: 110px; margin-top: 10%;">
               <div class="text-content" >
-                <h5 style="text-align: left;">Verificación</h5>
+                <h5 style="text-align: left;">Verificació                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   n</h5>
               </div>
               <p class="color">Te llegará un código de verificación por <br> SMS, introdúcelo aquí: <br></p>
               <div class="input-group-1">
@@ -87,9 +90,9 @@
             </div>
           </div>
           <div class="bottom-section-1">
-            <div class="location-content">
+            <div class="login-content">
               
-              <ion-button class="login-1" shape="round" expand="full" style="margin-top: 75%">Confirmar</ion-button>
+              <ion-button class="login-1" shape="round" expand="full">Confirmar</ion-button>
             </div>
           </div>
         </div>
@@ -121,7 +124,7 @@
           </div>
         </div>
         <div class="div-inferior">
-          <ion-button class="login" shape="round" expand="full" style="margin-top: 68%" >Continuar</ion-button>
+           <ion-button class="login-1" shape="round" expand="full" >Continuar</ion-button>
         </div>
       </div>
     </swiper-slide>
@@ -155,13 +158,14 @@
           </div>
         </div>
         <div class="div-inferior">
-          <ion-button class="login" shape="round" expand="full" style="margin-top: 63%;">Continuar</ion-button>
+          <ion-button class="login-1" shape="round" expand="full">Continuar</ion-button>
         </div>
       </div>
     </swiper-slide>
 
 
     <swiper-slide class="hoja-6">
+      <!--<div class="container">-->
             <div class="div-superior-6">
               <h3 class="texto-6">¿Cuál es tu fecha de <br> nacimiento?</h3>
               <ion-item class="input-container-6">
@@ -172,8 +176,11 @@
             </div>
             <div class="div-inferior-6">
               <ion-datetime presentation="date"></ion-datetime>
-              <ion-button class="login" shape="round" expand="full" style="border-radius: 50px; margin-top: 100%">Continuar</ion-button>
+              <div class="login-content">
+                <ion-button class="login-6" shape="round" expand="full" style="border-radius: 50px">Continuar</ion-button>
+              </div>
             </div>
+          <!--</div>-->
     </swiper-slide>
      
 
@@ -192,10 +199,11 @@
           </p>
           <a class="ruta" href="">Politica de Privacidad</a>
         </div>
-        <div class="div-inferior-7">
-          <ion-button class="login" shape="round" expand="full" style="margin-top: 48%;">Continuar</ion-button>
-        </div>
       </div>
+      <div class="div-inferior-7">
+        <ion-button class="login-7" shape="round" expand="full" >Continuar</ion-button>
+      </div>
+      
     </div>
     </swiper-slide>
 
@@ -222,10 +230,11 @@
             </ion-list>
             
           </div>
-          <div class="div-inferior-7">
-            <ion-button class="login" shape="round" expand="full" style="margin-top: 42%;" [routerLink]="['/registro-aviso']">Continuar</ion-button>
-          </div>
         </div>
+          <div class="div-inferior-7">
+            <ion-button class="login-7" shape="round" expand="full"  [routerLink]="['/registro-aviso']">Continuar</ion-button>
+        </div>
+        
       </div>
     </swiper-slide>
 

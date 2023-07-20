@@ -12,6 +12,12 @@ swiper-container{
   
 }
 
+
+.background-color {
+  width: 100%;
+  height: 100%;
+}
+
 .top-section {
   background-color: #F6F0EC;
   display: flex;
@@ -26,6 +32,23 @@ swiper-container{
   
 }
 
+
+.top-section .text-content {
+  //margin-right: 150px; 
+  margin-top: 20px;
+}
+
+
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30%;
+}
+
+
 .borde{
   border-radius: 40px; 
   width: 100%; 
@@ -35,24 +58,11 @@ swiper-container{
 .bottom-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: #FFFFFF;
   padding: 20px;
   flex: 1;
-}
-
-.background-color {
-  width: 100%;
-  height: 100%;
-}
-
-.centered-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30%;
 }
 
 .location-content {
@@ -67,9 +77,12 @@ swiper-container{
   margin-right: 10px;
 }
 
-.top-section .text-content {
-  //margin-right: 150px; 
-  margin-top: 20px;
+.login-content{
+  display: flex;
+  justify-content:center;
+  align-items:flex-start;
+  //margin-bottom: 20px;
+  color: #666666;
 }
 
 .rounded-input {
@@ -93,7 +106,7 @@ swiper-container{
   --color: #fff;
   position: fixed;
   width: 50%;
-  margin-top: 75%;
+  margin-top: 60%;
 }
 
 
@@ -134,12 +147,23 @@ swiper-container{
 
 }
 
+
+.bottom-section-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 20px;
+  flex: 1;
+}
+
 .login-1{
   --background: #83989A;
   --color: #fff;
   position: fixed;
   width: 50%;
-  margin-top: 75%;
+  margin-top: 77%;
   
  
 
@@ -170,15 +194,6 @@ swiper-container{
 
 }
 
-.bottom-section-1{
-  //display: flex;
-  //flex-direction: column;
-  //justify-content: center;
-  //align-items: center;
-  background-color: #FFFFFF;
-  padding: 20px;
-  //flex: 1;
-}
 
 
 
@@ -293,10 +308,10 @@ swiper-container{
   align-items: center;
   justify-content: center;
   height: 30%;
- flex-direction: column;
- background-color: #FFFFFF;
- padding-bottom: 40%;
- flex: 1;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  padding-bottom: 40%;
+  flex: 1;
  //padding-bottom: 50px;
 }
 
@@ -316,6 +331,8 @@ swiper-container{
   color: #666666;
   //margin-right: 120px;
 }
+
+
 /*slide 6*/
 .div-superior-6 {
   height: 40%;
@@ -341,12 +358,22 @@ swiper-container{
 }
 
 .div-inferior-6 {
-  
+  //height: 60%;
   background-color: #FFFFFF;
   display: flex;
- // align-items: center;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   padding: 20px;
+}
+
+.login-6{
+  --background: #83989A;
+  --color: #fff;
+  position: fixed;
+  width: 50%;
+  margin-top: 14%;
+
 }
 
 
@@ -398,12 +425,21 @@ ion-datetime{
 .div-inferior-7 {
   //background-color: #FFFFFF;
   display: flex;
- // align-items: center;
+  align-items: center;
   justify-content: center;
   padding: 15px;
-  height: 15%;
+  height: 30%;
   padding-top: 20%;
   padding-bottom: 20px;
+}
+
+.login-7{
+  --background: #83989A;
+  --color: #fff;
+  position: fixed;
+  width: 50%;
+  margin-top: 3%;
+
 }
 
 /*slide 8*/ 

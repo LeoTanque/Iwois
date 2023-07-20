@@ -111,7 +111,7 @@ swiper-container{
   
   .top-section-1 .text-content {
     text-align: left;
-    //margin-right: 150px;
+    margin-right: 150px;
     margin-top: 20px;
     padding: 1%;
     color: #83989A;
@@ -362,6 +362,16 @@ swiper-container{
     width: 110px;
     margin-top: 40%;
     margin-bottom: 20%;
+  }
+
+  .login-6{
+    --background: #83989A;
+    --color: #fff;
+    position: fixed;
+    width: 50%;
+    margin-top: 100%;
+    align-items: center;
+    margin-left: 14%;
   }
   
   
