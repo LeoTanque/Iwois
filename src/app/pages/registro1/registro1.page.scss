@@ -12,6 +12,12 @@ swiper-container{
   
 }
 
+
+.background-color {
+  width: 100%;
+  height: 100%;
+}
+
 .top-section {
   background-color: #F6F0EC;
   display: flex;
@@ -26,6 +32,23 @@ swiper-container{
   
 }
 
+
+.top-section .text-content {
+  //margin-right: 150px; 
+  margin-top: 20px;
+}
+
+
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30%;
+}
+
+
 .borde{
   border-radius: 40px; 
   width: 100%; 
@@ -35,27 +58,16 @@ swiper-container{
 .bottom-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: #FFFFFF;
   padding: 20px;
   flex: 1;
 }
 
-.background-color {
-  width: 100%;
-  height: 100%;
-}
-
-.centered-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 30%;
-}
-
 .location-content {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-bottom: 20px;
   color: #666666;
@@ -65,10 +77,12 @@ swiper-container{
   margin-right: 10px;
 }
 
-.top-section .text-content {
-  text-align: left;
-  margin-right: 150px; 
-  margin-top: 20px;
+.login-content{
+  display: flex;
+  justify-content:center;
+  align-items:flex-start;
+  //margin-bottom: 20px;
+  color: #666666;
 }
 
 .rounded-input {
@@ -81,6 +95,10 @@ swiper-container{
 
 .text-content{
   color: #666666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //width: 100%;
 }
 
 .login{
@@ -88,26 +106,29 @@ swiper-container{
   --color: #fff;
   position: fixed;
   width: 50%;
-  margin-top: 100%;
+  margin-top: 60%;
 }
+
 
 
 /*slide 2*/
  
 .top-section-1 {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
   background-color: #F6F0EC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
+  opacity: 100%;
+  flex: 1;
   height: 50%;
 }
 
 .top-section-1 .text-content {
-  text-align: left;
-  margin-right: 150px;
+  text-align: center;
+  //margin-right: 150px;
   margin-top: 20px;
   padding: 1%;
   color: #83989A;
@@ -126,14 +147,26 @@ swiper-container{
 
 }
 
+
+.bottom-section-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 20px;
+  flex: 1;
+}
+
 .login-1{
   --background: #83989A;
   --color: #fff;
   position: fixed;
   width: 50%;
-  margin-top: 100%;
-  align-items: center;
-  margin-left: 25%;
+  margin-top: 77%;
+  
+ 
+
 }
 
 .input-group {
@@ -149,6 +182,7 @@ swiper-container{
   margin-right: 10px; /* Espacio entre los inputs */
   //--border-radius: 40px;
   color: #707070;
+  margin-left: 10px;
 }
 
 .rounded-input-large {
@@ -156,8 +190,11 @@ swiper-container{
  flex: 1;
  //--border-radius: 40px;
  color: #707070;
+ margin-right: 10px;
 
 }
+
+
 
 
 /*slide 3*/
@@ -195,8 +232,10 @@ swiper-container{
 .rounded-input-small-1 {
   flex: 1;
   margin-right: 10px;
+  margin-left: 10px;
   width: 60px;
-  margin-top: 25px;
+  margin-top: 15px;
+  margin-bottom: 10px;
   opacity: 100%;
   background-color: #FFFFFF;
   border-radius: 10px;
@@ -251,7 +290,7 @@ swiper-container{
   text-align: left;
   margin-top: 20px;
   color: #666666;
-  margin-right: 80px;
+  //margin-right: 80px;
 }
 
 .inputs {
@@ -269,10 +308,10 @@ swiper-container{
   align-items: center;
   justify-content: center;
   height: 30%;
- flex-direction: column;
- background-color: #FFFFFF;
- padding-bottom: 40%;
- flex: 1;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  padding-bottom: 40%;
+  flex: 1;
  //padding-bottom: 50px;
 }
 
@@ -290,8 +329,10 @@ swiper-container{
   text-align: left;
   margin-top: 20px;
   color: #666666;
-  margin-right: 120px;
+  //margin-right: 120px;
 }
+
+
 /*slide 6*/
 .div-superior-6 {
   height: 40%;
@@ -317,17 +358,28 @@ swiper-container{
 }
 
 .div-inferior-6 {
+  //height: 60%;
   background-color: #FFFFFF;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
 }
 
+.login-6{
+  --background: #83989A;
+  --color: #fff;
+  position: fixed;
+  width: 50%;
+  margin-top: 14%;
+
+}
+
 
 ion-datetime{
   width: 80%;
-  height: 10%;
+  height: 8%;
 }
 
 
@@ -358,7 +410,11 @@ ion-datetime{
   text-align: center;
   margin-top: 20px;
   color: #666666;
-  
+
+}
+
+.texto-7 ion-list{
+  margin-top: 0px;
 }
 
 .ruta {
@@ -372,9 +428,18 @@ ion-datetime{
   align-items: center;
   justify-content: center;
   padding: 15px;
-  height: 15%;
+  height: 30%;
   padding-top: 20%;
   padding-bottom: 20px;
+}
+
+.login-7{
+  --background: #83989A;
+  --color: #fff;
+  position: fixed;
+  width: 50%;
+  margin-top: 3%;
+
 }
 
 /*slide 8*/ 

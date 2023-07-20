@@ -46,7 +46,7 @@
 
   .custom-heading {
     text-align: left;
-    margin-left: 10%;
+   // margin-left: 10%;
     margin-top: 40px;
     color: #666666;
   }
@@ -141,4 +141,9 @@
     width: 80px;
     margin-top: 30%;
     margin-left: 70px;
+  }
+
+  .text-content{
+    display: flex;
+    justify-content: center;
   }

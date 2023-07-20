@@ -83,6 +83,8 @@ swiper-container{
   
   .text-content{
     color: #666666;
+    display: flex;
+    justify-content: center;
   }
   
   .login{
@@ -361,6 +363,16 @@ swiper-container{
     margin-top: 40%;
     margin-bottom: 20%;
   }
+
+  .login-6{
+    --background: #83989A;
+    --color: #fff;
+    position: fixed;
+    width: 50%;
+    margin-top: 100%;
+    align-items: center;
+    margin-left: 14%;
+  }
   
   
   /*slide 7*/
@@ -484,3 +496,5 @@ color: #666666;
     border-radius: 30px;
     color: #666666;
   }
+
+  

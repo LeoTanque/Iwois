@@ -39,7 +39,7 @@
 
   .custom-heading {
     text-align: left;
-    margin-left: 10%;
+    //margin-left: 10%;
     margin-top: 60px;
     color: #666666;
   }
@@ -159,4 +159,9 @@
     color: #666666;
     font-size: 35px;
     
+  }
+
+  .text-content{
+    display: flex;
+    justify-content: center;
   }

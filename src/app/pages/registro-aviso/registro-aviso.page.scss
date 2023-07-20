@@ -34,15 +34,17 @@ ion-content{
     overflow: auto;
     padding-bottom: 20px;
     overflow: hidden;
+   
   }
 
   .modal-image {
     position: absolute;
     top: 10px;
-    right: 20px;
-    width: 50px; /* Ajusta el ancho según tus necesidades */
+    right: 10px;
+    
+    width: 40px; /* Ajusta el ancho según tus necesidades */
     height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
-    transform: translateY(-50%);
+    
   }
   
   
@@ -56,12 +58,13 @@ ion-content{
     margin-top: 25px;
     width: 234pt 72pt;
     height: 449pt 210pt;
-    padding: 15px;   
+    padding: 15px;  
   }
 
   .logo-container{
     align-items: center; 
-    margin-left: 60pt;
+    margin-left: 26vw;;
+    
     padding: auto;
   ;
   }
@@ -81,7 +84,9 @@ ion-content{
     opacity: 10%;
   }
 
-  
+  ion-img{
+    margin-top: 4vh;  
+  }
 
 
 

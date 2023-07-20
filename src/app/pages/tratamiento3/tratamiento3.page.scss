@@ -46,7 +46,7 @@
 
   .custom-heading {
     text-align: left;
-    margin-left: 10%;
+    //margin-left: 10%;
     margin-top: 40px;
     color: #666666;
   }
@@ -127,5 +127,10 @@
     position: relative;
     top: -10px; /* Ajusta este valor negativo según tus necesidades */
     z-index: 1; 
+  }
+
+  .text-content{
+    display: flex;
+    justify-content: center;
   }
   

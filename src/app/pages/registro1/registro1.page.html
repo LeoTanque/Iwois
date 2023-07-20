@@ -12,12 +12,13 @@
             <div class="centered-content">
               <img src="../../../assets/mundo123.png" alt="Imagen">
               <div class="texto" >
-                <h1 style="text-align: left;">¿Dónde estás?</h1>
+                <h1 >¿Dónde estás?</h1>
+              
               </div>
              
               <ion-item  class="borde">
       
-                <ion-input placeholder="Direccion" ></ion-input>
+                <ion-input placeholder="Dirección" ></ion-input>
               </ion-item>
             </div>
           </div>
@@ -25,8 +26,11 @@
             <div class="location-content">
               <p>Utilizar mi ubicación actual</p>
               <ion-icon name="location"></ion-icon>
+            </div>
+            <div class="login-content">
               <ion-button  class="login" shape="round" expand="full">Continuar</ion-button>
             </div>
+            
           </div>
         </div>
     
@@ -41,7 +45,8 @@
             <div class="centered-content">
               <img src="../../../assets/Logo IWOIS.png" alt="Logo" style="height: 40px; width: 110px; margin-top: 10%;">
               <div class="text-content" >
-                <h5 style="text-align: left;">Registrate</h5>
+                <h5 style="text-align: center;">Regístrate</h5>
+                
               </div>
               <p class="color">A partir de este momento, tu usuario <br> 
                 será tu número de teléfono.</p>
@@ -55,7 +60,7 @@
             </div>
           </div>
           <div class="bottom-section-1">
-            <div class="location-content">
+            <div class="login-content">
               
               <ion-button class="login-1" shape="round" expand="full">Enviar SMS</ion-button>
             </div>
@@ -73,7 +78,7 @@
             <div class="centered-content">
               <img src="../../../assets/Logo IWOIS.png" alt="Logo" style="height: 40px; width: 110px; margin-top: 10%;">
               <div class="text-content" >
-                <h5 style="text-align: left;">Verificacion</h5>
+                <h5 style="text-align: left;">Verificació                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   n</h5>
               </div>
               <p class="color">Te llegará un código de verificación por <br> SMS, introdúcelo aquí: <br></p>
               <div class="input-group-1">
@@ -85,7 +90,7 @@
             </div>
           </div>
           <div class="bottom-section-1">
-            <div class="location-content">
+            <div class="login-content">
               
               <ion-button class="login-1" shape="round" expand="full">Confirmar</ion-button>
             </div>
@@ -119,7 +124,7 @@
           </div>
         </div>
         <div class="div-inferior">
-          <ion-button class="login" shape="round" expand="full" style="margin-top: 90%;">Continuar</ion-button>
+           <ion-button class="login-1" shape="round" expand="full" >Continuar</ion-button>
         </div>
       </div>
     </swiper-slide>
@@ -153,13 +158,14 @@
           </div>
         </div>
         <div class="div-inferior">
-          <ion-button class="login" shape="round" expand="full" style="margin-top: 90%;">Continuar</ion-button>
+          <ion-button class="login-1" shape="round" expand="full">Continuar</ion-button>
         </div>
       </div>
     </swiper-slide>
 
 
     <swiper-slide class="hoja-6">
+      <!--<div class="container">-->
             <div class="div-superior-6">
               <h3 class="texto-6">¿Cuál es tu fecha de <br> nacimiento?</h3>
               <ion-item class="input-container-6">
@@ -170,8 +176,11 @@
             </div>
             <div class="div-inferior-6">
               <ion-datetime presentation="date"></ion-datetime>
-              <ion-button class="login" shape="round" expand="full" style="border-radius: 50px;">Continuar</ion-button>
+              <div class="login-content">
+                <ion-button class="login-6" shape="round" expand="full" style="border-radius: 50px">Continuar</ion-button>
+              </div>
             </div>
+          <!--</div>-->
     </swiper-slide>
      
 
@@ -182,7 +191,7 @@
           <img src="../../../assets/estrellas.png" alt="Imagen">
         </div>
         <div class="texto-7" style="text-align: center;">
-          <h5>Haz leido y aceptas la <br> politica de privacidad?</h5>
+          <h5>Has leido y aceptas la <br> politica de privacidad?</h5>
 
           <p style="text-align: left; margin-bottom: 5px; padding: 15px;">
             El objetivo de nuestra Política de Privacidad <br> es informarte sobre qué datos recogemos, <br>
@@ -190,11 +199,11 @@
           </p>
           <a class="ruta" href="">Politica de Privacidad</a>
         </div>
-        <div class="div-inferior-7">
-          <ion-button class="login" shape="round" expand="full" style="margin-top: 70%;">Continuar</ion-button>
-          
-        </div>
       </div>
+      <div class="div-inferior-7">
+        <ion-button class="login-7" shape="round" expand="full" >Continuar</ion-button>
+      </div>
+      
     </div>
     </swiper-slide>
 
@@ -221,11 +230,11 @@
             </ion-list>
             
           </div>
-          <div class="div-inferior-7">
-            <ion-button class="login" shape="round" expand="full" style="margin-top: 70%;" [routerLink]="['/registro-aviso']">Continuar</ion-button>
-            
-          </div>
         </div>
+          <div class="div-inferior-7">
+            <ion-button class="login-7" shape="round" expand="full"  [routerLink]="['/registro-aviso']">Continuar</ion-button>
+        </div>
+        
       </div>
     </swiper-slide>
 
