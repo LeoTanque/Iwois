@@ -1,5 +1,6 @@
 import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
+import { Map, marker, tileLayer } from 'leaflet';
 
 import Swiper from 'swiper';
 
@@ -51,7 +52,25 @@ export class BusquedaArrPage implements OnInit {
   ngOnInit() {
   }
 
- 
+  ngAfterViewInit():void{
+
+    const map= new Map('map').setView([40.4219,-3.7032], 13);
+  
+  tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(map);
+  
+  const markerItem =  marker([40.4219,-3.7032]).addTo(map);
+  
+  map.fitBounds([
+  [markerItem.getLatLng().lat, markerItem.getLatLng().lng]
+  ] );
+  
+  markerItem.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+  
+  
+  }
 
 }
 

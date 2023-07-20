@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import * as L from 'leaflet';
+
 import { Map, marker, tileLayer } from 'leaflet';
 
 @Component({
