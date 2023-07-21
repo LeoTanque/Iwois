@@ -1,6 +1,6 @@
 import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import { Map, marker, tileLayer } from 'leaflet';
+import { LatLngBounds, LatLngBoundsExpression, LatLngBoundsLiteral, LatLngExpression, Map, Marker, marker, tileLayer } from 'leaflet';
 
 import Swiper from 'swiper';
 
@@ -13,7 +13,8 @@ export class BusquedaArrPage implements OnInit {
   @ViewChild('swiper')
   swiperRef: ElementRef| undefined;
   swiper?: Swiper 
- 
+  @ViewChild('mapContainer', { static: true })
+  mapContainer!: ElementRef;
   
   images=[
   
@@ -61,16 +62,37 @@ export class BusquedaArrPage implements OnInit {
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
   
-  const markerItem =  marker([40.4219,-3.7032]).addTo(map);
+ const markerItem =  marker([40.4219,-3.7032]).addTo(map);
   
+
+
   map.fitBounds([
   [markerItem.getLatLng().lat, markerItem.getLatLng().lng]
   ] );
   
   markerItem.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+
+
+  /*const markers: LatLngExpression[] = [
+    [40.4219, -3.7032], // Coordenadas del primer marcador
+    [40.4225, -3.7035], // Coordenadas del segundo marcador
+    // Agregar más coordenadas aquí...
+  ];
+
+  markers.forEach(coord => {
+    const markerItem = new Marker(coord).addTo(map);
+    markerItem.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+  });
+
+  // Ajustar el mapa para que todos los marcadores sean visibles
+  map.fitBounds(markers as LatLngBoundsLiteral);*/
+}
+
+
+
   
   
-  }
+  
 
 }
 

@@ -12,11 +12,11 @@
         </div>
          
         
-      <app-slider [images]="images" [slidesPerView]="'3.1'"></app-slider>
+      <app-slider [images]="images" [slidesPerView]="'3.1'" [elementSize]="'130'"></app-slider>
  
       
         <div class="text-content" >
-          <h6 class="custom">Encuentra a tu profesional de la salud</h6>
+          <h5 class="custom">Encuentra a tu profesional de la salud</h5>
         </div>
         <!--div class="mapa">
           <img src="../../../assets/maposo.png" alt="Imagen" class="mapa">
@@ -44,14 +44,27 @@
 
       </div>
     </div>
-    <ion-item>
+    <!--ion-item>
       
       <ion-range label-placement="start" mode="ios">
         <div slot="label"></div>
       </ion-range>
       
-    </ion-item>  
-</div>
+    </ion-item-->  
+
+    <ion-item>
+      <ion-range label-placement="start" mode="ios">
+        <div class="range-labels">
+          <div class="label-top-left">5</div>
+          <div class="label-top-right">500</div>
+         
+        </div>
+      </ion-range>
+    </ion-item>
+    
+    
+    
+</div> 
 
 
 <app-custom-tab-bar [tabs]="tabs" 
