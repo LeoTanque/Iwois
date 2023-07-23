@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="143.326" height="260.366" viewBox="0 0 143.326 260.366">
+  <defs>
+    <filter id="Rectángulo_33298" x="0" y="0" width="143.326" height="260.366" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.271"/>
+      <feComposite operator="in" in2="blur"/>
+    </filter>
+    <filter id="Rectángulo_34366" x="5.978" y="207.713" width="131.646" height="35.144" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_17556" data-name="Grupo 17556" transform="translate(-187 -208.884)">
+    <g transform="matrix(1, 0, 0, 1, 187, 208.88)" filter="url(#Rectángulo_33298)">
+      <rect id="Rectángulo_33298-2" data-name="Rectángulo 33298" width="119.326" height="236.366" rx="16" transform="translate(9 11)" fill="#fff"/>
+    </g>
+    <path id="Rectángulo_33808" data-name="Rectángulo 33808" d="M13,0H118.624a13,13,0,0,1,13,13V220.544a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V13A13,13,0,0,1,13,0Z" transform="translate(193 216)" fill="#83989a" opacity="0.63"/>
+    <g data-type="innerShadowGroup">
+      <path id="Rectángulo_34366-2" data-name="Rectángulo 34366" d="M0,0H131.646a0,0,0,0,1,0,0V23.144a12,12,0,0,1-12,12H12a12,12,0,0,1-12-12V0A0,0,0,0,1,0,0Z" transform="translate(192.978 416.597)" fill="#fff"/>
+      <g transform="matrix(1, 0, 0, 1, 187, 208.88)" filter="url(#Rectángulo_34366)">
+        <path id="Rectángulo_34366-3" data-name="Rectángulo 34366" d="M0,0H131.646a0,0,0,0,1,0,0V23.144a12,12,0,0,1-12,12H12a12,12,0,0,1-12-12V0A0,0,0,0,1,0,0Z" transform="translate(5.98 207.71)" fill="#fff"/>
+      </g>
+      <g id="Rectángulo_34366-4" data-name="Rectángulo 34366" transform="translate(192.978 416.597)" fill="none" stroke="#fff" stroke-width="1">
+        <path d="M0,0H131.646a0,0,0,0,1,0,0V23.144a12,12,0,0,1-12,12H12a12,12,0,0,1-12-12V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M1,.5H130.646a.5.5,0,0,1,.5.5V23.144a11.5,11.5,0,0,1-11.5,11.5H12A11.5,11.5,0,0,1,.5,23.144V1A.5.5,0,0,1,1,.5Z" fill="none"/>
+      </g>
+    </g>
+    <text id="_" data-name="+" transform="translate(243.811 340.772)" fill="#f6f0ec" font-size="42" font-family="Poppins-Medium, Poppins" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">+</tspan></text>
+  </g>
+</svg>

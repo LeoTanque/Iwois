@@ -10,12 +10,13 @@ import { ImageGridComponent } from './image-grid/image-grid.component';
 import { MapasComponent } from './mapas/mapas.component';
 import { ModalComponent } from './modal/modal.component';
 import { IconosComponent } from './iconos/iconos.component';
+import { TextoComponent } from './texto/texto.component';
 
 
 
 @NgModule({
   declarations: [ CustomTabBarComponent, SliderComponent, SuperiorComponent, ButtonComponent, 
-    ImageGridComponent, MapasComponent, ModalComponent, IconosComponent],
+    ImageGridComponent, MapasComponent, ModalComponent, IconosComponent, TextoComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     CommonModule,
@@ -23,6 +24,6 @@ import { IconosComponent } from './iconos/iconos.component';
   ],
   exports: [CustomTabBarComponent,
   SliderComponent, SuperiorComponent, ButtonComponent, ImageGridComponent,MapasComponent, ModalComponent,
-IconosComponent]
+IconosComponent, TextoComponent]
 })
 export class SharedModule { }

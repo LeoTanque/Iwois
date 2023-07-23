@@ -31,8 +31,8 @@ export class RuTratamientosProgresoPage implements OnInit {
   ];
 
   imageUrls: string[] = [
-    '../../../assets/espv1.png',
-    '../../../assets/bikini1.png',
+    '../../../assets/modelo0.png',
+    '../../../assets/modelo1.png',
    
   ];
   constructor(public router: Router) { }

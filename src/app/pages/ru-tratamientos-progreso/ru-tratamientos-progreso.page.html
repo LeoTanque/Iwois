@@ -23,11 +23,12 @@
         <app-iconos></app-iconos>
         <div class="image-container">
           <ion-icon src="../../../assets/c1.svg" class="camera-icon"></ion-icon>
-          <p class="antes-despues-text"> <strong>Antes y Después</strong></p>
+          <p class="antes-despues-text"> <strong>Antes y después</strong></p>
           <ion-icon src="../../../assets/cam.svg" class="camera-outline-icon"></ion-icon>
           <ion-icon src="../../../assets/comp.svg" class="location-icon"></ion-icon>
         </div>
-       
+        
+        
         <div class="fotos">
           <app-image-grid [images]="imageUrls"></app-image-grid>
       </div>
@@ -36,11 +37,20 @@
         </div-->
         <a [routerLink]="['/ver-todo-progreso']" class="a">Ver todo</a>
 
+        <div class="image-containerr"> 
+          <div class="left-icons">
+            <ion-icon src="../../../assets/123.svg" class="icon"></ion-icon>
+            <p class="antes-despues-text"><strong>Mi consejos</strong></p>
+          </div>
+         
+        </div>
+
+
         <ion-range aria-label="Dual Knobs Range" [dualKnobs]="true" 
         [value]="{ lower: 0, upper: 100 }" class="range" mode="ios">
       </ion-range>
 
-        <div class="text-center">
+        <!--div class="text-center">
           <p class="centered-text">Queremos que siempre estés bien <br>
             acompañad@. Site han surgido dudas y <br>
             necesitas ayuda, entra en contacto con <br>
@@ -48,7 +58,8 @@
             whatsapp
              </p>
           <ion-icon src="../../../assets/burbuja.svg" class="whatsapp-icon"></ion-icon>
-        </div>
+        </div-->
+        <app-texto></app-texto>
       </div>
     </div>
   
