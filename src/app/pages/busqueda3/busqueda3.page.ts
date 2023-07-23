@@ -10,6 +10,8 @@ import { Map, marker, tileLayer } from 'leaflet';
 })
 export class Busqueda3Page implements OnInit {
 
+
+  
   tabs = [
     { tab: 'cart', icon: '../../../assets/carrito.svg', route: '/home' },
     { tab: 'notification', icon: '../../../assets/home.svg', route: '/' },
@@ -48,11 +50,17 @@ tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
+
+
 const markerItem =  marker([40.4219,-3.7032]).addTo(map);
+//const markerItem2 = marker([40.3889942,-3.5984305]).addTo(map);
 
 map.fitBounds([
-[markerItem.getLatLng().lat, markerItem.getLatLng().lng]
+[markerItem.getLatLng().lat, markerItem.getLatLng().lng],
+//[markerItem2.getLatLng().lat, markerItem2.getLatLng().lng]
+
 ] );
+
 
 markerItem.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
 

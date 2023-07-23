@@ -19,7 +19,7 @@ export class ButtonComponent  implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {}
-
+ 
 
   onClick() {
     if (this.redirect) {

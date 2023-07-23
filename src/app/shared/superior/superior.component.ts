@@ -10,7 +10,7 @@ export class SuperiorComponent  implements OnInit {
   
   @Input() notificationRoute!: any;
   @Input() backRoute!:any;
- 
+  
   constructor(private router: Router) { }
 
   ngOnInit() {}

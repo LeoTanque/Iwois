@@ -13,16 +13,20 @@
         <div class="button-container">
           <button class="pretratamiento-button">Pretratamiento</button>
           <button class="postratamiento-button">Postratamiento</button>
-        </div>
+        </div> 
         
-        <div class="icon-container">
-          <ion-icon name="chatbubbles-outline"></ion-icon>
-          <ion-icon name="person"></ion-icon>
-          <ion-icon name="bandage"></ion-icon>
-          <ion-icon name="barbell"></ion-icon>
-        </div>
+        <!--div class="icon-container">
+          <ion-icon src="../../../assets/A.svg"></ion-icon>
+          <ion-icon src="../../../assets/B.svg" ></ion-icon>
+          <ion-icon src="../../../assets/C.svg"></ion-icon>
+          <ion-icon src="../../../assets/D.svg"></ion-icon>
+        </div-->
+        <app-iconos></app-iconos>
        
-      
+        <div class="icon-and-text">
+          <ion-icon src="../../../assets/ojo.svg" class="icono"></ion-icon>
+          <h3 class="centered-text" style="color: #666666; text-align: center;"><strong>Todo lo que debo saber</strong></h3>
+        </div>
 
         <app-slider [images]="images" [slidesPerView]="'1.7'"></app-slider>
         <div class="text-center">

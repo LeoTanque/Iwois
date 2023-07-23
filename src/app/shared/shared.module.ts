@@ -9,18 +9,20 @@ import { ButtonComponent } from './button/button.component';
 import { ImageGridComponent } from './image-grid/image-grid.component';
 import { MapasComponent } from './mapas/mapas.component';
 import { ModalComponent } from './modal/modal.component';
+import { IconosComponent } from './iconos/iconos.component';
 
 
 
 @NgModule({
   declarations: [ CustomTabBarComponent, SliderComponent, SuperiorComponent, ButtonComponent, 
-    ImageGridComponent, MapasComponent, ModalComponent],
+    ImageGridComponent, MapasComponent, ModalComponent, IconosComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     CommonModule,
     IonicModule
   ],
   exports: [CustomTabBarComponent,
-  SliderComponent, SuperiorComponent, ButtonComponent, ImageGridComponent,MapasComponent, ModalComponent]
+  SliderComponent, SuperiorComponent, ButtonComponent, ImageGridComponent,MapasComponent, ModalComponent,
+IconosComponent]
 })
 export class SharedModule { }

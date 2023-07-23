@@ -1,0 +1,66 @@
+/* Estilos para el fondo del modal */
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   // background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro del modal */
+    z-index: 9998; /* Asegúrate de que el fondo esté detrás del modal */
+  }
+  
+  /* Estilos para el contenedor del modal */
+  .modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Coloca el modal sobre el fondo oscuro */
+
+  }
+  
+  /* Estilos para el contenido del modal */
+  .modal-content {
+    background-color: #FFFFFF; /* Color del contenido del modal */
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 10000; /* Asegúrate de que el contenido esté sobre el fondo oscuro y el modal */
+    width: 80%;
+    margin: 0 auto; 
+  }
+  
+  /* Estilos para el botón de cerrar (X) */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos para los botones */
+  .continue-button {
+    margin-top: 10px;
+    background-color: #83989A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 70px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el botón central (continue-button) */
+  .continue-button {
+    display: block;
+    margin: 0 auto; /* Alinea el botón al centro horizontalmente */
+  }
+  

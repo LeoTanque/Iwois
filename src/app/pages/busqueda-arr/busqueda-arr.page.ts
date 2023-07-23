@@ -87,11 +87,6 @@ export class BusquedaArrPage implements OnInit {
   // Ajustar el mapa para que todos los marcadores sean visibles
   map.fitBounds(markers as LatLngBoundsLiteral);*/
 }
-
-
-
-  
-  
   
 
 }
