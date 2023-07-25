@@ -76,9 +76,11 @@ ion-content {
   cursor: pointer;
   margin-bottom: 5px;
   font-size: 16px;
-  width: 70%;
+  width: 90%;
  
   margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 
@@ -120,3 +122,46 @@ ion-content {
 
 
 
+.login{
+  border-radius: 30px;
+  background:#fff ;
+  color: #707070 ;
+  text-transform: none;
+  font-size: 16px;
+  width: 100%;
+  //width: 400px;
+  height: 40px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.login1{
+  border-radius: 30px;
+  color:#fff ;
+  background:#83989A ;
+  text-transform: none;
+  font-size: 16px;
+  width: 100%;
+  //width: 400px;
+  height: 40px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-icon-container {
+  display: flex;
+ // align-items: center;
+  margin-right: 5px; /* Ajusta el margen entre la imagen y el botón */
+ 
+}
+
+.modal-icon {
+  width: 30px; /* Ajusta el ancho de la imagen */
+  height: 30px; /* Ajusta la altura de la imagen */
+  margin-right: 5px; /* Ajusta el margen derecho de la imagen */
+  //font-size: 50px;
+}

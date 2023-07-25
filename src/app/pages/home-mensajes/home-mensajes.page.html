@@ -15,14 +15,14 @@
         </div>
         <!--app-button [content]="'Mis tratamientos'" [color]="'#707070'"  [backgroundColor]="'#FFFFFF'"   
         [position]="'center'" [redirect]="'/'"></app-button-->
-        <button class="login" >Mis tratamientos</button>
+        <button class="login" [routerLink]="['/ru-tratamientos']" >Mis tratamientos</button>
       </div>
 
       <div class="modal-button">
         <div class="modal-icon-container">
           <img src="../../../assets/lup.svg" alt="Foto 2" class="modal-icon">
         </div>
-        <button class="login">Buscar</button>
+        <button class="login" [routerLink]="['/busqueda-arr']">Buscar</button>
         <!--app-button [content]="'Buscar'" 
         [backgroundColor]="'#FFFFFF'" 
         [color]="'#707070'" [position]="'center'" [redirect]="'/busqueda-arr'"></app-button-->

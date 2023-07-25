@@ -71,13 +71,13 @@ ion-content {
     border-radius: 30px;
     cursor: pointer;
     margin-bottom: 5px;
-    font-size: 16px;
-    width: 70%;
+    font-size: 24px;
+    width: 90%;
     margin-top: 20px;
 
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    //align-items: center;
     margin: 10px auto;
     
   }
@@ -103,7 +103,8 @@ ion-content {
     color: #707070 ;
     text-transform: none;
     font-size: 15px;
-    width: 220px;
+    width: 100%;
+    //width: 400px;
     height: 40px;
     padding: 10px 20px;
     display: flex;
@@ -113,15 +114,15 @@ ion-content {
     
   .modal-icon-container {
     display: flex;
-    align-items: center;
+   // align-items: center;
     margin-right: 5px; /* Ajusta el margen entre la imagen y el botón */
-    
+   
   }
   
   .modal-icon {
     width: 30px; /* Ajusta el ancho de la imagen */
-    height: 24px; /* Ajusta la altura de la imagen */
+    height: 30px; /* Ajusta la altura de la imagen */
     margin-right: 5px; /* Ajusta el margen derecho de la imagen */
-    font-size: 24px;
+    //font-size: 50px;
   }
      
