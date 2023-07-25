@@ -1,0 +1,48 @@
+<ion-content [fullscreen]="true" class="ion-padding background-image">
+  <div class="background-image"></div>
+ 
+  <div class="top-section">
+    <img src="../../../assets/Logo IWOIS.png" alt="Logo IWOIS" class="logo-img">
+    <ion-icon src="../../assets/campana.svg" class="notifications-icon"  [routerLink]="['/emergente-inicio-sesion']" ></ion-icon>
+  </div> 
+
+  <div class="modal-container">
+    <div class="modal-content">
+
+      <div class="modal-button primary-button">
+        <div class="modal-icon-container">
+          <img src="../../../assets/hand.svg" alt="Foto 1" class="modal-icon">
+        </div>
+        <!--app-button [content]="'Mis tratamientos'" [color]="'#707070'"  [backgroundColor]="'#FFFFFF'"   
+        [position]="'center'" [redirect]="'/'"></app-button-->
+        <button class="login" >Mis tratamientos</button>
+      </div>
+
+      <div class="modal-button">
+        <div class="modal-icon-container">
+          <img src="../../../assets/lup.svg" alt="Foto 2" class="modal-icon">
+        </div>
+        <button class="login">Buscar</button>
+        <!--app-button [content]="'Buscar'" 
+        [backgroundColor]="'#FFFFFF'" 
+        [color]="'#707070'" [position]="'center'" [redirect]="'/busqueda-arr'"></app-button-->
+      </div>
+      
+
+    </div>
+
+
+  </div> 
+ 
+   
+  <app-custom-tab-bar [tabs]="tabs" 
+  [iconStyles]="iconStyles" 
+  [router]="router" 
+  [tabRoutes]="tabRoutes"
+   ></app-custom-tab-bar>
+
+</ion-content>
+ 
+
+
+

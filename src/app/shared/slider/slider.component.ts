@@ -1,4 +1,5 @@
 import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
 import Swiper from 'swiper';
 @Component({
   selector: 'app-slider',
@@ -13,7 +14,9 @@ export class SliderComponent  implements OnInit {
   @Input() images:string[] = [];
   @Input() slidesPerView=''
   @Input() elementSize = ''; 
-  constructor() { }
+  @Input() redirectRoute: string | undefined;
+
+  constructor(private router: Router) { }
 
   ngOnInit() {} 
 
@@ -30,6 +33,11 @@ export class SliderComponent  implements OnInit {
   swiperSlideChanged(e:any){
     console.log('changed: ',e)
      }
-
+     
+     onSlideClick(index: number) {
+      if (index === 0 && this.redirectRoute) {
+        this.router.navigate([this.redirectRoute]);
+      }
+    }
 
 }

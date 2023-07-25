@@ -1,0 +1,127 @@
+ion-content {
+    position: relative;
+  }
+  
+  .background-image {
+    position: absolute;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../assets/352.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+  } 
+  
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo-img {
+    height: 30px;
+    width: 80px;
+    color: #666666;
+    filter: brightness(0.4); 
+  }
+  
+  .notifications-icon {
+    font-size: 25px;
+    color: #666666;
+  }
+  
+  .modal-container {
+    position: fixed;
+    bottom: 3%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+   
+  }
+  
+  .modal-content {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 40px 40px 0 0;
+    text-align: center;
+    width: 80%;
+  
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   
+   //height: 400px;
+
+  
+  }
+  
+  .modal-button {
+
+    height: 40px;
+    margin: 10px auto;
+    padding: 5px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    font-size: 16px;
+    width: 70%;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px auto;
+    
+  }
+  
+  
+  
+  .modal-button.primary-button {
+    //background-color: #83989A;
+    color: #FFFFFF;
+    margin-top: 40px;
+  }
+  
+  .modal-button:not(.primary-button) {
+   // background-color: #FFFFFF;
+    //color: #666666;
+    margin-bottom: 75px;
+   
+  }
+  
+  .login{
+    border-radius: 30px;
+    background:#fff ;
+    color: #707070 ;
+    text-transform: none;
+    font-size: 15px;
+    width: 220px;
+    height: 40px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    
+  .modal-icon-container {
+    display: flex;
+    align-items: center;
+    margin-right: 5px; /* Ajusta el margen entre la imagen y el botón */
+    
+  }
+  
+  .modal-icon {
+    width: 30px; /* Ajusta el ancho de la imagen */
+    height: 24px; /* Ajusta la altura de la imagen */
+    margin-right: 5px; /* Ajusta el margen derecho de la imagen */
+    font-size: 24px;
+  }
+     

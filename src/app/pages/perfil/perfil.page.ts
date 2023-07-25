@@ -13,7 +13,7 @@ export class PerfilPage implements OnInit {
     { tab: 'cart', icon: '../../../assets/carrito.svg' },
     { tab: 'notification', icon: '../../../assets/home.svg' },
     { tab: 'mesage', icon: '../../../assets/msj.svg' },
-    { tab: 'profile', icon: '../../../assets/person.svg' }
+    { tab: 'profile', icon: '../../../assets/hom.svg' }
   ];
 
 
@@ -21,7 +21,7 @@ export class PerfilPage implements OnInit {
     { tab: 'cart', styles: { color: 'red', fontSize: '24px' } },
     { tab: 'notification', styles: { color: 'blue', fontSize: '24px', marginTop: '-5px' } },
     { tab: 'mesage', styles: { color: 'blue', fontSize: '24px',  marginTop: '-5px' } },
-    { tab: 'profile', styles: { color: 'green', fontSize: '24px', marginTop:'-20px' } }
+    { tab: 'profile', styles: { color: 'green', fontSize: '60px', marginTop:'-20px' } }
   ];
  
   tabRoutes = [

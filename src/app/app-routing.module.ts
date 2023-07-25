@@ -238,6 +238,10 @@ const routes: Routes = [
     path: 'busqueda3',
     loadChildren: () => import('./pages/busqueda3/busqueda3.module').then( m => m.Busqueda3PageModule)
   },
+  {
+    path: 'home-mensajes',
+    loadChildren: () => import('./pages/home-mensajes/home-mensajes.module').then( m => m.HomeMensajesPageModule)
+  },
 
 
  

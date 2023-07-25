@@ -7,7 +7,7 @@
   slidesPerView={{slidesPerView}}> 
  
   
-    <swiper-slide *ngFor="let image of images ">
+    <swiper-slide *ngFor="let image of images,let i= index " (click)="onSlideClick(i)">
       <div class="swiper-zoom-container" [style.width.px]="elementSize" [style.height.px]="elementSize">
         <img [src]="image" />
       </div>

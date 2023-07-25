@@ -100,8 +100,10 @@
 
   ion-item {
     margin-top: 25px;
-    width: 100%;
+    width: 90%;
     font-size: 10px;
+    align-items: center;
+    margin-left: 10px;
   }
    
   
@@ -123,14 +125,14 @@
   
   
   
-  
-
 
   .range-labels {
     position: relative;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
+    width: 80%;
+    align-items: center;
   }
   
 
