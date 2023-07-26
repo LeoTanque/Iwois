@@ -242,6 +242,18 @@ const routes: Routes = [
     path: 'home-mensajes',
     loadChildren: () => import('./pages/home-mensajes/home-mensajes.module').then( m => m.HomeMensajesPageModule)
   },
+  {
+    path: 'mensajes-sin',
+    loadChildren: () => import('./pages/mensajes-sin/mensajes-sin.module').then( m => m.MensajesSinPageModule)
+  },
+  {
+    path: 'mensajes-con',
+    loadChildren: () => import('./pages/mensajes-con/mensajes-con.module').then( m => m.MensajesConPageModule)
+  },
+  {
+    path: 'chat-medico',
+    loadChildren: () => import('./pages/chat-medico/chat-medico.module').then( m => m.ChatMedicoPageModule)
+  },
 
 
  

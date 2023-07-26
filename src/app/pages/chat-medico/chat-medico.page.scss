@@ -1,0 +1,81 @@
+
+
+
+ion-item {
+    display: flex;
+    justify-content: center; /* Alinea el contenido horizontalmente al centro */
+    align-items: center; /* Alinea el contenido verticalmente al centro */
+  
+    color: #000000;
+    opacity: 85%;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .item-container {
+    display: flex;
+    justify-content: center; /* Alinea el contenido horizontalmente al centro */
+    align-items: center; /* Alinea el contenido verticalmente al centro */
+    margin-top: 20px;
+  
+  }
+
+
+  
+  .photo-container {
+    display: flex;
+    justify-content: center; /* Alinea la foto horizontalmente al centro */
+    margin-top: 5px; /* Espacio entre el ion-item y la foto */
+  }
+  
+  .photo-image {
+    width: 90%; /* Ancho de la foto */
+    max-width: 80vw; /* Evita que la foto sea más grande que el 80% del ancho de la pantalla */
+    //height: 70vh; /* Alto de la foto */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin deformarla */
+  }
+  
+  
+  
+  .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para el contenido izquierdo */
+  .left-content {
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+  }
+  
+  /* Estilos para el icono y texto a la izquierda */
+  .left-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .left-text {
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  
+  /* Estilos para el icono a la derecha */
+  .right-content {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+  }
+  
+  /* Estilos para el icono a la derecha */
+  .right-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+
+
+
+  

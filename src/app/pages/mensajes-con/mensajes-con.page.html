@@ -1,0 +1,75 @@
+<ion-content [fullscreen]="true">
+  
+  <div class="container">
+    <div class="background-color"> 
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+   
+      <div class="bottom-section">
+      <div class="cont">
+        
+        <div class="header-container">
+          <h2 class="notification-header"> <strong>Mis mensajes</strong></h2>
+          <img src="../../../assets/Línea 124.svg" alt="Imagen" class="header-image">
+        </div>
+      
+        <ion-item>
+          <ion-avatar slot="start">
+            <img alt="Silhouette of a person's head" src="../../../assets/enfermaaa.png" />
+          </ion-avatar>
+          <ion-label> 
+            <h3>Dra Usuario Nytelweb <span class="message-time">12:45</span></h3>
+
+            <p class="texto">Lorem Ipsum </p>
+           
+          </ion-label>
+          
+          <!--ion-icon src="../../../assets/bolita.svg" size="small" slot="end" class="right-image"></ion-icon-->
+          <ion-icon name="information-circle" size="small" slot="end"></ion-icon>
+          <!--img src="../../../assets/bolita.svg" alt="Imagen" class="right-image"-->
+        </ion-item>
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <img alt="Silhouette of a person's head" src="../../../assets/medico1.png" />
+          </ion-avatar>
+          <ion-label> 
+            <h3>Dr Usuario Nytelweb 2 <span class="message-time">12:45</span></h3>
+
+            <p class="texto">Lorem Ipsum </p>
+           
+          </ion-label>
+          
+          <!--ion-icon src="../../../assets/bolita.svg" size="small" slot="end" class="right-image"></ion-icon-->
+          <ion-icon name="information-circle" size="small" slot="end"></ion-icon>
+          <!--img src="../../../assets/bolita.svg" alt="Imagen" class="right-image"-->
+        </ion-item>
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <img alt="Silhouette of a person's head" src="../../../assets/medico2.png" />
+          </ion-avatar>
+          <ion-label> 
+            <h3>Dr Usuario Nytelweb 3 <span class="message-time">10/03/23</span></h3>
+
+            <p class="texto">Lorem Ipsum </p>
+           
+          </ion-label>
+        </ion-item>
+      </div> 
+                        
+        
+        
+      </div>
+      </div>
+    
+</div>
+
+<app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
+  
+</ion-content>
+
+
