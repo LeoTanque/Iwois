@@ -1,4 +1,4 @@
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" overflow-scroll="true">
   
   <div class="container">
     <div class="background-color"> 
@@ -16,13 +16,16 @@
         </div>
 
         <div class="photo-container">
-         
+
+          <!--img src="../../../assets/conv2.svg" alt="Foto" class="photo-image"-->
           <ion-card>
-            <img src="../../../assets/conversacion.svg" alt="Foto" class="photo-image">
+            <img alt="Silhouette of mountains" src="../../../assets/conv2.svg" class="photo-image">
   
           </ion-card>
         </div>
-                        
+
+        
+        <div class="main-container">        
         <div class="content-container">
           <div class="left-content">
             <ion-icon src="../../../assets/camera.svg" class="left-icon"></ion-icon>
@@ -33,19 +36,20 @@
             <ion-icon src="../../../assets/telegram.svg" class="right-icon"></ion-icon>
           </div>
         </div>
-        
+
+        <div class="bottom-image-container">
+          <img src="../../../assets/tecla.png" alt="Foto" class="bottom-image">
+        </div>
+        </div>
       </div>
       </div>
     
 </div>
 
-<app-custom-tab-bar [tabs]="tabs" 
-[iconStyles]="iconStyles" 
-[router]="router" 
-[tabRoutes]="tabRoutes"
- ></app-custom-tab-bar>
+
   
 </ion-content>
+
 
 
 

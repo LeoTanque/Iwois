@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ListaPacientesConPageRoutingModule } from './lista-pacientes-con-routing.module';
+import { ChatMedico2PageRoutingModule } from './chat-medico2-routing.module';
 
-import { ListaPacientesConPage } from './lista-pacientes-con.page';
+import { ChatMedico2Page } from './chat-medico2.page';
 import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { SharedModule } from 'src/app/shared/shared.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    ListaPacientesConPageRoutingModule,
+    ChatMedico2PageRoutingModule,
     SharedModule
   ],
-  declarations: [ListaPacientesConPage]
+  declarations: [ChatMedico2Page]
 })
-export class ListaPacientesConPageModule {}
+export class ChatMedico2PageModule {}

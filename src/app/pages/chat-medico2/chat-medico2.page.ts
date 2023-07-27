@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-chat-medico',
-  templateUrl: './chat-medico.page.html',
-  styleUrls: ['./chat-medico.page.scss'],
+  selector: 'app-chat-medico2',
+  templateUrl: './chat-medico2.page.html',
+  styleUrls: ['./chat-medico2.page.scss'],
 })
-export class ChatMedicoPage implements OnInit {
+export class ChatMedico2Page implements OnInit {
 
   tabs = [
     { tab: 'cart', icon: '../../../assets/carrito.svg' },
@@ -35,5 +35,5 @@ export class ChatMedicoPage implements OnInit {
 
   ngOnInit() {
   }
- 
+
 }

@@ -254,6 +254,10 @@ const routes: Routes = [
     path: 'chat-medico',
     loadChildren: () => import('./pages/chat-medico/chat-medico.module').then( m => m.ChatMedicoPageModule)
   },
+  {
+    path: 'chat-medico2',
+    loadChildren: () => import('./pages/chat-medico2/chat-medico2.module').then( m => m.ChatMedico2PageModule)
+  },
 
 
  
