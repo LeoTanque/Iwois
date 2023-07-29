@@ -2,22 +2,16 @@
    
   <div class="container">
     <div class="background-color">
-      <div class="top-section-1">
-        <ion-icon name="chevron-back" class="back-icon"></ion-icon>
-        <div class="centered-content">
-          <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img">
-     
-        </div>
-        <ion-icon name="notifications-outline" [routerLink]="['/notificaciones']" class="notifications-icon" ></ion-icon>
-      </div>
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
       <div class="bottom-section-1">
         <ion-searchbar placeholder="+34 000000000"></ion-searchbar>
         <p class="message-text">Este teléfono no está registrado en la app. <br>
            Al añadirlo a tu listado se le enviará un <br>
             sms para que se registre.</p>
+
         <div class="location-content">
-          
-          <ion-button class="login" shape="round" expand="full" [routerLink]="['/lista-pacientes-con']">Enviar invitacion</ion-button>
+           <app-button [content]="'Enviar invitacion'" [color]="''" [position]="'center'" [redirect]="'/lista-pacientes-con'"></app-button>
+          <!--ion-button class="login" shape="round" expand="full" [routerLink]="['/lista-pacientes-con']">Enviar invitacion</ion-button-->
         </div>
         
       </div>

@@ -8,12 +8,14 @@ import { ServiciosAdicionalesProducto1PageRoutingModule } from './servicios-adic
 
 import { ServiciosAdicionalesProducto1Page } from './servicios-adicionales-producto1.page';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { SharedModule } from 'src/app/shared/shared.module';
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ServiciosAdicionalesProducto1PageRoutingModule
+    ServiciosAdicionalesProducto1PageRoutingModule,
+    SharedModule
   ],
   declarations: [ServiciosAdicionalesProducto1Page],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

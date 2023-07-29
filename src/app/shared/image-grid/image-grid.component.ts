@@ -8,8 +8,10 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ImageGridComponent  implements OnInit {
   @Input() images: string[] = [];
   imageRows: string[][] = [];
-
-  ngOnChanges() {
+  @Input()
+  imageSize!: number;
+  @Input() largeImageIndex: number = -1;
+  ngOnChanges() { 
     this.generateImageRows();
   }
 
@@ -21,6 +23,8 @@ export class ImageGridComponent  implements OnInit {
     }
   }
 
+
+ 
   constructor() { }
 
   ngOnInit() {}

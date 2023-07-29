@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { BusquedaPacientes2PageRoutingModule } from './busqueda-pacientes2-routing.module';
 
 import { BusquedaPacientes2Page } from './busqueda-pacientes2.page';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
@@ -14,7 +15,7 @@ import { BusquedaPacientes2Page } from './busqueda-pacientes2.page';
     FormsModule,
     IonicModule,
     BusquedaPacientes2PageRoutingModule,
-    
+    SharedModule
   ],
   declarations: [BusquedaPacientes2Page]
 })

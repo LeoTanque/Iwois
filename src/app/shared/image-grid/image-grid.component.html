@@ -1,7 +1,7 @@
 <div class="image-grid">
   <div class="row" *ngFor="let row of imageRows">
-    <div class="column" *ngFor="let image of row">
-      <img [src]="image" alt="Image">
+    <div class="column" *ngFor="let image of row, let i = index">
+      <img [src]="image" alt="Image"  [style.width.px]="imageSize" [style.height.px]="imageSize">
     </div>
   </div>
 </div>

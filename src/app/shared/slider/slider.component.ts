@@ -10,7 +10,7 @@ export class SliderComponent  implements OnInit {
   @ViewChild('swiper')
   swiperRef: ElementRef| undefined;
   swiper?: Swiper 
-
+ 
   @Input() images:string[] = [];
   @Input() slidesPerView=''
   @Input() elementSize = ''; 

@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { ServiciosAdicionalesPageRoutingModule } from './servicios-adicionales-routing.module';
 
 import { ServiciosAdicionalesPage } from './servicios-adicionales.page';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ServiciosAdicionalesPageRoutingModule
+    ServiciosAdicionalesPageRoutingModule,
+    SharedModule
   ],
   declarations: [ServiciosAdicionalesPage]
 })
