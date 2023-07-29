@@ -171,7 +171,25 @@
 
 
 
-
+  .subtitles-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .left-subtitle,
+  .right-subtitle {
+    color: #666666;
+    padding: 0 20px;
+  }
+  
+  .left-subtitle {
+    text-align: left;
+  }
+  
+  .right-subtitle {
+    text-align: right;
+  }
   
   
  
@@ -181,54 +199,7 @@
    
   
   
-  .custom-tab-bar{
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-  
-    background-color: #ffffff;
-   
-   border-top-left-radius: 25%;
-   border-top-right-radius: 25%;
-  
-   overflow: hidden;
-   border: solid 1px #F6F0EC;
-   
-  }
-  
-  ion-icon{
-    font-size: 30px;
-  }
-  
-  
-  ion-tab-button {
-    height: 40px; /* Ajusta la altura de las pestañas de las esquinas */
-   
-  }
-  
-  
-  
-  ion-tab-button.elevated-tab {
-    height: 60px; /* Ajusta la altura de la pestaña del centro */
-    transform: translateY(-10px); /* Ajusta este valor según tus necesidades */
-    background-color: #F6F0EC;
-    border-radius: 80px;
-    padding-top: 5px;
-  
-  
-    position: relative;
-    z-index: 1;
-  
-    
-    overflow: visible;
-  }
-  
-  .custom-tab-bar .elevated-tab {
-    position: relative;
-    top: -10px; /* Ajusta este valor negativo según tus necesidades */
-    z-index: 1; 
-  }
-  
+ 
     
   
      

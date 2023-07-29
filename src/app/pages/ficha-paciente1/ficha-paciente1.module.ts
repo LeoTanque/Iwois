@@ -8,13 +8,15 @@ import { FichaPaciente1PageRoutingModule } from './ficha-paciente1-routing.modul
 
 import { FichaPaciente1Page } from './ficha-paciente1.page';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    FichaPaciente1PageRoutingModule
+    FichaPaciente1PageRoutingModule,
+    SharedModule
   ],
   declarations: [FichaPaciente1Page],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

@@ -104,9 +104,9 @@
   
   .section-title {
     color: #666666;
-    margin-top: 10px;
-    margin-left: 50px;
-    //margin-bottom: 40px;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-bottom: 20px;
   }
   
   .section-text {
@@ -131,100 +131,19 @@
     display: flex;
     justify-content: center;
     margin-bottom: 20%;
-    margin-top: 10%;
+    margin-top: 30%;
    
   }
 
   
-
- 
-
- 
-
-
-  
-.custom-tab-bar{
-  display: flex;
-  justify-content: space-between;
-  padding: 5px;
-
-  background-color: #ffffff;
- 
- border-top-left-radius: 25%;
- border-top-right-radius: 25%;
-
- overflow: hidden;
- border: solid 2px #F6F0EC;
- 
-}
-
-ion-icon{
-  font-size: 30px;
-}
-
-
-ion-tab-button {
-  height: 40px; /* Ajusta la altura de las pestañas de las esquinas */
- 
-}
-
-
-
-ion-tab-button.elevated-tab {
-  height: 60px; /* Ajusta la altura de la pestaña del centro */
-  transform: translateY(-10px); /* Ajusta este valor según tus necesidades */
-  background-color: #F6F0EC;
-  border-radius: 80px;
-  padding-top: 5px;
-
-
-  position: relative;
-  z-index: 1;
-
-  
-  overflow: visible;
-}
-
-.custom-tab-bar .elevated-tab {
-  position: relative;
-  top: -10px; /* Ajusta este valor negativo según tus necesidades */
-  z-index: 1; 
-}
-
-swiper-container {
-    height: 100%;
-    width: 100%;
-   
-    
-}
-
-swiper-slide {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   
-}
-
-.swiper-zoom-container{
-    width: 85%;
-    height: 30%;
-}
-
-.slider-container {
-    margin-top: 20px;
+  .floating-icon {
+    position: fixed;
+    top: 360px;
+    right: 50px;
+   font-size: 50px;
   }
-   
-  .swiper-container {
-    width: 100%;
-    height: 300px;
-  }
-  
-  .swiper-slide img {
-    width: 100%;
-    height: 100%;
-  }
+ 
 
-  
+ 
 
-   
+

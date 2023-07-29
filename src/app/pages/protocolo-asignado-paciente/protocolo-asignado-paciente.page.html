@@ -1,19 +1,10 @@
 <ion-content [fullscreen]="true">
   <div class="container">
-    <div class="top-section">
+    <div class="top-section"> 
       <div class="background-image">
       
           
-
-          <div class="content-container">
-            <ion-icon name="chevron-back" class="back-icon"></ion-icon>
-            <div class="logo-container">
-              <img src="../../../assets/Logo IWOIS.png" alt="Logo Iwois" class="logo-img">
-            </div>
-            <div class="notification-container">
-              <ion-icon name="notifications-outline" class="notification-icon" [routerLink]="['/notificaciones']"></ion-icon>
-            </div> 
-          </div>
+        <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
           <div class="text-container">
             <h2 class="title">Criolipolisis</h2>
             <p class="description">Es un tratamiento que desencadena reacciones <br>
@@ -32,41 +23,34 @@
         <button class="pretratamiento-button">Pretratamiento</button>
         <button class="postratamiento-button">Postratamiento</button>
       </div>
-      <div class="icon-container">
+
+      <div class="subtitles-container">
+        <span class="left-subtitle">Inicio 12/03/203</span>
+        <span class="right-subtitle">Fin dd/mm/aaa</span>
+      </div>
+
+      <app-iconos></app-iconos>
+      <!--div class="icon-container">
         <ion-icon name="chatbubbles-outline"></ion-icon>
         <ion-icon name="person"></ion-icon>
         <ion-icon name="bandage"></ion-icon>
         <ion-icon name="barbell"></ion-icon>
-      </div>
+      </div-->
 
      
       
     </div>
   </div>
+
+  <app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
+  
 </ion-content>
 
 
-<div class="tabs-container">
-  <ion-tabs>
-    <ion-tab-bar slot="bottom"  class="custom-tab-bar">
-      <ion-tab-button tab="home">
-        <ion-icon name="cart-outline"></ion-icon>
-        
-      </ion-tab-button>
-      <ion-tab-button tab="notification"  >
-        <ion-icon name="home-outline"></ion-icon>
-        
-      </ion-tab-button>
-      <ion-tab-button tab="chat" >
-        <ion-icon name="chatbubble-outline"></ion-icon>
-        
-      </ion-tab-button>
-      <ion-tab-button tab="profile" >
-        <ion-icon name="person-outline"></ion-icon>
-        
-      </ion-tab-button>
-    </ion-tab-bar>
-  </ion-tabs>
-</div>
+
 
 

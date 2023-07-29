@@ -4,23 +4,16 @@
     <div class="background-color">
 
       <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
-      <!--div class="top-section-1">
-        <ion-icon name="chevron-back" class="back-icon"></ion-icon>
-        <div class="centered-content">
-          <img src="../../../assets/Logo IWOIS.png" alt="Logo" class="logo-img">
-     
-        </div>
-        <ion-icon name="notifications-outline" [routerLink]="['/notificaciones']" class="notifications-icon" ></ion-icon>
-      </div-->
+    
       <div class="bottom-section-1">
-        <ion-searchbar placeholder="Nombre/telefono"></ion-searchbar>
+        <ion-searchbar placeholder="Nombre / telefono"></ion-searchbar>
       
         <div class="text-content" >
           <h3 class="custom-heading"><strong>Mis Pacientes</strong></h3>
         </div>
        
 
-        <ion-item detail="true" class="ion-item">
+        <ion-item  class="ion-item" >
           <ion-avatar slot="start">
             <img alt="Silhouette of a person's head" src="../../../assets/con1.png" />
           </ion-avatar>
@@ -31,11 +24,15 @@
               <p style="color: #83989A;">+34 00000000</p>
             </div>
           </ion-label>
-          <ion-icon name="chatbubbles-outline"></ion-icon>
+          
+          <ion-icon src="../../../assets/chico.svg" class="chico"></ion-icon>
+          <ion-icon src="../../../assets/burbuja.svg" class="burbuja"></ion-icon>
 
         </ion-item>
 
-        <ion-item detail="true" class="ion-item">
+
+
+        <ion-item  class="ion-item">
           <ion-avatar slot="start">
             <img alt="Silhouette of a person's head" src="../../../assets/con4.png" />
           </ion-avatar>
@@ -44,9 +41,11 @@
             <h6>Usuario Nytelweb</h6> 
             <p style="color: #83989A;">+34 00000000</p>
           </ion-label>
+          <ion-icon src="../../../assets/chico.svg" class="chico"></ion-icon>
+          <ion-icon src="../../../assets/burbuja.svg" class="burbuja"></ion-icon>
         </ion-item>
 
-        <ion-item detail="true" class="ion-item">
+        <ion-item  class="ion-item">
           <ion-avatar slot="start">
             <img alt="Silhouette of a person's head" src="../../../assets/con3.png" />
           </ion-avatar>
@@ -55,9 +54,11 @@
             <h6>Usuario Nytelweb</h6> 
             <p style="color: #83989A;">+34 00000000</p>
           </ion-label>
+          <ion-icon src="../../../assets/chico.svg" class="chico"></ion-icon>
+          <ion-icon src="../../../assets/burbuja.svg" class="burbuja"></ion-icon>
         </ion-item>
 
-        <ion-item detail="true" class="ion-item">
+        <ion-item  class="ion-item">
           <ion-avatar slot="start">
             <img alt="Silhouette of a person's head" src="../../../assets/90.png" />
           </ion-avatar>
@@ -66,11 +67,13 @@
             <h6>Usuario Nytelweb</h6> 
             <p style="color: #83989A;">+34 00000000</p>
           </ion-label>
+          <ion-icon src="../../../assets/chico.svg" class="chico"></ion-icon>
+          <ion-icon src="../../../assets/burbuja.svg" class="burbuja"></ion-icon>
         </ion-item>
 
 
       </div>
-    </div>
+    </div> 
  
 </div>
 <app-custom-tab-bar [tabs]="tabs" 

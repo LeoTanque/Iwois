@@ -11,14 +11,14 @@ export class ListaPacientesSinPage implements OnInit {
   
   tabs = [
     { tab: 'cart', icon: '../../../assets/carrito.svg' },
-    { tab: 'notification', icon: '../../../assets/casa.svg' },
+    { tab: 'notification', icon: '../../../assets/home.svg' },
     { tab: 'mesage', icon: '../../../assets/msj.svg' },
     { tab: 'profile', icon: '../../../assets/person.svg' }
   ];
 
   iconStyles = [ 
     { tab: 'cart', styles: { color: 'red', fontSize: '24px' } },
-    { tab: 'notification', styles: { color: 'blue', fontSize: '80px', marginTop: '-10px' } },
+    { tab: 'notification', styles: { color: 'blue', fontSize: '24px', marginTop: '-10px' } },
     { tab: 'mesage', styles: { color: 'blue', fontSize: '24px',  marginTop: '-10px' } },
     { tab: 'profile', styles: { color: 'green', fontSize: '24px' } }
   ];

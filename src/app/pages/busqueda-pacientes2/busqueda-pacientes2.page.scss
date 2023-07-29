@@ -110,10 +110,37 @@
 
   ion-item {
     margin-top: 10px;
-    width: 95%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
+
+  .centered-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+
+
+    margin: 20px;
+    width: 90%;
+  }
+  
+  /* styles.css o tu archivo de estilos personalizado */
+
+
+
+  
 
   .icono{
     font-size: 35px;
     color: #666666;
+  }
+
+  h6{
+    color:#666666 ;
   }
