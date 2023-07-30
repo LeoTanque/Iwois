@@ -1,0 +1,10 @@
+<ion-card>
+  <ion-card-content>
+    <div *ngIf="text" class="card-text"><strong>{{ text }}</strong></div>
+    <div class="images-container">
+      <img *ngFor="let image of images" [src]="image" alt="Imagen" class="image">
+    </div>
+  </ion-card-content>
+</ion-card>
+
+

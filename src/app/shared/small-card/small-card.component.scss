@@ -1,0 +1,72 @@
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+  }
+  
+  .image {
+    width: calc(33.33% - 10px);
+    height: 100px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 8px;
+   
+  }
+
+ 
+  
+
+  /* Estilos adicionales para el componente reutilizable */
+
+ion-card {
+  /* Ajusta el tamaño de la card */
+  width: 300px;
+  height: 100%;
+  /* Añade márgenes para separar las cards si es necesario */
+ // margin: 10px;
+  /* Agrega sombra para resaltar la card */
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  /* Estilo de borde y esquinas redondeadas */
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  /* Centra el contenido horizontalmente */
+  display: flex;
+  flex-direction: column;
+  //align-items: center;
+  /* Alinea el texto alineado a la izquierda */
+  text-align: left;
+}
+
+.card-text {
+  /* Establece el color del texto */
+  color: #666666;
+  /* Agrega márgenes para separar el texto del borde de la card */
+  margin: 5px;
+  font-size: 18px;
+}
+
+.images-container {
+  /* Centra las imágenes horizontalmente */
+  display: flex;
+  justify-content: center;
+  /* Alinea las imágenes en una fila */
+  flex-wrap: wrap;
+  justify-content: flex-start;
+ 
+}
+
+.image {
+  /* Espaciado entre las imágenes */
+  margin: 5px;
+  
+}
+
+img {
+  /* Ajusta el tamaño de las imágenes */
+  width: 100px;
+  height: 100px;
+  /* Estilo de borde y esquinas redondeadas para las imágenes */
+  border-radius: 4px;
+}
+

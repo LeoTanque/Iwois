@@ -12,12 +12,13 @@ import { ModalComponent } from './modal/modal.component';
 import { IconosComponent } from './iconos/iconos.component';
 import { TextoComponent } from './texto/texto.component';
 import { FotosComponent } from './fotos/fotos.component';
+import { SmallCardComponent } from './small-card/small-card.component';
 
 
 
 @NgModule({
   declarations: [ CustomTabBarComponent, SliderComponent, SuperiorComponent, ButtonComponent, 
-    ImageGridComponent, MapasComponent, ModalComponent, IconosComponent, TextoComponent, FotosComponent],
+    ImageGridComponent, MapasComponent, ModalComponent, IconosComponent, TextoComponent, FotosComponent, SmallCardComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     CommonModule,
@@ -25,6 +26,6 @@ import { FotosComponent } from './fotos/fotos.component';
   ],
   exports: [CustomTabBarComponent,
   SliderComponent, SuperiorComponent, ButtonComponent, ImageGridComponent,MapasComponent, ModalComponent,
-IconosComponent, TextoComponent, FotosComponent]
+IconosComponent, TextoComponent, FotosComponent, SmallCardComponent]
 })
 export class SharedModule { }
