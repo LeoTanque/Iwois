@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
-@Component({ 
-  selector: 'app-protocolo-asignado-paciente',
-  templateUrl: './protocolo-asignado-paciente.page.html',
-  styleUrls: ['./protocolo-asignado-paciente.page.scss'],
+@Component({
+  selector: 'app-protocolo-asignado-paciente1',
+  templateUrl: './protocolo-asignado-paciente1.page.html',
+  styleUrls: ['./protocolo-asignado-paciente1.page.scss'],
 })
-export class ProtocoloAsignadoPacientePage implements OnInit {
+export class ProtocoloAsignadoPaciente1Page implements OnInit {
 
   tabs = [
     { tab: 'cart', icon: '../../../assets/carrito.svg' },
@@ -26,6 +26,12 @@ export class ProtocoloAsignadoPacientePage implements OnInit {
     { tab: 'notification', route: '/home' },
     { tab: 'mesage', route: '/' },
     { tab: 'profile', route: '/perfil' }
+  ];
+
+  imageUrls: string[] = [
+    '../../../assets/modelo0.png',
+    '../../../assets/modelo1.png',
+   
   ];
   
 constructor(public router: Router) { }

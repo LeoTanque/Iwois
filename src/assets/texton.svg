@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="316" height="807.204" viewBox="0 0 316 807.204">
+  <defs>
+    <filter id="Rectángulo_34532" x="0" y="0" width="316" height="395.214" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_35421" x="0" y="412.991" width="316" height="394.214" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_18502" data-name="Grupo 18502" transform="translate(-29.5 -516.786)">
+    <g transform="matrix(1, 0, 0, 1, 29.5, 516.79)" filter="url(#Rectángulo_34532)">
+      <rect id="Rectángulo_34532-2" data-name="Rectángulo 34532" width="298" height="377.214" rx="10" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 29.5, 516.79)" filter="url(#Rectángulo_35421)">
+      <rect id="Rectángulo_35421-2" data-name="Rectángulo 35421" width="298" height="376.214" rx="10" transform="translate(9 418.99)" fill="#fff"/>
+    </g>
+    <text id="_Te_ha_salido_un..._" data-name="¿Te ha salido un...?" transform="translate(70 600.5)" fill="#666" font-size="18" font-family="Poppins-SemiBold, Poppins" font-weight="600" letter-spacing="0.063em"><tspan x="0" y="0">¿Te ha salido un...?</tspan></text>
+    <text id="_Te_ha_salido_un..._2" data-name="¿Te ha salido un...?" transform="translate(70 1013.491)" fill="#666" font-size="18" font-family="Poppins-SemiBold, Poppins" font-weight="600" letter-spacing="0.063em"><tspan x="0" y="0">¿Te ha salido un...?</tspan></text>
+    <text id="No_te_preocupes_los_hematomas_son_comunes_en_la_crio._Podrás_notar_un_poco_de_molestia_la_primera_semana_pero_valdrá_la_pena._OJO_no_tomes_antiinflamatorios_hasta_que_yo_te_avise._Esto_reduciría_o_anularía_los_efectos_de_la_crio_en_tu_cuerpo._" data-name="No te preocupes, los hematomas son comunes en la crio. Podrás notar un poco de molestia la primera semana pero valdrá la pena. 
+
+¡OJO! no tomes antiinflamatorios hasta que yo te avise. Esto reduciría o anularía los efectos de la crio en tu cuerpo. " transform="translate(71 622.085)" fill="#707070" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="15">No te preocupes, los hematomas </tspan><tspan x="0" y="40">son comunes en la crio. Podrás </tspan><tspan x="0" y="65">notar un poco de molestia la </tspan><tspan x="0" y="90">primera semana pero valdrá la </tspan><tspan x="0" y="115">pena. </tspan><tspan x="0" y="140"></tspan><tspan x="0" y="165">¡OJO! no tomes antiinflamatorios </tspan><tspan x="0" y="190">hasta que yo te avise. Esto </tspan><tspan x="0" y="215">reduciría o anularía los efectos </tspan><tspan x="0" y="240">de la crio en tu cuerpo. </tspan></text>
+    <text id="No_te_preocupes_los_hematomas_son_comunes_en_la_crio._Podrás_notar_un_poco_de_molestia_la_primera_semana_pero_valdrá_la_pena._OJO_no_tomes_antiinflamatorios_hasta_que_yo_te_avise._Esto_reduciría_o_anularía_los_efectos_de_la_crio_en_tu_cuerpo._2" data-name="No te preocupes, los hematomas son comunes en la crio. Podrás notar un poco de molestia la primera semana pero valdrá la pena. 
+
+¡OJO! no tomes antiinflamatorios hasta que yo te avise. Esto reduciría o anularía los efectos de la crio en tu cuerpo. " transform="translate(71 1035.076)" fill="#707070" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="15">No te preocupes, los hematomas </tspan><tspan x="0" y="40">son comunes en la crio. Podrás </tspan><tspan x="0" y="65">notar un poco de molestia la </tspan><tspan x="0" y="90">primera semana pero valdrá la </tspan><tspan x="0" y="115">pena. </tspan><tspan x="0" y="140"></tspan><tspan x="0" y="165">¡OJO! no tomes antiinflamatorios </tspan><tspan x="0" y="190">hasta que yo te avise. Esto </tspan><tspan x="0" y="215">reduciría o anularía los efectos </tspan><tspan x="0" y="240">de la crio en tu cuerpo. </tspan></text>
+    <g id="Grupo_18487" data-name="Grupo 18487">
+      <rect id="Rectángulo_35198" data-name="Rectángulo 35198" width="96" height="33" rx="16.5" transform="translate(228 537)" fill="#83989a"/>
+      <text id="Día_1" data-name="Día 1" transform="translate(259 559)" fill="#fff" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500" letter-spacing="0.063em"><tspan x="0" y="0">Día 1</tspan></text>
+    </g>
+    <rect id="Rectángulo_35198-2" data-name="Rectángulo 35198" width="96" height="33" rx="16.5" transform="translate(228 949.991)" fill="#83989a"/>
+    <text id="Día_3" data-name="Día 3" transform="translate(257 971.991)" fill="#fff" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500" letter-spacing="0.063em"><tspan x="0" y="0">Día 3</tspan></text>
+  </g>
+</svg>
