@@ -1,0 +1,93 @@
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <div class="top-section">
+      <div class="background-image">
+
+
+        <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+        <div class="text-container">
+          <h2 class="title">Criolipolisis</h2>
+          <p class="description">Es un tratamiento que desencadena reacciones <br>
+            metabólicas y bioquímicas en el organismo <br>
+            favoreciendo la eliminación de grasa a través de <br>
+            la aplicación de frío controlado provocando la <br>
+            muerte celular</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="bottom-section" style="max-height: 70vh;">
+
+      <div class="button-container">
+        <button class="pretratamiento-button">Pretratamiento</button>
+        <button class="postratamiento-button">Postratamiento</button>
+      </div>
+
+      <div class="subtitles-container">
+        <span class="left-subtitle">Inicio: 12/03/203</span>
+        <span class="right-subtitle">Fin dd/mm/aaa</span>
+      </div>
+
+      <app-iconos></app-iconos>
+
+      <h3 class="faq-text"><strong>Ejercicios</strong></h3>
+
+  
+    
+      <!--ion-card>
+      
+        <ion-card-content>
+          <ion-item>
+
+          <ion-label>
+            <h2 class="">Pre entrenamiento</h2>
+            <p>Lorem ipsum dolor sit amet, sed <br>
+            do ipsum adiposicion consecuteur</p>
+          </ion-label>
+          
+          <div slot="end" class="image-container">
+            <img alt="Silhouette of mountains" src="../../../assets/ejercitar1.png" class="img-center" />
+            <ion-icon src="../../../assets/mas.svg" class="icon-center"></ion-icon>
+          </div>
+
+            </ion-item>
+        </ion-card-content>
+
+      </ion-card-->
+      <app-cardona
+      [title]="'Pre entrenamiento'"
+      
+      [imageUrl]="imagen"
+    ></app-cardona>
+    
+    <app-cardona
+    [title]="'Entrenamiento gluteo'"
+    
+    [imageUrl]= "imagen1"
+  ></app-cardona>
+
+  <app-cardona
+  [title]="'Pre entrenamiento'"
+  
+  [imageUrl]="imagen"
+></app-cardona>
+
+<app-cardona
+[title]="'Entrenamiento gluteo'"
+
+[imageUrl]= "imagen1"
+></app-cardona>
+
+    </div>
+  </div>
+
+  <app-custom-tab-bar [tabs]="tabs" [iconStyles]="iconStyles" [router]="router"
+    [tabRoutes]="tabRoutes"></app-custom-tab-bar>
+
+</ion-content>
+
+
+
+
+

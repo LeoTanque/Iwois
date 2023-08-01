@@ -262,6 +262,14 @@ const routes: Routes = [
     path: 'protocolo-asignado-paciente1',
     loadChildren: () => import('./pages/protocolo-asignado-paciente1/protocolo-asignado-paciente1.module').then( m => m.ProtocoloAsignadoPaciente1PageModule)
   },
+  {
+    path: 'protocolo-asignado-paciente2',
+    loadChildren: () => import('./pages/protocolo-asignado-paciente2/protocolo-asignado-paciente2.module').then( m => m.ProtocoloAsignadoPaciente2PageModule)
+  },
+  {
+    path: 'protocolo-asignado-paciente3',
+    loadChildren: () => import('./pages/protocolo-asignado-paciente3/protocolo-asignado-paciente3.module').then( m => m.ProtocoloAsignadoPaciente3PageModule)
+  },
 
 
  
