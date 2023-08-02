@@ -39,8 +39,8 @@ export class ProtocoloAsignadoPaciente3Page implements OnInit {
 
   ];
 
-
   
+ 
 
   constructor(public router: Router) { }
 

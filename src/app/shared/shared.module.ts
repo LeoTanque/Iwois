@@ -15,13 +15,14 @@ import { FotosComponent } from './fotos/fotos.component';
 import { SmallCardComponent } from './small-card/small-card.component';
 import { CardyComponent } from './cardy/cardy.component';
 import { CardonaComponent } from './cardona/cardona.component';
+import { Iconos2Component } from './iconos2/iconos2.component';
 
 
 
 @NgModule({
   declarations: [ CustomTabBarComponent, SliderComponent, SuperiorComponent, ButtonComponent, 
     ImageGridComponent, MapasComponent, ModalComponent, IconosComponent, TextoComponent, FotosComponent, 
-    SmallCardComponent, CardyComponent, CardonaComponent],
+    SmallCardComponent, CardyComponent, CardonaComponent, Iconos2Component],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     CommonModule,
@@ -29,6 +30,7 @@ import { CardonaComponent } from './cardona/cardona.component';
   ],
   exports: [CustomTabBarComponent,
   SliderComponent, SuperiorComponent, ButtonComponent, ImageGridComponent,MapasComponent, ModalComponent,
-IconosComponent, TextoComponent, FotosComponent, SmallCardComponent, CardyComponent, CardonaComponent]
+IconosComponent, TextoComponent, FotosComponent, SmallCardComponent, CardyComponent, CardonaComponent,
+Iconos2Component]
 })
 export class SharedModule { }
