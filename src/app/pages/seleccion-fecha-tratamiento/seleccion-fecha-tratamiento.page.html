@@ -1,0 +1,41 @@
+
+
+<ion-content [fullscreen]="true">
+   
+  <div class="container">
+    <div class="background-color">
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+      
+      <div class="bottom-section">
+
+        <div class="text-content" >
+          <h4 class="custom-heading"><strong>¿Cuándo el paciente <br> realizará el tratamiento?</strong></h4>
+        </div>
+       
+        <div class="subtext-content">
+          <h5 class="custom-subheading"><strong>AGOSTO 2023</strong></h5>
+          <ion-icon name="chevron-down-outline" class="custom-icon"></ion-icon>
+        </div>
+      
+        <div class="image-container">
+          <img src="../../../assets/call.svg" class="custom-image" alt="Imagen">
+        </div>
+
+        <div class="button-container">
+          <app-button [content]="'Seleccionar'" [color]="''" [position]="'center'" [redirect]="'/welcome'"></app-button>
+        </div>
+      </div>
+    </div>
+    
+</div>
+
+<app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
+
+</ion-content>
+
+
+

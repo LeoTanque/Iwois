@@ -1,0 +1,124 @@
+.top-section-1 {
+    flex: 1;
+    display: flex;
+    //justify-content: center;
+    align-items: flex-start;
+    background-color: #F6F0EC;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 99px;
+  }
+
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+   
+   
+  }
+
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    //padding: 20px;
+    flex: 1;
+  }
+
+  .logo-img {
+    height: 30px;
+    width: 80px;
+    //margin-top: 35%;
+    //margin-left: 35px;
+
+
+    margin-top: 30%;
+    margin-left: 70px;
+  }
+
+  .custom-heading {
+    text-align: left;
+    //margin-left: 10%;
+    margin-top: 60px;
+    color: #666666;
+  }
+
+  .login{
+    --background: #83989A;
+    --color: #fff;
+    position: relative;
+    width: 50%;
+    //margin-top: 20%;
+   // text-transform: lowercase;
+   text-transform: none;
+   font-size: 15px;
+  }
+
+  .location-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20%;
+    margin-top: 50%;
+   
+  }
+
+ 
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+  }
+
+  .text-content{
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .items-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    //padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    //margin-top: 70px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    //background-color: #f0f0f0;
+    border-radius: 10px;
+  }
+  
+  .item h3 {
+    margin-left: 10px;
+  }
+
+  .center-align {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .text {
+    color: #666666;
+    font-size: 20px;
+  }
+ 
+
+  .list-container {
+    margin-top: 80px; /* Ajusta el valor según tu necesidad */
+  }
+  
+  
+  

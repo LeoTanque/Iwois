@@ -1,0 +1,66 @@
+
+
+<ion-content [fullscreen]="true">
+   
+  <div class="container">
+    <div class="background-color">
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+      
+      <div class="bottom-section-1">
+
+        <div class="text-content" >
+          <h4 class="custom-heading"><strong>¿Que consejos deseas <br> enviar a tu paciente?</strong></h4>
+        </div>
+       
+      
+        <div class="list-container">
+        <ion-list class="items-container">
+          <ion-item >
+            <ion-label class="text" ><strong>Del pretratamiento</strong></ion-label>
+            <ion-radio slot="start"  disabled></ion-radio>
+            <!--ion-icon slot="start" src="../../../assets/A.svg" disabled ></ion-icon-->
+          </ion-item>
+          <ion-item>
+            <ion-label class="text"> <strong>Del postratamiento</strong></ion-label>
+            <ion-radio slot="start"></ion-radio>
+            <!--ion-icon slot="start" src="../../../assets/bolitass.svg"></ion-icon-->
+          </ion-item>
+          <ion-item>
+            <ion-label class="text"><strong>Ambos</strong></ion-label>
+            <ion-radio slot="start" disabled></ion-radio>
+          </ion-item>
+        </ion-list>
+      </div>
+        <!--div class="items-container">
+          <div class="item">
+            <ion-radio></ion-radio>
+            <h3>Del Pretratamiento</h3>
+          </div>
+          <div class="item">
+            <ion-radio></ion-radio>
+            <h3>Del Postratamiento</h3>
+          </div>
+          <div class="item">
+            <ion-radio></ion-radio>
+            <h3>Ambos</h3>
+          </div>
+        </div-->
+        
+
+        <div class="button-container">
+          <app-button [content]="'Seleccionar'" [color]="''" [position]="'center'" [redirect]="'/seleccion-fecha-tratamiento'"></app-button>
+        </div>
+      </div>
+    </div>
+    
+</div>
+
+<app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
+
+</ion-content>
+
+

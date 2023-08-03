@@ -1,0 +1,64 @@
+
+
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    //padding: 20px;
+    flex: 1;
+  }
+
+
+
+  .custom-heading {
+    text-align: left;
+    //margin-left: 10%;
+    margin-top: 60px;
+    color: #666666;
+  }
+
+ 
+
+ 
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+  }
+
+  .text-content{
+    display: flex;
+    justify-content: center;
+  }
+
+
+ 
+  
+  .subtext-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .custom-subheading {
+    color: #666666;
+    font-size: 18px;
+   
+  }
+  
+  .custom-icon {
+    font-size: 28px; /* Ajusta el tamaño del icono según tus necesidades */
+    color: #666666;
+    margin-left: 10px;
+  }
+  
+  .custom-image {
+    width: 100%; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+  }
+  

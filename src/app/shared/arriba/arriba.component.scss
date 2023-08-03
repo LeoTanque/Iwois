@@ -1,0 +1,41 @@
+.top-section {
+    flex: 4; 
+    position: relative;
+  }
+  
+  .background-image {
+    background-image: url("../../../assets/barriga.png");
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+   // height: 40%;
+    height: 40vh;
+
+    background-size: cover;
+    
+  
+  }
+
+  
+
+  .text-container {
+    width: 100%;
+    padding: 16px;
+    margin-top: 40px;
+
+
+    max-height: 300px; /* Ajusta la altura máxima según tus necesidades */
+    overflow-y: auto;
+  }
+  
+  .title {
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    color: #FFFFFF;
+    text-align: left;
+  }

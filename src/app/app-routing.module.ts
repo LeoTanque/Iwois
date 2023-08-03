@@ -270,6 +270,18 @@ const routes: Routes = [
     path: 'protocolo-asignado-paciente3',
     loadChildren: () => import('./pages/protocolo-asignado-paciente3/protocolo-asignado-paciente3.module').then( m => m.ProtocoloAsignadoPaciente3PageModule)
   },
+  {
+    path: 'seleccion-pre-post-protocolo',
+    loadChildren: () => import('./pages/seleccion-pre-post-protocolo/seleccion-pre-post-protocolo.module').then( m => m.SeleccionPrePostProtocoloPageModule)
+  },
+  {
+    path: 'seleccion-fecha-tratamiento',
+    loadChildren: () => import('./pages/seleccion-fecha-tratamiento/seleccion-fecha-tratamiento.module').then( m => m.SeleccionFechaTratamientoPageModule)
+  },
+  {
+    path: 'que-seha-seleccionado',
+    loadChildren: () => import('./pages/que-seha-seleccionado/que-seha-seleccionado.module').then( m => m.QueSehaSeleccionadoPageModule)
+  },
 
 
  
