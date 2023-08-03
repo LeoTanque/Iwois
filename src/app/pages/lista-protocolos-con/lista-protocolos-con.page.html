@@ -1,0 +1,48 @@
+
+
+<ion-content [fullscreen]="true">
+   
+  <div class="container">
+    <div class="background-color">
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+      
+      <div class="bottom-section">
+        <ion-searchbar
+        placeholder="Buscar"
+        mode="md"
+        class="custom">
+      </ion-searchbar>
+
+      <h3 class="custom-h3"><strong>Mis tratamientos</strong></h3> 
+      
+      <div class="fotos">
+        <app-image-grid [images]="imageUrls" [imageSize]="150"></app-image-grid>
+    </div>
+
+        
+    <div class="floating-button-container">
+      <app-button
+        [content]="'Añadir o crear nuevo'"
+        [color]="'#83989A'"
+        [backgroundColor]="'#FFFFFF'"
+        [position]="'center'"
+        [redirect]="'/anadir-crear-protocolo'"
+      ></app-button>
+    </div>
+
+        
+      </div>
+    </div>
+    
+</div>
+
+<app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
+
+</ion-content>
+
+
+

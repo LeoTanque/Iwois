@@ -286,6 +286,18 @@ const routes: Routes = [
     path: 'protocolo-asignado',
     loadChildren: () => import('./pages/protocolo-asignado/protocolo-asignado.module').then( m => m.ProtocoloAsignadoPageModule)
   },
+  {
+    path: 'lista-protocolos-sin',
+    loadChildren: () => import('./pages/lista-protocolos-sin/lista-protocolos-sin.module').then( m => m.ListaProtocolosSinPageModule)
+  },
+  {
+    path: 'lista-protocolos-con',
+    loadChildren: () => import('./pages/lista-protocolos-con/lista-protocolos-con.module').then( m => m.ListaProtocolosConPageModule)
+  },
+  {
+    path: 'anadir-crear-protocolo',
+    loadChildren: () => import('./pages/anadir-crear-protocolo/anadir-crear-protocolo.module').then( m => m.AnadirCrearProtocoloPageModule)
+  },
 
 
  

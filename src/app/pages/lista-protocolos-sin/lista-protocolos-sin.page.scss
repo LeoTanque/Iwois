@@ -1,0 +1,95 @@
+
+  .bottom-section {
+   // display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    //padding: 20px;
+    flex: 1;
+  }
+
+  ion-searchbar.custom {
+    --border-radius: 0px;
+    text-align: left;
+    border-bottom: 1px solid;
+    --box-shadow: none;
+    width: 86%;
+    display: block;
+    margin: auto;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .text-content{
+  
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  .custom-heading {
+   // text-align: left;
+    //margin-left: 10%;
+    margin-top: 60px;
+    color: #666666;
+    padding: auto;
+  }
+
+
+
+  .location-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20%;
+    margin-top: 50%;
+   
+  }
+
+  .user-text {
+    text-align: center;
+    color: #83989A;
+  }
+  
+ 
+  
+  .additional-text {
+    text-align: center;
+    font-size: 15px;
+    color: #666666;
+  }
+
+  .textos{
+    margin-top: 80px;
+    padding: auto;
+    
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+
+
+    position: fixed;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+
+
+    //background-color: #FFFFFF; /* Fondo blanco */
+   border: 1px solid #F6F0EC; /* Borde sombreado */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 30px;
+  }
+
+ 
+  /* Estilos para el nuevo h3 */
+.custom-h3 {
+    text-align: left;
+    color: #666666;
+    margin-top: 80px;
+    margin-left: 30px;
+  }
+  
