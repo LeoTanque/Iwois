@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { QueSehaSeleccionadoPageRoutingModule } from './que-seha-seleccionado-routing.module';
+import { ProtocoloAsignadoPageRoutingModule } from './protocolo-asignado-routing.module';
 
-import { QueSehaSeleccionadoPage } from './que-seha-seleccionado.page';
+import { ProtocoloAsignadoPage } from './protocolo-asignado.page';
 import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { SharedModule } from 'src/app/shared/shared.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    QueSehaSeleccionadoPageRoutingModule,
+    ProtocoloAsignadoPageRoutingModule,
     SharedModule
   ],
-  declarations: [QueSehaSeleccionadoPage]
+  declarations: [ProtocoloAsignadoPage]
 })
-export class QueSehaSeleccionadoPageModule {}
+export class ProtocoloAsignadoPageModule {}

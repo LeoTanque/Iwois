@@ -1,0 +1,99 @@
+
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    //padding: 20px;
+    flex: 1;
+  }
+
+
+
+  .custom-heading {
+    text-align: left;
+    //margin-left: 10%;
+    margin-top: 60px;
+    color: #666666;
+  }
+
+ 
+
+ 
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+  }
+
+  .text-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+
+
+  .centered-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+
+
+    margin: 10px;
+    width: 80%;
+  }
+  
+  /* styles.css o tu archivo de estilos personalizado */
+
+
+
+  
+
+  .icono{
+    font-size: 35px;
+    color: #666666;
+  }
+
+  h6{
+    color:#666666 ;
+    font-size: 18px;
+  }
+
+
+  .camera {
+  font-size: 24px;
+    width: 40px;
+    height: 40px;
+   
+  }
+
+  .color{
+    font-size: 30px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Ajusta el tamaño de la imagen según tus necesidades */
+  .centered-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .texto{
+    text-align: center;
+    margin-bottom: 20px;
+  }

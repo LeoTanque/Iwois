@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-seleccion-fecha-tratamiento',
-  templateUrl: './seleccion-fecha-tratamiento.page.html',
-  styleUrls: ['./seleccion-fecha-tratamiento.page.scss'],
+  selector: 'app-protocolo-asignado',
+  templateUrl: './protocolo-asignado.page.html',
+  styleUrls: ['./protocolo-asignado.page.scss'],
 })
-export class SeleccionFechaTratamientoPage implements OnInit {
+export class ProtocoloAsignadoPage implements OnInit {
 
   tabs = [ 
     { tab: 'cart', icon: '../../../assets/carrito.svg' },

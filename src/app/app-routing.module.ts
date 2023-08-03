@@ -282,6 +282,10 @@ const routes: Routes = [
     path: 'que-seha-seleccionado',
     loadChildren: () => import('./pages/que-seha-seleccionado/que-seha-seleccionado.module').then( m => m.QueSehaSeleccionadoPageModule)
   },
+  {
+    path: 'protocolo-asignado',
+    loadChildren: () => import('./pages/protocolo-asignado/protocolo-asignado.module').then( m => m.ProtocoloAsignadoPageModule)
+  },
 
 
  

@@ -1,13 +1,58 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>queSehaSeleccionado</ion-title>
-  </ion-toolbar>
-</ion-header>
+
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">queSehaSeleccionado</ion-title>
-    </ion-toolbar>
-  </ion-header>
+   
+  <div class="container">
+    <div class="background-color">
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+      
+      <div class="bottom-section">
+
+        <div class="text-content" >
+          <h4 class="custom-heading"><strong>Le estamos asignando a</strong></h4>
+        </div>
+       
+
+        <ion-item class="centered-item" >
+          <ion-avatar slot="start" class="camera">
+            <img alt="Silhouette of mountains" src="../../../assets/casa.svg" />
+             <!--ion-icon src="../../../assets/camera (1).svg" class="color"></ion-icon-->
+          </ion-avatar>
+         
+          <ion-label>
+           <h6>Usuario Invitado</h6>  
+           <p style="color: #83989A;">+34 00000000</p>
+          </ion-label>
+          <div class="ion-padding" slot="content">First Content</div>
+          <!--ion-icon slot="end" src="../../../assets/bolita.svg"  [routerLink]="['/lista-pacientes-con']" class="icono"></ion-icon-->
+          <ion-radio slot="end" src="../../../assets/camera.svg"  [routerLink]="['/lista-pacientes-con']" class="icono"></ion-radio>
+        </ion-item>
+
+        <div class="centered-content">
+          <h4 style="color: #666666;" class="texto"><strong>Los consejos <br>de postratamiento</strong></h4>
+        
+          <img alt="Imagen" src="../../../assets/barriga0.png" class="centered-image" />
+        </div>
+       
+
+
+
+        <div class="button-container">
+          <app-button [content]="'Enviar'" [color]="''" [position]="'center'" [redirect]="'/welcome'"></app-button>
+        </div>
+      </div>
+    </div>
+    
+</div>
+
+<app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
+
 </ion-content>
+
+
+
+

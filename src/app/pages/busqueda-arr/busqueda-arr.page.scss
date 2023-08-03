@@ -23,6 +23,19 @@
     color: #83989A;
   }
 
+  ion-searchbar.custom {
+    --border-radius: 0px;
+    text-align: left;
+    border-bottom: 1px solid;
+    --box-shadow: none;
+    width: 86%;
+    display: block;
+    margin: auto;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .mapa{
     align-items: center;
     width: 100%;
