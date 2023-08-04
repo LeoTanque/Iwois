@@ -298,6 +298,10 @@ const routes: Routes = [
     path: 'anadir-crear-protocolo',
     loadChildren: () => import('./pages/anadir-crear-protocolo/anadir-crear-protocolo.module').then( m => m.AnadirCrearProtocoloPageModule)
   },
+  {
+    path: 'emergente-eliminar',
+    loadChildren: () => import('./pages/emergente-eliminar/emergente-eliminar.module').then( m => m.EmergenteEliminarPageModule)
+  },
 
 
  

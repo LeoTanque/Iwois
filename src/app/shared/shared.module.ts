@@ -20,6 +20,7 @@ import { ArribaComponent } from './arriba/arriba.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { ImageGrid1Component } from './image-grid1/image-grid1.component';
 import { RouterModule } from '@angular/router';
+import { NuevaCardComponent } from './nueva-card/nueva-card.component';
 
 
 
@@ -27,7 +28,7 @@ import { RouterModule } from '@angular/router';
   declarations: [ CustomTabBarComponent, SliderComponent, SuperiorComponent, ButtonComponent, 
     ImageGridComponent, MapasComponent, ModalComponent, IconosComponent, TextoComponent, FotosComponent, 
     SmallCardComponent, CardyComponent, CardonaComponent, Iconos2Component, ArribaComponent, SearchBarComponent,
-  ImageGrid1Component],
+  ImageGrid1Component, NuevaCardComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     CommonModule,
@@ -37,6 +38,6 @@ import { RouterModule } from '@angular/router';
   exports: [CustomTabBarComponent,
   SliderComponent, SuperiorComponent, ButtonComponent, ImageGridComponent,MapasComponent, ModalComponent,
 IconosComponent, TextoComponent, FotosComponent, SmallCardComponent, CardyComponent, CardonaComponent,
-Iconos2Component, ArribaComponent, SearchBarComponent, ImageGrid1Component]
+Iconos2Component, ArribaComponent, SearchBarComponent, ImageGrid1Component, NuevaCardComponent]
 })
 export class SharedModule { }
