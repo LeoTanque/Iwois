@@ -1,0 +1,50 @@
+.image-grid {
+    .row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 5px; /* Ajusta el margen entre las filas */
+    }
+   
+    .column {
+      position: relative;
+      margin: 5px; /* Ajusta el margen entre las columnas */
+    }
+  
+    img {
+      display: block;
+      border-radius: 8px; /* Bordes redondeados para las imágenes */
+    }
+  
+    .icon-container {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+    }
+
+    .icon {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      font-size: 20px; /* Ajusta el tamaño del icono según tus necesidades */
+      color: #FFD700; /* Color del icono */
+      background-color: #FFFFFF; /* Color de fondo del icono */
+      border-radius: 50%; /* Bordes redondeados para el icono */
+      padding: 5px; /* Espacio entre el icono y el borde de la imagen */
+
+    }
+
+    .icon {
+      font-size: 24px; /* Ajusta el tamaño del icono según tus necesidades */
+      color: #FFFFFF; /* Color del icono */
+      background-color: #00000029; /* Color de fondo del icono */
+      border-radius: 50%; /* Bordes redondeados para el icono */
+      border: 1px solid #FFFFFF;
+      padding: 1px; /* Espacio entre el icono y el borde de la imagen */
+    }
+  
+    .icon:first-child {
+      margin-right: 35px; /* Ajusta el margen entre los iconos */
+    }
+  }
+  

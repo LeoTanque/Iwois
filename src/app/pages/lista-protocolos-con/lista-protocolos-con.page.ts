@@ -39,9 +39,29 @@ export class ListaProtocolosConPage implements OnInit {
     
   ];
 
+
+  iconNames: string[][] = [
+   
+    ['close-outline', 'camera'],   
+    ['close-outline', 'camera'],
+  
+  ];
+
+
+
   constructor(public router: Router) { }
 
   ngOnInit() {
+  }
+
+
+  onIconClick(iconName: string) {
+    if (iconName === 'camera') {
+      // Realiza la navegación a la página deseada cuando se hace clic en el icono "heart"
+      // Reemplaza '/otra-pagina' por la ruta de la página a la que deseas redirigir
+       this.router.navigate(['/home']);
+      console.log('Redirigiendo a otra página...');
+    }
   }
 
 }

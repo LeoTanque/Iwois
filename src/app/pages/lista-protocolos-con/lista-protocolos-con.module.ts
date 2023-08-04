@@ -8,10 +8,12 @@ import { ListaProtocolosConPageRoutingModule } from './lista-protocolos-con-rout
 
 import { ListaProtocolosConPage } from './lista-protocolos-con.page';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
     CommonModule,
+    RouterModule,
     FormsModule,
     IonicModule,
     ListaProtocolosConPageRoutingModule,

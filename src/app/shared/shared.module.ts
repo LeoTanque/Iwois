@@ -18,21 +18,25 @@ import { CardonaComponent } from './cardona/cardona.component';
 import { Iconos2Component } from './iconos2/iconos2.component';
 import { ArribaComponent } from './arriba/arriba.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
+import { ImageGrid1Component } from './image-grid1/image-grid1.component';
+import { RouterModule } from '@angular/router';
 
 
 
 @NgModule({
   declarations: [ CustomTabBarComponent, SliderComponent, SuperiorComponent, ButtonComponent, 
     ImageGridComponent, MapasComponent, ModalComponent, IconosComponent, TextoComponent, FotosComponent, 
-    SmallCardComponent, CardyComponent, CardonaComponent, Iconos2Component, ArribaComponent, SearchBarComponent],
+    SmallCardComponent, CardyComponent, CardonaComponent, Iconos2Component, ArribaComponent, SearchBarComponent,
+  ImageGrid1Component],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     CommonModule,
-    IonicModule
+    IonicModule,
+    RouterModule
   ],
   exports: [CustomTabBarComponent,
   SliderComponent, SuperiorComponent, ButtonComponent, ImageGridComponent,MapasComponent, ModalComponent,
 IconosComponent, TextoComponent, FotosComponent, SmallCardComponent, CardyComponent, CardonaComponent,
-Iconos2Component, ArribaComponent, SearchBarComponent]
+Iconos2Component, ArribaComponent, SearchBarComponent, ImageGrid1Component]
 })
 export class SharedModule { }

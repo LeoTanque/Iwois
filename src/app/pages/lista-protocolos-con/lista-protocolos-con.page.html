@@ -16,9 +16,25 @@
       <h3 class="custom-h3"><strong>Mis tratamientos</strong></h3> 
       
       <div class="fotos">
-        <app-image-grid [images]="imageUrls" [imageSize]="150"></app-image-grid>
-    </div>
+       
+        <app-image-grid1 
+        [images]="imageUrls" 
+        [imageSize]="150" 
+        [largeImageIndices]="[0, 1]" 
+        [iconNames]="[
+        ['close-outline', 'camera'],   
+        ['close-outline', 'camera'], 
+            
+      ]"
+      [iconRoutes]="[
+      ['/home', '/'],
+      ['/ruta-corazon', '/ruta-estrella'],
+    ]"
+      
+      ></app-image-grid1>
 
+    </div>
+ 
         
     <div class="floating-button-container">
       <app-button
