@@ -302,6 +302,26 @@ const routes: Routes = [
     path: 'emergente-eliminar',
     loadChildren: () => import('./pages/emergente-eliminar/emergente-eliminar.module').then( m => m.EmergenteEliminarPageModule)
   },
+  {
+    path: 'crear-nuevo-protocolo',
+    loadChildren: () => import('./pages/crear-nuevo-protocolo/crear-nuevo-protocolo.module').then( m => m.CrearNuevoProtocoloPageModule)
+  },
+  {
+    path: 'ver-protocolo-creado-admin',
+    loadChildren: () => import('./pages/ver-protocolo-creado-admin/ver-protocolo-creado-admin.module').then( m => m.VerProtocoloCreadoAdminPageModule)
+  },
+  {
+    path: 'ver-protocolo-creado-admin1',
+    loadChildren: () => import('./pages/ver-protocolo-creado-admin1/ver-protocolo-creado-admin1.module').then( m => m.VerProtocoloCreadoAdmin1PageModule)
+  },
+  {
+    path: 'ver-protocolo-creado-admin2',
+    loadChildren: () => import('./pages/ver-protocolo-creado-admin2/ver-protocolo-creado-admin2.module').then( m => m.VerProtocoloCreadoAdmin2PageModule)
+  },
+  {
+    path: 'ver-protocolo-creado-admin3',
+    loadChildren: () => import('./pages/ver-protocolo-creado-admin3/ver-protocolo-creado-admin3.module').then( m => m.VerProtocoloCreadoAdmin3PageModule)
+  },
 
 
  

@@ -1,13 +1,69 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>anadirCrearProtocolo</ion-title>
-  </ion-toolbar>
-</ion-header>
+
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">anadirCrearProtocolo</ion-title>
-    </ion-toolbar>
-  </ion-header>
+   
+  <div class="container">
+    <div class="background-color">
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+      
+      <div class="bottom-section">
+        <ion-searchbar
+        placeholder="Buscar"
+        mode="md"
+        class="custom">
+      </ion-searchbar>
+
+      <div class="floating-button-container">
+        <app-boton2
+          [content]="'Crear mi tratamiento'"
+          [color]="''"
+          [backgroundColor]="''"
+          [position]="'center'"
+          [redirect]="'/home'"
+          [icon]="'create-outline'"
+          
+        ></app-boton2>
+      </div>
+      
+      <div class="fotos">
+
+
+       
+        <app-image-grid2 
+        [images]="imageUrls" 
+        [imageSize]="150" 
+        [largeImageIndices]="[0, 1]" 
+        [iconNames]="[
+        ['add-circle-outline'],   
+        ['add-circle-outline'],  
+            
+      ]"
+      [iconRoutes]="[
+      ['/emergente-eliminar' ],
+      ['/emergente-eliminar'], 
+    ]"
+      
+      ></app-image-grid2>
+
+    </div>
+ 
+        
+   
+
+        
+      </div>
+    </div>
+    
+</div>
+
+<app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
+
 </ion-content>
+
+
+
+

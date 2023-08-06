@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { AnadirCrearProtocoloPageRoutingModule } from './anadir-crear-protocolo-routing.module';
+import { VerProtocoloCreadoAdmin2PageRoutingModule } from './ver-protocolo-creado-admin2-routing.module';
 
-import { AnadirCrearProtocoloPage } from './anadir-crear-protocolo.page';
+import { VerProtocoloCreadoAdmin2Page } from './ver-protocolo-creado-admin2.page';
 import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { SharedModule } from 'src/app/shared/shared.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    AnadirCrearProtocoloPageRoutingModule,
+    VerProtocoloCreadoAdmin2PageRoutingModule,
     SharedModule
   ],
-  declarations: [AnadirCrearProtocoloPage]
+  declarations: [VerProtocoloCreadoAdmin2Page]
 })
-export class AnadirCrearProtocoloPageModule {}
+export class VerProtocoloCreadoAdmin2PageModule {}

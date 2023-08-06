@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.667" height="26.667" viewBox="0 0 26.667 26.667">
+  <g id="plus-circle-line" transform="translate(-2.667 -2.667)">
+    <path id="Trazado_25915" data-name="Trazado 25915" d="M26.224,18.582H20.249V12.607a.833.833,0,1,0-1.667,0v5.975H12.607a.833.833,0,1,0,0,1.667h5.975v5.975a.833.833,0,1,0,1.667,0V20.249h5.975a.833.833,0,1,0,0-1.667Z" transform="translate(-3.415 -3.415)" fill="#fff"/>
+    <path id="Trazado_25916" data-name="Trazado 25916" d="M16,2.667A13.334,13.334,0,1,0,29.334,16,13.334,13.334,0,0,0,16,2.667Zm0,25A11.667,11.667,0,1,1,27.667,16,11.667,11.667,0,0,1,16,27.667Z" transform="translate(0 0)" fill="#fff"/>
+  </g>
+</svg>

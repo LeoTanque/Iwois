@@ -5,6 +5,15 @@
 
 
         <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+        <div class="floating-button-container">
+          <app-button
+            [content]="'Añadir a mis tratamientos'"
+            [color]="''"
+            [backgroundColor]="''"
+            [position]="'center'"
+            [redirect]="'/anadir-crear-protocolo'"
+          ></app-button>
+        </div>
         <div class="text-container">
           <h2 class="title">Criolipolisis</h2>
           <p class="description">Es un tratamiento que desencadena reacciones <br>
@@ -33,10 +42,10 @@
      
       <app-iconos2
       [iconNames]="['A', 'B', 'C', 'D']"
-      [routeA]="'/protocolo-asignado-paciente'"
-      [routeB]="'/protocolo-asignado-paciente1'"
-      [routeC]="'/protocolo-asignado-paciente2'"
-      [routeD]="'/protocolo-asignado-paciente3'"
+      [routeA]="'/ver-protocolo-creado-admin'"
+      [routeB]="'/ver-protocolo-creado-admin1'"
+      [routeC]="'/ver-protocolo-creado-admin2'"
+      [routeD]="'/ver-protocolo-creado-admin3'"
     ></app-iconos2>
 
       <h3 class="faq-text"><strong>Ejercicios</strong></h3>
@@ -94,6 +103,7 @@
     [tabRoutes]="tabRoutes"></app-custom-tab-bar>
 
 </ion-content>
+
 
 
 

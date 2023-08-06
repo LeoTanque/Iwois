@@ -1,0 +1,97 @@
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <div class="top-section">
+      <div class="background-image">
+
+
+        <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+        <div class="floating-button-container">
+          <app-button
+            [content]="'Añadir a mis tratamientos'"
+            [color]="''"
+            [backgroundColor]="''"
+            [position]="'center'"
+            [redirect]="'/anadir-crear-protocolo'"
+          ></app-button>
+        </div>
+        <div class="text-container">
+          <h2 class="title">Criolipolisis</h2>
+          <p class="description">Es un tratamiento que desencadena reacciones <br>
+            metabólicas y bioquímicas en el organismo <br>
+            favoreciendo la eliminación de grasa a través de <br>
+            la aplicación de frío controlado provocando la <br>
+            muerte celular</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="bottom-section" style="max-height: 70vh;">
+
+      <div class="button-container">
+        <button class="pretratamiento-button">Pretratamiento</button>
+        <button class="postratamiento-button">Postratamiento</button>
+      </div>
+
+      <div class="subtitles-container">
+        <span class="left-subtitle">Inicio: 12/03/203</span>
+        <span class="right-subtitle">Fin dd/mm/aaa</span>
+      </div>
+
+      <app-iconos2
+      [iconNames]="['A', 'B', 'C', 'D']"
+      [routeA]="'/ver-protocolo-creado-admin'"
+      [routeB]="'/ver-protocolo-creado-admin1'"
+      [routeC]="'/ver-protocolo-creado-admin2'"
+      [routeD]="'/ver-protocolo-creado-admin3'"
+    ></app-iconos2>
+
+      <h3 class="faq-text"><strong>Suplementacion</strong></h3>
+
+  
+      <!-- div class="card-container">
+        <div class="card">
+         
+          <div class="card-content">
+            <h4></h4>
+            <p>Toma 1 capsula de mitocondria <br>
+            therascience 30 minutos antes <br>
+            de desayunar <br><br><br>
+
+            -Actua protegiendo las células <br>
+            contra el estrés oxidativo <br><br><br>
+
+            -Ayuda a disminuir la fatiga <br>
+            general 
+
+          </p>
+          </div>
+      
+          <button class="card-button">Antes del desayuno</button>
+        </div>
+
+      </div-->
+
+     
+      <app-cardy 
+      [cardText]="'- Toma 1 capsula de mitocondria <br>  therascience 30 minutos antes  <br>  de desayunar <br><br>  -Actua protegiendo las células <br>  contra el estrés oxidativo <br> <br> -Ayuda a disminuir la fatiga <br> general  '" 
+      [cardButtonContent]="'Antes del desayuno'">
+    </app-cardy>
+
+      <app-cardy 
+      [cardText]="'Toma dos capsulas de Drenovance <br> 1 hora antes de la comida <br> contiene estracto de plantas <br> diureticas y hace que <br> eliminemos los liquidos de forma <br> mas rapida favoreciendo el <br> proceso de eliminacion de <br> toxinas. Ademas son totalmete <br> naturales  '" 
+      [cardButtonContent]="'Antes de la comida'">
+    </app-cardy>
+
+    <app-cardy 
+    [cardText]="'Toma dos capsulas de Drenovance <br> 1 hora antes de la comida <br> contiene estracto de plantas <br> diureticas y hace que <br> eliminemos los liquidos de forma <br> mas rapida favoreciendo el <br> proceso de eliminacion de <br> toxinas. Ademas son totalmete <br> naturales  '" 
+    [cardButtonContent]="'Antes de cena'">
+  </app-cardy>
+
+    </div>
+  </div>
+
+  <app-custom-tab-bar [tabs]="tabs" [iconStyles]="iconStyles" [router]="router"
+    [tabRoutes]="tabRoutes"></app-custom-tab-bar>
+
+</ion-content>

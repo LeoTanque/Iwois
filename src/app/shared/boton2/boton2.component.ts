@@ -2,11 +2,12 @@ import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-button',
-  templateUrl: './button.component.html',
-  styleUrls: ['./button.component.scss'],
+  selector: 'app-boton2',
+  templateUrl: './boton2.component.html',
+  styleUrls: ['./boton2.component.scss'],
 })
-export class ButtonComponent  implements OnInit {
+export class Boton2Component  implements OnInit {
+
   @Input()
   content!: string;
   @Input() styles: any;
@@ -28,4 +29,7 @@ export class ButtonComponent  implements OnInit {
       this.router.navigate([this.redirect]);
     }
   }
+
+
+
 }

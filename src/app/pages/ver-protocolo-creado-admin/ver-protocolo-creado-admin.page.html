@@ -1,0 +1,93 @@
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <div class="top-section"> 
+      <div class="background-image">
+      
+          
+        <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+        <div class="floating-button-container">
+          <app-button
+            [content]="'Añadir a mis tratamientos'"
+            [color]="'#83989A'"
+            [backgroundColor]="'#FFFFFF'"
+            [position]="'center'"
+            [redirect]="'/anadir-crear-protocolo'"
+          ></app-button>
+        </div>
+    
+          <div class="text-container">
+            <h2 class="title">Criolipolisis</h2>
+            <p class="description">Es un tratamiento que desencadena reacciones <br>
+               metabólicas y bioquímicas en el organismo <br>
+                favoreciendo la eliminación de grasa a través de <br>
+                 la aplicación de frío controlado provocando la <br>
+                  muerte celular</p>
+          </div>
+        
+      </div>
+    </div>
+    
+    <div class="bottom-section" style="max-height: 70vh;">
+     
+      <div class="button-container">
+        <button class="pretratamiento-button">Pretratamiento</button>
+        <button class="postratamiento-button">Postratamiento</button>
+      </div>
+
+      <div class="subtitles-container">
+        <span class="left-subtitle">Inicio: 12/03/203</span>
+        <span class="right-subtitle">Fin dd/mm/aaa</span>
+      </div>
+
+      <app-iconos2
+      [iconNames]="['A', 'B', 'C', 'D']"
+      [routeA]="'/ver-protocolo-creado-admin'"
+      [routeB]="'/ver-protocolo-creado-admin1'"
+      [routeC]="'/ver-protocolo-creado-admin2'"
+      [routeD]="'/ver-protocolo-creado-admin3'"
+    ></app-iconos2>
+     
+
+      <h3 class="faq-text"><strong>Preguntas frecuentes</strong></h3>
+      
+<div class="small-card-container">
+      <app-small-card
+       [images]="[
+      '../../../assets/card1.png', 
+      '../../../assets/card2.png', 
+      '../../../assets/card3.png']"
+      text="Alimentacion poscrioliposis"
+      ></app-small-card>
+   </div>
+
+      <div class="small-card-container">
+      <app-small-card
+       [images]="[
+      '../../../assets/card1.png', 
+      '../../../assets/card2.png']"
+      text="Como masajear la zona"
+      ></app-small-card>
+         </div>
+
+         <div class="small-card-container">
+      <app-small-card
+      [images]="[
+     '../../../assets/card1.png']"
+     text="La hidratacion despues de cualquier tratamiento"
+     ></app-small-card>
+    </div>
+    </div>
+  </div>
+
+  <app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
+  
+</ion-content>
+
+
+
+
+
