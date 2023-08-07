@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { CrearNuevoProtocoloPageRoutingModule } from './crear-nuevo-protocolo-routing.module';
+import { NuevoProtocolo2PageRoutingModule } from './nuevo-protocolo2-routing.module';
 
-import { CrearNuevoProtocoloPage } from './crear-nuevo-protocolo.page';
+import { NuevoProtocolo2Page } from './nuevo-protocolo2.page';
 import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { SharedModule } from 'src/app/shared/shared.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    CrearNuevoProtocoloPageRoutingModule,
+    NuevoProtocolo2PageRoutingModule,
     SharedModule
   ],
-  declarations: [CrearNuevoProtocoloPage]
+  declarations: [NuevoProtocolo2Page]
 })
-export class CrearNuevoProtocoloPageModule {}
+export class NuevoProtocolo2PageModule {}

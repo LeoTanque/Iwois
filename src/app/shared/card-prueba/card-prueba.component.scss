@@ -29,7 +29,7 @@ ion-card {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
   /* Estilo de borde y esquinas redondeadas */
   border: 1px solid #e6e6e6;
-  border-radius: 8px;
+  border-radius: 20px;
   /* Centra el contenido horizontalmente */
   display: flex;
   flex-direction: column;
@@ -59,7 +59,10 @@ ion-card {
 .image {
   /* Espaciado entre las imágenes */
   margin: 5px;
-  
+ // width: 80px;
+  //height: 80px;
+  //border: 1px solid black;
+ 
 }
 
 img {
@@ -70,3 +73,12 @@ img {
   border-radius: 4px;
 }
 
+
+.save-text {
+  position: absolute;
+  bottom: 1px;
+  right: 15px;
+  color: #666666;
+  text-decoration: underline;
+  font-size: 14px;
+}

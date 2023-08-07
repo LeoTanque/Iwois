@@ -1,0 +1,88 @@
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .top-section {
+    flex: 4; 
+    position: relative;
+  }
+
+  
+.centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+ 
+  }
+  
+  .centered-image img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  
+  .background-image {
+    //background-image: url("../../../assets/barriga.png");
+    background-color: gainsboro;
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+   // height: 40%;
+    height: 40vh;
+
+    background-size: cover;
+  
+  }
+
+  .bottom-section {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+    padding-top: 15px;
+    overflow-y: auto;
+   padding-bottom: 100px;
+    
+  }
+  
+  /* Agrega este estilo en tu archivo de estilos CSS */
+
+.faq-text {
+ 
+  color: #666666;
+  font-size: 22px;
+  margin-top: 30px;
+ text-align: center;
+}
+
+.small-text {
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .red-text {
+    color: red;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 15px;
+  }
+ 
+ 
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+  }
+
+  
+
+
+  

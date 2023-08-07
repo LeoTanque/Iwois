@@ -23,6 +23,8 @@ import { RouterModule } from '@angular/router';
 import { NuevaCardComponent } from './nueva-card/nueva-card.component';
 import { ImageGrid2Component } from './image-grid2/image-grid2.component';
 import { Boton2Component } from './boton2/boton2.component';
+import { CardPruebaComponent } from './card-prueba/card-prueba.component';
+import { CardyPruebaComponent } from './cardy-prueba/cardy-prueba.component';
 
 
 
@@ -31,7 +33,7 @@ import { Boton2Component } from './boton2/boton2.component';
   declarations: [ CustomTabBarComponent, SliderComponent, SuperiorComponent, ButtonComponent, 
     ImageGridComponent, MapasComponent, ModalComponent, IconosComponent, TextoComponent, FotosComponent, 
     SmallCardComponent, CardyComponent, CardonaComponent, Iconos2Component, ArribaComponent, SearchBarComponent,
-  ImageGrid1Component, NuevaCardComponent, ImageGrid2Component, Boton2Component],
+  ImageGrid1Component, NuevaCardComponent, ImageGrid2Component, Boton2Component, CardPruebaComponent, CardyPruebaComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     CommonModule,
@@ -42,6 +44,6 @@ import { Boton2Component } from './boton2/boton2.component';
   SliderComponent, SuperiorComponent, ButtonComponent, ImageGridComponent,MapasComponent, ModalComponent,
 IconosComponent, TextoComponent, FotosComponent, SmallCardComponent, CardyComponent, CardonaComponent,
 Iconos2Component, ArribaComponent, SearchBarComponent, ImageGrid1Component, NuevaCardComponent, ImageGrid2Component,
-Boton2Component]
+Boton2Component, CardPruebaComponent, CardyPruebaComponent]
 })
 export class SharedModule { }

@@ -1,0 +1,127 @@
+ion-content{
+    --background: white;
+    opacity: 90%;
+    position: relative;
+  }
+
+  .background-image {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../assets/Captura\ de\ pantalla\ \(18\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+    z-index: -1; /* Coloca la imagen de fondo detrás del contenido */
+    filter: brightness(0.3);
+    backdrop-filter: blur(50px);
+  }
+
+  .modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000029; 
+    z-index: 9999;
+    opacity: 100%;
+    //overflow: hidden;
+  }
+  
+
+
+  .modal-content{
+    background-color: #FFFFFF;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    position: relative; /* Agregado para el posicionamiento relativo */
+    opacity: 100%;
+   // max-height: 80vh;
+    //max-width: 100%;
+   // height: auto;
+   // overflow: auto;
+    //padding-bottom: 20px;
+   // overflow: hidden;
+    //width: 75%;
+  }
+  
+  .modal-image {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    width: 50px; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+    //transform: translateY(-50%);
+  }
+  
+
+  
+  .modal-content p {
+    font-size: 16px;
+    color: #666666;
+    opacity: 100%;
+    padding: auto;
+    text-align: left;
+    margin-top: 25px;
+    width: 234pt 72pt;
+    height: 449pt 210pt;
+    padding: 15px;
+  }
+
+  .logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin-top: 30px;
+    
+
+  }
+  
+  .continue-button {
+    margin-top: 15px;
+    background-color: #83989A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px; 
+    padding: 10px 50px;
+    cursor: pointer;
+    
+  }
+  
+
+
+  .texto {
+    display: flex;
+    color: #83989A;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .text{
+
+    text-align: center;
+  }
+
+  ion-img{
+    margin-top: 4vh;  
+  }
+
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+
+  

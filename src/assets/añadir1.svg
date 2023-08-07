@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="224" height="59" viewBox="0 0 224 59">
+  <defs>
+    <filter id="Rectángulo_35407" x="0" y="0" width="224" height="59" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_18463" data-name="Grupo 18463" transform="translate(-64 -577)">
+    <g transform="matrix(1, 0, 0, 1, 64, 577)" filter="url(#Rectángulo_35407)">
+      <rect id="Rectángulo_35407-2" data-name="Rectángulo 35407" width="206" height="41" rx="20.5" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="Grupo_18321" data-name="Grupo 18321" transform="translate(66 8.846)">
+      <ellipse id="Elipse_950" data-name="Elipse 950" cx="14.5" cy="14" rx="14.5" ry="14" transform="translate(161 580.204)" fill="#fff"/>
+      <g id="plus-circle" transform="translate(161.322 580.026)">
+        <g id="Grupo_18080" data-name="Grupo 18080">
+          <path id="Trazado_25902" data-name="Trazado 25902" d="M14.178,26.583A12.405,12.405,0,1,1,26.583,14.178,12.405,12.405,0,0,1,14.178,26.583Zm0,1.772A14.178,14.178,0,1,0,0,14.178,14.178,14.178,0,0,0,14.178,28.355Z" fill="#666"/>
+          <path id="Trazado_25903" data-name="Trazado 25903" d="M19.089,12a.886.886,0,0,1,.886.886V18.2h5.317a.886.886,0,1,1,0,1.772H19.975v5.317a.886.886,0,1,1-1.772,0V19.975H12.886a.886.886,0,0,1,0-1.772H18.2V12.886A.886.886,0,0,1,19.089,12Z" transform="translate(-4.911 -4.911)" fill="#666"/>
+        </g>
+      </g>
+    </g>
+    <text id="Añadir_ejercicio" data-name="Añadir ejercicio" transform="translate(97 608)" fill="#666" font-size="13" font-family="Poppins-Medium, Poppins" font-weight="500" letter-spacing="0.063em"><tspan x="0" y="0">Añadir ejercicio</tspan></text>
+  </g>
+</svg>

@@ -322,6 +322,26 @@ const routes: Routes = [
     path: 'ver-protocolo-creado-admin3',
     loadChildren: () => import('./pages/ver-protocolo-creado-admin3/ver-protocolo-creado-admin3.module').then( m => m.VerProtocoloCreadoAdmin3PageModule)
   },
+  {
+    path: 'nuevo-protocolo',
+    loadChildren: () => import('./pages/nuevo-protocolo/nuevo-protocolo.module').then( m => m.NuevoProtocoloPageModule)
+  },
+  {
+    path: 'nuevo-protocolo1',
+    loadChildren: () => import('./pages/nuevo-protocolo1/nuevo-protocolo1.module').then( m => m.NuevoProtocolo1PageModule)
+  },
+  {
+    path: 'nuevo-protocolo2',
+    loadChildren: () => import('./pages/nuevo-protocolo2/nuevo-protocolo2.module').then( m => m.NuevoProtocolo2PageModule)
+  },
+  {
+    path: 'nuevo-protocolo-suplementacion',
+    loadChildren: () => import('./pages/nuevo-protocolo-suplementacion/nuevo-protocolo-suplementacion.module').then( m => m.NuevoProtocoloSuplementacionPageModule)
+  },
+  {
+    path: 'nuevo-protocolo-ejercicio',
+    loadChildren: () => import('./pages/nuevo-protocolo-ejercicio/nuevo-protocolo-ejercicio.module').then( m => m.NuevoProtocoloEjercicioPageModule)
+  },
 
 
  
