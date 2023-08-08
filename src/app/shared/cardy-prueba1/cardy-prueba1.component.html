@@ -1,0 +1,16 @@
+<ion-card>
+  <ion-card-content>
+    <div *ngIf="text" class="card-text" [style.font-size]="textSize"><strong>{{ text }}</strong></div>
+    <div class="images-container">
+      <img *ngFor="let image of images" [src]="image" alt="Imagen" class="image">
+    </div>
+    <div class="save-container">
+      <div class="save-text">Guardar</div>
+      <div class="icon-container">
+        <ion-icon name="camera" style="font-size: 24px;"></ion-icon>
+        <ion-icon name="camera" style="font-size: 24px; margin-left: 10px;"></ion-icon>
+      </div>
+     
+    </div>
+  </ion-card-content>
+</ion-card>

@@ -1,0 +1,47 @@
+
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <div class="top-section">
+      <div class="background-image">
+
+
+        <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+      
+        <div class="centered-image">
+          <img src="../../../assets/camG.png" alt="Imagen" />
+          
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="bottom-section" style="max-height: 70vh;">
+
+      <h3 class="faq-text"><strong>Criolipolisis</strong></h3>
+     
+      <p class="small-text">Es un tratamiento que desencadena <br> 
+        reacciones metabólicas y bioquímicas en <br> 
+        el organismo favoreciendo la eliminación <br> 
+        de grasa a través de la aplicación de frio <br> 
+        controlado provocando la muerte celular.</p>
+      
+     
+
+      <div class="button-container">
+        <app-button [content]="'Siguiente'" [color]="''" [position]="'center'" [redirect]="'/nuevo-protocolo1'"></app-button>
+      </div>
+    </div>
+  </div>
+
+  <app-custom-tab-bar [tabs]="tabs" [iconStyles]="iconStyles" [router]="router"
+    [tabRoutes]="tabRoutes"></app-custom-tab-bar>
+
+</ion-content>
+
+
+
+
+
+
+

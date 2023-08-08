@@ -342,6 +342,14 @@ const routes: Routes = [
     path: 'nuevo-protocolo-ejercicio',
     loadChildren: () => import('./pages/nuevo-protocolo-ejercicio/nuevo-protocolo-ejercicio.module').then( m => m.NuevoProtocoloEjercicioPageModule)
   },
+  {
+    path: 'nuevo-protocolo-final',
+    loadChildren: () => import('./pages/nuevo-protocolo-final/nuevo-protocolo-final.module').then( m => m.NuevoProtocoloFinalPageModule)
+  },
+  {
+    path: 'nuevo-protocolo-final1',
+    loadChildren: () => import('./pages/nuevo-protocolo-final1/nuevo-protocolo-final1.module').then( m => m.NuevoProtocoloFinal1PageModule)
+  },
 
 
  
