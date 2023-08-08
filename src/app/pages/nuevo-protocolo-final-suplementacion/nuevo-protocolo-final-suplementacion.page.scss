@@ -75,8 +75,8 @@
 
 
 .small-card-container {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .small-text {
@@ -94,14 +94,15 @@
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    margin-bottom: 30px;
+    bottom: 80px;
+    position: absolute;
   }
 
   .centered-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    //margin-top: 10px; /* Ajusta el margen superior según tus necesidades */
+    margin-top: 10px; /* Ajusta el margen superior según tus necesidades */
   }
   
 
@@ -110,19 +111,3 @@
     justify-content: center;
     margin-top: 40px;
   }
-
-
-     /* Estilos para el botón flotante */
-.floating-button-container {
-  position: fixed;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 999;
-
-
-  //background-color: #FFFFFF; /* Fondo blanco */
- border: 1px solid #F6F0EC; /* Borde sombreado */
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
-  border-radius: 30px;
-}

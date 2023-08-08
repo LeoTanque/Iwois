@@ -1,0 +1,71 @@
+<ion-content [fullscreen]="true">
+  <div class="container"> 
+    
+      
+    
+        <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+        
+        <h3 class="center"><strong>Título Tratamiento</strong></h3>
+    <div class="bottom-section" style="max-height: 70vh;">
+     
+      <div class="button-container">
+        <button class="pretratamiento-button">Pretratamiento</button>
+        <button class="postratamiento-button">Postratamiento</button>
+      </div>
+
+     
+
+      <app-iconos2
+      [iconNames]="['A', 'B', 'C', 'D']"
+      [routeA]="'/protocolo-asignado-paciente'"
+      [routeB]="'/protocolo-asignado-paciente1'"
+      [routeC]="'/protocolo-asignado-paciente2'"
+      [routeD]="'/protocolo-asignado-paciente3'"
+    ></app-iconos2>
+   
+
+      <h3 class="faq-text"><strong>Suplementación</strong></h3>
+      
+     
+
+        <app-protocolo1
+        [cardText]="'Toma 1 cápsula de Mitocondria <br> Therascience 30 minutos antes <br> de desayunar.'"
+        [cardButtonContent]="'Antes del desayuno'"
+      
+      ></app-protocolo1>
+
+        
+        <div class="centered-image">
+          <img src="../../../assets/añadirsup.svg" alt="Imagen" />
+        </div>
+        
+        <div class="floating-button-container">
+          <app-button
+            [content]="'Guardar protocolo'"
+            [color]="''" 
+            [backgroundColor]="''"
+            [position]="'center'"
+            [redirect]="'/anadir-crear-protocolo'"
+          ></app-button>
+        </div>
+    </div>
+
+
+    
+  </div>
+
+  <app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
+  
+</ion-content>
+
+
+
+
+
+
+
+

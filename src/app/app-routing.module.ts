@@ -350,6 +350,14 @@ const routes: Routes = [
     path: 'nuevo-protocolo-final1',
     loadChildren: () => import('./pages/nuevo-protocolo-final1/nuevo-protocolo-final1.module').then( m => m.NuevoProtocoloFinal1PageModule)
   },
+  {
+    path: 'nuevo-protocolo-final2',
+    loadChildren: () => import('./pages/nuevo-protocolo-final2/nuevo-protocolo-final2.module').then( m => m.NuevoProtocoloFinal2PageModule)
+  },
+  {
+    path: 'nuevo-protocolo-final-suplementacion',
+    loadChildren: () => import('./pages/nuevo-protocolo-final-suplementacion/nuevo-protocolo-final-suplementacion.module').then( m => m.NuevoProtocoloFinalSuplementacionPageModule)
+  },
 
 
  

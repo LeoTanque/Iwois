@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CardyPrueba1Component  implements OnInit {
   @Input() text: string = '';
-  @Input() textSize: string = '18px'; // Nueva propiedad para el tamaño del texto
+  @Input() textSize: string = ''; // Nueva propiedad para el tamaño del texto
   @Input() images: string[] = [];
   constructor() { }
 

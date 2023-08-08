@@ -3,9 +3,10 @@
 .icon-container {
     display: flex;
     align-items: center;
-    margin-right: 5px;
+    margin-right: 5px; 
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-end;
+    margin-right: 10px;
   }
   
   /* Resto de tus estilos aquí */
@@ -15,7 +16,7 @@
     justify-content: space-between;
     align-items: center; /* Alinea verticalmente los elementos */
     margin-top: 20px;
-    //padding: 5px 10px;
+    padding: 5px 10px;
     text-decoration: underline;
   
 
@@ -23,10 +24,10 @@
   }
 
 
+
   .save-text {
-    position: absolute;
-    bottom: 1px;
-    right: 15px;
+   // position: absolute;
+   // right: 15px;
     color: #666666;
     text-decoration: underline;
     font-size: 14px;
@@ -72,13 +73,15 @@
   }
   
   .images-container {
-    /* Centra las imágenes horizontalmente */
+    
     display: flex;
     justify-content: center;
-    /* Alinea las imágenes en una fila */
     flex-wrap: wrap;
     justify-content: flex-start;
-   
+    white-space: nowrap;
+    display: inline-flex;
+
+    
   }
   
   .image {
@@ -98,3 +101,5 @@
     border-radius: 4px;
   }
   
+
+ 

@@ -10,7 +10,7 @@
   .card {
     width: 100%; /* Ajusta el ancho de la card según lo necesites */
     background-color: #ffffff;
-    border-radius: 8px;
+    border-radius: 25px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     position: relative;
@@ -32,10 +32,10 @@
  
   
   .card-text {
-    font-size: 16px;
+    font-size: 14px;
     color: #666666;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   
   .card-button {
@@ -61,7 +61,7 @@
   }
   
   .save-text {
-    position: absolute;
+   // position: absolute;
     bottom: 0;
     right: 0;
     margin: 5px;
@@ -69,44 +69,58 @@
     text-decoration: underline;
   }
   
-  .red-text {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin: 5px;
-    color: red;
-    font-size: 14px;
-  }
-
-
-
-
-
-
+ 
 
   /* Resto de tus estilos aquí */
 
-.bottom-icons {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 5px;
-}
-
-.bottom-icon {
-  font-size: 24px;
-  margin-left: 10px;
-  color: #666666;
-}
-
-.save-text {
-  color: #666666;
-  text-decoration: underline;
-  font-size: 14px;
+.small-icon {
+    font-size: 18px; /* Tamaño de los iconos pequeños */
   margin-right: 10px;
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: flex-end; /* Alinea los iconos a la derecha */
+    //margin-top: 5px;
+
+
+
+  }
+  
+  .icon-container {
+    display: flex;
+    align-items: center;
+    margin-right: 5px; 
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 10px;
+  }
+
+
+  .save-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinea verticalmente los elementos */
+    margin-top: 20px;
+    padding: 5px 10px;
+    text-decoration: underline;
+
+  }
+  /* Resto de tus estilos aquí */
+  
+  /* Resto de tus estilos aquí */
+
+.small-button {
+  background-color: white;
+  color: #666666;
+  border-radius: 20px;
+  border: 1px solid #666666;
+  padding: 5px 10px;
+  font-size: 14px;
   margin-left: 10px;
-  align-self: flex-start; /* Alinea el texto a la izquierda */
+  cursor: pointer;
+}
+
+.small-button:hover {
+  background-color: #f0f0f0;
 }

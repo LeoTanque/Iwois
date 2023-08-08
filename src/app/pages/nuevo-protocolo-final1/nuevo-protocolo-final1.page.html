@@ -29,46 +29,59 @@
       <!--p class="small-text">Resuelve las dudas más frecuentes de tus <br> 
         pacientes a través de tus vídeos explicativos.</p-->
 
-      <div class="small-card-container">
+      <!--div class="small-card-container">
       <app-card-prueba
        [images]="[
-       '../../../assets/foton.svg',
-      '../../../assets/add[1] (1).svg', 
+      '../../../assets/add[1] (1).svg',
+      '../../../assets/card1.png', 
+      '../../../assets/card2.png', 
+      '../../../assets/card3.png',
       ]"
       text="Escribe un titulo"
       ></app-card-prueba>
-         </div>
+         </div-->
 
          <div class="small-card-container">
           <app-cardy-prueba1
            [images]="[
-           '../../../assets/foton.svg',
+           '../../../assets/add[1] (1).svg',
+      '../../../assets/card1.png', 
+      '../../../assets/card2.png', 
+      '../../../assets/card3.png', 
+          ]"
+          text="Mensajes drenantes que te ayudan con el proceso"
+          [textSize]="'12px'"
+          ></app-cardy-prueba1>
+             </div> 
+
+         <div class="small-card-container">
+          <app-cardy-prueba1
+           [images]="[
+           '../../../assets/textoverde.svg',
           '../../../assets/add[1] (1).svg', 
           ]"
           text="Escribe un titulo"
           [textSize]="'16px'"
           ></app-cardy-prueba1>
              </div>
-
-         <div class="floating-button-container">
-          <app-boton2
-            [content]="'Guardar protocolos'"
-            [color]="''"
-            [backgroundColor]="''"
-            [position]="'center'"
-            [redirect]="'/home'"
-           
-            
-          ></app-boton2>
-        </div>
+             
         
         <div class="centered-image">
           <img src="../../../assets/añadir.svg" alt="Imagen" />
         </div>
         
-        <div class="boton">
+        <div class="floating-button-container">
+              <app-button
+                [content]="'Guardar protocolo'"
+                [color]="''" 
+                [backgroundColor]="''"
+                [position]="'center'"
+                [redirect]="'/anadir-crear-protocolo'"
+              ></app-button>
+            </div>
+        <!--div class="boton">
           <app-button [content]="'Siguiente'" [color]="''" [position]="'center'" [redirect]="'/nuevo-protocolo2'"></app-button>
-        </div>
+        </div-->
     </div>
 
 

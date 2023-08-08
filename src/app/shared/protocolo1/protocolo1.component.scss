@@ -16,6 +16,7 @@
     position: relative;
     border: 1px solid #e6e6e6;
     overflow: hidden;
+    border-radius: 25px;
   }
   
   .card-content {
@@ -35,7 +36,7 @@
     font-size: 16px;
     color: #666666;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   
   .card-button {
@@ -60,53 +61,37 @@
     height: 20px; /* Ajusta el tamaño de la imagen según lo necesites */
   }
   
-  .save-text {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 5px;
-    color: #666666;
-    text-decoration: underline;
-  }
-  
-  .red-text {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin: 5px;
-    color: red;
-    font-size: 14px;
-  }
 
-
-
-
-
-
-
-  /* Resto de tus estilos aquí */
-
-.bottom-icons {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 5px;
-}
-
-.bottom-icon {
-  font-size: 24px;
-  margin-left: 10px;
-  color: #666666;
-}
-
-.save-text {
-  color: #666666;
-  text-decoration: underline;
-  font-size: 14px;
+  .small-icon {
+    font-size: 18px; /* Tamaño de los iconos pequeños */
   margin-right: 10px;
-  margin-left: 10px;
-  align-self: flex-start; /* Alinea el texto a la izquierda */
-}
+  }
+
+
+  .save-text {
+    // position: absolute;
+     bottom: 0;
+     right: 0;
+     margin: 5px;
+     color: #666666;
+     text-decoration: underline;
+   }
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-right: 5px; 
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 10px;
+  }
+
+  .save-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinea verticalmente los elementos */
+    margin-top: 20px;
+    padding: 5px 10px;
+    text-decoration: underline;
+
+  }
