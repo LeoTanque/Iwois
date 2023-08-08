@@ -9,6 +9,7 @@ export class CardyPruebaComponent  implements OnInit {
   @Input() cardText: string = '';
   @Input() cardButtonContent: string = '';
   @Input() subHeading: string = '';
+  @Input() redText: string = '';
   constructor() { }
 
   ngOnInit() {}

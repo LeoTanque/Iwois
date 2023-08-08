@@ -29,16 +29,23 @@
       <p class="small-text">¿Este tratamiento requiere de ejercicios específicos <br> 
         para ayudar a tu paciente a alcanzar sus objetivos? <br> 
         Puedes subirlos aquí:</p>
-
-      <div class="small-card-container">
-      <app-card-prueba
-       [images]="[
-       '../../../assets/foton.svg',
-      '../../../assets/add[1] (1).svg', 
-      ]"
-      text="Escribe un titulo"
-      ></app-card-prueba>
-         </div>
+        <div class="small-card-container">
+        <ion-card>
+          <ion-card-content>
+            <div class="text-container">
+              <div class="left-text">
+                <p class="text1"><strong>Escribe un titulo</strong></p>
+                <p class="text2">Breve descripción del <br> ejercicio</p>
+              </div>
+              <div class="right-image">
+                <img src="../../../assets/add[1] (1).svg" alt="Imagen" />
+              </div>
+              
+            </div>
+            <p class="save-text">Guardar</p>
+          </ion-card-content>
+        </ion-card>
+      </div>
 
         
         <div class="centered-image">

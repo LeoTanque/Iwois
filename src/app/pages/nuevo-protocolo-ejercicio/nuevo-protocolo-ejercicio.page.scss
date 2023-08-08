@@ -110,3 +110,76 @@
     justify-content: center;
     margin-top: 40px;
   }
+
+
+
+ion-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Ajusta el margen superior según lo necesites */
+  width: 100%;
+  width: 330px;
+  border-radius: 30px;
+  
+}
+
+
+
+  .text-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-text {
+  
+    width: 60%; /* Ajusta el ancho del lado izquierdo */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text1 {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 5px;
+   
+  }
+  
+  .text2 {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 40px;
+  }
+  
+  .right-image {
+    flex: 1;
+    text-align: right;
+
+    width: 40%; /* Ajusta el ancho del lado derecho */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    margin-left: 15px;
+    margin-bottom: 25px;
+   // padding-right: 20px; /* Ajusta el espaciado entre los textos y la imagen */
+  }
+  
+  .right-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+ .save-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 5px;
+    color: #666666;
+    text-decoration: underline;
+  }
+  
+  .small-card-container {
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
