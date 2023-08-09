@@ -362,6 +362,18 @@ const routes: Routes = [
     path: 'nuevo-protocolo-final-ejercicio',
     loadChildren: () => import('./pages/nuevo-protocolo-final-ejercicio/nuevo-protocolo-final-ejercicio.module').then( m => m.NuevoProtocoloFinalEjercicioPageModule)
   },
+  {
+    path: 'asignar-protocolo-paciente1',
+    loadChildren: () => import('./pages/asignar-protocolo-paciente1/asignar-protocolo-paciente1.module').then( m => m.AsignarProtocoloPaciente1PageModule)
+  },
+  {
+    path: 'asignar-protocolo-paciente2',
+    loadChildren: () => import('./pages/asignar-protocolo-paciente2/asignar-protocolo-paciente2.module').then( m => m.AsignarProtocoloPaciente2PageModule)
+  },
+  {
+    path: 'seleccionar-paciente',
+    loadChildren: () => import('./pages/seleccionar-paciente/seleccionar-paciente.module').then( m => m.SeleccionarPacientePageModule)
+  },
 
 
  

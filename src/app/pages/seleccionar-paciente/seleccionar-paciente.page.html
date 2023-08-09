@@ -6,12 +6,19 @@
       <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
     
       <div class="bottom-section-1">
-        <ion-searchbar placeholder="Nombre / telefono"></ion-searchbar>
-      
         <div class="text-content" >
-          <h3 class="custom-heading"><strong>Mis Pacientes</strong></h3>
+          <h3 class="custom-heading"><strong>Seleccionar pacientes</strong></h3>
         </div>
-       
+        <ion-searchbar
+        placeholder="Nombre / telefono"
+        mode="md"
+        class="custom">
+      </ion-searchbar>
+ 
+      <div class="boton-container">
+        <ion-button class="custom-button" color="custom-color">Nuevo paciente</ion-button>
+      </div>
+    
 
         <ion-item  class="ion-item" >
           <ion-avatar slot="start">
@@ -25,12 +32,47 @@
             </div>
           </ion-label>
           
-          <ion-icon src="../../../assets/chico.svg" class="chico"></ion-icon>
-          <ion-icon src="../../../assets/burbuja.svg" class="burbuja"></ion-icon>
+          <ion-radio slot="end" ></ion-radio>
 
         </ion-item>
 
 
+
+        <ion-item  class="ion-item">
+          <ion-avatar slot="start">
+            <img alt="Silhouette of a person's head" src="../../../assets/con1.png" />
+          </ion-avatar>
+
+          <ion-label>
+            <h6>Usuario Nytelweb</h6> 
+            <p style="color: #83989A;">+34 00000000</p>
+          </ion-label>
+          <ion-radio slot="end" ></ion-radio>
+        </ion-item>
+
+        <ion-item  class="ion-item">
+          <ion-avatar slot="start">
+            <img alt="Silhouette of a person's head" src="../../../assets/con1.png" />
+          </ion-avatar>
+
+          <ion-label>
+            <h6>Usuario Nytelweb</h6> 
+            <p style="color: #83989A;">+34 00000000</p>
+          </ion-label>
+          <ion-radio slot="end" ></ion-radio>
+        </ion-item>
+
+        <ion-item  class="ion-item">
+          <ion-avatar slot="start">
+            <img alt="Silhouette of a person's head" src="../../../assets/con1.png" />
+          </ion-avatar>
+
+          <ion-label>
+            <h6>Usuario Nytelweb</h6> 
+            <p style="color: #83989A;">+34 00000000</p>
+          </ion-label>
+          <ion-radio slot="end" ></ion-radio>
+        </ion-item>
 
         <ion-item  class="ion-item">
           <ion-avatar slot="start">
@@ -41,36 +83,14 @@
             <h6>Usuario Nytelweb</h6> 
             <p style="color: #83989A;">+34 00000000</p>
           </ion-label>
-          <ion-icon src="../../../assets/chico.svg" class="chico"></ion-icon>
-          <ion-icon src="../../../assets/burbuja.svg" class="burbuja"></ion-icon>
+          <ion-radio slot="end"  checked></ion-radio>
         </ion-item>
 
-        <ion-item  class="ion-item">
-          <ion-avatar slot="start">
-            <img alt="Silhouette of a person's head" src="../../../assets/con3.png" />
-          </ion-avatar>
+        
 
-          <ion-label>
-            <h6>Usuario Nytelweb</h6> 
-            <p style="color: #83989A;">+34 00000000</p>
-          </ion-label>
-          <ion-icon src="../../../assets/chico.svg" class="chico"></ion-icon>
-          <ion-icon src="../../../assets/burbuja.svg" class="burbuja"></ion-icon>
-        </ion-item>
-
-        <ion-item  class="ion-item">
-          <ion-avatar slot="start">
-            <img alt="Silhouette of a person's head" src="../../../assets/90.png" />
-          </ion-avatar>
-
-          <ion-label>
-            <h6>Usuario Nytelweb</h6> 
-            <p style="color: #83989A;">+34 00000000</p>
-          </ion-label>
-          <ion-icon src="../../../assets/chico.svg" class="chico"></ion-icon>
-          <ion-icon src="../../../assets/burbuja.svg" class="burbuja"></ion-icon>
-        </ion-item>
-
+        <div class="button-container">
+          <app-button [content]="'Seleccionar'" [color]="''" [position]="'center'" [redirect]="'/welcome'"></app-button>
+        </div>
 
       </div>
     </div> 
@@ -82,3 +102,4 @@
 [tabRoutes]="tabRoutes"
  ></app-custom-tab-bar>
 </ion-content>
+
