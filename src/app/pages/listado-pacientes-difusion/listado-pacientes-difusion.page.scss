@@ -99,7 +99,7 @@ ion-avatar{
 .button-container {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   ion-searchbar.custom {
@@ -137,7 +137,7 @@ ion-avatar{
   
   /* Agrega estos estilos a tu archivo CSS */
 .scrollable-content {
-    max-height: 480px; /* Ajusta la altura máxima según tus necesidades */
+    max-height: 470px; /* Ajusta la altura máxima según tus necesidades */
     overflow-y: auto;
     border: none;
     //width: 90%;
