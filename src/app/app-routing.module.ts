@@ -374,6 +374,10 @@ const routes: Routes = [
     path: 'seleccionar-paciente',
     loadChildren: () => import('./pages/seleccionar-paciente/seleccionar-paciente.module').then( m => m.SeleccionarPacientePageModule)
   },
+  {
+    path: 'nueva-difusion',
+    loadChildren: () => import('./pages/nueva-difusion/nueva-difusion.module').then( m => m.NuevaDifusionPageModule)
+  },
 
 
  

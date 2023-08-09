@@ -7,7 +7,7 @@
       <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
       
       <div class="bottom-section-1">
-
+ 
         <div class="text-content" >
           <h4 class="custom-heading"><strong>¿Que consejos deseas <br> enviar a tu paciente?</strong></h4>
         </div>
@@ -17,34 +17,20 @@
         <ion-list class="items-container">
           <ion-item >
             <ion-label class="text" ><strong>Del pretratamiento</strong></ion-label>
-            <ion-radio slot="start"  disabled></ion-radio>
-            <!--ion-icon slot="start" src="../../../assets/A.svg" disabled ></ion-icon-->
+            <ion-radio slot="start"  value="pretratamiento" ></ion-radio>
+           
           </ion-item>
           <ion-item>
             <ion-label class="text"> <strong>Del postratamiento</strong></ion-label>
-            <ion-radio slot="start"></ion-radio>
-            <!--ion-icon slot="start" src="../../../assets/bolitass.svg"></ion-icon-->
+            <ion-radio slot="start" value="postratamiento" ></ion-radio>
+          
           </ion-item>
           <ion-item>
             <ion-label class="text"><strong>Ambos</strong></ion-label>
-            <ion-radio slot="start" disabled></ion-radio>
+            <ion-radio slot="start"  value="ambos" ></ion-radio>
           </ion-item>
         </ion-list>
       </div>
-        <!--div class="items-container">
-          <div class="item">
-            <ion-radio></ion-radio>
-            <h3>Del Pretratamiento</h3>
-          </div>
-          <div class="item">
-            <ion-radio></ion-radio>
-            <h3>Del Postratamiento</h3>
-          </div>
-          <div class="item">
-            <ion-radio></ion-radio>
-            <h3>Ambos</h3>
-          </div>
-        </div-->
         
 
         <div class="button-container">

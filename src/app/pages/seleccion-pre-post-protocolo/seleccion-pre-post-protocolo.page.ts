@@ -29,10 +29,28 @@ export class SeleccionPrePostProtocoloPage implements OnInit {
     { tab: 'profile', route: '/perfil' }
   ];
   
+  selectedOption: string = '';
 
-  constructor(public router: Router) { }
+  constructor(public router: Router, ) { }
 
   ngOnInit() {
   }
+
+  selectOption(option: string) {
+    this.selectedOption = option;
+  }
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
 
 } 
