@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { SeleccionProtocolosPageRoutingModule } from './seleccion-protocolos-routing.module';
 
 import { SeleccionProtocolosPage } from './seleccion-protocolos.page';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    SeleccionProtocolosPageRoutingModule
+    SeleccionProtocolosPageRoutingModule,
+    SharedModule
   ],
   declarations: [SeleccionProtocolosPage]
 })

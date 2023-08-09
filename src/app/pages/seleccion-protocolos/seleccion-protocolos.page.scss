@@ -1,0 +1,54 @@
+
+.bottom-section {
+    // display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: #FFFFFF;
+     //padding: 20px;
+     flex: 1;
+   }
+ 
+   ion-searchbar.custom {
+     --border-radius: 0px;
+     text-align: left;
+     border-bottom: 1px solid;
+     --box-shadow: none;
+     width: 86%;
+     display: block;
+     margin: auto;
+     padding-bottom: 0px;
+     padding-left: 0px;
+     padding-right: 0px;
+   }
+ 
+   .text-content{
+   
+     text-align: left;
+     padding-left: 10px;
+   }
+ 
+   .custom-heading {
+    // text-align: left;
+     //margin-left: 10%;
+     margin-top: 60px;
+     color: #666666;
+     padding: auto;
+   }
+   
+
+   .fotos {
+    margin-top: 20px;
+   }
+
+ 
+  
+   /* Estilos para el nuevo h3 */
+ .custom-h3 {
+     text-align: left;
+     color: #666666;
+     margin-top: 20px;
+     margin-left: 30px;
+     margin-bottom: 10px;
+     font-size: 20px;
+   }

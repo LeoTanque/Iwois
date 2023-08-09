@@ -1,13 +1,49 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>seleccionProtocolos</ion-title>
-  </ion-toolbar>
-</ion-header>
+
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">seleccionProtocolos</ion-title>
-    </ion-toolbar>
-  </ion-header>
+   
+  <div class="container">
+    <div class="background-color">
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+      
+      <div class="bottom-section">
+
+        <h3 class="custom-h3"><strong>Selecciona un tratamiento</strong></h3> 
+        <ion-searchbar
+        placeholder="Buscar"
+        mode="md"
+        class="custom">
+      </ion-searchbar> 
+      
+      <div class="fotos">
+       
+        <app-image-grid1 
+        [images]="imageUrls" 
+        [imageSize]="150" 
+        [largeImageIndices]="[0, 1]" 
+      
+      
+      ></app-image-grid1>
+
+    </div>
+ 
+        
+  
+
+        
+      </div>
+    </div>
+    
+</div>
+
+<app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
+
 </ion-content>
+
+
+
+

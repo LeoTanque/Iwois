@@ -1,0 +1,128 @@
+ion-content{
+    --background: white;
+    opacity: 90%;
+    position: relative;
+  }
+
+  .background-image {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../assets/fondoAsignar.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+    z-index: -1; /* Coloca la imagen de fondo detrás del contenido */
+    filter: brightness(0.3);
+    backdrop-filter: blur(50px);
+  }
+
+ion-card {
+    border-radius: 30px;
+    width: 310px;
+}
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+ 
+  
+  .card-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .subtitle {
+    color: #666666;
+    margin-left: 20px;
+    font-size: 15px;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+   
+  }
+  
+  .small-input {
+    width: 30%; /* Ajusta el ancho del input pequeño */
+    border: 1px solid #83989A;
+    margin-right: 5px;
+    border-radius: 30px;
+    text-align: right;
+    color: #546E6E;
+  }
+  
+  .large-input {
+    width: 70%; /* Ajusta el ancho del input pequeño */
+    border: 1px solid #83989A;
+    margin-right: 5px;
+    border-radius: 30px;
+    text-align: center;
+  }
+  
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .add-button {
+    --background: #666666;
+    --color: white;
+  }
+  
+
+
+
+ .inputs {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .input-container {
+    background-color: #FFFFFF;
+    border: 1px solid #83989A;
+  
+   border-radius: 20px;
+   width: 50px;
+  }
+
+  .inputs ion-item {
+    border-radius: 30px;
+    color: #83989A;
+    font-size: 15px;
+   
+  }
+
+  
+  .small-input {
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+  
+  }
+
+  .large-input {
+    width: 250px;
+    margin-right: 5px;
+    
+    
+  }
+
+  
