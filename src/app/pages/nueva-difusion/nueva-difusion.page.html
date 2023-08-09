@@ -1,13 +1,57 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>nuevaDifusion</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">nuevaDifusion</ion-title>
-    </ion-toolbar>
-  </ion-header>
+   
+  <div class="container">
+    <div class="background-color">
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+      
+      <div class="bottom-section">
+
+        <div class="text-content" >
+          <h4 class="custom-heading"><strong>Enviar difusión</strong></h4>
+        </div>
+       
+        <p class="small-text">Aquí podrás enviar mensajes, promociones <br>
+           o información de interés a tus pacientes.</p>
+       
+           <ion-item class="input-container">
+            <ion-input class="centered-input" placeholder="Título de la difusión"></ion-input>
+          </ion-item>
+  
+          <ion-item class="input-container">
+            <ion-textarea rows="5" placeholder="Descripción..."></ion-textarea>
+          </ion-item>
+  
+          <p class="small-text">Agrega una foto o video</p>
+
+          <!--div class="image-container">
+            <img src="../../../assets/card.svg" alt="Imagen" />
+          </div-->
+
+          <ion-card>
+          
+      
+            <ion-card-content>
+              <ion-icon src="../../../assets/plus-circle.svg" [routerLink]="['/home']" class="icon"></ion-icon>
+            </ion-card-content>
+          </ion-card>
+
+        <div class="button-container">
+          <app-button [content]="'Siguiente'" [color]="''" [position]="'center'" [redirect]="'/welcome'"></app-button>
+        </div>
+      </div>
+    </div>
+    
+</div>
+
+<app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
+
 </ion-content>
+
+
+
+
+

@@ -1,0 +1,136 @@
+<ion-content [fullscreen]="true">
+   
+  <div class="container">
+    <div class="background-color">
+
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+    
+      <div class="bottom-section-1">
+      
+      
+      <div class="search-container">
+        <ion-searchbar placeholder="Nombre / telefono" mode="md" class="custom"></ion-searchbar>
+        <img src="../../../assets/path.svg" class="custom-icon" alt="Icono"  (click)="redirectToOtraPagina()">
+      </div>
+      
+      <div class="text-content" >
+        <p class="custom-heading"><strong>Seleccionar</strong></p>
+        <p class="align-right-text">Todos</p>
+      </div>
+
+       
+        <ion-card>
+         
+          <ion-card-content>
+            <div class="scrollable-content">
+            <ion-list>
+              <ion-item>
+                <ion-thumbnail slot="start">
+                  <img alt="Silhouette of mountains" src="../../../assets/con1.png" />
+                </ion-thumbnail>
+                <ion-label class="ion-align-items-center ion-justify-content-between">
+                  <div>
+                    <h6>Usuario Nytelweb</h6> 
+                    <p style="color: #83989A;">+34 00000000</p>
+                  </div>
+                </ion-label>
+                <ion-radio slot="end" ></ion-radio>
+              </ion-item>
+
+              <ion-item>
+                <ion-thumbnail slot="start">
+                  <img alt="Silhouette of mountains" src="../../../assets/con1.png" />
+                </ion-thumbnail>
+                <ion-label class="ion-align-items-center ion-justify-content-between">
+                  <div>
+                    <h6>Usuario Nytelweb</h6> 
+                    <p style="color: #83989A;">+34 00000000</p>
+                  </div>
+                </ion-label>
+                <ion-radio slot="end" ></ion-radio>
+              </ion-item>
+              <ion-item>
+                <ion-thumbnail slot="start">
+                  <img alt="Silhouette of mountains" src="../../../assets/con1.png" />
+                </ion-thumbnail>
+                <ion-label class="ion-align-items-center ion-justify-content-between">
+                  <div>
+                    <h6>Usuario Nytelweb</h6> 
+                    <p style="color: #83989A;">+34 00000000</p>
+                  </div>
+                </ion-label>
+                <ion-radio slot="end" ></ion-radio>
+              </ion-item>
+        
+              <ion-item>
+                <ion-thumbnail slot="start">
+                  <img alt="Silhouette of mountains" src="../../../assets/con1.png" />
+                </ion-thumbnail>
+                <ion-label class="ion-align-items-center ion-justify-content-between">
+                  <div>
+                    <h6>Usuario Nytelweb</h6> 
+                    <p style="color: #83989A;">+34 00000000</p>
+                  </div>
+                </ion-label>
+                <ion-radio slot="end" ></ion-radio>
+              </ion-item>
+        
+              <ion-item>
+                <ion-thumbnail slot="start">
+                  <img alt="Silhouette of mountains" src="../../../assets/con1.png" />
+                </ion-thumbnail>
+                <ion-label class="ion-align-items-center ion-justify-content-between">
+                  <div>
+                    <h6>Usuario Nytelweb</h6> 
+                    <p style="color: #83989A;">+34 00000000</p>
+                  </div>
+                </ion-label>
+                <ion-radio slot="end" ></ion-radio>
+              </ion-item>
+
+             <ion-item>
+                <ion-thumbnail slot="start">
+                  <img alt="Silhouette of mountains" src="../../../assets/con1.png" />
+                </ion-thumbnail>
+                <ion-label class="ion-align-items-center ion-justify-content-between">
+                  <div>
+                    <h6>Usuario Nytelweb</h6> 
+                    <p style="color: #83989A;">+34 00000000</p>
+                  </div>
+                </ion-label>
+                <ion-radio slot="end" ></ion-radio>
+              </ion-item>
+            
+              <ion-item>
+                <ion-thumbnail slot="start">
+                  <img alt="Silhouette of mountains" src="../../../assets/con1.png" />
+                </ion-thumbnail>
+                <ion-label class="ion-align-items-center ion-justify-content-between">
+                  <div>
+                    <h6>Usuario Nytelweb</h6> 
+                    <p style="color: #83989A;">+34 00000000</p>
+                  </div>
+                </ion-label>
+                <ion-radio slot="end" ></ion-radio>
+              </ion-item>
+            </ion-list>
+             </div>
+          </ion-card-content>
+        </ion-card>
+
+        <div class="button-container">
+          <app-button [content]="'Enviar'" [color]="''" [position]="'center'" [redirect]="'/welcome'"></app-button>
+        </div>
+        
+      </div>
+    </div> 
+ 
+</div>
+<app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
+</ion-content>
+
+

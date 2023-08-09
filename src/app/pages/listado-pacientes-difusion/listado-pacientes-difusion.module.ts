@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { NuevaDifusionPageRoutingModule } from './nueva-difusion-routing.module';
+import { ListadoPacientesDifusionPageRoutingModule } from './listado-pacientes-difusion-routing.module';
 
-import { NuevaDifusionPage } from './nueva-difusion.page';
+import { ListadoPacientesDifusionPage } from './listado-pacientes-difusion.page';
 import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { SharedModule } from 'src/app/shared/shared.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    NuevaDifusionPageRoutingModule,
+    ListadoPacientesDifusionPageRoutingModule,
     SharedModule
   ],
-  declarations: [NuevaDifusionPage]
+  declarations: [ListadoPacientesDifusionPage]
 })
-export class NuevaDifusionPageModule {}
+export class ListadoPacientesDifusionPageModule {}

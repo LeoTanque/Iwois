@@ -378,6 +378,14 @@ const routes: Routes = [
     path: 'nueva-difusion',
     loadChildren: () => import('./pages/nueva-difusion/nueva-difusion.module').then( m => m.NuevaDifusionPageModule)
   },
+  {
+    path: 'listado-pacientes-difusion',
+    loadChildren: () => import('./pages/listado-pacientes-difusion/listado-pacientes-difusion.module').then( m => m.ListadoPacientesDifusionPageModule)
+  },
+  {
+    path: 'filtrar-pacientes',
+    loadChildren: () => import('./pages/filtrar-pacientes/filtrar-pacientes.module').then( m => m.FiltrarPacientesPageModule)
+  },
 
 
  
