@@ -1,0 +1,92 @@
+<ion-content [fullscreen]="true">
+  <div class="container"> 
+    
+      
+    
+        <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+        
+        <h3 class="center"><strong>Título Tratamiento</strong></h3>
+    <div class="bottom-section" style="max-height: 70vh;">
+     
+      <div class="button-container">
+        <button class="pretratamiento-button">Pretratamiento</button>
+        <button class="postratamiento-button">Postratamiento</button>
+      </div>
+
+     
+
+      <app-iconos2
+      [iconNames]="['A', 'B', 'C', 'D']"
+      [routeA]="'/protocolo-asignado-paciente'"
+      [routeB]="'/protocolo-asignado-paciente1'"
+      [routeC]="'/protocolo-asignado-paciente2'"
+      [routeD]="'/protocolo-asignado-paciente3'"
+    ></app-iconos2>
+   
+
+      <h3 class="faq-text"><strong>Ejercicios</strong></h3>
+      
+   
+        <div class="small-card-container">
+        <ion-card>
+          <ion-card-content>
+            <div class="text-container">
+              <div class="left-text">
+                <p class="text1"><strong>Pre entrenamiento</strong></p>
+                <p class="text2">Empieza con una serie suave de <br>
+                  movimientos circulares de <br> 
+                  tobillos y muñecas.</p>
+              </div>
+              <div class="right-image">
+                <img src="../../../assets/ejer.png" alt="Imagen" />
+              </div>
+              
+            </div>
+            <div class="save-container">
+              <p class="save-text">Guardar</p>
+            <div class="icon-container">
+              <ion-icon src="../../../assets/edit.svg" class="small-icon"></ion-icon>
+              <ion-icon src="../../../assets/close-outline.svg" class="small-icon"></ion-icon>
+            </div>
+            
+          </div>
+          </ion-card-content>
+        </ion-card>
+      </div>
+
+        
+        <div class="centered-image">
+          <img src="../../../assets/añadir1.svg" alt="Imagen" />
+        </div>
+        
+        <div class="floating-button-container">
+          <app-button
+            [content]="'Guardar protocolo'"
+            [color]="''" 
+            [backgroundColor]="''"
+            [position]="'center'"
+            [redirect]="'/anadir-crear-protocolo'"
+          ></app-button>
+        </div>
+    </div>
+
+
+    
+  </div>
+
+  <app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
+  
+</ion-content>
+
+
+
+
+
+
+
+
+
