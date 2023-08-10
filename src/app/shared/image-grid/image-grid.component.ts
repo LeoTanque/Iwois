@@ -14,7 +14,7 @@ export class ImageGridComponent  implements OnInit {
   ngOnChanges() { 
     this.generateImageRows();
   }
-
+ 
   private generateImageRows() {
     this.imageRows = [];
     for (let i = 0; i < this.images.length; i += 2) {

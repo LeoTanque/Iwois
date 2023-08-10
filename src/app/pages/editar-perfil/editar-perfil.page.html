@@ -1,0 +1,57 @@
+<ion-content [fullscreen]="true">
+  
+  <div class="container">
+    <div class="background-color">
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+  
+      <div class="bottom-section"> 
+        <div class="image-container">
+          <img src="../../../assets/ed.png" alt="Foto" class="centered-image">
+        </div>
+        <h4 class="username"><strong>Nombre</strong> Usuario</h4>
+       
+        
+        <div class="edit-profile">
+          <div class="option" >
+            <ion-icon src="../../../assets/editar.svg" class="option-icon" ></ion-icon>
+            <p [routerLink]="['/editar-contrasena']" class="option-text" >Editar perfil</p>
+          </div>
+          <div class="option" >
+            <ion-icon src="../../../assets/star.svg" class="option-icon" ></ion-icon>
+            <p [routerLink]="['/editar-contrasena']" class="option-text" >Suscripciones</p>
+          </div>
+          <div class="option" >
+            <ion-icon src="../../../assets/brum.svg" class="option-icon" ></ion-icon>
+            <p [routerLink]="['/editar-contrasena']" class="option-text" >Registro de pedidos</p>
+          </div>
+          <div class="option">
+            <ion-icon src="../../../assets/jing.svg" class="option-icon"></ion-icon>
+            <p class="option-text"   [routerLink]="['/cambiar-contrsena']">Mi código de descuento</p>
+          </div>
+          <div class="option" >
+            <ion-icon src="../../../assets/llamar.svg" class="option-icon" ></ion-icon>
+            <p [routerLink]="['/editar-contrasena']" class="option-text" >Contacta con nosotros</p>
+          </div>
+          <div class="option">
+            <ion-icon src="../../../assets/cerrado.svg" class="option-icon"></ion-icon>
+            <p class="option-text" [routerLink]="['/cerrar-sesion']">Cerrar sesión</p>
+          </div>
+          
+        </div>
+                         
+        
+        
+      </div> 
+      </div>
+    
+</div>
+
+<app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
+  
+</ion-content>
+
+

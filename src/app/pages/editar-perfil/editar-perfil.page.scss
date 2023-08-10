@@ -1,0 +1,77 @@
+.container {
+    //min-width: 320px;
+    max-width: 100%;
+    //padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    //height: 100%;
+    height: 100vh;
+  }
+
+  
+
+  .bottom-section {
+    background-color: #FFFFFF;
+    height: 100%;
+  }
+  
+  .centered-image {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .username, .email { 
+    text-align: center;
+    color: #83989A;
+  }
+  
+.edit-profile {
+    display: flex;
+    //align-items: center;
+    margin-left: 50px;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+   
+  }
+
+  .option {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+   
+  }
+
+  .option-icon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #83989A;
+  }
+
+  .option-text {
+    font-size: 16px;
+    color: #83989A;
+  }
+
+  /* Estilos adicionales para el texto "Eliminar cuenta" y el icono "person" */
+.delete-account {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 15%;
+  margin-right: 15px;
+}
+
+.delete-icon {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #83989A;
+  margin-left: 4px;
+}
+
+.delete-text {
+  font-size: 16px;
+  color: #8F8F8F;
+}
+
+  

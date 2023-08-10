@@ -2,21 +2,18 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-servicios-adicionales',
-  templateUrl: './servicios-adicionales.page.html',
-  styleUrls: ['./servicios-adicionales.page.scss'],
+  selector: 'app-servicios-adicionales-misproductos',
+  templateUrl: './servicios-adicionales-misproductos.page.html',
+  styleUrls: ['./servicios-adicionales-misproductos.page.scss'],
 })
-export class ServiciosAdicionalesPage implements OnInit {
+export class ServiciosAdicionalesMisproductosPage implements OnInit {
 
-
-
+ 
   imageUrls: string[] = [
-    '../../../assets/seleccion1.png',
-    '../../../assets/pomada.png',
-    '../../../assets/seleccion2.png',
-    "../../../assets/seleccion3.png",
-     '../../../assets/selecccion4.png',
-     '../../../assets/cara2.png',
+    '../../../assets/fruta.png',
+    '../../../assets/pom.png',
+     '../../../assets/cuello.png',
+     '../../../assets/cejas.png'
   ];
 
   tabs = [
@@ -41,14 +38,11 @@ export class ServiciosAdicionalesPage implements OnInit {
   ];
 
 
-  imageRoutes: string[][] = [
-    ['/home'], // Rutas para las imágenes de la primera fila
-    ['/ruta-imagen4', '/ruta-imagen5', '/ruta-imagen6'], // Rutas para las imágenes de la segunda fila
-    // ... otras filas de rutas
-  ];
+
   constructor(public router: Router) { }
 
-  ngOnInit() { 
+  ngOnInit() {
   }
 
 }
+ 

@@ -1,0 +1,175 @@
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .top-section {
+    flex: 4; 
+    position: relative;
+  }
+
+  
+.centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+ 
+  }
+  
+  .centered-image img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  
+  .background-image {
+    //background-image: url("../../../assets/barriga.png");
+    background-color: #FFF;
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+   // height: 40%;
+    height: 40vh;
+
+    background-size: cover;
+  
+  }
+
+  .bottom-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+    padding-top: 15px;
+    overflow-y: auto;
+   padding-bottom: 100px;
+   justify-content: center;
+    
+  }
+  
+  /* Agrega este estilo en tu archivo de estilos CSS */
+
+.faq-text {
+ 
+  color: #666666;
+  font-size: 22px;
+  margin-top: 30px;
+ text-align: center;
+}
+
+.small-text {
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+ 
+ 
+ 
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+  }
+
+  
+  .boton-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+
+    position: fixed;
+    bottom: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    //border: 1px solid #F6F0EC; /* Borde sombreado */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+
+
+  .custom-card {
+    width: 100%; /* Ocupa el 40% de la pantalla */
+    margin: auto; /* Centra horizontalmente la tarjeta */
+    height: 230px;
+  }
+  
+  .centered-image {
+    display: block;
+    margin: auto; /* Centra la imagen horizontalmente dentro de la tarjeta */
+    
+  }
+
+  .centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Asegura que el contenido esté centrado verticalmente */
+  }
+  
+
+
+
+  .input-container {
+    width: 80%;
+    margin: 10px auto;
+    margin-top: 20px;
+  }
+  
+  ion-input, ion-textarea {
+    border-radius: 15px;
+    border: 1px solid #666666;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px #0000004F;
+    //box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.1); 
+   // border: none;
+  }
+  
+  .centered-input {
+    text-align: center;
+   color: #666666;
+   font-size: 18px;
+  }
+
+  ion-textarea {
+    resize: vertical; /* Permite que el textarea se ajuste verticalmente */
+  }
+
+
+
+.text {
+    font-size: 14px;
+}
+
+  .text-input-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px; /* Ajusta el margen según tus necesidades */
+  }
+  
+  .price-text {
+    color: #666666;
+    margin-right: 10px; /* Espacio entre el texto y el input */
+  }
+  
+  .price-input {
+    --border-radius: 8px;
+    border: 1px solid #CCCCCC;
+    width: 90px; /* Ajusta el ancho según tus necesidades */
+    height: 34px; /* Ajusta la altura según tus necesidades */
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }

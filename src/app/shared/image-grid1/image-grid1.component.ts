@@ -16,7 +16,7 @@ export class ImageGrid1Component  implements OnInit {
   @Input() icons: string[] = [];
   @Input() iconNames: string[][] = []; 
   @Input() iconRoutes: any[][] = [];
- 
+  @Input() imageRoutes: string[][] = [];
   ngOnChanges() { 
     this.generateImageRows();
   }
@@ -40,5 +40,10 @@ export class ImageGrid1Component  implements OnInit {
   navigateTo(route: string) {
     this.router.navigateByUrl(route);
   }
+
+  navigateToImage(route: string) {
+    this.router.navigateByUrl(route);
+  }
+  
 
 }

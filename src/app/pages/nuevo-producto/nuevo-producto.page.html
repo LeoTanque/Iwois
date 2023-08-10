@@ -1,0 +1,61 @@
+
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <div class="top-section">
+      <div class="background-image">
+
+
+        <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+      
+        <!--div class="centered-image">
+          <img src="../../../assets/camgrande.svg" alt="Imagen" />
+          
+        </div-->
+
+        <ion-card class="custom-card">
+          <ion-card-content class="centered-content">
+            <img alt="Silhouette of mountains" src="../../../assets/camgrande.svg" class="centered-image" />
+          </ion-card-content>
+        </ion-card>
+      
+        <ion-item class="input-container">
+          <ion-input class="centered-input" placeholder="Pon un título"></ion-input>
+        </ion-item>
+
+        <ion-item class="input-container">
+          <ion-textarea rows="5" placeholder="Describe tu producto/ servicio aquí" class="text"></ion-textarea>
+        </ion-item>
+
+
+        <div class="text-input-container">
+          <ion-text color="medium" class="price-text">Precio:</ion-text>
+          <ion-input placeholder="" class="price-input"></ion-input>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="bottom-section" style="max-height: 70vh;">
+
+    
+     
+     
+
+      <div class="button-container">
+        <app-button [content]="'Siguiente'" [color]="''" [position]="'center'" [redirect]="'/nuevo-protocolo1'"></app-button>
+      </div>
+    </div>
+  </div>
+
+  <app-custom-tab-bar [tabs]="tabs" [iconStyles]="iconStyles" [router]="router"
+    [tabRoutes]="tabRoutes"></app-custom-tab-bar>
+
+</ion-content>
+
+
+
+
+
+
+

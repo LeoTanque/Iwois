@@ -1,42 +1,10 @@
-<!--div class="image-grid">
-  <div class="row" *ngFor="let row of imageRows">
-    <div class="column" *ngFor="let image of row, let i = index">
-      <img [src]="image" alt="Image" [style.width.px]="imageSize" [style.height.px]="imageSize">
-      <ion-icon *ngIf="largeImageIndex === i" name="star" class="icon"></ion-icon>
-    </div>
-  </div>
-</div-->
- 
-<!--div class="image-grid">
-  <div class="row" *ngFor="let row of imageRows">
-    <div class="column" *ngFor="let image of row, let i = index">
-      <img [src]="image" alt="Image" [style.width.px]="imageSize" [style.height.px]="imageSize">
-      <ion-icon *ngIf="largeImageIndices.includes(i)" [name]="icons[i]" class="icon"></ion-icon>
-    </div>
-  </div>
-</div-->
 
-<!--div class="image-grid">
-  <div class="row" *ngFor="let row of imageRows">
-    <div class="column" *ngFor="let image of row, let i = index">
-      <img [src]="image" alt="Image" [style.width.px]="imageSize" [style.height.px]="imageSize">
-      <div class="icon-container">
-        
-        <ion-icon *ngFor="let iconName of iconNames[i]" 
-        [name]="iconName"
-         class="icon"
-         (click)="navigateTo(iconRoutes[i][j])"
-          ></ion-icon>
-         
-      </div>
-    </div>
-  </div>
-</div--> 
 
 <div class="image-grid">
   <div class="row" *ngFor="let row of imageRows">
     <div class="column" *ngFor="let image of row, let i = index">
       <img [src]="image" alt="Image" [style.width.px]="imageSize" [style.height.px]="imageSize">
+    
       <div class="icon-container">
         <ion-icon
           *ngFor="let iconName of iconNames[i]; let j = index"

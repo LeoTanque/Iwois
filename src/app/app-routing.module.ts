@@ -398,6 +398,26 @@ const routes: Routes = [
     path: 'seleccion-pacientes-filtro',
     loadChildren: () => import('./pages/seleccion-pacientes-filtro/seleccion-pacientes-filtro.module').then( m => m.SeleccionPacientesFiltroPageModule)
   },
+  {
+    path: 'seleccion-pacientes-filtro-difusion1',
+    loadChildren: () => import('./pages/seleccion-pacientes-filtro-difusion1/seleccion-pacientes-filtro-difusion1.module').then( m => m.SeleccionPacientesFiltroDifusion1PageModule)
+  },
+  {
+    path: 'servicios-adicionales-vender',
+    loadChildren: () => import('./pages/servicios-adicionales-vender/servicios-adicionales-vender.module').then( m => m.ServiciosAdicionalesVenderPageModule)
+  },
+  {
+    path: 'nuevo-producto',
+    loadChildren: () => import('./pages/nuevo-producto/nuevo-producto.module').then( m => m.NuevoProductoPageModule)
+  },
+  {
+    path: 'servicios-adicionales-misproductos',
+    loadChildren: () => import('./pages/servicios-adicionales-misproductos/servicios-adicionales-misproductos.module').then( m => m.ServiciosAdicionalesMisproductosPageModule)
+  },
+  {
+    path: 'editar-perfil',
+    loadChildren: () => import('./pages/editar-perfil/editar-perfil.module').then( m => m.EditarPerfilPageModule)
+  },
 
 
  

@@ -6,12 +6,13 @@
   <div class="modal-container">
     
     <div class="modal-content">
-      <button class="close-button" [routerLink]="['/lista-protocolos-con']">X</button>
-      <p>Estas seguro que deseas eliminar <br>
-         este tratamiento</p>
-      <!--button class="continue-button" [routerLink]="['/login-prof']">Continuar</button-->
+    <h3 class="h3"><strong>¡Difusión enviada!</strong></h3>
+      <p>Tu mensaje ha sido enviado <br> 
+        correctamente a los pacientes <br> 
+        seleccionados.</p>
+
       <div class="button-container">
-        <app-button [content]="'Continuar'" [color]="''" [position]="'center'" [redirect]="'/lista-protocolos-con'"></app-button>
+        <app-button [content]="'Aceptar'" [color]="''" [position]="'center'" [redirect]="'/lista-protocolos-con'"></app-button>
       </div>
     </div> 
  
@@ -25,6 +26,7 @@
   </div>
  
 </ion-content>
+
 
 
 

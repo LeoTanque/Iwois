@@ -14,21 +14,14 @@
           <button class="postratamiento-button" [routerLink]="['/servicios-adicionales-vender']">Vender</button>
         </div>
 
-        <!--div class="content-container">
-          <div class="image-container">
-            <img src="../../../assets/photo.png" alt="Foto" class="bottom-image">
-          </div>
-        </div-->
-       
-        <!--div class="fotos">
+           <div class="fotos">
           <app-image-grid1 
           [images]="imageUrls" 
-          [imageSize]="170"
-          [imageRoutes]="imageRoutes"
+          [imageSize]="150"
           ></app-image-grid1>
-      </div-->
+      </div>
 
-        <div class="card-container">
+        <!--div class="card-container">
           <div class="card">
             <img src="../../../assets/seleccion1.png" alt="Foto 1" class="card-image" [routerLink]="['/servicios-adicionales-producto1']">
             
@@ -41,25 +34,17 @@
 
         <div class="card-container">
           <div class="card">
-            <img src="../../../assets/seleccion2.png" alt="Foto 1" class="card-image">
+            <img src="../../../assets/cara2.png" alt="Foto 1" class="card-image">
             
           </div>
           <div class="card">
-            <img src="../../../assets/seleccion3.png" alt="Foto 2" class="card-image" [routerLink]="['/servicios-adicionales-producto1']">
+            <img src="../../../assets/seleccion2.png" alt="Foto 2" class="card-image" [routerLink]="['/servicios-adicionales-producto1']">
           </div>
-        </div>
-
-        <div class="card-container">
-          <div class="card">
-            <img src="../../../assets/selecccion4.png" alt="Foto 1" class="card-image">
-            
-          </div>
-          <div class="card">
-            <img src="../../../assets/cara2.png" alt="Foto 2" class="card-image">
-          </div>
-        </div>
+        </div-->
      
-     
+        <div class="boton-container">
+          <app-button [content]="'Nuevo'" [color]="''" [position]="'center'" [redirect]="'/nuevo-producto'"></app-button>
+        </div>
       </div>
     </div>
   
@@ -72,3 +57,4 @@
  ></app-custom-tab-bar>
  
 </ion-content>
+
