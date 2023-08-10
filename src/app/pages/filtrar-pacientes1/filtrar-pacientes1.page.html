@@ -1,0 +1,62 @@
+<ion-content>
+  <div class="background-image"></div> 
+  
+  <div class="upper-div"></div>
+  <div class="lower-div">
+    <div class="search-container">
+      <ion-searchbar placeholder="Buscar país" mode="md" class="custom"></ion-searchbar>
+      
+    </div>
+
+    <!--ion-list class="country-list">
+      <ion-item *ngFor="let country of countries">
+        {{ country }}
+      </ion-item>
+    </ion-list-->
+
+    <ion-list class="country-list">
+      <ion-item>
+        <ion-label>Afganistán</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Albania</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Alemania</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Algeria</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Andorra</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Angola</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Anguila</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Antigua y Barbuda</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Arabia Saudi</ion-label>
+      </ion-item>
+    </ion-list>
+
+    <div class="button-container">
+      <app-button [content]="'Guardar selección'" [color]="''" [position]="'center'" [redirect]="'/welcome'"></app-button>
+    </div>
+
+  </div>
+  
+  <app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
+
+</ion-content>
+
+
+

@@ -1,13 +1,58 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>filtrarPacientes</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
+  <div class="background-image"></div> 
+  
+  <div class="upper-div"></div>
+  <div class="lower-div">
+    <div class="search-container">
+      <ion-searchbar placeholder="Filtros" mode="md" class="custom"></ion-searchbar>
+      <!--img src="../../../assets/path.svg" class="custom-icon" alt="Icono" -->
+    </div>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">filtrarPacientes</ion-title>
-    </ion-toolbar>
-  </ion-header>
+    <div class="edit-profile">
+      <div class="option" >
+        <ion-icon src="../../../assets/3rayas.svg" class="option-icon" ></ion-icon>
+        <p [routerLink]="['/editar-contrasena']" class="option-text" >Edad</p>
+      </div>
+
+      <!--ion-item>
+        <ion-icon src="../../../assets/3rayas.svg" slot="start"></ion-icon>
+        <ion-label position="floating">Edad</ion-label>
+        <ion-select  label-placement="stacked" interface="popover" style="border-radius: 20px;">
+          <ion-select-option value="apple">18-25</ion-select-option>
+          <ion-select-option value="banana">25-35</ion-select-option>
+          <ion-select-option value="orange">35-45</ion-select-option>
+          <ion-select-option value="orange">45-55</ion-select-option>
+        </ion-select>
+      </ion-item-->
+
+
+      <div class="option">
+        <ion-icon src="../../../assets/globito.svg" class="option-icon"></ion-icon>
+        <p class="option-text"   [routerLink]="['/cambiar-contrsena']">País</p>
+      </div>
+      <div class="option">
+        <ion-icon src="../../../assets/loma.svg" class="option-icon"></ion-icon>
+        <p class="option-text" [routerLink]="['/cerrar-sesion']">Ciudad</p>
+      </div>
+      <div class="option">
+        <ion-icon src="../../../assets/corazoncito.svg" class="option-icon"></ion-icon>
+        <p class="option-text" [routerLink]="['/cerrar-sesion']">Tratamiento médico</p>
+      </div>
+      
+    </div>
+
+    <div class="button-container">
+      <app-button [content]="'Aplicar filtro'" [color]="''" [position]="'center'" [redirect]="'/welcome'"></app-button>
+    </div>
+
+  </div>
+  
+  <app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
+
 </ion-content>
+
+

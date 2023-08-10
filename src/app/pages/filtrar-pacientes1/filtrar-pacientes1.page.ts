@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-filtrar-pacientes',
-  templateUrl: './filtrar-pacientes.page.html',
-  styleUrls: ['./filtrar-pacientes.page.scss'],
+  selector: 'app-filtrar-pacientes1',
+  templateUrl: './filtrar-pacientes1.page.html',
+  styleUrls: ['./filtrar-pacientes1.page.scss'],
 })
-export class FiltrarPacientesPage implements OnInit {
+export class FiltrarPacientes1Page implements OnInit {
 
   tabs = [
     { tab: 'cart', icon: '../../../assets/carrito.svg' },
@@ -29,6 +29,11 @@ export class FiltrarPacientesPage implements OnInit {
     { tab: 'profile', route: '/perfil' }
   ];
   
+ 
+  countries=[
+    'ajganistan, albania , cuba'
+  ]
+
   constructor(public router: Router) { }
 
   ngOnInit() {

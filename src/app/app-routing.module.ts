@@ -386,6 +386,18 @@ const routes: Routes = [
     path: 'filtrar-pacientes',
     loadChildren: () => import('./pages/filtrar-pacientes/filtrar-pacientes.module').then( m => m.FiltrarPacientesPageModule)
   },
+  {
+    path: 'filtrar-pacientes1',
+    loadChildren: () => import('./pages/filtrar-pacientes1/filtrar-pacientes1.module').then( m => m.FiltrarPacientes1PageModule)
+  },
+  {
+    path: 'filtrar-pacientes2',
+    loadChildren: () => import('./pages/filtrar-pacientes2/filtrar-pacientes2.module').then( m => m.FiltrarPacientes2PageModule)
+  },
+  {
+    path: 'seleccion-pacientes-filtro',
+    loadChildren: () => import('./pages/seleccion-pacientes-filtro/seleccion-pacientes-filtro.module').then( m => m.SeleccionPacientesFiltroPageModule)
+  },
 
 
  

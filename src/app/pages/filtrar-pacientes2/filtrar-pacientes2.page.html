@@ -1,0 +1,63 @@
+<ion-content>
+  <div class="background-image"></div> 
+  
+  <div class="upper-div"></div>
+  <div class="lower-div">
+    <div class="search-container">
+      <ion-searchbar placeholder="Buscar tratamiento" mode="md" class="custom"></ion-searchbar>
+      
+    </div>
+
+    <!--ion-list class="country-list">
+      <ion-item *ngFor="let country of countries">
+        {{ country }}
+      </ion-item>
+    </ion-list-->
+
+    <ion-list class="country-list">
+      <ion-item>
+        <ion-label>Acidi hialuriniuco</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Rinomodelacion</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Mesoterapia facial</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Hilos tensores</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Morpheaus B</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Thermage</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Colsucultiping Mini</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Hydrafacial</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Peeling Quimico</ion-label>
+      </ion-item>
+    </ion-list>
+
+    <div class="button-container">
+      <app-button [content]="'Guardar selección'" [color]="''" [position]="'center'" [redirect]="'/welcome'"></app-button>
+    </div>
+
+  </div>
+  
+  <app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
+
+</ion-content>
+
+
+
+

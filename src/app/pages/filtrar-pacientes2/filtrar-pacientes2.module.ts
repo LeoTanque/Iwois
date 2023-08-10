@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { FiltrarPacientesPageRoutingModule } from './filtrar-pacientes-routing.module';
+import { FiltrarPacientes2PageRoutingModule } from './filtrar-pacientes2-routing.module';
 
-import { FiltrarPacientesPage } from './filtrar-pacientes.page';
+import { FiltrarPacientes2Page } from './filtrar-pacientes2.page';
 import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { SharedModule } from 'src/app/shared/shared.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    FiltrarPacientesPageRoutingModule,
+    FiltrarPacientes2PageRoutingModule,
     SharedModule
   ],
-  declarations: [FiltrarPacientesPage]
+  declarations: [FiltrarPacientes2Page]
 })
-export class FiltrarPacientesPageModule {}
+export class FiltrarPacientes2PageModule {}

@@ -1,0 +1,234 @@
+.top-section-1 {
+    flex: 1;
+    display: flex;
+    //justify-content: center;
+    align-items: flex-start;
+    background-color: #F6F0EC;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 99px;
+  }
+
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+   
+   
+  }
+
+
+  
+
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    //padding: 20px;
+    flex: 1;
+  }
+
+  .ion-item {
+    margin: 10px;
+    width: 80%;
+    border-bottom: solid 1.5px #666666;
+    align-items: center;
+    margin-left: 40px;
+    color: #666666;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+  h6{
+    color: #666666;
+   
+  }
+
+
+  ion-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  ion-label div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  ion-label h6, ion-label p {
+    margin: 0;
+  }
+  
+  ion-label ion-icon {
+    margin-left: 10px;
+  }
+  
+
+
+
+
+  ion-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  ion-label h6, ion-label p {
+    margin-right: 10px;
+  }
+  
+  ion-label ion-icon {
+    margin-left: auto;
+  }
+  
+
+
+ion-avatar{
+  height: 40px;
+  width: 40px;
+}
+
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+
+    position: fixed;
+    bottom: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    //border: 1px solid #F6F0EC; /* Borde sombreado */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+
+  ion-searchbar.custom {
+    --border-radius: 0px;
+    text-align: left;
+    border-bottom: 1px solid;
+    --box-shadow: none;
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: relative;
+  }
+
+
+  
+  .custom-button {
+    --background: #83989A;
+    --color: #FFFFFF;
+    --border-radius: 35px;
+    border: #83989A;
+    margin: auto;
+    color: #83989A;
+    text-transform: none;
+    font-size: 14px;
+    width: 180px;
+  }
+
+  
+  
+  
+  /* Agrega estos estilos a tu archivo CSS */
+.scrollable-content {
+    max-height: 400px; /* Ajusta la altura máxima según tus necesidades */
+    overflow-y: auto;
+    border: none;
+    //width: 90%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .custom-heading {
+   // text-align: left;
+    margin-left: 10%;
+   // margin-top: 30px;
+    color: #666666;
+   // margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+
+  .align-right-text {
+   font-size: 18px;
+    color: #666666;
+    margin-right: 10%;
+  }
+  
+  .text-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-searchbar {
+    flex: 1;
+    //margin-right: 5px; /* Espacio entre la searchbar y el icono */
+  }
+  
+  .custom-icon {
+    width: 24px; /* Ajusta el ancho según tu icono */
+    height: 24px; /* Ajusta la altura según tu icono */
+    margin-right: 40px;
+  }
+  
+ 
+  
+  
+
+
+
+  
+  .horizontal-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Ajusta el margen según tus necesidades */
+  }
+  
+  .icon-container {
+    display: flex;
+    align-items: center;
+    //background: #666666;
+   // border: 1px solid black;
+    border-radius: 30px;
+  }
+  
+  .icon-text {
+    color: #546E6E;
+    font-size: 12px; /* Ajusta el tamaño del texto según tus necesidades */
+    margin-right: 5px; /* Agrega un margen derecho para separar texto e icono */
+  }
+  
+  .icon {
+    width: 15px; /* Ajusta el tamaño del icono según tus necesidades */
+    height: 15px;
+    margin-left: 10px;
+  }
+  
+  
+  
+  
+  

@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-listado-pacientes-difusion',
-  templateUrl: './listado-pacientes-difusion.page.html',
-  styleUrls: ['./listado-pacientes-difusion.page.scss'],
+  selector: 'app-seleccion-pacientes-filtro',
+  templateUrl: './seleccion-pacientes-filtro.page.html',
+  styleUrls: ['./seleccion-pacientes-filtro.page.scss'],
 })
-export class ListadoPacientesDifusionPage implements OnInit {
+export class SeleccionPacientesFiltroPage implements OnInit {
 
   tabs = [ 
     { tab: 'cart', icon: '../../../assets/carrito.svg' },
@@ -31,9 +31,8 @@ export class ListadoPacientesDifusionPage implements OnInit {
 
   
   constructor(public router: Router) { }
+
   ngOnInit() {
-  } 
-  redirectToOtraPagina() {
-    this.router.navigate(['/filtrar-pacientes']);
   }
+
 }
