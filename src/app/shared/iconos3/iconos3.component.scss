@@ -1,0 +1,28 @@
+.icon-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  ion-icon {
+    font-size: 30px;
+    color: #83989A;
+    margin-right: 10px;
+  }
+  
+
+  .icon-container {
+    display: flex;
+    justify-content: center;
+   // margin-bottom: 20px;
+    font-size: 30px;
+    color: #83989A; 
+  }
+    
+  .icon-container ion-icon {
+    margin: 10px 20px;
+    //margin-bottom: 10px;
+  }
+
+  .grande{
+    font-size: 45px;
+  }

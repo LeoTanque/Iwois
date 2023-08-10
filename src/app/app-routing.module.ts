@@ -418,6 +418,14 @@ const routes: Routes = [
     path: 'editar-perfil',
     loadChildren: () => import('./pages/editar-perfil/editar-perfil.module').then( m => m.EditarPerfilPageModule)
   },
+  {
+    path: 'editar-perfil1',
+    loadChildren: () => import('./pages/editar-perfil1/editar-perfil1.module').then( m => m.EditarPerfil1PageModule)
+  },
+  {
+    path: 'editar-perfil2',
+    loadChildren: () => import('./pages/editar-perfil2/editar-perfil2.module').then( m => m.EditarPerfil2PageModule)
+  },
 
 
  

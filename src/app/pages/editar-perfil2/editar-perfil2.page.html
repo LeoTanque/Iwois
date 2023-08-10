@@ -1,0 +1,64 @@
+<ion-content [fullscreen]="true">
+  
+  <div class="container">
+    <div class="background-color">
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+       
+      <div class="bottom-section-1">
+        <div class="text-content" >
+          <h5 class="custom-heading"><strong>Editar perfil</strong></h5>
+        </div>
+
+        <app-iconos3
+        [iconNames]="['profile', 'work', 'estrellita', 'closer', 'salir']"
+        [routeA]="'/protocolo-asignado-paciente'"
+        [routeB]="'/protocolo-asignado-paciente1'"
+        [routeC]="'/protocolo-asignado-paciente2'"
+        [routeD]="'/protocolo-asignado-paciente3'"
+        [routeE]="'/protocolo-asignado-paciente3'"
+      ></app-iconos3>
+
+      <div class="text-content" >
+        <p class="custom-heading" style="color: #666666;"><strong>Datos profesionales</strong></p>
+      </div>
+
+           
+        <div class="inputs">
+          <ion-item>
+            <ion-icon src="../../../assets/hombrecito.svg" slot="start"></ion-icon>
+            <ion-label position="floating">Nombre</ion-label>
+            <ion-input ></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-icon src="../../../assets/hombrecito.svg" slot="start"></ion-icon>
+            <ion-label position="floating">Apellidos</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-icon src="../../../assets/hombrecito.svg" slot="start"></ion-icon>
+            <ion-label position="floating">Dirección</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+      
+        </div>
+       
+        <div class="text-content" >
+          <p class="custom-heading" style="color: #546E6E"><strong>Sobre mi</strong></p>
+        </div>
+        <ion-item class="input-container">
+          <ion-textarea rows="5" placeholder="Descripción brevemente" class="text"></ion-textarea>
+        </ion-item>
+
+        <div class="boton-container">
+          <app-button [content]="'Guardar cambios'" [color]="''" [position]="'center'" [redirect]="'/perfil'"></app-button>
+        </div>
+        
+      </div>
+    </div>
+    
+</div>
+
+</ion-content>
+
+
+

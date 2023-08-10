@@ -1,0 +1,113 @@
+<ion-content [fullscreen]="true">
+  
+  <div class="container">
+    <div class="background-color">
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+       
+      <div class="bottom-section-1">
+        <div class="text-content" >
+          <h5 class="custom-heading"><strong>Editar perfil</strong></h5>
+        </div>
+
+        <app-iconos3
+        [iconNames]="['profile', 'work', 'estrellita', 'closer', 'salir']"
+        [routeA]="'/protocolo-asignado-paciente'"
+        [routeB]="'/protocolo-asignado-paciente1'"
+        [routeC]="'/protocolo-asignado-paciente2'"
+        [routeD]="'/protocolo-asignado-paciente3'"
+        [routeE]="'/protocolo-asignado-paciente3'"
+      ></app-iconos3>
+
+      <div class="text-content" >
+        <p class="custom-heading" style="color: #666666;">Datos personales</p>
+      </div>
+
+           
+        <div class="inputs">
+          <ion-item>
+            <ion-icon src="../../../assets/hombrecito.svg" slot="start"></ion-icon>
+            <ion-label position="floating">Nombre</ion-label>
+            <ion-input ></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-icon src="../../../assets/hombrecito.svg" slot="start"></ion-icon>
+            <ion-label position="floating">Apellidos</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-icon src="../../../assets/location-filled.svg" slot="start"></ion-icon>
+            <ion-label position="floating">Dirección</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-icon src="../../../assets/tel.svg" slot="start"></ion-icon>
+            <ion-label position="floating">Telefono de registro</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-icon src="../../../assets/tel.svg" slot="start"></ion-icon>
+            <ion-label position="floating">Telefono de consulta</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-icon src="../../../assets/tel.svg" slot="start"></ion-icon>
+            <ion-label position="floating">Telefono de Whatsapp</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-icon src="../../../assets/sobre.svg" slot="start"></ion-icon>
+            <ion-label position="floating">E-mail</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+         
+          <ion-item>
+            <ion-icon src="../../../assets/world.svg" slot="start"></ion-icon>
+            <ion-label position="floating">Dirección web</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+         
+        </div>
+       
+        <div class="text-contento">
+          <p class="custom-heading" style="color: #666666;">Redes sociales</p>
+        </div>
+          <div class="social-container">
+            <div class="social-left">
+              <ion-icon name="logo-twitter"></ion-icon>
+              <p class="social-text">Twitter</p>
+            </div>
+            <div class="social-right">
+              <p class="social-user">Usuario Nytelweb</p>
+            </div>
+          </div>
+          <div class="social-container">
+            <div class="social-left">
+              <ion-icon name="logo-instagram"></ion-icon>
+              <p class="social-text">Instagram</p>
+            </div>
+            <div class="social-right">
+              <p class="social-user">Usuario Nytelweb</p>
+            </div>
+          </div>
+
+          <div class="social-container">
+            <div class="social-left">
+              <ion-icon name="logo-facebook"></ion-icon>
+              <p class="social-text">Facebook</p>
+            </div>
+           
+          </div>
+      
+
+        <div class="boton-container">
+          <app-button [content]="'Guardar cambios'" [color]="''" [position]="'center'" [redirect]="'/perfil'"></app-button>
+        </div>
+        
+      </div>
+    </div>
+    
+</div>
+
+</ion-content>
+
+
