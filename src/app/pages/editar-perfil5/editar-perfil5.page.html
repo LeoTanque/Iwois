@@ -1,0 +1,48 @@
+<ion-content [fullscreen]="true">
+  
+  <div class="container">
+    <div class="background-color">
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+       
+      <div class="bottom-section-1">
+        <div class="text-content" >
+          <h5 class="custom-heading"><strong>Editar perfil</strong></h5>
+        </div>
+
+        <app-iconos3
+        [iconNames]="['profile', 'work', 'estrellita', 'closer', 'salir']"
+        [routeA]="'/editar-perfil1'"
+        [routeB]="'/editar-perfil2'"
+        [routeC]="'/editar-perfil3'"
+        [routeD]="'/editar-perfil4'"
+        [routeE]="'/editar-perfil5'"
+      ></app-iconos3>
+
+      <div class="text-content" >
+        <p class="custom-heading" style="color: #666666;"><strong>Eliminar cuenta</strong></p>
+      </div>
+
+           
+        <div class="inputs">
+          <ion-item>
+            
+            <ion-label position="floating" [routerLink]="['/home']">Eliminar mi cuenta en IWOIS</ion-label>
+            <ion-input ></ion-input>
+          </ion-item>
+          
+      
+        </div>
+       
+        
+        
+      </div>
+    </div>
+    
+</div>
+
+</ion-content>
+
+
+
+
+

@@ -19,35 +19,35 @@
       ></app-iconos3>
 
       <div class="text-content" >
-        <p class="custom-heading" style="color: #666666;"><strong>Datos profesionales</strong></p>
+        <p class="custom-heading" style="color: #666666;"><strong>Mejores casos de éxito</strong></p>
       </div>
-
+     
+      <p class="custom" style="color: #666666;">Sube aquí los mejores casos de cada tratamiento. <br> 
+        Tus pacientes los verán en tu perfil público.</p>
            
-        <div class="inputs">
+        <!--div class="inputs">
           <ion-item>
             <ion-icon src="../../../assets/hombrecito.svg" slot="start"></ion-icon>
             <ion-label position="floating">Nombre</ion-label>
             <ion-input ></ion-input>
           </ion-item>
-          <ion-item>
-            <ion-icon src="../../../assets/hombrecito.svg" slot="start"></ion-icon>
-            <ion-label position="floating">Apellidos</ion-label>
-            <ion-input></ion-input>
-          </ion-item>
-          <ion-item>
-            <ion-icon src="../../../assets/hombrecito.svg" slot="start"></ion-icon>
-            <ion-label position="floating">Dirección</ion-label>
-            <ion-input></ion-input>
+        </div-->
+       
+
+        <div class="inputs"> 
+          <ion-item mode="md">
+           
+            <ion-label position="floating">Selecciona un tratamiento</ion-label>
+            <ion-select  label-placement="stacked" interface="popover" style="border-radius: 20px;">
+              <ion-select-option value="apple">Criolipolisis</ion-select-option>
+              <ion-select-option value="banana">Bótox</ion-select-option>
+              <ion-select-option value="orange">Liposonix</ion-select-option>
+             
+            </ion-select>
           </ion-item>
       
         </div>
-       
-        <div class="text-content" >
-          <p class="custom-heading" style="color: #546E6E"><strong>Sobre mi</strong></p>
-        </div>
-        <ion-item class="input-container">
-          <ion-textarea rows="5" placeholder="Descripción brevemente" class="text"></ion-textarea>
-        </ion-item>
+        
 
         <div class="boton-container">
           <app-button [content]="'Guardar cambios'" [color]="''" [position]="'center'" [redirect]="'/perfil'"></app-button>
