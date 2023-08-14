@@ -438,6 +438,22 @@ const routes: Routes = [
     path: 'editar-perfil5',
     loadChildren: () => import('./pages/editar-perfil5/editar-perfil5.module').then( m => m.EditarPerfil5PageModule)
   },
+  {
+    path: 'caso-exito3',
+    loadChildren: () => import('./pages/caso-exito3/caso-exito3.module').then( m => m.CasoExito3PageModule)
+  },
+  {
+    path: 'caso-exito4',
+    loadChildren: () => import('./pages/caso-exito4/caso-exito4.module').then( m => m.CasoExito4PageModule)
+  },
+  {
+    path: 'caso-exito5',
+    loadChildren: () => import('./pages/caso-exito5/caso-exito5.module').then( m => m.CasoExito5PageModule)
+  },
+  {
+    path: 'caso-exito6',
+    loadChildren: () => import('./pages/caso-exito6/caso-exito6.module').then( m => m.CasoExito6PageModule)
+  },
 
 
  

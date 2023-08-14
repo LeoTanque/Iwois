@@ -1,0 +1,83 @@
+<ion-content [fullscreen]="true">
+  
+  <div class="container">
+    <div class="background-color">
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+       
+      <div class="bottom-section-1">
+        <div class="text-content" >
+          <h5 class="custom-heading"><strong>Editar perfil</strong></h5>
+        </div>
+
+        <app-iconos3
+        [iconNames]="['profile', 'work', 'estrellita', 'closer', 'salir']"
+        [routeA]="'/editar-perfil1'"
+        [routeB]="'/editar-perfil2'"
+        [routeC]="'/editar-perfil3'"
+        [routeD]="'/editar-perfil4'"
+        [routeE]="'/editar-perfil5'"
+      ></app-iconos3>
+
+      <div class="text-content" >
+        <p class="custom-heading" style="color: #666666;"><strong>Mejores casos de éxito</strong></p>
+      </div>
+     
+      <p class="custom" style="color: #666666;">Sube aquí los mejores casos de cada tratamiento. <br> 
+        Tus pacientes los verán en tu perfil público.</p>
+           
+        <!--div class="inputs">
+          <ion-item>
+            <ion-icon src="../../../assets/hombrecito.svg" slot="start"></ion-icon>
+            <ion-label position="floating">Nombre</ion-label>
+            <ion-input ></ion-input>
+          </ion-item>
+        </div-->
+       
+
+        <div class="inputs"> 
+          <!--ion-item mode="md">
+           
+            <ion-label position="floating">Selecciona un tratamiento</ion-label>
+            <ion-select  label-placement="stacked" interface="popover" style="border-radius: 20px;">
+              <ion-select-option value="apple">Criolipolisis</ion-select-option>
+              <ion-select-option value="banana">Bótox</ion-select-option>
+              <ion-select-option value="orange">Liposonix</ion-select-option>
+             
+            </ion-select>
+          </ion-item-->
+      
+         
+
+
+      
+
+
+        </div>
+        <app-exito
+        [images]="[
+        
+        '../../../assets/foton.svg',
+       '../../../assets/add[1] (1).svg', 
+      
+       ]"
+       text="Escribe un titulo"
+      
+       [secondImageIcon]="'add-circle-outline'"
+       [iconRoute]="'/caso-exito4'"
+       ></app-exito>
+
+       <ion-icon src="../../../assets/see.svg" class="bottom-icon"></ion-icon>
+
+        <div class="boton-container">
+          <app-button [content]="'Guardar cambios'" [color]="''" [position]="'center'" [redirect]="'/perfil'"></app-button>
+        </div>
+        
+      </div>
+    </div>
+    
+</div>
+
+</ion-content>
+
+
+

@@ -1,0 +1,74 @@
+
+<!--ion-card>
+
+  <ion-card-content>
+    <ng-container *ngFor="let imageRow of chunkArray(images, 2); let i = index">
+      <div class="image-row">
+        <div class="image-container">
+          <div *ngIf="i === 0" class="row-text">Antes</div>
+          <ion-icon *ngIf="i === 0" src="../../../assets/adicion.svg" class="icon"></ion-icon>
+          <ion-icon *ngIf="i === 0" name="{{ secondImageIcon }}" class="icon"></ion-icon>
+          <img [src]="imageRow[0]" alt="Imagen" class="image">
+        </div>
+        <div class="image-container">
+          <div *ngIf="i === 0" class="row-text">Después</div>
+          <ion-icon *ngIf="i === 0" src="../../../assets/adicion.svg" class="icon"></ion-icon>
+          <ion-icon *ngIf="i === 0" name="{{ secondImageIcon1 }}" class="icon"></ion-icon>
+          <img [src]="imageRow[1]" alt="Imagen" class="image">
+        </div>
+        <button class="card-button">
+          <strong>Criolipolisis</strong>   
+           </button>
+        <div class="save-text">Guardar</div>
+      </div>
+    </ng-container>
+  </ion-card-content>
+</ion-card-->
+
+
+<!--ion-card>
+  <ion-card-content>
+    <ng-container *ngFor="let imageRow of chunkArray(images, 2); let i = index">
+      <div class="image-row">
+        <div class="image-container">
+          <div *ngIf="i === 0" class="row-text">Antes</div>
+          <img [src]="imageRow[0]" alt="Imagen" class="image">
+        </div>
+        <div class="image-container">
+          <div *ngIf="i === 0" class="row-text">Después</div>
+          <img [src]="imageRow[1]" alt="Imagen" class="image">
+          <ion-icon *ngIf="secondImageIcon" name="{{ secondImageIcon }}" class="icon"></ion-icon>
+        </div>
+      </div>
+      <button class="card-button">
+        <strong>Criolipolisis</strong>   
+      </button>
+      <div class="save-text">Guardar</div>
+    </ng-container>
+  </ion-card-content>
+</ion-card-->
+
+
+
+<ion-card>
+  <ion-card-content>
+    <ng-container *ngFor="let imageRow of chunkArray(images, 2); let i = index">
+      <div class="image-row">
+        <div class="image-container">
+          <div *ngIf="i === 0" class="row-text">Antes</div>
+          <img [src]="imageRow[0]" alt="Imagen" class="image">
+        </div>
+        <div class="image-container">
+          <div *ngIf="i === 0" class="row-text">Después</div>
+          <img [src]="imageRow[1]" alt="Imagen" class="image">
+        </div>
+        <ion-icon *ngIf="secondImageIcon" name="{{ secondImageIcon }}" class="icon"  (click)="navigateTo(iconRoute)"></ion-icon>
+      </div>
+      <button class="card-button">
+        <strong>Criolipolisis</strong>   
+      </button>
+      <div class="save-text">Guardar</div>
+    </ng-container>
+  </ion-card-content>
+</ion-card>
+

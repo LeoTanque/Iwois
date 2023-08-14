@@ -1,0 +1,49 @@
+<!--ion-card>
+  <ion-card-content>
+    <ng-container *ngFor="let imageRow of chunkArray(images, 2); let i = index">
+      <div class="image-row">
+        <div class="image-container">
+          <div *ngIf="i === 0" class="row-text">Antes</div>
+          <img [src]="imageRow[0]" alt="Imagen" class="image">
+        </div>
+        <div class="image-container">
+          <div *ngIf="i === 0" class="row-text">Después</div>
+          <img [src]="imageRow[1]" alt="Imagen" class="image">
+          <ion-icon
+            *ngIf="i > 0 && secondImageIcon && iconRoute" 
+            name="{{ secondImageIcon }}"
+            class="icon"
+            (click)="navigateTo(iconRoute)"
+          ></ion-icon>
+        </div>
+      </div>
+      <button class="card-button">
+        <strong>{{ cardButtonContent }}</strong>
+      </button>
+      <div class="save-text">{{ cardSaveText }}</div>
+    </ng-container>
+  </ion-card-content>
+</ion-card-->
+
+
+<ion-card>
+  <ion-card-content>
+    <ng-container *ngFor="let imageRow of chunkArray(images, 2); let i = index">
+      <div class="image-row">
+        <div class="image-container">
+          <div *ngIf="i === 0" class="row-text">Antes</div>
+          <img [src]="imageRow[0]" alt="Imagen" class="image">
+        </div>
+        <div class="image-container">
+          <div *ngIf="i === 0" class="row-text">Después</div>
+          <img [src]="imageRow[1]" alt="Imagen" class="image">
+        </div>
+        <ion-icon *ngIf="secondImageIcon && i === 1" name="{{ secondImageIcon }}" class="icon"  (click)="navigateTo(iconRoute)"></ion-icon>
+      </div>
+      <button class="card-button">
+        <strong>Criolipolisis</strong>   
+      </button>
+      <div class="save-text">{{ cardSaveText }}</div>
+    </ng-container>
+  </ion-card-content>
+</ion-card>
