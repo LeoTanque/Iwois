@@ -31,6 +31,7 @@ import { Protocolo1Component } from './protocolo1/protocolo1.component';
 import { Iconos3Component } from './iconos3/iconos3.component';
 import { ExitoComponent } from './exito/exito.component';
 import { Exito456Component } from './exito456/exito456.component';
+import { SuscripcionComponent } from './suscripcion/suscripcion.component';
 
 
 
@@ -41,7 +42,7 @@ import { Exito456Component } from './exito456/exito456.component';
     SmallCardComponent, CardyComponent, CardonaComponent, Iconos2Component, ArribaComponent, SearchBarComponent,
   ImageGrid1Component, NuevaCardComponent, ImageGrid2Component, Boton2Component, CardPruebaComponent,
    CardyPruebaComponent, CardyPrueba1Component, ProtocoloComponent, Protocolo1Component, Iconos3Component, ExitoComponent,
-  Exito456Component],
+  Exito456Component, SuscripcionComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     CommonModule,
@@ -53,6 +54,6 @@ import { Exito456Component } from './exito456/exito456.component';
 IconosComponent, TextoComponent, FotosComponent, SmallCardComponent, CardyComponent, CardonaComponent,
 Iconos2Component, ArribaComponent, SearchBarComponent, ImageGrid1Component, NuevaCardComponent, ImageGrid2Component,
 Boton2Component, CardPruebaComponent, CardyPruebaComponent, CardyPrueba1Component, ProtocoloComponent, 
-Protocolo1Component, Iconos3Component, ExitoComponent, Exito456Component]
+Protocolo1Component, Iconos3Component, ExitoComponent, Exito456Component, SuscripcionComponent]
 })
 export class SharedModule { }

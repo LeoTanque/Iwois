@@ -1,0 +1,95 @@
+<ion-content [fullscreen]="true">
+  
+  <div class="container">
+    <div class="background-color">
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+       
+      <div class="bottom-section-1">
+        <div class="text-content" >
+          <h5 class="custom-heading"><strong>Suscripciones</strong></h5>
+        </div>
+   
+
+        
+        
+        <!--ion-card>
+          <ion-card-content>
+            <div class="custom-card-content">
+              <h3 class="custom-h3">Mensual</h3>
+              <button class="custom-button">Suscribirme</button>
+            </div>
+              <div class="custom-texts">
+                <p class="custom-paragraph">Cuota única</p>
+                <p class="custom-price">39€/mes</p>
+              </div>
+          </ion-card-content>
+        </ion-card-->
+        
+
+
+        <app-suscripcion
+        [backgroundColor]="''" 
+        [title]="'Mensual'" 
+        [buttonText]="'Suscribirme'" 
+        [buttonBackgroundColor]="''" 
+        [paragraphText]="'Cuota única'" 
+        [priceText]="'39€/mes'"
+      ></app-suscripcion>
+
+
+      <app-suscripcion
+      [backgroundColor]="'#83989A'" 
+      [title]="'Semestral'" 
+      [titleColor]="'#FFFFFF'"
+      [buttonText]="'Conectar'" 
+      [buttonBackgroundColor]="'#FFFFFF'" 
+      [paragraphText]="'33€/mes'" 
+      [paragraphColor]="'#FFFFFF'"
+      [additionalText]="'(ahórrate 60€)'"
+      [priceText]="'198€'"
+      [buttonTextColor]="'#83989A'"
+    ></app-suscripcion>
+      
+
+    <app-suscripcion
+    [backgroundColor]="''" 
+    [title]="'Anual'" 
+    [buttonText]="'Suscribirme'" 
+    [buttonBackgroundColor]="''" 
+    [paragraphText]="'29€/mes'" 
+    [priceText]="'348€'"
+    [additionalText]="'(ahórrate 120€)'"
+  ></app-suscripcion>
+
+  <div class="discount-text-container">
+    <p class="discount-text">¿Tienes un código de descuento?</p>
+  </div>
+
+        <ion-item>
+         
+          <ion-label position="floating">PEDROPR07</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+       
+        <div class="boton-container">
+          <app-button [content]="'Guardar cambios'" [color]="''" [position]="'center'" [redirect]="'/perfil'"></app-button>
+        </div>
+        
+      </div>
+    </div>
+    
+</div>
+
+
+<app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
+
+</ion-content>
+
+
+
+
+

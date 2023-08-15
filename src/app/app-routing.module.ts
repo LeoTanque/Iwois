@@ -454,6 +454,10 @@ const routes: Routes = [
     path: 'caso-exito6',
     loadChildren: () => import('./pages/caso-exito6/caso-exito6.module').then( m => m.CasoExito6PageModule)
   },
+  {
+    path: 'suscripciones',
+    loadChildren: () => import('./pages/suscripciones/suscripciones.module').then( m => m.SuscripcionesPageModule)
+  },
 
 
  

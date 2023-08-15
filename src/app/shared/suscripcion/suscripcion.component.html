@@ -1,0 +1,16 @@
+<ion-card [style.background-color]="backgroundColor">
+  <ion-card-content>
+    <div class="custom-card-content">
+      <h3 class="custom-h3" [style.color]="titleColor" >{{ title }}</h3>
+      <button class="custom-button" [style.background-color]="buttonBackgroundColor" [style.color]="buttonTextColor" >{{ buttonText }}</button>
+    </div>
+    <div class="custom-texts">
+      <p class="custom-paragraph" [style.color]="paragraphColor" >{{ paragraphText }}</p>
+     
+      <p class="custom-price"  [style.color]="paragraphColor" >{{ priceText }}</p>
+     
+    </div>
+    <p class="custom-additional-text"  [style.color]="paragraphColor" >{{ additionalText }}</p> 
+  </ion-card-content>
+</ion-card>
+

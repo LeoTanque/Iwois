@@ -1,0 +1,92 @@
+ion-card{
+    width: 300px;
+    height: 100%;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+
+
+.custom-card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  .custom-h3 {
+    text-align: left; /* Alinear a la izquierda */
+    margin: 0; /* Eliminar el margen por defecto del h3 */
+    color: #666666;
+    font-size: 22px;
+  }
+  
+
+  .custom-button {
+    background-color: #83989A;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px; /* Bordes redondeados */
+    cursor: pointer;
+
+
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+   
+  }
+  
+  .custom-texts {
+    display: flex;
+    justify-content: space-between; /* Alineación horizontal */
+    width: 100%; /* Asegurar que ocupa el ancho completo */
+    align-items: center;
+    margin-top: 15px;
+  }
+
+
+  .custom-paragraph{
+    font-size: 18px;
+  }
+  
+.custom-price{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+
+.custom-additional-text {
+    color: #666666;
+    text-align: left;
+    margin: 0;
+    font-size: 12px;
+  }
+
+
+
+
+  /* <app-suscripcion
+      [backgroundColor]="'#83989A'" 
+      [title]="'Semestral'" 
+      [titleColor]="'#FFFFFF'"
+      [buttonText]="'Conectar'" 
+      [buttonBackgroundColor]="'#FFFFFF'" 
+      [paragraphText]="'33€/mes'" 
+      [paragraphColor]="'#FFFFFF'"
+      [additionalText]="'(ahórrate 60€)'"
+      [priceText]="'198€'"
+      [buttonTextColor]="'#83989A'"
+    ></app-suscripcion>
+      
+
+    <app-suscripcion
+    [backgroundColor]="''" 
+    [title]="'Anual'" 
+    [buttonText]="'Suscribirme'" 
+    [buttonBackgroundColor]="''" 
+    [paragraphText]="'29€/mes'" 
+    [priceText]="'348€'"
+    [additionalText]="'(ahórrate 120€)'"
+  ></app-suscripcion>*/
