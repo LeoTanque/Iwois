@@ -462,6 +462,22 @@ const routes: Routes = [
     path: 'registro-perdidos',
     loadChildren: () => import('./pages/registro-perdidos/registro-perdidos.module').then( m => m.RegistroPerdidosPageModule)
   },
+  {
+    path: 'info-solicitud-producto',
+    loadChildren: () => import('./pages/info-solicitud-producto/info-solicitud-producto.module').then( m => m.InfoSolicitudProductoPageModule)
+  },
+  {
+    path: 'editar-perfil6',
+    loadChildren: () => import('./pages/editar-perfil6/editar-perfil6.module').then( m => m.EditarPerfil6PageModule)
+  },
+  {
+    path: 'editar-perfil7',
+    loadChildren: () => import('./pages/editar-perfil7/editar-perfil7.module').then( m => m.EditarPerfil7PageModule)
+  },
+  {
+    path: 'mensajes-con-prof',
+    loadChildren: () => import('./pages/mensajes-con-prof/mensajes-con-prof.module').then( m => m.MensajesConProfPageModule)
+  },
 
 
  

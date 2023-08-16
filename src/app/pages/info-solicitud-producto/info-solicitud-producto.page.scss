@@ -1,0 +1,106 @@
+
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+   
+   
+  }
+
+ 
+
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    //padding: 20px;
+    flex: 1;
+  }
+
+ 
+
+
+
+  .location-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90%;
+  }
+  
+ 
+
+
+  .message-text {
+    color: #666666;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
+
+  }
+
+
+ 
+
+
+  .custom-heading {
+    text-align: center;
+    //margin-left: 10%;
+    margin-top: 50px;
+    color: #546E6E;
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+
+  .heading {
+   // text-align: left;
+   
+   // margin-top: 30px;
+    color: #666666;
+   // margin-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Ajustar el margen según necesites */
+  }
+  
+  .centered-image {
+    display: block;
+    margin: 0 auto; /* Centrar horizontalmente */
+    max-width: 100%; /* Asegurarse de que no exceda el ancho */
+    width: 250px;
+    height: 250px;
+  }
+  
+  .description {
+    color: #666666;
+    text-align: left;
+    margin-top: 40px; /* Ajustar el margen según necesites */
+    margin-left: 50px;
+    font-size: 18px ;
+  }
+  
+  .text-block {
+    color: #546E6E;
+    text-align: left;
+    margin-top: 50px; /* Ajustar el margen según necesites */
+    margin-left: 50px;
+    font-size: 15px;
+  }
+  
+  .text-block p {
+    margin-bottom: 10px; /* Separación entre los textos */
+  }
+
+  .text-block p strong {
+    margin-right: 20px; /* Margen derecho para separar la primera palabra */
+  }
+  

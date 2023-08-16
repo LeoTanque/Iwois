@@ -1,0 +1,39 @@
+<ion-content [fullscreen]="true">
+   
+  <div class="container">
+    <div class="background-color">
+
+      <app-superior [notificationRoute]="'/notificaciones'" [backRoute]="'/notificaciones'"></app-superior>
+    
+      <div class="bottom-section-1">
+     
+      
+        <div class="text-content" >
+          <h3 class="custom-heading"><strong>Registro de pedidos</strong></h3>
+          <p class="heading"><strong>12/03/23</strong></p>
+        </div>
+       
+        <div class="image-container">
+          <img src="../../../assets/perag.png" alt="Imagen" class="centered-image">
+         
+        </div>
+        <p class="description"><strong>Datos de la solicitud:</strong></p>
+
+        <div class="text-block">
+          <p><strong>Nombre:</strong>   Usuario Nytelweb</p>
+          <p><strong>Email:</strong> nytelweb@nytelweb.es</p>
+          <p><strong>Teléfono:</strong> 000000000</p>
+          <p><strong>Dirección:</strong> Jerez de la frontera, Cádiz, España</p>
+        </div>
+      </div>
+    </div> 
+ 
+</div>
+<app-custom-tab-bar [tabs]="tabs" 
+[iconStyles]="iconStyles" 
+[router]="router" 
+[tabRoutes]="tabRoutes"
+ ></app-custom-tab-bar>
+</ion-content>
+
+

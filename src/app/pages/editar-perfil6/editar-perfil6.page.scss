@@ -1,0 +1,149 @@
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    //padding: 20px;
+    flex: 1;
+  }
+
+  .custom-heading {
+    text-align: center;
+    //margin-left: 10%;
+    margin-top: 50px;
+    color: #546E6E;
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .custom-heading1 {
+    text-align: center;
+    //margin-left: 10%;
+    margin-top: 50px;
+    color: #666666;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  ion-item {
+   // margin-bottom: 5%;
+    border-radius: 20px;
+    background-color: #00000029;
+    color: #666666;
+    //width: 60%;
+    opacity: 100%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d1d1d1;
+    text-align: center;
+  }
+
+
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:35px; /* Ajustar el margen según necesites */
+   
+  }
+  
+  ion-icon {
+    margin-right: 10px; /* Separación entre el icono y el input */
+    font-size: 35px;
+    margin-left: 20px;
+  }
+
+  .input-item {
+    //flex: 1; /* Permite que el ion-item ocupe el espacio restante */
+    margin-right: 10px; /* Separación entre el ion-input y el ion-icon */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d1d1d1;
+    border-radius: 20px;
+   
+  }
+  
+
+  .second-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Ajusta el margen según necesites */
+    justify-content: center;
+  }
+  
+  .second-input-text {
+    margin-right: 10px; /* Separación entre el texto y el ion-input */
+    color: #666666; /* Color del texto */
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+
+  
+  .small-input {
+    width: 50px; /* Ancho del ion-input pequeño */
+    height: 24px; /* Altura del ion-input pequeño */
+    font-size: 14px; /* Tamaño de fuente del ion-input pequeño */
+    padding-left: 5px; /* Espaciado interno del ion-input pequeño */
+    color: #666666;
+    border-radius: 20px;
+  }
+  
+
+  .scrollable-content {
+    max-height: 470px; /* Ajusta la altura máxima según tus necesidades */
+    overflow-y: auto;
+    border: none;
+    //width: 90%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+
+  h6{
+    color: #666666;
+   
+  }
+
+
+  ion-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  ion-label div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  ion-label h6, ion-label p {
+    margin: 0;
+  }
+  
+  ion-label ion-icon {
+    margin-left: 10px;
+  }
+  
+
+
+
+
+  ion-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  ion-label h6, ion-label p {
+    margin-right: 10px;
+  }
+  
+  ion-label ion-icon {
+    margin-left: auto;
+  }
