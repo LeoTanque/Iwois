@@ -1,0 +1,171 @@
+
+
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+   
+   
+  }
+
+ 
+
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    //padding: 20px;
+    flex: 1;
+  }
+
+ 
+
+
+
+  .location-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90%;
+  }
+  
+ 
+
+
+  .message-text {
+    color: #666666;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
+
+  }
+  
+ 
+
+
+  .ion-item {
+    margin: 20px;
+    width: 80%;
+    border-bottom: solid 1.5px #666666;
+    align-items: center;
+   // border-radius: 20px;
+    margin-left: 40px;
+    color: #666666;
+   
+    
+  }
+
+
+  ion-item {
+    margin-bottom: 20px;
+  }
+
+
+  .custom-heading {
+    text-align: center;
+    //margin-left: 10%;
+    margin-top: 50px;
+    color: #546E6E;
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+
+
+
+
+  h6{
+    color: #546E6E;
+    font-size: 20px;
+   
+  }
+
+
+
+
+  ion-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  ion-label div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  ion-label h6, ion-label p {
+    margin: 0;
+  }
+  
+  ion-label ion-icon {
+    margin-left: 10px;
+  }
+  
+
+
+
+
+  ion-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  ion-label h6, ion-label p {
+    margin-right: 10px;
+  }
+  
+  ion-label ion-icon {
+    margin-left: auto;
+  }
+  
+
+  
+.burbuja{
+  font-size: 50px;
+  margin-left: 10px;
+}
+
+
+ion-thumbnail{
+  height: 80px;
+  width: 80px;
+}
+
+  .heading {
+   // text-align: left;
+    margin-left: 10%;
+   // margin-top: 30px;
+    color: #666666;
+   // margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+
+  .align-right-text {
+   font-size: 15px;
+    color: #666666;
+    margin-right: 10%;
+  }
+  
+
+.texto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .scrollable-content {
+    max-height: 490px; /* Ajusta la altura máxima según tus necesidades */
+    overflow-y: auto;
+    border: none;
+    //width: 90%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  

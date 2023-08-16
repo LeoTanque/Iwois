@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { RegistroAvisoPageRoutingModule } from './registro-aviso-routing.module';
+import { RegistroPerdidosPageRoutingModule } from './registro-perdidos-routing.module';
 
-import { RegistroAvisoPage } from './registro-aviso.page';
+import { RegistroPerdidosPage } from './registro-perdidos.page';
 import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { SharedModule } from 'src/app/shared/shared.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    RegistroAvisoPageRoutingModule,
+    RegistroPerdidosPageRoutingModule,
     SharedModule
   ],
-  declarations: [RegistroAvisoPage]
+  declarations: [RegistroPerdidosPage]
 })
-export class RegistroAvisoPageModule {}
+export class RegistroPerdidosPageModule {}
