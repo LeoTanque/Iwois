@@ -46,21 +46,16 @@
 
 
   ion-card {
-    /* Ajusta el tamaño de la card */
+  
     width: 300px;
     height: 100%;
-    /* Añade márgenes para separar las cards si es necesario */
-   // margin: 10px;
-    /* Agrega sombra para resaltar la card */
+   
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
-    /* Estilo de borde y esquinas redondeadas */
     border: 1px solid #e6e6e6;
     border-radius: 20px;
-    /* Centra el contenido horizontalmente */
     display: flex;
     flex-direction: column;
-    //align-items: center;
-    /* Alinea el texto alineado a la izquierda */
+   
     text-align: left;
   }
   
@@ -74,13 +69,18 @@
   
   .images-container {
     
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    white-space: nowrap;
-    display: inline-flex;
+    //display: flex;
+    //justify-content: center;
+    //flex-wrap: wrap;
+    //justify-content: flex-start;
+    //white-space: nowrap;
+    //display: inline-flex;
 
+
+
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
     
   }
   
@@ -101,5 +101,27 @@
     border-radius: 4px;
   }
   
+  /* Resto de tus estilos aquí */
 
- 
+.images-container {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  //padding: 5px;
+}
+
+.image-wrapper {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+
+  display: inline-block;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
