@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { LoguinPageRoutingModule } from './loguin-routing.module';
 
 import { LoguinPage } from './loguin.page';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    LoguinPageRoutingModule
+    LoguinPageRoutingModule,
+    SharedModule
   ],
   declarations: [LoguinPage]
 })

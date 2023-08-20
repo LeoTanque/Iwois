@@ -1,13 +1,55 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>loguin</ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">loguin</ion-title>
-    </ion-toolbar>
-  </ion-header>
+
+<ion-content class="ion-padding background-image">
+  <div class="background-image"></div>
+  <div class="container">
+    <ion-buttons slot="end" mode="md">
+      <ion-select placeholder="ES" interface="popover" class="cursiva">
+        <ion-select-option value="espanol">ES</ion-select-option>
+        <ion-select-option value="english">EN</ion-select-option>
+        <ion-select-option value="portuguese">PG</ion-select-option>
+      </ion-select>
+    </ion-buttons>
+    <div class="logo-container">
+      <ion-img
+        src="../../../assets/Logo IWOIS.png"
+        alt="Logo" style="height: 60px; width: 110px;"
+      >
+      </ion-img>
+    </div>
+    
+    <div class="inputs" >
+      <ion-item> 
+        <ion-icon src="../../../assets/back.svg" slot="start"></ion-icon>
+        <ion-label position="floating">Prefijo</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon src="../../../assets/tel.svg" slot="start"></ion-icon>
+        <ion-label position="floating">(00) Telefono</ion-label>
+        <ion-input></ion-input>
+      </ion-item> 
+      <ion-item>
+        <ion-icon src="../../../assets/lock.svg" slot="start"></ion-icon>
+       
+        <ion-label position="floating">Contraseña</ion-label>
+        <ion-input></ion-input>
+       
+       
+      </ion-item>
+    </div> 
+    <div class="contenido">
+      <p>Consulta la política de privacidad <br> y los términos y condiciones.</p>
+
+      <div class="button-container">
+        <app-button [content]="'Iniciar sesión'" [color]="''" [position]="'center'" [redirect]="'/'"></app-button>
+      </div>
+     
+      <p [routerLink]="['/recuperar-contrasena']">Olvidé mi contraseña</p>
+      <p class="ultimo">Aún no tengo cuenta, <a [routerLink]="['/registro1']">Regístrame</a></p>
+    </div>
+  
+    
+  </div>
 </ion-content>
+
