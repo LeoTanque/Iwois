@@ -82,5 +82,47 @@ ion-item {
 
 
 
+.chat-card {
+  border-radius: 10px;
+  max-height: 580px;
+  overflow-y: auto;
+}
 
-  
+.chat-date {
+  text-align: center;
+}
+
+.message-content {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+
+  width: fit-content; /* Ajusta el ancho al contenido */
+ 
+}
+
+.received .message-content {
+  background-color: #FFFFFF;
+ border: 1px solid black;
+ max-width: 100%;
+ border-radius: 20px;
+}
+
+.sent .message-content {
+  background-color: #F6F0EC;
+  text-align: left;
+  border-radius: 20px;
+}
+
+.sent .message {
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+
+
+.message-time {
+  font-size: 12px;
+  text-align: right;
+  color: #000000; /* Color de la hora del mensaje */
+ 
+}

@@ -29,10 +29,32 @@ export class HomeProfesionalPage implements OnInit {
     { tab: 'profile', route: '/suplementacion' }
   ];
 
+
+  botones = [
+    { nombre: 'Mis pacientes', color: '#FFFFFF' },
+    { nombre: 'Mis tratamientos', color: '#FFFFFF' },
+    { nombre: 'Asignar consejos', color: '#FFFFFF' },
+    { nombre: 'Enviar difusion', color: '#FFFFFF' }
+  ];
+
+
+
   
   constructor(public router: Router) { }
 
   ngOnInit() {
   }
  
+
+  cambiarColorBoton(event: MouseEvent) {
+    const boton = event.target as HTMLButtonElement;
+    boton.style.backgroundColor = '#83989A';
+  }
+
+  restaurarColorBoton(event: MouseEvent) {
+    const boton = event.target as HTMLButtonElement;
+    boton.style.backgroundColor = '#FFFFFF';
+  }
+  
+
 }

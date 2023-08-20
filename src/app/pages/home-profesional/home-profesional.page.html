@@ -9,19 +9,27 @@
  
   <div class="modal-container"> 
     <div class="modal-content">
-      <!--button class="modal-button primary-button">Mis pacientes</button>
-      <button class="modal-button" style="color: #666666;">Mis tratamientos</button>
-      <button class="modal-button" style="color: #666666;">Asignar consejos</button>
-      <button class="modal-button" style="margin-bottom: 60px; color: #666666;">Enviar difusion</button-->
+  
 
         <div class="modal-button primary-button">
-          <app-button [content]="'Mis pacientes'" [color]="''" [position]="'center'" [redirect]="'/'"></app-button>
+          <app-button [content]="'Mis pacientes'"
+           [color]="''"
+            [position]="'center'" 
+            [redirect]="'/'"></app-button>
         </div>
   
+
+        <!--div class="modal-button">
+          <app-button [content]="'Mis pacientes'" 
+          [backgroundColor]="'#FFFFFF'" 
+          [color]="'#707070'" [position]="'center'" [redirect]="'/busqueda-arr'"></app-button>
+        </div-->
+
         <div class="modal-button">
           <app-button [content]="'Mis tratamientos'" 
           [backgroundColor]="'#FFFFFF'" 
-          [color]="'#707070'" [position]="'center'" [redirect]="'/busqueda-arr'"></app-button>
+          [color]="'#707070'" [position]="'center'" [redirect]="'/busqueda-arr'"
+          ></app-button>
         </div>
 
         <div class="modal-button">

@@ -8,9 +8,22 @@ import { Router } from '@angular/router';
 })
 export class SeleccionDeRolPage implements OnInit {
 
-  constructor() { }
+  backgroundColor = '#FFFFFF'; // Color de fondo inicial
+  redirectRoute = '';
+  constructor(private router: Router) {}
 
   ngOnInit() { 
   }
 
+  cambiarColorYRedirigir(color: string, ruta: string) {
+    this.backgroundColor = color; // Cambiar el color
+    this.redirectRoute = ruta; // Establecer la ruta de redirección
+  }
+
+  // Función para realizar la redirección
+  redirigir() {
+    if (this.redirectRoute) {
+      this.router.navigate([this.redirectRoute]);
+    }
+  }
 }

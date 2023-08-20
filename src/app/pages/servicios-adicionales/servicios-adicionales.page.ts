@@ -12,11 +12,11 @@ export class ServiciosAdicionalesPage implements OnInit {
 
   imageUrls: string[] = [
     '../../../assets/seleccion1.png',
-    '../../../assets/pomada.png',
+    '../../../assets/pom.png',
     '../../../assets/seleccion2.png',
     "../../../assets/seleccion3.png",
      '../../../assets/selecccion4.png',
-     '../../../assets/cara2.png',
+     '../../../assets/cuello.png',
   ];
 
   tabs = [

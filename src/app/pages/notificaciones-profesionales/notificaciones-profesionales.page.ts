@@ -2,12 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-chat-medico2',
-  templateUrl: './chat-medico2.page.html',
-  styleUrls: ['./chat-medico2.page.scss'], 
+  selector: 'app-notificaciones-profesionales',
+  templateUrl: './notificaciones-profesionales.page.html',
+  styleUrls: ['./notificaciones-profesionales.page.scss'],
 })
-export class ChatMedico2Page implements OnInit {
+export class NotificacionesProfesionalesPage implements OnInit {
 
+ 
   tabs = [
     { tab: 'cart', icon: '../../../assets/carrito.svg' },
     { tab: 'notification', icon: '../../../assets/home.svg' },
@@ -24,9 +25,9 @@ export class ChatMedico2Page implements OnInit {
   ];
  
   tabRoutes = [
-    { tab: 'cart', route: '/tratamiento3' },
+    { tab: 'cart', route: '/home' },
     { tab: 'notification', route: '/home' },
-    { tab: 'mesage', route: '/mensajes-con' },
+    { tab: 'mesage', route: '/' },
     { tab: 'profile', route: '/perfil' }
   ];
   

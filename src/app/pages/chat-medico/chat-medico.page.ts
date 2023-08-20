@@ -36,4 +36,6 @@ export class ChatMedicoPage implements OnInit {
   ngOnInit() {
   }
  
+
+
 }

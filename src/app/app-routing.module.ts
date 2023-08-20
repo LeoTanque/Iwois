@@ -478,6 +478,18 @@ const routes: Routes = [
     path: 'mensajes-con-prof',
     loadChildren: () => import('./pages/mensajes-con-prof/mensajes-con-prof.module').then( m => m.MensajesConProfPageModule)
   },
+  {
+    path: 'notificaciones-profesionales',
+    loadChildren: () => import('./pages/notificaciones-profesionales/notificaciones-profesionales.module').then( m => m.NotificacionesProfesionalesPageModule)
+  },
+  {
+    path: 'loguin',
+    loadChildren: () => import('./pages/loguin/loguin.module').then( m => m.LoguinPageModule)
+  },
+  {
+    path: 'chat2',
+    loadChildren: () => import('./pages/chat2/chat2.module').then( m => m.Chat2PageModule)
+  },
 
 
  
