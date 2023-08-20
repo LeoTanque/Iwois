@@ -9,41 +9,9 @@
     
   }
 
-.top-section-1 {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    background-color: #F6F0EC;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    height: 99px;
-  }
 
-  .centered-content {
-    display: flex;
-    flex-direction: column;
-   
-   
-  }
-  .logo-img {
-    height: 30px;
-    width: 80px;
-    margin-top: 35%;
-    margin-left: 35px;
-  }
 
-  .notification-container {
-    margin-left: auto;
-    height: 35px;
-    width: 80px;
-    margin-top: 50px;
-    color: #666666;
-  }
 
-  .notification-icon {
-    font-size: 35px; 
-  }
   
 
   .bottom-section {
@@ -76,6 +44,7 @@
     margin-left: 15px;
     margin-top: 80px;
     margin-bottom: 90px;
+    font-size: 20px;
   }
 
   p{
@@ -103,3 +72,21 @@
   font-size: 10px;
  
 }
+
+
+.notification-header {
+  display: flex; /* Usa Flexbox para alinear horizontalmente */
+  align-items: center; /* Alinea verticalmente los elementos en el centro */
+  color: #666666;
+  margin-left: 15px;
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+
+.notification-header hr {
+  flex-grow: 1; /* Hace que la línea ocupe todo el espacio disponible horizontalmente */
+  border: none;
+  border-top: 1px solid #666666;
+  margin-left: 15px; /* Espacio entre la línea y el texto */
+}
+
