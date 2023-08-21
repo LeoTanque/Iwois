@@ -132,3 +132,34 @@ ion-avatar {
 }
 
   
+
+.notification-header {
+  display: flex; /* Usa Flexbox para alinear horizontalmente */
+  align-items: center; /* Alinea verticalmente los elementos en el centro */
+  color: #666666;
+  margin-left: 15px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.notification-header hr {
+  flex-grow: 1; /* Hace que la línea ocupe todo el espacio disponible horizontalmente */
+  border: none;
+  border-top: 1px solid #666666;
+  margin-left: 15px; /* Espacio entre la línea y el texto */
+}
+
+.modal-line {
+ color: #666666;
+
+  
+}
+
+
+
+
+
+
+
+
+
